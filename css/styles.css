@@ -79,8 +79,8 @@ span{
 }
 
 .paragraph_additional_info--color{
-    background-color:var(p-additional-info-bg-color);
-    color:var(p-additional-info-color);
+    background-color:var(--p-additional-info-bg-color);
+    color:var(--p-additional-info-color);
 }
 
 
