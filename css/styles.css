@@ -112,19 +112,19 @@ a:focus{
 
 .primary_button{
     border:none;
-    background-color:var(primary-button-bg-color);
-    color:var(primary-button-color);
+    background-color:var(--primary-button-bg-color);
+    color:var(--primary-button-color);
     padding:10px 20px;
     margin-top: 14px;
 }
 
 .primary_button:focus{
-    outline:1px solid var(primary-button-focus-color);
+    outline:1px solid var(--primary-button-focus-color);
 }
 
 .primary_button:hover{
     cursor:pointer;
-    border-bottom:2px solid var(primary-button-hover-color);
+    border-bottom:2px solid var(--primary-button-hover-color);
     opacity:0.8;
     transition: opacity 0.4s, background-color 0.4s, border-bottom 0.2s;
 }

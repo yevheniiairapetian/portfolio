@@ -111,19 +111,19 @@ a:focus{
 
 .primary_button{
     border:none;
-    background-color:var(primary-button-bg-color);
-    color:var(primary-button-color);
+    background-color:#0d89a5;
+    color:#fff;
     padding:10px 20px;
     margin-top: 14px;
 }
 
 .primary_button:focus{
-    outline:1px solid var(primary-button-focus-color);
+    outline:1px solid #529fcc;
 }
 
 .primary_button:hover{
     cursor:pointer;
-    border-bottom:2px solid var(primary-button-hover-color);
+    border-bottom:2px solid #223c50;
     opacity:0.8;
     -webkit-transition: opacity 0.4s, background-color 0.4s, border-bottom 0.2s;
     -o-transition: opacity 0.4s, background-color 0.4s, border-bottom 0.2s;
