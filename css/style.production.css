@@ -84,7 +84,7 @@ span{
 a{
     color:#223c50;
     font-size:inherit;
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 a:visited{
