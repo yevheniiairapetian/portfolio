@@ -414,12 +414,7 @@ td{
     display:none;
 }
 
-/* start grid fallback */
-.projects-information_container--item {
-    display: inline-block;
-    width: 33%;
-   }
-   /* end grid fallback */
+
 
 .projects-information_container{
     display:-ms-grid;
@@ -428,7 +423,13 @@ td{
     grid-template-columns:1fr 1fr 1fr;
     grid-gap:20px;
 }
-
+/* start grid fallback */
+.projects-information_container--item {
+    display: inline-block;
+    width: 33%;
+   }
+   /* end grid fallback */
+   
 .projects-information_container--item{
     margin:0 auto;
     padding:15px;
