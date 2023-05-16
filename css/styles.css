@@ -313,6 +313,8 @@ td{
 .projects-information_container--item {
     display: inline-block;
     width: 33%;
+    padding:15px;
+    background-color:--projects-information-container-item-bg-color;
    }
    /* end grid fallback */
 

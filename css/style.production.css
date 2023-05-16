@@ -419,6 +419,8 @@ td{
 .projects-information_container--item {
     display: inline-block;
     width: 33%;
+    padding:15px;
+    background-color:#d7e6e6;
    }
    /* end grid fallback */
 
