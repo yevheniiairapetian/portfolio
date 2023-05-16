@@ -133,6 +133,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, te
     outline:1px solid var(--primary-outline-input-color);
 }
 
+.table-container{
+    overflow-x:auto;
+}
+
 th{
     background-color:var(--primary-th-bg-color);
     color:var(--primary-th-color);
@@ -411,7 +415,7 @@ textarea{
 }
 
 @media screen and (min-width:921px){
-    table{
+    .table-container{
         margin:0 auto;
     }
 }

@@ -146,6 +146,10 @@ textarea:focus{
     outline:1px solid #529fcc;
 }
 
+.table-container{
+    overflow-x:auto;
+}
+
 th{
     background-color:#529fcc;
     color:#fff;
@@ -532,7 +536,7 @@ textarea{
 }
 
 @media screen and (min-width:921px){
-    table{
+    .table-container{
         margin:0 auto;
     }
 }
