@@ -312,7 +312,7 @@ td{
 /* start grid fallback */
 .projects-information_container--item {
     display: inline-block;
-    width: 33%;
+    width: 49%;
     padding:15px;
     background-color:var(--projects-information-container-item-bg-color);
    }

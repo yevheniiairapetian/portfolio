@@ -417,7 +417,7 @@ td{
 /* start grid fallback */
 .projects-information_container--item {
     display: inline-block;
-    width: 33%;
+    width: 49%;
     padding:15px;
     background-color:#d7e6e6;
    }
@@ -443,7 +443,7 @@ td{
     min-height: auto;
     margin: 0;
  }
- 
+
 }
 
 
