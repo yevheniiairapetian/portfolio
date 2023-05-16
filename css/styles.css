@@ -309,13 +309,6 @@ td{
     display:none;
 }
 
-
-.projects-information_container{
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-gap:20px;
-}
-
 /* start grid fallback */
 .projects-information_container--item {
     display: inline-block;
@@ -323,12 +316,22 @@ td{
    }
    /* end grid fallback */
 
+@supports (display: grid){
+.projects-information_container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:20px;
+}
+
+
+
 .projects-information_container--item{
     margin:0 auto;
     padding:15px;
     background-color:var(--projects-information-container-item-bg-color);
 }
 
+}
 .main-footer{
     display:flex;
     flex-direction:column;
