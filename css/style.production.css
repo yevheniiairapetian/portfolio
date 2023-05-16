@@ -414,6 +414,13 @@ td{
     display:none;
 }
 
+/* start grid fallback */
+.projects-information_container--item {
+    display: inline-block;
+    width: 33%;
+   }
+   /* end grid fallback */
+
 .projects-information_container{
     display:-ms-grid;
     display:grid;
