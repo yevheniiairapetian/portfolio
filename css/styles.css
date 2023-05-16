@@ -391,7 +391,7 @@ textarea{
 }
 
 @media screen and (min-width:921px){
-    .about-main_container{
-        text-align:center;
+    table{
+        margin:0 auto;
     }
 }
