@@ -314,6 +314,7 @@ td{
     display: inline-block;
     width: 49%;
     padding:15px;
+    margin-bottom:5px;
     background-color:var(--projects-information-container-item-bg-color);
    }
    /* end grid fallback */
