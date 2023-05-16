@@ -510,3 +510,9 @@ textarea{
         font-size:22px;
     }
 }
+
+@media screen and (min-width:921px){
+    .about-main_container{
+        text-align:center;
+    }
+}
