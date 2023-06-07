@@ -182,14 +182,22 @@ td{
     border-bottom: 2px solid var(--primary-header-border-color);
 }
 
+.hamburger-container{
+    display:none;
+}
+
+.hamburger-symbol{
+    font-size:46px;
+}
 
 .page-header_item{
+    text-align:right;
     flex: 0 1 200px;
+    justify-content: space-between;
 }
 
 .page-header_item:last-child{
     flex-grow:1;
-    text-align:right;
 }
 
 .navigation-container{
@@ -390,14 +398,48 @@ textarea{
     h2{
         font-size:18px;
     }
+    
 }
+
+input#hamburger{
+    display: none;
+    }
 
 @media screen and (max-width: 700px) {
     .main-information{
         flex-direction:column;
         align-items:center;
     }
-    
+    .hamburger-container{
+        display:block;
+        text-align: right;
+    }
+
+    #hamburger:checked ~ ul{
+        right: 0;
+    } 
+
+    input#hamburger{
+        display: none;
+        }
+    #hamburger:checked ~ ul{
+        right: 0;
+        }
+        
+    .page-header_item .navigation-list{
+        flex: 2;
+        display: flex;
+        justify-content: space-evenly;
+            position: fixed;
+            top:100px;
+            right: -100%;
+            background: #e8f0fe;
+            height: calc(100vh - 250px);
+            width: 50%;
+            flex-direction: column;
+            align-items: center;
+            transition: right 0.2s linear;
+}
 }
 
 @media screen and (min-width: 481px) and (max-width:920px){
