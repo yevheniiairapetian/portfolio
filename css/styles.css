@@ -369,23 +369,87 @@ td{
 
 .contact-form_container form input[type="text"], .contact-form_container input[type="email"], .contact-form_container input[type="tel"]{
     padding:5px 5px;
-    width:220px;
+    min-width:60%;
     margin-bottom:14px;
 }
 
-.contact-form_container fieldset{
+/* .contact-form_container fieldset{
     padding:30px;
-}
+    width:100%;
+} */
 
 label{
     padding: 10px;
 }
 
 textarea{
+    width:60%;
     margin-top:14px;
+    text-align:center;
+}
+
+input[type="text"], input[type="email"], input[type="tel"]{
+    margin-top:20px;
+    text-align:center;
+}
+
+@media screen and (min-width: 1px) and (max-width:479px){
+    textarea{
+        min-width:50%;
+        font-size:16px;
+    }
+
+    .hamburger-symbol{
+        top:62px;
+        position:absolute;
+        font-size:36px;
+        left:50%;
+    }
 }
 
 @media screen and (max-width: 480px){
+    
+    footer{
+        width:100%;
+    }
+    /* .contact-form_container fieldset{
+        padding:30px;
+        width:100%;
+    } */
+    .main-information{
+        flex-direction:column;
+        align-items:center;
+    }
+    .hamburger-container{
+        display:block;
+        text-align: right;
+    }
+
+    #hamburger:checked ~ ul{
+        right: 0;
+    } 
+
+    input#hamburger{
+        display: none;
+        }
+    #hamburger:checked ~ ul{
+        right: 0;
+        }
+        
+    .page-header_item .navigation-list{
+        flex: 2;
+        display: flex;
+        justify-content: space-evenly;
+            position: fixed;
+            top:100px;
+            right: -100%;
+            background: #e8f0fe;
+            height: calc(100vh - 250px);
+            width: 50%;
+            flex-direction: column;
+            align-items: center;
+            transition: right 0.2s linear;
+}
     .projects-information_container{
         grid-template-columns:1fr;
         grid-gap:10px;
@@ -405,7 +469,18 @@ input#hamburger{
     display: none;
     }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width:481px) and (max-width: 920px) {
+    .projects-information_container{
+        grid-template-columns:1fr 1fr;
+    }
+
+    h1{
+        font-size:26px;
+    }
+
+    h2{
+        font-size:22px;
+    }
     .main-information{
         flex-direction:column;
         align-items:center;
@@ -442,19 +517,6 @@ input#hamburger{
 }
 }
 
-@media screen and (min-width: 481px) and (max-width:920px){
-    .projects-information_container{
-        grid-template-columns:1fr 1fr;
-    }
-
-    h1{
-        font-size:26px;
-    }
-
-    h2{
-        font-size:22px;
-    }
-}
 
 @media screen and (min-width:921px){
     

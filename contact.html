@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Contact me</title>
 </head>
+
 <body>
     <header class="page-header">
-        <a href="contact.html" target="_self"><img src="./img/yevhenii_airapetian_website_logo.png" class="page-header_item" alt="Website's logo image in black letters with a code symbol"></a>
-        
+        <a href="contact.html" target="_self"><img src="./img/yevhenii_airapetian_website_logo.png"
+                class="page-header_item" alt="Website's logo image in black letters with a code symbol"></a>
+
         <nav class="page-header_item">
             <input type="checkbox" name="" id="hamburger">
             <ul class="navigation-list">
@@ -31,8 +37,8 @@
                 </label>
             </div>
         </nav>
-        
-            
+
+
     </header>
     <main class="contact-main_container">
         <h1>Contact Me</h1>
@@ -45,33 +51,47 @@
     </main>
     <section class="contact-form_container">
         <h2>Contact Form</h2>
-        <fieldset>
             <form method="post">
-                <label for="name">What's your name?*</label>
-                <input type="text" name="name" id="name" placeholder="John Doe" required>
-                <br>
-                <label for="email">What's your email?*</label>
-                <input type="email" name="email" id="email" placeholder="example@mail.com" required>
-                <br>
-                <label for="tel">What's your phone number?</label>
-                <input type="tel" name="telephone" id="tel" placeholder="+4912345678901">
-                <br>
+                <div>
+                    <label for="name">What's your name?*</label>
+                    <br>
+        
+                    <input type="text" name="name" id="name" placeholder="John Doe" required>
+                </div>
+
+                <div>
+                    <label for="email">What's your email?*</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="example@mail.com" required>
+                </div>
+
+                <div>
+                    <label for="tel">What's your phone number?</label>
+                    <br>
+                    <input type="tel" name="telephone" id="tel" placeholder="+4912345678901">
+                </div>
+
+
                 <label for="message">Please leave your message below.*</label>
                 <br>
-                <textarea placeholder="Your message is limited to 240 symbols" name="message" id="message" cols="30" rows="10" maxlength="240" required></textarea>
+                <textarea placeholder="Your message is limited to 240 symbols" name="message" id="message" cols="30"
+                    rows="10" maxlength="240" required></textarea>
                 <br>
                 <button type="submit" class="primary_button">Send my message</button>
             </form>
-    </fieldset>
     </section>
     <footer class="main-footer">
         <span class="social-information">Find me on</span>
         <div class="social-container">
-            <a href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><img src="./img/github.svg" alt="An image showing a Github icon"></a>
-            <a href="https://twitter.com/sonkozhenya" target="_blank" rel="noopener"><img src="./img/twitter.svg" alt="An image showing a Twitter icon"></a>
-            <a href="https://www.linkedin.com/in/yevhenii-airapetian/" target="_blank" rel="noopener"><img src="./img/linkedin.svg" alt="An image showing a LinkedIn icon"></a>
+            <a href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><img src="./img/github.svg"
+                    alt="An image showing a Github icon"></a>
+            <a href="https://twitter.com/sonkozhenya" target="_blank" rel="noopener"><img src="./img/twitter.svg"
+                    alt="An image showing a Twitter icon"></a>
+            <a href="https://www.linkedin.com/in/yevhenii-airapetian/" target="_blank" rel="noopener"><img
+                    src="./img/linkedin.svg" alt="An image showing a LinkedIn icon"></a>
         </div>
     </footer>
     <script src="js/tota11y.min.js"></script>
 </body>
+
 </html>
