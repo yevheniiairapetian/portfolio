@@ -401,6 +401,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
 
     .hamburger-symbol{
         font-size:40px;
+        margin-right:10px;
     }
 }
 
@@ -408,6 +409,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
     
     footer{
         width:100%;
+    }
+
+    .hamburger-symbol{
+        margin-right:10px;
     }
     /* .contact-form_container fieldset{
         padding:30px;
@@ -497,7 +502,10 @@ input#hamburger{
     #hamburger:checked ~ ul{
         right: 0;
         }
-        
+        .hamburger-symbol{
+            font-size:40px;
+            margin-right:10px;
+        }
     .page-header_item .navigation-list{
         flex: 2;
         display: flex;
