@@ -191,6 +191,8 @@ td{
 }
 
 .page-header_item{
+    max-width: 150px;
+    height: 60px;
     text-align:right;
     flex: 0 1 200px;
     justify-content: space-between;
