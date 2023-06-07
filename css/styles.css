@@ -200,6 +200,10 @@ td{
     flex-grow:1;
 }
 
+.page-header_link{
+    margin-left:14px;
+}
+
 .navigation-container{
     display:inline-block;
 }
