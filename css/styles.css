@@ -393,18 +393,36 @@ input[type="text"], input[type="email"], input[type="tel"]{
     text-align:center;
 }
 
+input#hamburger{
+    display: none;
+    }
+
 @media screen and (min-width: 1px) and (max-width:479px){
     textarea{
         min-width:50%;
         font-size:16px;
     }
+    .page-header_item .navigation-list{
+        flex: 2;
+        display: flex;
+        justify-content: space-evenly;
+            position: fixed;
+            top:50px;
+            right: -100%;
+            background: darkgrey;
+            height: calc(100vh - 250px);
+            opacity:0.9;
+            width: 100%;
+            height:100%;
+            flex-direction: column;
+            align-items: center;
+            transition: right 0.2s linear;
+}
 
-    .hamburger-symbol{
-        top:62px;
-        position:absolute;
-        font-size:36px;
-        left:50%;
-    }
+.page-header_item .navigation-list li a{
+    font-size:20px;
+}
+
 }
 
 @media screen and (max-width: 480px){
@@ -441,14 +459,21 @@ input[type="text"], input[type="email"], input[type="tel"]{
         display: flex;
         justify-content: space-evenly;
             position: fixed;
-            top:100px;
+            top:50px;
             right: -100%;
-            background: #e8f0fe;
+            background: darkgrey;
             height: calc(100vh - 250px);
-            width: 50%;
+            opacity:0.9;
+            width: 100%;
+            height:100%;
             flex-direction: column;
             align-items: center;
             transition: right 0.2s linear;
+}
+
+.page-header_item .navigation-list li a{
+    color: white;
+    font-size:20px;
 }
     .projects-information_container{
         grid-template-columns:1fr;
@@ -465,13 +490,15 @@ input[type="text"], input[type="email"], input[type="tel"]{
     
 }
 
-input#hamburger{
-    display: none;
-    }
+
 
 @media screen and (min-width:481px) and (max-width: 920px) {
     .projects-information_container{
         grid-template-columns:1fr 1fr;
+    }
+
+    .menu-hidden{
+        display:none;
     }
 
     h1{
@@ -501,20 +528,26 @@ input#hamburger{
         right: 0;
         }
         
-    .page-header_item .navigation-list{
-        flex: 2;
-        display: flex;
-        justify-content: space-evenly;
-            position: fixed;
-            top:100px;
-            right: -100%;
-            background: #e8f0fe;
-            height: calc(100vh - 250px);
-            width: 50%;
-            flex-direction: column;
-            align-items: center;
-            transition: right 0.2s linear;
-}
+
+        .page-header_item .navigation-list{
+            flex: 2;
+            display: flex;
+            justify-content: space-evenly;
+                position: fixed;
+                top:50px;
+                right: -100%;
+                background: darkgrey;
+                opacity:0.9;
+                width: 100%;
+                height:100%;
+                flex-direction: column;
+                align-items: center;
+                transition: right 0.2s linear;
+    }
+    .page-header_item .navigation-list li a{
+        color: white;
+        font-size:20px;
+    }
 }
 
 
