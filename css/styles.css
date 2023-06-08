@@ -532,6 +532,7 @@ input#hamburger{
         .hamburger-symbol{
             font-size:40px;
             margin-right:10px;
+            text-align:center;
         }
     .page-header_item .navigation-list{
         flex: 2;
