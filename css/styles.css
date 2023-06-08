@@ -558,4 +558,9 @@ input#hamburger{
     .table-container{
         margin:0 auto;
     }
+
+    .hamburger-container{
+        display:none;
+        text-align: right;
+    }
 }
