@@ -409,6 +409,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .hamburger-symbol{
         font-size:40px;
         margin-right:10px;
+        text-align:center;
     }
     .page-header_item{
         width:100%;
@@ -427,6 +428,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
 
     .hamburger-symbol{
         margin-right:10px;
+        text-align:center;
     }
     /* .contact-form_container fieldset{
         padding:30px;
