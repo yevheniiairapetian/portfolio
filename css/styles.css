@@ -410,6 +410,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
         font-size:40px;
         margin-right:10px;
     }
+    .page-header_item{
+        width:100%;
+        height:auto;
+    }
 }
 
 @media screen and (max-width: 480px){
