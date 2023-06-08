@@ -557,10 +557,23 @@ input#hamburger{
     
     .table-container{
         margin:0 auto;
+        
+    }
+
+    table{
+        
+        width:100%;
     }
 
     .hamburger-container{
         display:none;
         text-align: right;
+    }
+    .svg-container{
+        text-align: center;
+    }
+    .about-svg{
+        width: 24%;
+        height:auto;
     }
 }
