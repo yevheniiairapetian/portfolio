@@ -320,6 +320,21 @@ td{
     }
 }
 
+@keyframes menu-animation{
+0%{
+transform: translate(0, -3px);
+}
+
+50%{
+
+transform: translate(0, 3px);
+}
+
+100%{
+
+transform: translate(0, -3px);
+}
+}
 
 .programming-svg_image .path7000{
     display:none;
@@ -410,6 +425,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
         font-size:40px;
         margin-right:10px;
         text-align:center;
+animation: menu-animation 2s linear infinite;
     }
     .page-header_item{
         width:100%;
@@ -428,6 +444,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
 
     .hamburger-symbol{
         margin-right:10px;
+animation: menu-animation 2s linear infinite;
         text-align:center;
     }
     /* .contact-form_container fieldset{
@@ -557,7 +574,12 @@ input#hamburger{
     font-size:26px;
     color:white;
 }
-}
+
+
+.hamburger-symbol{
+        
+animation: menu-animation 2s linear infinite;
+        }
 
 
 @media screen and (min-width:921px){
