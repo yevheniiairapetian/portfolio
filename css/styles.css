@@ -322,17 +322,17 @@ td{
 
 @keyframes menu-animation{
 0%{
-transform: translate(0, -3px);
+transform: translate(0, -4px);
 }
 
 50%{
 
-transform: translate(0, 3px);
+transform: translate(0, 4px);
 }
 
 100%{
 
-transform: translate(0, -3px);
+transform: translate(0, -4px);
 }
 }
 
@@ -429,7 +429,8 @@ animation: menu-animation 2s linear infinite;
         font-size:40px;
         margin-right:10px;
         text-align:center;
-    }
+
+animation: menu-animation 2s linear infinite;    }
     .page-header_item{
         width:100%;
         height:auto;
@@ -448,6 +449,7 @@ animation: menu-animation 2s linear infinite;
     .hamburger-symbol{
         margin-right:10px;
         text-align:center;
+animation: menu-animation 2s linear infinite;
     }
     /* .contact-form_container fieldset{
         padding:30px;
@@ -554,6 +556,7 @@ input#hamburger{
             font-size:40px;
             margin-right:10px;
             text-align:center;
+animation: menu-animation 2s linear infinite;
         }
     .page-header_item .navigation-list{
         flex: 2;
