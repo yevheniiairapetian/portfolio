@@ -421,11 +421,14 @@ input[type="text"], input[type="email"], input[type="tel"]{
         font-size:16px;
     }
 
+#hamburger{
+animation: menu-animation 2s linear infinite;
+}
+
     .hamburger-symbol{
         font-size:40px;
         margin-right:10px;
         text-align:center;
-animation: menu-animation 2s linear infinite;
     }
     .page-header_item{
         width:100%;
@@ -444,7 +447,6 @@ animation: menu-animation 2s linear infinite;
 
     .hamburger-symbol{
         margin-right:10px;
-animation: menu-animation 2s linear infinite;
         text-align:center;
     }
     /* .contact-form_container fieldset{
