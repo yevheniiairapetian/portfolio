@@ -330,7 +330,7 @@ transform: translate(0, -4px);
 transform: translate(0, 4px);
 }
 
-100%{
+100%{ 
 
 transform: translate(0, -4px);
 }
@@ -401,6 +401,8 @@ label{
     padding: 10px;
 }
 
+
+
 textarea{
     width:60%;
     margin-top:14px;
@@ -421,19 +423,20 @@ input[type="text"], input[type="email"], input[type="tel"]{
         font-size:16px;
     }
 
-#hamburger{
-animation: menu-animation 2s linear infinite;
-}
+    
 
     .hamburger-symbol{
         font-size:40px;
         margin-right:10px;
         text-align:center;
-
-animation: menu-animation 2s linear infinite;    }
+         }
     .page-header_item{
         width:100%;
         height:auto;
+    }
+
+    .hamburger_container{
+        animation: menu-animation 2s linear infinite;
     }
 }
 
@@ -445,11 +448,11 @@ animation: menu-animation 2s linear infinite;    }
     footer{
         width:100%;
     }
-
+        
     .hamburger-symbol{
         margin-right:10px;
         text-align:center;
-animation: menu-animation 2s linear infinite;
+
     }
     /* .contact-form_container fieldset{
         padding:30px;
@@ -462,6 +465,7 @@ animation: menu-animation 2s linear infinite;
     .hamburger-container{
         display:block;
         text-align: right;
+        animation: menu-animation 2s linear infinite;
     }
 
     #hamburger:checked ~ ul{
@@ -540,6 +544,7 @@ input#hamburger{
     .hamburger-container{
         display:block;
         text-align: right;
+        animation: menu-animation 2s linear infinite;
     }
 
     #hamburger:checked ~ ul{
@@ -556,6 +561,7 @@ input#hamburger{
             font-size:40px;
             margin-right:10px;
             text-align:center;
+            
 animation: menu-animation 2s linear infinite;
         }
     .page-header_item .navigation-list{
@@ -583,10 +589,10 @@ animation: menu-animation 2s linear infinite;
 
 .hamburger-symbol{
         
-animation: menu-animation 2s linear infinite;
+
         }
 
-
+    }
 @media screen and (min-width:921px){
     
     .table-container{
