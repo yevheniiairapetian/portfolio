@@ -4,3 +4,5 @@
 ## Html
 ## CSS
 ## Javascript
+## Accessibility
+## Responsive design
