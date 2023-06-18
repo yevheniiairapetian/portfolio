@@ -6,7 +6,7 @@
 #### Javascript
 #### Accessibility
 #### Responsive design
-### [Website's URL](https://yevheniiairapetian.github.io/portfolio-website/) 
+### You can find the [Website's URL here](https://yevheniiairapetian.github.io/portfolio-website/) 
 #### Feel free to contact me [here](https://www.linkedin.com/in/yevhenii-airapetian/) or  [here](mailto:sonkozhenia11@gmail.com) or via the contact information on the website! 
 #### Have a nice day!
 
