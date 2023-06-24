@@ -10,6 +10,6 @@
 ### How to use:
 #### You can find the website's URL here: https://yevheniiairapetian.github.io/portfolio-website/
 ### Contact:
-#### Feel free to contact me [here](https://www.linkedin.com/in/yevhenii-airapetian/) or  [here](mailto:sonkozhenia11@gmail.com) or via the contact information on the website! 
+#### Feel free to contact me [via LinkedIn](https://www.linkedin.com/in/yevhenii-airapetian/) or  [email](mailto:sonkozhenia11@gmail.com) or via the contact information on the website! 
 #### Have a nice day!
 
