@@ -388,6 +388,7 @@ transform: translate(0, -4px);
 
 .contact-main_container, .contact-form_container{
     text-align:center;
+    margin-top:10%;
 }
 
 .contact-form_container form input[type="text"], .contact-form_container input[type="email"], .contact-form_container input[type="tel"]{
