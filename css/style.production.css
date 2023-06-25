@@ -495,12 +495,9 @@ td{
     display:-ms-grid;
     display:grid;
     -ms-grid-columns:1fr 20px 1fr 20px 1fr;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
     grid-gap:20px;
 }
-
-
-
 
 .projects-information_container--item{
     margin:0 auto;
@@ -534,6 +531,7 @@ td{
 
 .contact-main_container, .contact-form_container{
     text-align:center;
+    margin-top:10%;
 }
 
 .contact-form_container form input[type="text"], .contact-form_container input[type="email"], .contact-form_container input[type="tel"]{
