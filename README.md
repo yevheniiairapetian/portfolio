@@ -12,7 +12,7 @@ This repository contains a website showcasing my skills, education, projects and
 ## Project Dependencies:
 - Font-Awesome v6.4.0
 ## Live Version:
-The website is live [here]:(https://yevheniiairapetian.github.io/portfolio-website/)
+The website is live [here](https://yevheniiairapetian.github.io/portfolio-website/)
 
 ## Clone and Preview:
 ```console git clone git@github.com:yevheniiairapetian/portfolio-website.git```
