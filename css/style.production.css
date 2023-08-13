@@ -494,10 +494,13 @@ td{
 .projects-information_container{
     display:-ms-grid;
     display:grid;
-    -ms-grid-columns:1fr 20px 1fr 20px 1fr;
+    -ms-grid-columns:1fr 20px 1fr;
     grid-template-columns:1fr 1fr;
     grid-gap:20px;
 }
+
+
+
 
 .projects-information_container--item{
     margin:0 auto;
@@ -700,6 +703,12 @@ input#hamburger{
         grid-template-columns:1fr 1fr;
     }
 
+    .projects-information_container--item:last-child{
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1 / span 2;
+     }
+
     h1{
         font-size:26px;
     }
@@ -786,6 +795,12 @@ input#hamburger{
     }
 @media screen and (min-width:921px){
     
+    .projects-information_container--item:last-child{
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1 / span 2;
+     }
+
     .table-container{
         margin:0 auto;
         

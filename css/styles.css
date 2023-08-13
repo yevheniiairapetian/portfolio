@@ -535,6 +535,10 @@ input#hamburger{
         grid-template-columns:1fr 1fr;
     }
 
+    .projects-information_container--item:last-child{
+        grid-column: 1 / span 2;
+     }
+
     h1{
         font-size:26px;
     }
@@ -600,6 +604,10 @@ animation: menu-animation 2s linear infinite;
     }
 @media screen and (min-width:921px){
     
+    .projects-information_container--item:last-child{
+        grid-column: 1 / span 2;
+     }
+
     .table-container{
         margin:0 auto;
         
