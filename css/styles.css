@@ -220,6 +220,7 @@ td{
 .navigation-list li a{
     border-bottom:0px solid var(--primary-navlink-border-color);
     padding-bottom:1px;
+    transform: scale(1.1);
 }
 
 .navigation-list li a:hover{
@@ -339,6 +340,7 @@ transform: translate(0, -4px);
 }
 }
 
+
 .programming-svg_image .path7000{
     display:none;
 }
@@ -370,6 +372,12 @@ transform: translate(0, -4px);
     width: auto;
     min-height: auto;
     margin: 0;
+ }
+
+ .projects-information_container--item:hover{
+    translate: 0px 6px;
+    opacity:0.9;
+    transition: translate 0.3s linear;
  }
  
 }
