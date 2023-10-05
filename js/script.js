@@ -1,9 +1,9 @@
 let menu = document.querySelector('.navigation-list');
 
-function hideMenu() {
+// function hideMenu() {
     
-    menu.style.display = 'none';
-  }
+//     // menu.style.display = 'none';
+//   }
 
   window.addEventListener('keydown', (e) => {
     let menu = document.querySelector('.navigation-list');
