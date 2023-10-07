@@ -545,7 +545,7 @@ td{
     padding-bottom: 14px;
 }
 
-.deployed-link{
+a.deployed-link{
     color: green; 
     font-style: italic;
 }
