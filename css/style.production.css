@@ -67,7 +67,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color:var(--primary-color);
+    color: #1c7488;
     font-weight:bold;
     font-family:'Open Sans', sans-serif;
 }
@@ -80,6 +80,7 @@ p{
 
 h1{
     font-size:30px;
+    padding-left: 18px;
 }
 
 h2{
@@ -309,6 +310,11 @@ td{
             animation: 3s eclipse-1 var(--eclipse-animation-iteration-repetition) linear;
 }
 
+.eclipse-2{
+    -webkit-animation: 3s eclipse-2 var(--eclipse-animation-iteration-repetition) linear;
+            animation: 3s eclipse-2 var(--eclipse-animation-iteration-repetition) linear;
+}
+
 .eclipse-3{
     -webkit-animation: 4s eclipse-3 var(--eclipse-animation-iteration-repetition) ease-in-out;
             animation: 4s eclipse-3 var(--eclipse-animation-iteration-repetition) ease-in-out;
@@ -328,12 +334,12 @@ td{
     0%{
         -webkit-transform: translate(20px, 0px);
                 transform: translate(20px, 0px);
-        fill:var(--primary-eclipse-1-first-animation-color);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
     100%{
         -webkit-transform: translate(-20px, 0px);
                 transform: translate(-20px, 0px);
-        fill:var(--primary-eclipse-1-second-animation-color);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
 }
 
@@ -341,37 +347,63 @@ td{
     0%{
         -webkit-transform: translate(20px, 0px);
                 transform: translate(20px, 0px);
-        fill:var(--primary-eclipse-1-first-animation-color);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
     100%{
         -webkit-transform: translate(-20px, 0px);
                 transform: translate(-20px, 0px);
-        fill:var(--primary-eclipse-1-second-animation-color);
+        fill:var(--primary-eclipse-4-third-animation-color);
+    }
+}
+
+@-webkit-keyframes eclipse-2{
+    0%{
+        -webkit-transform: translate(0px, -60px);
+                transform: translate(0px, -60px);
+        fill:var(--primary-eclipse-4-third-animation-color);
+    }
+    100%{
+        -webkit-transform: translate(0px, 60px);
+                transform: translate(0px, 60px);
+        fill:var(--primary-eclipse-4-third-animation-color);
+    }
+}
+
+@keyframes eclipse-2{
+    0%{
+        -webkit-transform: translate(0px, -60px);
+                transform: translate(0px, -60px);
+        fill:var(--primary-eclipse-4-third-animation-color);
+    }
+    100%{
+        -webkit-transform: translate(0px, 60px);
+                transform: translate(0px, 60px);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
 }
 
 @-webkit-keyframes eclipse-3{
     0%{
-        -webkit-transform: translate(0px, -20px);
-                transform: translate(0px, -20px);
-        fill:var(--primary-eclipse-3-first-animation-color);
+        -webkit-transform: translate(0px, -29px);
+                transform: translate(0px, -29px);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
     100%{
-        -webkit-transform: translate(0px, 20px);
-                transform: translate(0px, 20px);
+        -webkit-transform: translate(0px, 29px);
+                transform: translate(0px, 29px);
         fill:var(--primary-eclipse-3-second-animation-color);
     }
 }
 
 @keyframes eclipse-3{
     0%{
-        -webkit-transform: translate(0px, -20px);
-                transform: translate(0px, -20px);
-        fill:var(--primary-eclipse-3-first-animation-color);
+        -webkit-transform: translate(0px, -29px);
+                transform: translate(0px, -29px);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
     100%{
-        -webkit-transform: translate(0px, 20px);
-                transform: translate(0px, 20px);
+        -webkit-transform: translate(0px, 29px);
+                transform: translate(0px, 29px);
         fill:var(--primary-eclipse-3-second-animation-color);
     }
 }
@@ -380,18 +412,9 @@ td{
     0%{
         -webkit-transform: translate(30px, 0px);
                 transform: translate(30px, 0px);
-        fill:var(--primary-eclipse-4-first-animation-color);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
-    25%{
-        -webkit-transform: translate(0px, 30px);
-                transform: translate(0px, 30px);
-        fill:var(--primary-eclipse-4-second-animation-color)    
-    }
-    75%{
-        -webkit-transform: translate(-30px, 0px);
-                transform: translate(-30px, 0px);
-        fill:var(--primary-eclipse-4-third-animation-color)
-    }
+    
     100%{
         -webkit-transform: translate(0px, -30px);
                 transform: translate(0px, -30px);
@@ -403,18 +426,9 @@ td{
     0%{
         -webkit-transform: translate(30px, 0px);
                 transform: translate(30px, 0px);
-        fill:var(--primary-eclipse-4-first-animation-color);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
-    25%{
-        -webkit-transform: translate(0px, 30px);
-                transform: translate(0px, 30px);
-        fill:var(--primary-eclipse-4-second-animation-color)    
-    }
-    75%{
-        -webkit-transform: translate(-30px, 0px);
-                transform: translate(-30px, 0px);
-        fill:var(--primary-eclipse-4-third-animation-color)
-    }
+    
     100%{
         -webkit-transform: translate(0px, -30px);
                 transform: translate(0px, -30px);
@@ -424,25 +438,30 @@ td{
 
 @-webkit-keyframes eclipse-5{
     0%{
-        fill:var(--primary-eclipse-5-first-animation-color);
-        opacity:0,5;
+        -webkit-transform: translate(-30px, 0px);
+                transform: translate(-30px, 0px);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
     100%{
-        fill:var(--primary-eclipse-5-second-animation-color);;
-        opacity:1;
+        -webkit-transform: translate(0px, 30px);
+                transform: translate(0px, 30px);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
 }
 
 @keyframes eclipse-5{
     0%{
-        fill:var(--primary-eclipse-5-first-animation-color);
-        opacity:0,5;
+        -webkit-transform: translate(-30px, 0px);
+                transform: translate(-30px, 0px);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
     100%{
-        fill:var(--primary-eclipse-5-second-animation-color);;
-        opacity:1;
+        -webkit-transform: translate(0px, 30px);
+                transform: translate(0px, 30px);
+        fill:var(--primary-eclipse-4-third-animation-color);
     }
 }
+
 
 @-webkit-keyframes menu-animation{
 0%{
@@ -464,6 +483,7 @@ td{
         transform: translate(0, -4px);
 }
 }
+
 
 @keyframes menu-animation{
 0%{
@@ -616,6 +636,7 @@ a.deployed-link{
             align-items:center;
     margin-top:auto;
     background-color: #D9EEE1;
+    padding-bottom: 16px;
 }
 
 .social-information{
