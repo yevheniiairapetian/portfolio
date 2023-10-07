@@ -180,8 +180,10 @@ td{
 .page-header{
     display:flex;
     width:100%;
+    height: 90px;
     align-items: center;
     margin-bottom:14px;
+    background-color: #D9EEE1;
     border-bottom: 2px solid var(--primary-header-border-color);
 }
 
@@ -233,6 +235,9 @@ td{
 .main-information{
     display:flex;
     justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-bottom:16px;
 }
 
 .profile-picture{
@@ -451,6 +456,7 @@ a.deployed-link{
     flex-direction:column;
     align-items:center;
     margin-top:auto;
+    background-color: #D9EEE1;
 }
 
 .social-information{
@@ -502,6 +508,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
         
         flex-direction: column; 
     }
+    .profile-picture{
+     margin-right:0;   
+    }
     
 
     .hamburger-symbol{
@@ -523,6 +532,14 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .is-hidden{
         display:none;
     }
+    .profile-picture{
+     margin-right:0;
+     width: 90%;   
+    }
+
+    .page-header{
+        height: 60px;
+    }
     .music-section{
         
         flex-direction: column; 
@@ -539,6 +556,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .hamburger-symbol{
         margin-right:10px;
         text-align:center;
+        font-size: 38px;
 
     }
     /* .contact-form_container fieldset{
@@ -617,6 +635,9 @@ input#hamburger{
         
         flex-direction: column; 
     }
+    .profile-picture{
+        margin:14px 0 10px 0;   
+       }
     .projects-information_container{
         grid-template-columns:1fr 1fr;
     }
