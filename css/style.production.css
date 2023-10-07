@@ -66,6 +66,14 @@ body{
             flex-direction:column;
 }
 
+.about-heading{
+    padding:0;
+}
+
+.technologies-heading{
+    text-align:center;
+}
+
 h1, h2, h3, h4, h5, h6{
     color: #1c7488;
     font-weight:bold;
@@ -96,8 +104,8 @@ span{
 }
 
 .paragraph_additional_info--color{
-    background-color:var(--p-additional-info-bg-color);
-    color:var(--p-additional-info-color);
+    background-color:#1c7488;;
+    color:white;
 }
 
 
@@ -238,6 +246,12 @@ td{
         -ms-flex-positive:1;
             flex-grow:1;
 }
+.page-header_item:last-child:hover{
+    padding-left:10px;
+    -webkit-transition: padding-left 0.3s ease;
+    -o-transition: padding-left 0.3s ease;
+    transition: padding-left 0.3s ease;
+}
 
 .page-header_link{
     margin-left:14px;
@@ -253,21 +267,38 @@ td{
     margin-right:15px;
 }
 
+.check-out:hover{
+    color: #3363AA;
+    font-weight: 200;
+    padding-right:8px;
+    text-decoration:none;
+    border-bottom:4px solid var(--primary-navlink-border-hover-color);
+    -webkit-transition: padding-right 0.3s ease-out, border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out;
+    -o-transition: padding-right 0.3s ease-out, border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out;
+    transition: padding-right 0.3s ease-out, border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out; 
+}
+
+/* .navigation-list li:hover{
+    
+} */
+
 .navigation-list li a{
-    border-bottom:0px solid var(--primary-navlink-border-color);
-    padding-bottom:1px;
+    border-bottom:0px solid #02008F;
+    padding-right:1px;
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
 }
 
 .navigation-list li a:hover{
-    color:var(--primary-navlink-hover-color);
+    color: #3363AA;
+    font-weight: bold;
+    padding-right:8px;
     text-decoration:none;
-    border-bottom:3px solid var(--primary-navlink-border-hover-color);
-    -webkit-transition: border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out;
-    -o-transition: border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out;
-    transition: border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out; 
+    border-bottom:4px solid var(--primary-navlink-border-hover-color);
+    -webkit-transition: padding-right 0.3s ease-out, border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out;
+    -o-transition: padding-right 0.3s ease-out, border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out;
+    transition: padding-right 0.3s ease-out, border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out; 
 }
 
 .main-information{
@@ -282,15 +313,49 @@ td{
             align-items:center;
     text-align:center;
     margin-bottom:16px;
+    margin-top: 50px;
+}
+@-webkit-keyframes profile-picture{
+    0%{
+        -webkit-transform: translate(0px, 3px);
+                transform: translate(0px, 3px); 
+    }
+    50%{
+        -webkit-transform: translate(0px, -3px);
+                transform: translate(0px, -3px); 
+    }
+    100%{
+        -webkit-transform: translate(0px, 3px);
+                transform: translate(0px, 3px); 
+    }
+}
+@keyframes profile-picture{
+    0%{
+        -webkit-transform: translate(0px, 3px);
+                transform: translate(0px, 3px); 
+    }
+    50%{
+        -webkit-transform: translate(0px, -3px);
+                transform: translate(0px, -3px); 
+    }
+    100%{
+        -webkit-transform: translate(0px, 3px);
+                transform: translate(0px, 3px); 
+    }
 }
 
 .profile-picture{
+    z-index:-1;
     border-radius:50%;
     width:250px;
     max-width:250px;
     height:auto;
     margin-right:40px;
+    -webkit-animation: 4s profile-picture infinite;
+            animation: 4s profile-picture infinite;
 }
+
+
 
 .main-logo{
     padding:6px 14px;
@@ -532,14 +597,31 @@ td{
 
 }
 
+.video-image-heading, .technologies-heading{
+    font-size:18px;
+    background-color: #7898E4;
+    padding: 20px;
+    color: white;
+    
+}
+
 .skills-paragraphs span{
     border-radius: 8px; 
     font-size: 14px; 
     color: white; 
     background-color: #223c50; 
     padding: 12px;
-
 }
+
+    .skills-paragraphs span:hover{
+        color:#0CC4E9;
+        padding:15px;
+        opacity: 0.9;
+        -webkit-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+
 
 .video-container{
     width:100%;
@@ -577,6 +659,12 @@ a.deployed-link{
     font-style: italic;
 }
 
+a.deployed-link:hover{
+    padding-left:8px;
+    -webkit-transition: padding-left 0.3s ease-out;
+    -o-transition: padding-left 0.3s ease-out;
+    transition: padding-left 0.3s ease-out; 
+}
 .programming-svg_image .path7000{
     display:none;
 }
@@ -590,6 +678,11 @@ a.deployed-link{
     background-color:var(--projects-information-container-item-bg-color);
    }
    /* end grid fallback */
+   .projects-information_container--item h2{
+    padding: 20px;
+    background-color:#3363AA;
+    color: white;
+   }
 
 @supports (display: grid){
 .projects-information_container{
@@ -641,17 +734,43 @@ a.deployed-link{
 
 .social-information{
     margin:25px auto 10px;
+    color: #1c7488;
 }
 
 .contact-main_container, .contact-form_container{
     text-align:center;
-    margin-top:10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
 }
 
 .contact-form_container form input[type="text"], .contact-form_container input[type="email"], .contact-form_container input[type="tel"]{
     padding:5px 5px;
     min-width:60%;
     margin-bottom:14px;
+}
+
+.contact-div{
+    word-wrap: break-word;
+    margin-top:70px;
+    margin-bottom: 30px;
+}
+
+i.fa-envelope, i.fa-linkedin, i.fa-github{
+    padding-bottom:18px;
+}
+
+i.fa-envelope:hover, i.fa-linkedin:hover, i.fa-github:hover{
+    color: #0CC4E9;
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
 }
 
 /* .contact-form_container fieldset{
@@ -697,7 +816,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .profile-picture{
      margin-right:0;   
     }
-    
+    .contact-div{
+        word-wrap: break-word;
+        margin-bottom:30px;
+    }
 
     .hamburger-symbol{
         font-size:40px;
@@ -713,6 +835,14 @@ input[type="text"], input[type="email"], input[type="tel"]{
         -webkit-animation: menu-animation 2s linear infinite;
                 animation: menu-animation 2s linear infinite;
     }
+    .main-information_container p{
+        padding-top:5px;
+        
+    }
+   
+    .main-information{
+        margin-top:10px;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -722,6 +852,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .profile-picture{
      margin-right:0;
      width: 90%;   
+    }
+    .contact-div{
+        word-wrap: break-word;
+        margin-bottom:30px;
     }
 
     .page-header{
@@ -739,6 +873,17 @@ input[type="text"], input[type="email"], input[type="tel"]{
     }
     footer{
         width:100%;
+    }
+    .main-information_container h1{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .main-information_container p{
+        padding-top:5px;
+        
+    }
+    .main-information_container p::last-child{
+        padding-bottom:10px;
     }
     .skills-paragraphs span{
         
@@ -774,11 +919,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
 
     #hamburger:checked ~ ul{
         right: 0;
+        
     } 
 
-    input#hamburger{
-        display: none;
-        }
     #hamburger:checked ~ ul{
         right: 0;
         }
@@ -840,9 +983,14 @@ input#hamburger{
     display: none;
     }
 
+
 @media screen and (min-width:481px) and (max-width: 920px) {
     .is-hidden{
         display:none;
+    }
+    .contact-div{
+        word-wrap: break-word;
+        margin-bottom:30px;
     }
     .music-section{
         
@@ -868,6 +1016,12 @@ input#hamburger{
         grid-column: 1 / span 2;
      }
 
+     .main-information{
+        margin-top:0px;
+     }
+     .main-information_container h1{
+        margin-bottom: 20px;
+    }
     h1{
         font-size:26px;
     }
@@ -891,15 +1045,13 @@ input#hamburger{
                 animation: menu-animation 2s linear infinite;
     }
 
-    #hamburger:checked ~ ul{
-        right: 0;
-    } 
 
     input#hamburger{
         display: none;
         }
     #hamburger:checked ~ ul{
         right: 0;
+        
         }
         .hamburger-symbol{
             font-size:40px;
