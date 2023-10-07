@@ -340,6 +340,69 @@ transform: translate(0, -4px);
 }
 }
 
+.music-section{
+    background-color:#D7E6E6; 
+    margin-top:16px; 
+    padding: 14px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+.music-links{
+    font-size: 12px;
+}
+
+.skills-paragraphs{
+    display: inline-block; 
+    padding: 6px 0 6px 0;
+
+}
+
+.skills-paragraphs span{
+    border-radius: 8px; 
+    font-size: 14px; 
+    color: white; 
+    background-color: #223c50; 
+    padding: 12px;
+
+}
+
+.video-container{
+    width:100%;
+    height:0px;
+    position:relative;
+    padding-bottom:56.226%;
+
+}
+
+.video-iframe{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    overflow:hidden;
+
+
+}
+
+.screenshot{
+    width:100%; 
+    padding-top: 16px;
+
+}
+
+.video-image-heading{
+    text-align: center; 
+    padding-top: 14px; 
+    padding-bottom: 14px;
+}
+
+.deployed-link{
+    color: green; 
+    font-style: italic;
+}
 
 .programming-svg_image .path7000{
     display:none;
@@ -435,7 +498,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
         min-width:50%;
         font-size:16px;
     }
-
+    .music-section{
+        
+        flex-direction: column; 
+    }
     
 
     .hamburger-symbol{
@@ -457,9 +523,17 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .is-hidden{
         display:none;
     }
-
+    .music-section{
+        
+        flex-direction: column; 
+    }
     footer{
         width:100%;
+    }
+    .skills-paragraphs span{
+        
+        font-size: 10px; 
+    
     }
         
     .hamburger-symbol{
@@ -538,6 +612,10 @@ input#hamburger{
 @media screen and (min-width:481px) and (max-width: 920px) {
     .is-hidden{
         display:none;
+    }
+    .music-section{
+        
+        flex-direction: column; 
     }
     .projects-information_container{
         grid-template-columns:1fr 1fr;
