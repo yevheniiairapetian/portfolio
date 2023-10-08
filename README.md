@@ -22,6 +22,5 @@ Or download directly by clicking on <> Code button > Download ZIP. Then open the
 ## Contact:
 Feel free to contact me via[ LinkedIn](https://www.linkedin.com/in/yevhenii-airapetian/) or  
 [email](mailto:sonkozhenia11@gmail.com) or 
-via the contact information on the website! 
-Have a nice day!
+via the contact information on the [website](https://yevheniiairapetian.github.io/portfolio-website/contact.html) 
 
