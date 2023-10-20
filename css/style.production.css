@@ -201,6 +201,10 @@ td{
     padding: 10px 14px;
 }
 
+.github-link{
+    margin-bottom:10px;
+}
+
 .about-main_container h1, .about-main_container h2{
     padding: 14px 0 4px 14px;
 }
