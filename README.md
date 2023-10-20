@@ -1,16 +1,24 @@
 # Yevhenii Airapetian's Portfolio Website.
 ## Description:
-This repository contains a website showcasing my skills, education, projects and information on how to get in touch with me.
+This repository contains a website showcasing my skills, education, projects, and information on how to get in touch with me.
 
 ## Technologies Used:
-- Html
-- CSS
+- Html5
+- CSS3
 - Javascript
 - Accessibility
 - Responsive design
 
+## Pages
+- Index page with the introductory information
+- About page with skills and education
+- Works page with completed projects
+- Contact page with the contact information
+
 ## Project Dependencies:
-- Font-Awesome v6.4.0
+- Font-Awesome v6.4.0 for icons
+- Totally for accessibility
+- 
 ## Live Version:
 The website is live [here](https://yevheniiairapetian.github.io/portfolio-website/)
 
