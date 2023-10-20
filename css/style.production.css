@@ -1022,9 +1022,9 @@ input#hamburger{
         grid-template-columns:1fr 1fr;
     }
 
-    /* .projects-information_container--item:last-child{
+    .projects-information_container--item:last-child{
         grid-column: 1 / span 2;
-     } */
+     }
 
      .main-information{
         margin-top:0px;
@@ -1116,9 +1116,9 @@ input#hamburger{
     }
 @media screen and (min-width:921px){
     
-    /* .projects-information_container--item:last-child{
+    .projects-information_container--item:last-child{
         grid-column: 1 / span 2;
-     } */
+     }
      img.img-half-width{
         width: 49%;
     }
