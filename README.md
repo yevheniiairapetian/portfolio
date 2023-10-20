@@ -18,7 +18,7 @@ This repository contains a website showcasing my skills, education, projects, an
 ## Project Dependencies:
 - Font-Awesome v6.4.0 for icons
 - Totally for accessibility
-- 
+  
 ## Live Version:
 The website is live [here](https://yevheniiairapetian.github.io/portfolio-website/)
 
