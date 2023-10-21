@@ -568,11 +568,11 @@ a.deployed-link:hover{
     margin-bottom: 30px;
 }
 
-i.fa-envelope, i.fa-linkedin, i.fa-github{
+/* i.fa-envelope, i.fa-linkedin, i.fa-github{
     padding-bottom:18px;
-}
+} */
 
-i.fa-envelope:hover, i.fa-linkedin:hover, i.fa-github:hover{
+i.fa-envelope:hover, i.fa-linkedin:hover, i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
     color: #0CC4E9;
     transition: color 0.2s ease;
 }

@@ -769,11 +769,21 @@ a.deployed-link:hover{
     margin-bottom: 30px;
 }
 
-i.fa-envelope, i.fa-linkedin, i.fa-github{
-    padding-bottom:18px;
+.contact-links-containers{
+    padding: 20px 0 20px 0;
+    background-color:#D9EEE1;
+    margin: 5px 0 5px 0;
 }
 
-i.fa-envelope:hover, i.fa-linkedin:hover, i.fa-github:hover{
+.contact-links-containers:hover{
+translate: 0px -6px;
+    opacity:0.9;
+    -webkit-transition: translate 0.3s linear;
+    -o-transition: translate 0.3s linear;
+    transition: translate 0.3s linear;
+}
+
+i.fa-envelope:hover, i.fa-linkedin:hover, i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
     color: #0CC4E9;
     -webkit-transition: color 0.2s ease;
     -o-transition: color 0.2s ease;
