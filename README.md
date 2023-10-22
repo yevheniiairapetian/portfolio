@@ -17,7 +17,6 @@ This repository contains a website showcasing my skills, education, projects, an
 
 ## Project Screenshot
 <a href="https://ibb.co/pXCGSHL"><img src="https://i.ibb.co/ZTyt0QM/Screenshot-20231023-002846-Edge.jpg" alt="Screenshot-20231023-002846-Edge" border="0"></a>
-<a href="https://ibb.co/5TQXct7"><img src="https://i.ibb.co/dBNsK1h/Screenshot-20231022-174909-Chrome.jpg" alt="Screenshot-20231022-174909-Chrome" border="0"></a>
 
 ## Project Dependencies:
 - Font-Awesome v6.4.0 for icons
