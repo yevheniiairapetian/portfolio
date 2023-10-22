@@ -15,6 +15,10 @@ This repository contains a website showcasing my skills, education, projects, an
 - Works page with completed projects
 - Contact page with the contact information
 
+## Project Screenshot
+<a href="https://ibb.co/SwK40CN"><img src="https://i.ibb.co/YBtF8s2/Screenshot-20231022-174005-Edge.jpg" alt="Screenshot-20231022-174005-Edge" border="0" /></a>
+<a href="https://ibb.co/5TQXct7"><img src="https://i.ibb.co/dBNsK1h/Screenshot-20231022-174909-Chrome.jpg" alt="Screenshot-20231022-174909-Chrome" border="0"></a>
+
 ## Project Dependencies:
 - Font-Awesome v6.4.0 for icons
 - Totally for accessibility
