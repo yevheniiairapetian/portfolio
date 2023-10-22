@@ -1017,6 +1017,7 @@ input#hamburger{
     .is-hidden{
         display:none;
     }
+    
     img.img-half-width{
         width: 49%;
     }
@@ -1133,6 +1134,10 @@ input#hamburger{
         
 
         }
+        .contact-links-containers{
+            width: 49%;
+            display: inline-block;
+        }
 
     }
 @media screen and (min-width:921px){
@@ -1163,5 +1168,9 @@ input#hamburger{
     .about-svg{
         width: 24%;
         height:auto;
+    }
+    .contact-links-containers{
+        width: 33%;
+        display: inline-block;
     }
 }
