@@ -817,6 +817,23 @@ input[type="text"], input[type="email"], input[type="tel"]{
     text-align:center;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #529FCC;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8099E1;
+    border-radius: 10px;
+  }
+
 @media screen and (min-width: 1px) and (max-width:479px){
     .is-hidden{
         display:none;
