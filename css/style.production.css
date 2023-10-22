@@ -785,7 +785,7 @@ translate: 0px -6px;
 i.fa-envelope, i.fa-twitter, i.fa-linkedin, i.fa-github, i.fa-medium, i.fa-dev{
     padding-right:6px;
 }
-i.fa-envelope:hover, i.fa-twitter:hover, i.fa-linkedin:hover, i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
+i.fa-envelope:hover, i.fa-skype:hover, i.fa-twitter:hover, i.fa-linkedin:hover, i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
     color: #0CC4E9;
     translate: 0px -4px;
     -webkit-transition: translate 0.3s linear;
