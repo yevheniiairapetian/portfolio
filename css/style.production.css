@@ -782,12 +782,17 @@ translate: 0px -6px;
     -o-transition: translate 0.3s linear;
     transition: translate 0.3s linear;
 }
-
-i.fa-envelope:hover, i.fa-linkedin:hover, i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
+i.fa-envelope, i.fa-twitter, i.fa-linkedin, i.fa-github, i.fa-medium, i.fa-dev{
+    padding-right:6px;
+}
+i.fa-envelope:hover, i.fa-twitter:hover, i.fa-linkedin:hover, i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
     color: #0CC4E9;
+    translate: 0px -4px;
+    -webkit-transition: translate 0.3s linear;
+    -o-transition: translate 0.3s linear; 
     -webkit-transition: color 0.2s ease;
     -o-transition: color 0.2s ease;
-    transition: color 0.2s ease;
+    transition: color 0.2s ease, translate 0.3s linear;
 }
 
 /* .contact-form_container fieldset{
