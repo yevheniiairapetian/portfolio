@@ -817,18 +817,19 @@ input[type="text"], input[type="email"], input[type="tel"]{
     text-align:center;
 }
 
-/* width */
+
+/* scrollbar width */
 ::-webkit-scrollbar {
     width: 10px;
   }
   
-  /* Track */
+  /* scrollbar Track */
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px #529FCC;
     border-radius: 10px;
   }
   
-  /* Handle */
+  /* scrollbar Handle */
   ::-webkit-scrollbar-thumb {
     background: #8099E1;
     border-radius: 10px;
@@ -904,7 +905,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
     }
 
     .page-header{
-        height: 60px;
+        height: 84px;
     }
     .music-section{
         
