@@ -851,10 +851,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
         height:auto;
     }
 
-    .hamburger_container{
+    /* .hamburger_container{
         -webkit-animation: menu-animation 2s linear infinite;
                 animation: menu-animation 2s linear infinite;
-    }
+    } */
     .main-information_container p{
         padding-top:5px;
         
@@ -936,8 +936,8 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .hamburger-container{
         display:block;
         text-align: right;
-        -webkit-animation: menu-animation 2s linear infinite;
-                animation: menu-animation 2s linear infinite;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                animation: menu-animation 2s linear infinite; */
     }
 
     #hamburger:checked ~ ul{
@@ -1066,8 +1066,8 @@ input#hamburger{
     .hamburger-container{
         display:block;
         text-align: right;
-        -webkit-animation: menu-animation 2s linear infinite;
-                animation: menu-animation 2s linear infinite;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                animation: menu-animation 2s linear infinite; */
     }
 
 
@@ -1083,9 +1083,9 @@ input#hamburger{
             margin-right:10px;
             text-align:center;
             
--webkit-animation: menu-animation 2s linear infinite;
+/* -webkit-animation: menu-animation 2s linear infinite;
             
-        animation: menu-animation 2s linear infinite;
+        animation: menu-animation 2s linear infinite; */
         }
     .page-header_item .navigation-list{
         text-align: center;
