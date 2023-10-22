@@ -572,6 +572,18 @@ a.deployed-link:hover{
     padding-bottom:18px;
 } */
 
+.contact-links-containers{
+    padding: 20px 0 20px 0;
+    background-color:#D9EEE1;
+    margin: 5px 0 5px 0;
+}
+
+.contact-links-containers:hover{
+translate: 0px -6px;
+    opacity:0.9;
+    transition: translate 0.3s linear;
+}
+
 i.fa-envelope:hover, i.fa-linkedin:hover, i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
     color: #0CC4E9;
     transition: color 0.2s ease;
