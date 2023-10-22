@@ -16,7 +16,7 @@ This repository contains a website showcasing my skills, education, projects, an
 - Contact page with the contact information
 
 ## Project Screenshot
-<a href="https://ibb.co/SwK40CN"><img src="https://i.ibb.co/YBtF8s2/Screenshot-20231022-174005-Edge.jpg" alt="Screenshot-20231022-174005-Edge" border="0" /></a>
+<a href="https://ibb.co/pXCGSHL"><img src="https://i.ibb.co/ZTyt0QM/Screenshot-20231023-002846-Edge.jpg" alt="Screenshot-20231023-002846-Edge" border="0"></a>
 <a href="https://ibb.co/5TQXct7"><img src="https://i.ibb.co/dBNsK1h/Screenshot-20231022-174909-Chrome.jpg" alt="Screenshot-20231022-174909-Chrome" border="0"></a>
 
 ## Project Dependencies:
