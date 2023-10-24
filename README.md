@@ -23,7 +23,7 @@ This repository contains a website showcasing my skills, education, projects, an
 - Totally for accessibility
   
 ## Live Version:
-The website is live [here](https://yevheniiairapetian.github.io/portfolio-website/)
+The website is live [here](https://yevheniiairapetian.com)
 
 ## Clone and Preview:
 To clone the repo use the following command:
