@@ -270,7 +270,9 @@ td{
     display:inline-block;
     margin-right:15px;
 }
-
+img.img-full-width{
+    width: 49%;
+}
 img.img-half-width{
     width: 49%;
 }
@@ -850,6 +852,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .is-hidden{
         display:none;
     }
+    img.img-full-width{
+        width: 98%;
+    }
     img.img-half-width{
         width: 49%;
     }
@@ -902,6 +907,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .is-hidden{
         display:none;
     }
+    /* img.img-full-width{
+        width: 98%;
+    } */
     img.img-half-width{
         width: 49%;
     }
