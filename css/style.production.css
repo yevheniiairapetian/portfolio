@@ -274,6 +274,9 @@ td{
 img.img-half-width{
     width: 49%;
 }
+img.img-third-width{
+    width: 32%;
+}
 .check-out:hover{
     color: #3363AA;
     font-weight: 200;
@@ -769,6 +772,10 @@ a.deployed-link:hover{
     margin-bottom: 30px;
 }
 
+/* i.fa-envelope, i.fa-linkedin, i.fa-github{
+    padding-bottom:18px;
+} */
+
 .contact-links-containers{
     padding: 20px 0 20px 0;
     background-color:#D9EEE1;
@@ -782,18 +789,22 @@ translate: 0px -6px;
     -o-transition: translate 0.3s linear;
     transition: translate 0.3s linear;
 }
+
+i.fa-envelope:hover, i.fa-skype:hover, i.fa-linkedin:hover, i.fa-twitter:hover i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
+    color: #0CC4E9;
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    translate: 0px -4px;
+    -webkit-transition: color 0.2s ease, translate 0.3s linear;
+    -o-transition: color 0.2s ease, translate 0.3s linear;
+    transition: color 0.2s ease, translate 0.3s linear;
+}
+
 i.fa-envelope, i.fa-twitter, i.fa-linkedin, i.fa-github, i.fa-medium, i.fa-dev{
     padding-right:6px;
 }
-i.fa-envelope:hover, i.fa-skype:hover, i.fa-twitter:hover, i.fa-linkedin:hover, i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
-    color: #0CC4E9;
-    translate: 0px -4px;
-    -webkit-transition: translate 0.3s linear;
-    -o-transition: translate 0.3s linear; 
-    -webkit-transition: color 0.2s ease;
-    -o-transition: color 0.2s ease;
-    transition: color 0.2s ease, translate 0.3s linear;
-}
+
 
 /* .contact-form_container fieldset{
     padding:30px;
@@ -817,7 +828,6 @@ input[type="text"], input[type="email"], input[type="tel"]{
     text-align:center;
 }
 
-
 /* scrollbar width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -825,7 +835,8 @@ input[type="text"], input[type="email"], input[type="tel"]{
   
   /* scrollbar Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px #529FCC;
+    -webkit-box-shadow: inset 0 0 5px #529FCC;
+            box-shadow: inset 0 0 5px #529FCC;
     border-radius: 10px;
   }
   
@@ -842,19 +853,18 @@ input[type="text"], input[type="email"], input[type="tel"]{
     img.img-half-width{
         width: 49%;
     }
+    img.img-third-width{
+        width: 32%;
+    }
     textarea{
         min-width:50%;
         font-size:16px;
     }
-    .music-section{
-        
-        -webkit-box-orient: vertical;
-        
-        -webkit-box-direction: normal;
-        
-            -ms-flex-direction: column;
-        
-                flex-direction: column; 
+    .music-section{        
+                -webkit-box-orient: vertical;        
+                -webkit-box-direction: normal;        
+                    -ms-flex-direction: column;        
+                        flex-direction: column; 
     }
     .profile-picture{
      margin-right:0;   
@@ -895,6 +905,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
     img.img-half-width{
         width: 49%;
     }
+    img.img-third-width{
+        width: 32%;
+    }
     .profile-picture{
      margin-right:0;
      width: 90%;   
@@ -905,7 +918,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
     }
 
     .page-header{
-        height: 84px;
+        height: 60px;
     }
     .music-section{
         
@@ -948,13 +961,13 @@ input[type="text"], input[type="email"], input[type="tel"]{
         width:100%;
     } */
     .main-information{
-        -webkit-box-orient:vertical;
-        -webkit-box-direction:normal;
-            -ms-flex-direction:column;
-                flex-direction:column;
-        -webkit-box-align:center;
-            -ms-flex-align:center;
-                align-items:center;
+                -webkit-box-orient:vertical;
+                -webkit-box-direction:normal;
+                    -ms-flex-direction:column;
+                        flex-direction:column;
+                -webkit-box-align:center;
+                    -ms-flex-align:center;
+                        align-items:center;
     }
     .hamburger-container{
         display:block;
@@ -983,24 +996,24 @@ input[type="text"], input[type="email"], input[type="tel"]{
         -webkit-box-pack: space-evenly;
             -ms-flex-pack: space-evenly;
                 justify-content: space-evenly;
-            position: fixed;
-            bottom:0;
-            right: -100%;
-            background: #2b2b2b;
-            height: calc(100vh - 250px);
-            width: 100%;
-            height:88%;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-            -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
-            -webkit-transition: right 0.2s linear;
-            -o-transition: right 0.2s linear;
-            transition: right 0.2s linear;
-            opacity:0.9;
+        position: fixed;
+        bottom:0;
+        right: -100%;
+        background: #2b2b2b;
+        height: calc(100vh - 250px);
+        width: 100%;
+        height:88%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transition: right 0.2s linear;
+        -o-transition: right 0.2s linear;
+        transition: right 0.2s linear;
+        opacity:0.9;
 }
 
 .page-header_item .navigation-list li a{
@@ -1040,10 +1053,12 @@ input#hamburger{
 
     @media screen and (min-width: 951px) {
         .projects-information_container{
-            -ms-grid-columns:1fr 10px 1fr;
+            -ms-grid-columns:1fr 20px 1fr;
             grid-template-columns:1fr 1fr;
         }
         .projects-information_container--item:last-child{
+            -ms-grid-column: 1;
+            -ms-grid-column-span: 2;
             grid-column: 1 / span 2;
          }
     }
@@ -1056,19 +1071,22 @@ input#hamburger{
     img.img-half-width{
         width: 49%;
     }
+    img.img-third-width{
+        width: 32%;
+    }
     .contact-div{
         word-wrap: break-word;
         margin-bottom:30px;
     }
     .music-section{
         
-        -webkit-box-orient: vertical;
+                -webkit-box-orient: vertical;
         
-        -webkit-box-direction: normal;
+                -webkit-box-direction: normal;
         
-            -ms-flex-direction: column;
+                    -ms-flex-direction: column;
         
-                flex-direction: column; 
+                        flex-direction: column; 
     }
     .profile-picture{
         margin:14px 0 10px 0;   
@@ -1091,13 +1109,13 @@ input#hamburger{
         font-size:22px;
     }
     .main-information{
-        -webkit-box-orient:vertical;
-        -webkit-box-direction:normal;
-            -ms-flex-direction:column;
-                flex-direction:column;
-        -webkit-box-align:center;
-            -ms-flex-align:center;
-                align-items:center;
+                -webkit-box-orient:vertical;
+                -webkit-box-direction:normal;
+                    -ms-flex-direction:column;
+                        flex-direction:column;
+                -webkit-box-align:center;
+                    -ms-flex-align:center;
+                        align-items:center;
     }
     .hamburger-container{
         display:block;
@@ -1125,15 +1143,15 @@ input#hamburger{
         }
     .page-header_item .navigation-list{
         text-align: center;
-        -webkit-box-flex: 2;
-            -ms-flex: 2;
-                flex: 2;
+                -webkit-box-flex: 2;
+                    -ms-flex: 2;
+                        flex: 2;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: space-evenly;
-            -ms-flex-pack: space-evenly;
-                justify-content: space-evenly;
+                -webkit-box-pack: space-evenly;
+                    -ms-flex-pack: space-evenly;
+                        justify-content: space-evenly;
             position: fixed;
             bottom:0;
             right: -100%;
@@ -1141,13 +1159,6 @@ input#hamburger{
             height: calc(100vh - 250px);
             width: 100%;
             height:88%;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-            -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
             -webkit-transition: right 0.2s linear;
             -o-transition: right 0.2s linear;
             transition: right 0.2s linear;
@@ -1175,6 +1186,9 @@ input#hamburger{
     
      img.img-half-width{
         width: 49%;
+    }
+    img.img-third-width{
+        width: 32%;
     }
     .table-container{
         margin:0 auto;

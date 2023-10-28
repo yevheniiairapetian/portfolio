@@ -239,6 +239,9 @@ td{
 img.img-half-width{
     width: 49%;
 }
+img.img-third-width{
+    width: 32%;
+}
 .check-out:hover{
     color: #3363AA;
     font-weight: 200;
@@ -642,6 +645,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
     img.img-half-width{
         width: 49%;
     }
+    img.img-third-width{
+        width: 32%;
+    }
     textarea{
         min-width:50%;
         font-size:16px;
@@ -687,6 +693,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
     }
     img.img-half-width{
         width: 49%;
+    }
+    img.img-third-width{
+        width: 32%;
     }
     .profile-picture{
      margin-right:0;
@@ -822,6 +831,9 @@ input#hamburger{
     img.img-half-width{
         width: 49%;
     }
+    img.img-third-width{
+        width: 32%;
+    }
     .contact-div{
         word-wrap: break-word;
         margin-bottom:30px;
@@ -915,6 +927,9 @@ input#hamburger{
     
      img.img-half-width{
         width: 49%;
+    }
+    img.img-third-width{
+        width: 32%;
     }
     .table-container{
         margin:0 auto;

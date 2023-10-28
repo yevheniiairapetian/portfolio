@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+                integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+                crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <title>R3play Project Case Study</title>
+</head>
+
+<body>
+        <!-- navigation -->
+        <header class="page-header">
+                <a class="page-header_link" href="index.html" target="_self"><img src="./img/logo.svg"
+                                class="page-header_item"
+                                alt="Website's logo image in black letters with a code symbol"></a>
+
+                <nav class="page-header_item">
+                        <input type="checkbox" name="" id="hamburger">
+                        <div id="burger-menu">
+                                <span></span>
+                        </div>
+                        <ul class="navigation-list">
+                                <li role="presentation"><a href="index.html">Home</a></li>
+                                <li role="presentation"><a href="about.html">About Me</a></li>
+                                <li role="presentation"><a href="works.html">My Work</a></li>
+                                <li role="presentation"><a href="contact.html">Contact Me</a></li>
+                        </ul>
+                        <div class="hamburger-container">
+                                <label for="hamburger">
+                                        <i class="fa-solid fa-bars fa-xl"></i>
+                                </label>
+                        </div>
+                </nav>
+
+
+        </header>
+        <!-- end of navigation -->
+        <div class="back-link"><a href="index.html">&#8592; Back Home</a></div>
+        <h1>R3play Project Case Study</h1>
+
+        <!-- start of case study container -->
+        <section class="projects-information_container">
+
+
+                <!-- project 4 section -->
+
+                <div class="projects-information_container--item">
+                        <img src="img/r3play-hero-image.png" class="screenshot" alt="Project 4 Case Study hero image">
+                        <h2>Overview</h2>
+                        <p>R3play is a web application, developed using the MERN stack, that provides users with information about movies, TV series, and anime. Users can access information about movies, directors, and genres. Users can create an account, update their information, and create a list of favorite movies, TV series, and anime.</p>
+                        <h2>Purpose and Context</h2>
+                        <p>R3play was a required project I developed as part of my full-stack immersion course at CareerFoundry to demonstrate my mastery of full-stack web development using JavaScript.
+                        </p>
+                        <h2>Objective</h2>
+                        <p>The project aimed to develop a fully-functioning full-stack project that I could add to my professional portfolio. The problem I wanted to solve was to build the complete full-stack web application by connecting the previously designed server-side and the client-side for the application from scratch.</p>
+                        <h2>Approach</h2>
+                        <h3>Server-Side</h3>
+                        <p>I developed a RESTful API using Node.js and Express, that interacts with a non-relational database (MongoDB). The API employs common HTTP methods like GET, PUT, POST, and DELETE. To retrieve data from and store data in the database, CRUD methods are used. The API provides movie, TV series, and anime information in JSON format.</p>
+
+                        <a class="deployed-link" target="_blank"
+                                href="https://r3play-934f9ea5664d.herokuapp.com/#user">&#x2192; View Endpoints</a>
+                        <p>I used Postman to test responses and requests to the API. I also made use of basic HTTP authentication and JWT authentication to provide for the authentication and authorization features.</p>
+                        <h3>Client-Side</h3>
+                        <p>After completing the API project, I proceeded to build the front-end interface users would need when interacting with the logic and data from the API and the database. It is a single-page, responsive web application, developed with React and React-Redux. It displays several interface views, including (but not limited to) a main view (shows a list of all movies, TV series, and anime), single movie, TV series, and anime views (shows data about a single movie, TV series, and anime, and allows users to add or delete them to or from their list of favorites), a login view, a registration view and a profile view (where users can update their user data and list of favorites).</p>
+
+                        <img class="screenshot img-third-width" src="./img/r3play-case-example-1.png"
+                                alt="Project 4 interface screenshot">
+                        <img class="screenshot img-third-width" src="./img/r3play-case-example-2.png"
+                                alt="Project 4 interface screenshot">
+                        <img class="screenshot img-third-width" src="./img/r3play-case-example-3.png"
+                                alt="Project 4 interface screenshot">
+                        <h2>Challenges</h2>
+                        <p>This was both my favorite and most challenging project. I have enjoyed developing the user interface and working with database information. I also quickly enhanced my terminal skills and understanding of querying the MongoDB NoSQL database. While creating the client-side, it took me some time to understand how to implement Redux in React, troubleshoot the rendering of JSX elements with the ternary operator, and the conditional logic behind rendering the movie suggestions to the user. Thankfully, my skilled tutor and mentor assisted me during the project and I was able to apply the gained skills later on when implementing additional features to the app.</p>
+                        <h2>Duration</h2>
+                        <p>The development of the client side took me longer to complete as compared to the usual duration of a CareerFoundry achievement. The reason for this was that I needed more time to troubleshoot the conditional rendering of JSX elements and the lack of proper rest during that time.</p>
+                        <h2>Retrospective</h2>
+                        <p>Overall, I am happy with how the work on the project and the final result evolved. The achievement aimed to develop a movie app, but I took the risk to take extra time and implement additional features, among which were (but not limited to) TV series and anime views, changing the application theme, updating the Mongo database with additional data and displaying it in the front-end, auto-scrolling to the top when navigating to the new view. If I approached building the app next time, I would use better time-management skills that I have now and prioritize the project's requirements first. If I decided to improve the app today, I would customize the Mongo database's genres, actors, and directors' information to include many-to-many relationships.</p>
+
+                        <img class="screenshot img-half-width" alt="A gif image showing additional features of the app" src="./img/retrospective-1.gif">
+                        <img class="screenshot img-half-width" alt="A gif image showing additional features of the app" src="./img/retrospective-2.gif">
+                        <h2 class="video-image-heading">Project in use preview
+                        </h2>
+                        <div class="video-container"><iframe src="https://streamable.com/e/qglgcd?loop=0"
+                                        frameborder="0" allowfullscreen class="video-iframe"></iframe>
+                        </div>
+                        <h2 class="technologies-heading">Technologies used/Skills</h2>
+                        <p class="skills-paragraphs"><span>Mongo
+                                        DB, MySQL</span></p>
+                        <p class="skills-paragraphs"><span>Javascript/React.js</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>React
+                                        Bootstrap</span></p>
+                        <p class="skills-paragraphs"><span>API</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>CSS3</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Responsive
+                                        design</span></p>
+                        <p class="skills-paragraphs"><span>HTML5</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Ajax</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Mongo
+                                        DB</span></p>
+                        <p class="skills-paragraphs"><span>Parcel</span></p>
+                        <p class="skills-paragraphs"><span>Deploying
+                                        a website</span></p>
+                        <h2>Credits</h2>
+                        <p>Role: Lead Developer</p>
+                        <p>Tutor: <a class="deployed-link" target="_blank"
+                                        href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">Tonny Ntambaazi</a>
+                        </p>
+                        <p>Mentor: <a class="deployed-link" target="_blank"
+                                        href="https://www.linkedin.com/in/nizartriki/">Nizar Triki</a></p>
+                        <div class="github-link"><a target="_blank"
+                                        href="https://github.com/yevheniiairapetian/r3play-client">Github repo</a></div>
+                        <div><a class="deployed-link" target="_blank" href="https://r3play.netlify.app/">App Link</a>
+                        </div><br>
+                        <div class="back-link"><a href="index.html">&#8592; Back Home</a></div>
+                </div>
+
+                <!-- end of project 4 section -->
+
+        </section>
+        <!-- end of case study container -->
+
+        <!-- start footer -->
+
+        <footer class="main-footer">
+                <span class="social-information">Find me on</span>
+                <div class="social-container">
+                        <a href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Github icon" class="fa-brands fa-github fa-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/yevhenii-airapetian/" target="_blank" rel="noopener"><i
+                                        alt="A LinkedIn icon" class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href="https://twitter.com/sonkozhenya" target="_blank" rel="noopener"><i alt="A Twitter icon"
+                                        class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href="https://dev.to/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Dev.to icon" class="fa-brands fa-dev fa-xl"></i></a>
+                        <a href="https://medium.com/@sonkozhenia11" target="_blank" rel="noopener"><i
+                                        alt="A Medium icon" class="fa-brands fa-medium fa-xl"></i></a>
+
+                </div>
+        </footer>
+
+        <!-- end of footer -->
+
+        <!-- accessibility testing library -->
+
+        <!-- <script src="js/tota11y.min.js"></script> -->
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>
