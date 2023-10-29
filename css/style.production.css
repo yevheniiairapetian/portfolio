@@ -792,7 +792,7 @@ translate: 0px -6px;
     transition: translate 0.3s linear;
 }
 
-i.fa-envelope:hover, i.fa-skype:hover, i.fa-linkedin:hover, i.fa-twitter:hover i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
+i.fa-envelope:hover, i.fa-skype:hover, i.fa-linkedin:hover, i.fa-twitter:hover, i.fa-github:hover, i.fa-medium:hover, i.fa-dev:hover{
     color: #0CC4E9;
     -webkit-transition: color 0.2s ease;
     -o-transition: color 0.2s ease;
