@@ -669,6 +669,8 @@ a.deployed-link{
     font-style: italic;
 }
 
+
+
 a.deployed-link:hover{
     padding-left:8px;
     -webkit-transition: padding-left 0.3s ease-out;
@@ -902,6 +904,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .is-hidden{
         display:none;
     }
+    .r3play-case-video{
+        height: 200px;
+    }
     img.img-half-width{
         width: 49%;
     }
@@ -1051,7 +1056,7 @@ input#hamburger{
             grid-gap:10px;
         }
     }
-
+    
     @media screen and (min-width: 951px) {
         .projects-information_container{
             -ms-grid-columns:1fr 20px 1fr;
@@ -1068,7 +1073,9 @@ input#hamburger{
     .is-hidden{
         display:none;
     }
-    
+    .r3play-case-video{
+        height: 400px;
+    }
     img.img-half-width{
         width: 49%;
     }
