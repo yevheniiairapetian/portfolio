@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+                integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+                crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <title>Pokemon App Project Case Study</title>
+</head>
+
+<body>
+        <!-- navigation -->
+        <header class="page-header">
+                <a class="page-header_link" href="index.html" target="_self"><img src="./img/logo.svg"
+                                class="page-header_item"
+                                alt="Website's logo image in black letters and a line of text in the middle"></a>
+
+                <nav class="page-header_item">
+                        <input type="checkbox" name="" id="hamburger">
+                        <div id="burger-menu">
+                                <span></span>
+                        </div>
+                        <ul class="navigation-list">
+                                <li role="presentation"><a href="index.html">Home</a></li>
+                                <li role="presentation"><a href="about.html">About Me</a></li>
+                                <li role="presentation"><a href="works.html">My Work</a></li>
+                                <li role="presentation"><a href="contact.html">Contact Me</a></li>
+                        </ul>
+                        <div class="hamburger-container">
+                                <label for="hamburger">
+                                        <i class="fa-solid fa-bars fa-xl"></i>
+                                </label>
+                        </div>
+                </nav>
+
+
+        </header>
+        <!-- end of navigation -->
+        <div class="back-link"><a href="works.html">&#8592; Back to projects</a></div>
+        <h1>Pokemon App Project Case Study</h1>
+
+        <!-- start of case study container -->
+        <section class="projects-information_container">
+
+
+                <!-- pokemon app section -->
+
+                <div class="projects-information_container--item">
+                        <img src="img/pokemon-hero-image.png" class="screenshot"
+                                alt="Pokemon App Case Study hero image">
+                        <h2>Overview</h2>
+                        <p>Pokemon App is a web application, developed using HTML, CSS, Javascript, and Bootstrap. It
+                                provides users with
+                                information about Pokemon fetched from the <a href="https://pokeapi.co/"
+                                        target="_blank">Pokedex API</a>. Users can access information about
+                                Pokemon ID, height, and weight, see a Pokemon's front and back image, and search for a
+                                Pokemon by name.</p>
+                        <h2>Purpose and Context</h2>
+                        <p>R3play was a required project I developed as part of my full-stack immersion course at
+                                CareerFoundry to demonstrate my mastery of web development using JavaScript and
+                                Bootstrap.
+                        </p>
+                        <h2>Objective</h2>
+                        <p>The project aimed to develop a fully-functioning app that I could add to my
+                                professional portfolio. The problem I wanted to solve was to build and style a web
+                                application by employing an external API and a popular CSS framework.</p>
+                        <h2>Approach</h2>
+                        <h3>API</h3>
+                        <p>I used the <a href="https://pokeapi.co/" target="_blank">Pokedex API</a> as part of the
+                                project's required dependencies to supply the app with various information about
+                                Pokemon. For this purpose, Javascript promises were used to handle asynchronous requests
+                                and responses to/from the Pokedex API.
+                        </p>
+                        <h3>Client-Side</h3>
+                        <p>After finishing the logic part of the app, I began the stylization phase by incorporating
+                                Bootstrap as the project's required CSS framework. The task was to use Bootstrap's grid,
+                                classes, and components to implement the required functionality and responsiveness.
+                                Finally, I tested the app on various screens, devices, and operating systems using the
+                                device/system emulators.
+                        </p>
+
+                        <img class="screenshot img-third-width" src="./img/pokemon-case-example-1.png"
+                                alt="Pokemon App interface screenshot 1">
+                        <img class="screenshot img-third-width" src="./img/pokemon-case-example-2.png"
+                                alt="Pokemon App interface screenshot 2">
+                        <img class="screenshot img-third-width" src="./img/pokemon-case-example-3.png"
+                                alt="Pokemon App interface screenshot 3">
+                        <h2>Duration</h2>
+                        <p>4 weeks</p>
+                        <h2>Retrospective</h2>
+                        <h3>Challenges</h3>
+                        <p>The part requiring to use asynchronous Javascript was the most time-consuming, while the work
+                                on styling
+                                was relatively easy. Overall, it took me 1 month to complete
+                                the project which was around the average time spent. First, I had difficulties
+                                displaying the specific Pokemon information as described in the Pokedex documentation.
+                                Also,
+                                I had to troubleshoot the issue when data didn't display on the front end.
+                        </p>
+                        <p>Nevertheless, this was a fun and relatively easy project to work on. I have enjoyed diving
+                                into the basics of Javascript by learning AJAX. It was also motivating to learn styling
+                                with the help of Bootstrap. I also quickly gained useful skills
+                                in working with Javascript promises and APIs, reading documentation, styling with CSS
+                                frameworks, and troubleshooting. Thankfully, my mentor and tutor assisted me during the
+                                project and I was able to apply the gained skills later on
+                                when implementing additional features to the app.</p>
+                        <h3>Conclusion and Key Takeaways</h3>
+                        <p>The Pokemon app was the first Full-Stack Immersion course project. When it was finished, I
+                                focused on enhancing my development skills, specifically diving into Node.js, Express,
+                                and APIs. Designing my own API was a useful and important step to further mastering the
+                                crucial back-end web development skills.</p>
+                        <h3>Main takeaways for future projects</h3>
+                        <ul>
+                                <li>Improve debugging skills by practicing and using external educational resources.
+                                </li>
+                                <li>Stay motivated even when temporary educational difficulties occur.</li>
+                                <li>Improve digital self-care regarding rest time</li>
+                        </ul>
+                        <img class="screenshot img-full-width"
+                                alt="A gif image showing additional features of the Pokemon app"
+                                src="./img/pokemon-retrospective-1.gif">
+                        <img class="screenshot img-full-width"
+                                alt="A gif image showing additional features of the Pokemon app"
+                                src="./img/pokemon-retrospective-2.gif">
+                        <h2 class="video-image-heading">Project in use preview
+                        </h2>
+                        <iframe src="https://www.veed.io/embed/0fec3172-c936-4557-89be-931f6a85ceb3" width="100%"
+                                height="600px" frameborder="0" title="pokemon-app" webkitallowfullscreen
+                                mozallowfullscreen allowfullscreen></iframe>
+                        <h2 class="technologies-heading">Technologies used/Skills</h2>
+                        <p class="skills-paragraphs"><span>Ajax</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>External
+                                        API</span></p>
+                        <p class="skills-paragraphs"><span>Javascript</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Bootstrap</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>CSS3</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Responsive
+                                        design</span></p>
+                        <p class="skills-paragraphs"><span>HTML5</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>jQuery</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Deploying
+                                        a website</span></p>
+                        <h2>Credits</h2>
+                        <p>Role: Lead Developer</p>
+                        <p>Tonny Ntambaazi: <a class="deployed-link" target="_blank"
+                                        href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">Creative
+                                        Director</a>
+                        </p>
+                        <p>Nizar Triki: <a class="deployed-link" target="_blank"
+                                        href="https://www.linkedin.com/in/nizartriki/">Software Engineering Manager</a>
+                        </p>
+                        <div class="github-link"><a target="_blank"
+                                        href="https://github.com/yevheniiairapetian/pokemon-app">Code</a></div>
+                        <div><a class="deployed-link" target="_blank"
+                                        href="https://yevheniiairapetian.github.io/pokemon-app/">App</a></div>
+                        <br>
+                        <div class="back-link"><a href="works.html">&#8592; Back to projects</a></div>
+                </div>
+
+                <!-- end of pokemon app section -->
+
+        </section>
+        <!-- end of case study container -->
+
+        <!-- start footer -->
+
+        <footer class="main-footer">
+                <span class="social-information">Find me on</span>
+                <div class="social-container">
+                        <a href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Github icon" class="fa-brands fa-github fa-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/yevhenii-airapetian/" target="_blank" rel="noopener"><i
+                                        alt="A LinkedIn icon" class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href="https://twitter.com/sonkozhenya" target="_blank" rel="noopener"><i alt="A Twitter icon"
+                                        class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href="https://dev.to/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Dev.to icon" class="fa-brands fa-dev fa-xl"></i></a>
+                        <a href="https://medium.com/@sonkozhenia11" target="_blank" rel="noopener"><i
+                                        alt="A Medium icon" class="fa-brands fa-medium fa-xl"></i></a>
+
+                </div>
+        </footer>
+
+        <!-- end of footer -->
+
+        <!-- accessibility testing library -->
+
+        <!-- <script src="js/tota11y.min.js"></script> -->
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>
