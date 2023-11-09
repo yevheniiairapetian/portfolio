@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+                integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+                crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>To-Do-List App Project Case Study</title>
+</head>
+
+<body>
+        <!-- navigation -->
+        <header class="page-header">
+                <a class="page-header_link" href="index.html" target="_self"><img src="./img/logo.svg"
+                                class="page-header_item"
+                                alt="Website's logo image in black letters and a line of text in the middle"></a>
+
+                <nav class="page-header_item">
+                        <input type="checkbox" name="" id="hamburger">
+                        <div id="burger-menu">
+                                <span></span>
+                        </div>
+                        <ul class="navigation-list">
+                                <li role="presentation"><a href="index.html">Home</a></li>
+                                <li role="presentation"><a href="about.html">About Me</a></li>
+                                <li role="presentation"><a href="works.html">My Work</a></li>
+                                <li role="presentation"><a href="contact.html">Contact Me</a></li>
+                        </ul>
+                        <div class="hamburger-container">
+                                <label for="hamburger">
+                                        <i class="fa-solid fa-bars fa-xl"></i>
+                                </label>
+                        </div>
+                </nav>
+
+
+        </header>
+        <!-- end of navigation -->
+        <div class="back-link"><a href="works.html">&#8592; Back to projects</a></div>
+        <h1>To-Do-List App Project Case Study</h1>
+
+        <!-- start of case study container -->
+        <section class="projects-information_container">
+
+
+                <!-- r3play case section -->
+
+                <div class="projects-information_container--item">
+                        <img src="img/r3play-hero-image.png" class="screenshot" alt="To-Do-List App Case Study hero image">
+                        <h2>Overview</h2>
+                        <p>To-Do-List App is a responsive web application, developed using HTML, Bootstrap, and Javascript and provides users with 
+                                the ability to manage their to-dos. Users can add and delete their to-dos among other features. 
+                                </p>
+                        <h2>Purpose and Context</h2>
+                        <p>To-Do-List App was a required side mini-project I developed as part of my full-stack immersion course at
+                                CareerFoundry to demonstrate my mastery of working with jQuery.
+                        </p>
+                        <h2>Objective</h2>
+                        <p>The project aimed to design a fully-functioning web app that I could add to my
+                                professional portfolio. The problem I wanted to solve was to turn plain Javascript into jQuery.</p>
+                        <h2>Approach</h2>
+                        <h3>Client-Side</h3>
+                        <p>After receiving the initial plain Javascript code with basic app functionality, I started turning it into a jQuery one. This type of work allowed me 
+                                to introduce additional features and styles.
+                        </p>
+                        , including (but not limited to) adding, deleting, crossing out, and rearranging tasks
+                        <img class="screenshot img-third-width" src="./img/to-do-retrospective-1.png"
+                                alt="To-Do-Lit App case interface screenshot 1">
+                        <img class="screenshot img-third-width" src="./img/to-do-retrospective-2.png"
+                                alt="To-Do-Lit App case interface screenshot 2">
+                        <img class="screenshot img-third-width" src="./img/to-do-retrospective-3.png"
+                                alt="To-Do-Lit App case interface screenshot 3">
+                        <h2>Duration</h2>
+                        <p>1 day</p>
+                        <h2>Retrospective</h2>
+                        <h3>Challenges</h3>
+                        <p>The development of the app's basic features didn't create any difficulties and I finished the task within 1 day. However,
+                                I wasn't satisfied with the functionality it had and decided to find extra time to add improvements. These additions 
+                                caused a lot of debugging because different jQuery libraries didn't function well together and as I planned them to. Thankfully, 
+                                my mentor and tutor helped me to troubleshoot the work. Before introducing extra functions, the app could:</p>
+                                <ul>
+                                        <li>Add/delete to-dos</li>
+                                        <li>Rearrange to-dos on desktop</li>
+                                        <li>Cross-out to-dos</li>
+                                        <li>Show built-in browser alert notifications</li>
+                                </ul>
+                        <p>With the new features, it allows to:</p>
+
+                        <ul>
+                                <li>Add/delete to-do lists</li>
+                                <li>Add/delete to-dos to/from the to-do lists (including pressing "Enter" on the keyboard)</li>
+                                <li>Clear the input field</li>
+                                <li>Rearrange and cross-out to-dos on mobile with the help of jQuery Mobile and jQuery Touch Punch</li>
+                                <li>Show prettier notifications with the help of Bootstrap and jQuery UI</li>
+                                <li>View a guide on how to use the app on different platforms with the help of Bootstrap</li>
+                        </ul>
+                        <h3>Conclusion and Key Takeaways</h3>
+                        <p>The To-Do-List App was only a side mini-project I did in the full-stack immersion course but I enjoyed adding new features and styling to it above 
+                                the basic requirements. It quickly enhanced my skills in jQuery, Bootstrap, debugging, and working with additional libraries.</p>
+                        <h3>Main takeaways for future projects</h3>
+                        <ul>
+                                <li>Enhance the Bootstrap skills</li>
+                                <li>Work on the debugging skills</li>
+                                <li>Extend the app's features later on</li>
+                        </ul>
+                        <h2 class="video-image-heading">App Preview
+                        </h2>
+                        <iframe class="r3play-case-video" src="https://www.veed.io/embed/1ad3696b-809a-4351-85fb-6f68c5a3faf8" width="100%" height="600px" frameborder="0" title="to-do-list-app" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <h2 class="technologies-heading">Technologies used/Skills</h2>
+                        <p class="skills-paragraphs"><span>Responsive
+                                design</span></p>
+                <p class="skills-paragraphs"><span>Javascript</span>
+                </p>
+                <p class="skills-paragraphs"><span>Bootstrap</span>
+                </p>
+                <p class="skills-paragraphs"><span>CSS3</span>
+                </p>
+                <p class="skills-paragraphs"><span>HTML5</span>
+                </p>
+                <p class="skills-paragraphs"><span>jQuery</span>
+                </p>
+                <p class="skills-paragraphs"><span>Deploying
+                                a website</span></p>
+                        <h2>Credits</h2>
+                        <p>Role: Lead Developer</p>
+                        <p>Tonny Ntambaazi: <a class="deployed-link" target="_blank"
+                                        href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">Creative
+                                        Director</a>
+                        </p>
+                        <p>Nizar Triki: <a class="deployed-link" target="_blank"
+                                        href="https://www.linkedin.com/in/nizartriki/">Software Engineering Manager</a>
+                        </p>
+                        <div class="github-link"><a target="_blank"
+                                        href="https://github.com/yevheniiairapetian/r3play-client">Code</a></div>
+                        <div><a class="deployed-link" target="_blank" href="https://r3play.netlify.app/">App</a>
+                        </div><br>
+                        <div class="back-link"><a href="works.html">&#8592; Back to projects</a></div>
+                </div>
+
+                <!-- end of r3play case section -->
+
+        </section>
+        <!-- end of case study container -->
+
+        <!-- start footer -->
+
+        <footer class="main-footer">
+                <span class="social-information">Find me on</span>
+                <div class="social-container">
+                        <a href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Github icon" class="fa-brands fa-github fa-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/yevhenii-airapetian/" target="_blank" rel="noopener"><i
+                                        alt="A LinkedIn icon" class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href="https://twitter.com/sonkozhenya" target="_blank" rel="noopener"><i alt="A Twitter icon"
+                                        class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href="https://dev.to/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Dev.to icon" class="fa-brands fa-dev fa-xl"></i></a>
+                        <a href="https://medium.com/@sonkozhenia11" target="_blank" rel="noopener"><i
+                                        alt="A Medium icon" class="fa-brands fa-medium fa-xl"></i></a>
+
+                </div>
+        </footer>
+
+        <!-- end of footer -->
+
+        <!-- accessibility testing library -->
+
+        <!-- <script src="js/tota11y.min.js"></script> -->
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>
