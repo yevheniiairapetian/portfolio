@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+                integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+                crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap"
+                rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+                integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>OWrite Project Case Study</title>
+</head>
+
+<body>
+        <!-- navigation -->
+        <header class="page-header">
+                <a class="page-header_link" href="index.html" target="_self"><img src="./img/logo.svg"
+                                class="page-header_item"
+                                alt="Website's logo image in black letters and a line of text in the middle"></a>
+
+                <nav class="page-header_item">
+                        <input type="checkbox" name="" id="hamburger">
+                        <div id="burger-menu">
+                                <span></span>
+                        </div>
+                        <ul class="navigation-list">
+                                <li role="presentation"><a href="index.html">Home</a></li>
+                                <li role="presentation"><a href="about.html">About Me</a></li>
+                                <li role="presentation"><a href="works.html">My Work</a></li>
+                                <li role="presentation"><a href="contact.html">Contact Me</a></li>
+                        </ul>
+                        <div class="hamburger-container">
+                                <label for="hamburger">
+                                        <i class="fa-solid fa-bars fa-xl"></i>
+                                </label>
+                        </div>
+                </nav>
+
+
+        </header>
+        <!-- end of navigation -->
+        <div class="back-link"><a href="works.html">&#8592; Back to projects</a></div>
+        <h1>OWrite Project Case Study</h1>
+
+        <!-- start of case study container -->
+        <section class="projects-information_container">
+
+
+                <!-- r3play case section -->
+
+                <div class="projects-information_container--item">
+                        <img src="img/owrite-case-hero-image.png" class="owrite-hero-image" alt="OWrite Case Study hero image">
+                        <h2>Overview</h2>
+                        <p>OWrite is a React Native real-time chat application, developed using React Native, Expo CLI, accessibility guidelines, and Android Studio for the app itself, and Google Firebase and Firestore for the database. It provides users with real-time chatting features, including viewing message history thanks to the AsyncStorage, sending messages, photos, audio recordings, and geolocation data.
+                                Users can set their username and choose the app's background color. 
+                        </p>
+                        <h2>Purpose and Context</h2>
+                        <p>OWrite was a required project I developed as part of my full-stack immersion course at
+                                CareerFoundry to demonstrate my mastery of native app development using React Native, Expo CLI, Android Studio, and Google Firebase/Firestore.
+                        </p>
+                        <h2>Objective</h2>
+                        <p>The project aimed to develop a fully-functioning native app that I could add to my
+                                professional portfolio. The problem I wanted to solve was to build the complete
+                                native application by connecting the Google Firebase/Firestore database to the app's interface designed with React Native.</p>
+                        <h2>Approach</h2>
+                        <h3>Server</h3>
+                        <p>Creating the server logic started with setting up an account at Google Firebase and configuring it. I proceeded then to add the Google Firebase configuration settings to the codebase.</p>
+                        <h3>Database</h3>
+                        <p>I developed the database using Google Firebase to store two users required for testing. Later on, I employed Google Firestore to contain the users' chat data.</p>
+                        <h3>App Interface</h3>
+                        <p>For the interface, Android Studio and Expo Go Android App were incorporated for testing purposes. React Native was used to design two app screens: a welcome and a chat screen. The welcome screen was designed with accessible elements as per React Native recommendations, allows to set a username and choose a background color for the chat screen. The chat screen displays the user's name, message history, a text field, and 
+                                a menu with additional file options. To develop the required features, I incorporated such libraries as  
+                                Gifted Chat, Expo Media, Expo Image Picker, Stack Navigation, and others. To allow for an offline use, AsyncStorage was used.</p>
+
+                        <img class="screenshot img-half-width" src="./img/owrite-case-hero-image.png"
+                                alt="OWrite app case interface screenshot 1">
+                        <img class="screenshot img-half-width" src="./img/owrite-retrospective-2.png"
+                                alt="OWrite app case interface screenshot 2">
+                        <h2>Duration</h2>
+                        <p>1 week</p>
+                        <h2>Retrospective</h2>
+                        <h3>Challenges</h3>
+                        <p>The challenges that I faced during this project were more related to the course timeline itself than the actual work on the codebase. 
+                                As mentioned earlier, since I dedicated extra effort to improving the R3play API and App, it left less time for the end of the Immersion course.
+                                As a result, I had to plan my schedule to finish the project on time and concentrate only on the required and recommended features.
+                                 </p>
+                        <p>I particularly enjoyed developing the app because I've always wanted to dive into native app development, and React Native was on my checklist. Additionally, it was pleasing to know that the previously gained skills (time management and prioritization) helped me to complete the project very quickly and add new native development skills to my toolbox.</p>
+                        <h3>Conclusion and Key Takeaways</h3>
+                        <p>The OWrite app was the penultimate project I worked on in the Full-Stack
+                                web development course. When it was finished, I focused on further enhancing my development skills, specifically adding another front-end framework and design system to my skillset, Angular and Material UI respectively. The next project 
+                                required recreating the front end for the R3play API with Angular and Material UI this time.</p>
+                        <h3>Main takeaways for future projects</h3>
+                        <ul>
+                                <li>Discover more about Native app development</li>
+                                <li>Practice creating real-time applications on side projects</li>
+                        </ul>
+                        <h2 class="video-image-heading">App Preview
+                        </h2>
+                        <iframe class="r3play-case-video" src="https://www.veed.io/embed/8c549f62-ac42-456e-bb62-fc27afdba75d" width="100%" height="600px" frameborder="0" title="owrite-app" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <h2 class="technologies-heading">Technologies used/Skills</h2>
+                        <p class="skills-paragraphs"><span>React.js</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>
+                                        React Native</span></p>
+                        <p class="skills-paragraphs"><span>Google Firebase</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Javascript</span></p>
+                        <p class="skills-paragraphs"><span>CSS3</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Android Studio</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>XCode</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Responsive
+                                        design</span></p>
+                        <h2>Credits</h2>
+                        <p>Role: Lead Developer</p>
+                        <p>Tonny Ntambaazi: <a class="deployed-link" target="_blank"
+                                        href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">Creative
+                                        Director</a>
+                        </p>
+                        <p>Nizar Triki: <a class="deployed-link" target="_blank"
+                                        href="https://www.linkedin.com/in/nizartriki/">Software Engineering Manager</a>
+                        </p>
+                        <div class="github-link"><a target="_blank"
+                                        href="https://github.com/yevheniiairapetian/r3play-client">Code</a></div>
+                        <div><a class="deployed-link" target="_blank" href="https://r3play.netlify.app/">App</a>
+                        </div><br>
+                        <div class="back-link"><a href="works.html">&#8592; Back to projects</a></div>
+                </div>
+
+                <!-- end of r3play case section -->
+
+        </section>
+        <!-- end of case study container -->
+
+        <!-- start footer -->
+
+        <footer class="main-footer">
+                <span class="social-information">Find me on</span>
+                <div class="social-container">
+                        <a href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Github icon" class="fa-brands fa-github fa-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/yevhenii-airapetian/" target="_blank" rel="noopener"><i
+                                        alt="A LinkedIn icon" class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href="https://twitter.com/sonkozhenya" target="_blank" rel="noopener"><i alt="A Twitter icon"
+                                        class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href="https://dev.to/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Dev.to icon" class="fa-brands fa-dev fa-xl"></i></a>
+                        <a href="https://medium.com/@sonkozhenia11" target="_blank" rel="noopener"><i
+                                        alt="A Medium icon" class="fa-brands fa-medium fa-xl"></i></a>
+
+                </div>
+        </footer>
+
+        <!-- end of footer -->
+
+        <!-- accessibility testing library -->
+
+        <!-- <script src="js/tota11y.min.js"></script> -->
+        <script src="js/script.js"></script>
+
+</body>
+
+</html>

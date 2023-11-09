@@ -21,7 +21,7 @@
                 integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
                 crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" type="text/css" href="css/style.production.css">
-        <title>R3play Project Case Study</title>
+        <title>MyFlix-Angular Project Case Study</title>
 </head>
 
 <body>
@@ -53,7 +53,7 @@
         </header>
         <!-- end of navigation -->
         <div class="back-link"><a href="works.html">&#8592; Back to projects</a></div>
-        <h1>R3play Project Case Study</h1>
+        <h1>MyFlix-Angular Project Case Study</h1>
 
         <!-- start of case study container -->
         <section class="projects-information_container">
@@ -62,15 +62,20 @@
                 <!-- r3play case section -->
 
                 <div class="projects-information_container--item">
-                        <img src="img/r3play-hero-image.png" class="screenshot" alt="R3play Case Study hero image">
+                        <img src="img/r3play-hero-image.png" class="screenshot"
+                                alt="MyFlix-Angular Case Study hero image">
                         <h2>Overview</h2>
-                        <p>R3play is a web application, developed using the MERN stack, that provides users with
-                                information about movies, TV series, and anime. Users can access information about
+                        <p>MyFlix-Angular-App is a web app, developed using the MEAN stack, that provides users with
+                                information about movies. Users can access information about
                                 movies, directors, and genres. Users can create an account, update their information,
-                                and create a list of favorite movies, TV series, and anime.</p>
+                                and create a list of favorite movies.</p>
                         <h2>Purpose and Context</h2>
-                        <p>R3play was a required project I developed as part of my full-stack immersion course at
+                        <p>MyFlix-Angular-App was a required project I developed as part of my full-stack immersion
+                                course at
                                 CareerFoundry to demonstrate my mastery of full-stack web development using JavaScript.
+                                Additionally,
+                                I practiced Agile project management, feedback providing, and documentation generation
+                                skills.
                         </p>
                         <h2>Objective</h2>
                         <p>The project aimed to develop a fully-functioning full-stack app that I could add to my
@@ -78,93 +83,121 @@
                                 full-stack web application by connecting the previously designed server-side and the
                                 client-side for the application from scratch.</p>
                         <h2>Approach</h2>
+                        <h3>Agile project management</h3>
+                        <p>The work on the project started with creating the Kanban board and filling it with
+                                the project requirements and user stories. When a project task was completed, it was
+                                moved
+                                to the "Done" section. As well, I generated detailed documentation with Typedoc as per
+                                the project's requirements.
+                        </p>
                         <h3>Server-Side</h3>
-                        <p>I developed a RESTful API using Node.js and Express, that interacts with a non-relational
+                        <p>I developed a RESTful API using Node.js and Express that interacts with a non-relational
                                 database (MongoDB). The API employs common HTTP methods like GET, PUT, POST, and DELETE.
                                 To retrieve data from and store data in the database, CRUD methods are used. The API
                                 provides movie, TV series, and anime information in JSON format.</p>
-
                         <a class="deployed-link" target="_blank"
                                 href="https://r3play-934f9ea5664d.herokuapp.com/#user">&#x2192; View Endpoints</a>
                         <p>I used Postman to test responses and requests to the API. I also made use of basic HTTP
                                 authentication and JWT authentication to provide for the authentication and
                                 authorization features.</p>
                         <h3>Client-Side</h3>
-                        <p>After completing the API project, I proceeded to build the front-end interface users would
-                                need when interacting with the logic and data from the API and the database. It is a
-                                single-page, responsive web application, developed with React and React-Redux. It
-                                displays several interface views, including (but not limited to) a main view (shows a
-                                list of all movies, TV series, and anime), single movie, TV series, and anime views
-                                (shows data about a single movie, TV series, and anime, and allows users to add or
-                                delete them to or from their list of favorites), a login view, a registration view and a
-                                profile view (where users can update their user data and list of favorites).</p>
+                        <p>I built the front-end interface for users to be able to interact
+                                with the logic and data from the API and the database. It is a
+                                single-page, responsive web application, developed with Angular and Material UI. It
+                                displays several interface views, including a main view (shows a
+                                list of all movies, a button to manage favorites, and buttons to view additional movie
+                                information),
+                                a login/signup view, and a
+                                profile view (where users can update their user data).</p>
 
-                        <img class="screenshot img-third-width" src="./img/r3play-case-example-1.png"
-                                alt="R3play app case interface screenshot 1">
-                        <img class="screenshot img-third-width" src="./img/r3play-case-example-2.png"
-                                alt="R3play app case interface screenshot 2">
-                        <img class="screenshot img-third-width" src="./img/r3play-case-example-3.png"
-                                alt="R3play app case interface screenshot 3">
+                        <img class="screenshot img-third-width" src="./img/myFlix-retrospective-1.png"
+                                alt="myFlix-Angular-App case interface screenshot 1">
+                        <img class="screenshot img-third-width" src="./img/myFlix-retrospective-2.png"
+                                alt="myFlix-Angular-App case interface screenshot 2">
+                        <img class="screenshot img-third-width" src="./img/myFlix-retrospective-3.png"
+                                alt="myFlix-Angular-App case interface screenshot 3">
                         <h2>Duration</h2>
-                        <p>12 weeks in total (backend: 7 weeks, frontend: 5 weeks)</p>
+                        <p>Almost 1.5 weeks (10 days)</p>
                         <h2>Retrospective</h2>
                         <h3>Challenges</h3>
-                        <p>The development of the backend side was the most time-consuming, while the work on the client
-                                side was the most challenging technically. As a result, it took me longer to complete
-                                the full stack as compared to the usual duration of two CareerFoundry achievements. The
-                                reason for this was that I concentrated on the functional and visual improvements of
-                                both achievements above the basic requirements, and needed more time to troubleshoot the
-                                conditional rendering of JSX elements, how to implement Redux in React, and the
-                                conditional logic behind rendering the movie suggestions to the user.</p>
-                        <p>Nevertheless, this was my favorite project. I have enjoyed developing the user interface and
-                                working with database information. I also quickly enhanced my terminal skills,
-                                understanding of querying the MongoDB NoSQL database, conditional rendering, filtering
-                                data, customization of React Bootstrap components, as well as time-management and prioritization skills. Thankfully, my skilled tutor and
-                                mentor assisted me during the project and I was able to apply the gained skills later on
-                                when implementing additional features to the app.</p>
+                        <p>The development of the myFlix app took much less time and effort as compared to the R3play
+                                React app since:</p>
+                        <ul>
+                                <li>The API has already been built</li>
+                                <li>The extensive practice with React helped to progress faster</li>
+                                <li>I didn't add many additional features and stick to the basic course requirements
+                                </li>
+                                <li>The time left in the program was already limited</li>
+                        </ul>
+
+                        <p>The difficulties I encountered happened at the end of the project and related more to the peculiarities of Angular and Github. One issue occurred when Github pages refused to deploy the app
+                                for a long time. The other one happened when the local changes to the codebase didn't
+                                display in the deployed app. To troubleshoot this, I reached out to my mentor and tutor
+                                and, during a pair programming session, we managed to fix the problems.
+
+                        </p>
+                        <p>It was also a useful experience in debugging and troubleshooting, using git terminal
+                                commands, specifics of working with Angular, and pair programming sessions. I also added
+                                new skills to my arsenal, such as
+                                Typescript, Angular, Material UI, proper code commenting, collaboration, and others.
+                        </p>
                         <h3>Conclusion and Key Takeaways</h3>
-                        <p>The movie app was only the second full web application I developed in the Full-Stack
-                                web development course. When it was finished, I focused on enhancing my development skills, specifically the test-driven development approach. It requires
-                                implementing the testing phase before adding the actual functional logic, allowing for
-                                safer, bug-free, and quicker development.</p>
+                        <p>The myFlix app was the last full web application I developed in the Full-Stack
+                                web development course. When it was finished, I proceeded to enhance my portfolio.</p>
                         <h3>Main takeaways for future projects</h3>
                         <ul>
-                                <li>Focus on the required functionality first</li>
-                                <li>Enhance the time-management skills</li>
-                                <li>Deepen the knowledge of the used technologies by reading and practicing more</li>
-                                <li>Not doubting to reach out for help in case of technical issues</li>
+                                <li>Improve the app's functionality to reflect the R3play app's features</li>
+                                <li>Research more about Typescript</li>
+                                <li>Read more about Material UI</li>
+                                <li>Continue exploring other technologies and best practices in web development</li>
+
                         </ul>
-                        <img class="screenshot img-full-width" alt="A gif image showing additional features of the R3play app"
-                                src="./img/retrospective-1.gif">
-                        <img class="screenshot img-full-width" alt="A gif image showing additional features of the R3play app"
-                                src="./img/retrospective-2.gif">
                         <h2 class="video-image-heading">App Preview
                         </h2>
-                        <iframe class="r3play-case-video" src="https://www.veed.io/embed/a426c2ff-220e-44ed-b75b-98228f9b28d5" width="100%" height="600px" frameborder="0" title="r3play project demonstration" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe class="r3play-case-video"
+                                src="https://www.veed.io/embed/bd55039d-33e7-42a6-a579-09e4a44e9e75" width="100%"
+                                height="600px" frameborder="0" title="myFlix-Angular-App" webkitallowfullscreen
+                                mozallowfullscreen allowfullscreen></iframe>
                         <h2 class="video-image-heading">API Preview
                         </h2>
-                        <iframe class="r3play-case-video" src="https://www.veed.io/embed/7b350b36-d57f-4c0e-9780-ad041f0d2612" width="100%" height="600px" frameborder="0" title="r3play-api project deponstration" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe class="r3play-case-video"
+                                src="https://www.veed.io/embed/7b350b36-d57f-4c0e-9780-ad041f0d2612" width="100%"
+                                height="600px" frameborder="0" title="r3play-api project deponstration"
+                                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         <h2 class="technologies-heading">Technologies used/Skills</h2>
-                        <p class="skills-paragraphs"><span>React.js</span>
+                        <p class="skills-paragraphs"><span>Angular</span>
                         </p>
                         <p class="skills-paragraphs"><span>
-                                        React Bootstrap</span></p>
-                        <p class="skills-paragraphs"><span>Testing</span>
+                                        Material UI</span></p>
+                        <p class="skills-paragraphs"><span>Javascript</span>
                         </p>
-                        <p class="skills-paragraphs"><span>Google
-                                        Calendar API</span></p>
+                        <p class="skills-paragraphs"><span>CSS3</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Documentation</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Typedoc</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Agile workflow</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Kanban board</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>User stories</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Collaboration</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Contributing</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Providing feedback</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Teamwork</span>
+                        </p>
+                        <p class="skills-paragraphs"><span>Responsive
+                                        design</span></p>
                         <p class="skills-paragraphs"><span>CSS3</span>
                         </p>
                         <p class="skills-paragraphs"><span>HTML5</span>
                         </p>
                         <p class="skills-paragraphs"><span>Ajax</span>
-                        </p>
-                        <p class="skills-paragraphs"><span>Progressive
-                                        Web Apps</span></p>
-                        <p class="skills-paragraphs"><span>AWS Lambda</span></p>
-                        <p class="skills-paragraphs"><span>Responsive
-                                        design</span></p>
-                        <p class="skills-paragraphs"><span>OAuth2</span>
                         </p>
                         <p class="skills-paragraphs"><span>Deploying
                                         a website</span></p>

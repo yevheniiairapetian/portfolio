@@ -623,6 +623,13 @@ input[type="text"], input[type="email"], input[type="tel"]{
     text-align:center;
 }
 
+.owrite-hero-image{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 /* scrollbar width */
 ::-webkit-scrollbar {
     width: 10px;
