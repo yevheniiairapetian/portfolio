@@ -928,6 +928,13 @@ input[type="text"], input[type="email"], input[type="tel"]{
     margin: 0 auto;
 }
 
+.to-do-hero-image{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .projects-main-heading{
     margin-top: 40px;
 }
@@ -953,7 +960,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
   
   /* scrollbar Handle */
   ::-webkit-scrollbar-thumb {
-    background: #8099E1;
+    background: #1C7488;
     border-radius: 10px;
   }
 
@@ -1047,7 +1054,12 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .is-hidden{
         display:none;
     }
-
+    .to-do-hero-image{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
     
     .r3play-case-video{
         height: 200px;
