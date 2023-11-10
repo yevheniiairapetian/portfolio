@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
                 integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
                 crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
         <title>Yevhenii Airapetian - Projects</title>
 </head>
 
@@ -32,19 +32,22 @@
                                 alt="Website's logo image in black letters and a line of text in the middle"></a>
 
                 <nav class="page-header_item">
-                        <input type="checkbox" name="" id="hamburger">
+                        <!-- <input type="checkbox" name="" id="hamburger"> -->
                         <div id="burger-menu">
                                 <span></span>
                         </div>
-                        <ul class="navigation-list">
+                        <ul onclick="toggleMenu()" style="right: -100%;" class="navigation-list">
                                 <li role="presentation"><a href="index.html">About</a></li>
                                 <li role="presentation"><a href="works.html">Projects</a></li>
                                 <li role="presentation"><a href="contact.html">Contact</a></li>
                             </ul>
-                        <div class="hamburger-container">
-                                <label for="hamburger">
-                                        <i class="fa-solid fa-bars fa-xl"></i>
-                                </label>
+                        <div >
+                                <a class="hamburger-container" style="cursor: pointer" onclick="toggleMenu()">
+                                        <label for="hamburger">
+                                                <i class="fa-solid fa-bars fa-xl"></i>
+                                        </label>
+                                        </a>
+                                
                         </div>
                 </nav>
 

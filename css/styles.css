@@ -214,6 +214,7 @@ td{
 
 .hamburger-container{
     display:none;
+    padding: 42px 0 42px 0;
 }
 
 .hamburger-symbol{
@@ -897,22 +898,23 @@ input[type="text"], input[type="email"], input[type="tel"]{
                 align-items:center;
     }
     .hamburger-container{
+        padding: 42px 0 42px 0;
         display:block;
         text-align: right;
         /* -webkit-animation: menu-animation 2s linear infinite;
                 animation: menu-animation 2s linear infinite; */
     }
 
-    #hamburger:checked ~ ul{
+     /* #hamburger:checked ~ ul{
         right: 0;
         
-    } 
+    }  */
 
-    #hamburger:checked ~ ul{
-        right: 0;
-        }
-        
+        /* .hidden{
+
+        } */
     .page-header_item .navigation-list{
+        z-index:100;
         text-align: center;
         flex: 2;
         display: flex;
@@ -930,6 +932,11 @@ input[type="text"], input[type="email"], input[type="tel"]{
         transition: right 0.2s linear;
         opacity:0.9;
 }
+
+/* .page-header_item .hidden{
+    
+    right: -100%;
+} */
 
 .page-header_item .navigation-list li a{
     font-size:26px;
@@ -953,9 +960,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
     
 }
 
-input#hamburger{
+/* input#hamburger{
     display: none;
-    }
+    } */
 
     @media screen and (max-width: 950px) {
         .projects-information_container{
@@ -1023,6 +1030,7 @@ input#hamburger{
                 align-items:center;
     }
     .hamburger-container{
+        padding: 42px 0 42px 0;
         display:block;
         text-align: right;
         /* -webkit-animation: menu-animation 2s linear infinite;
@@ -1030,13 +1038,13 @@ input#hamburger{
     }
 
 
-    input#hamburger{
+    /* input#hamburger{
         display: none;
-        }
-    #hamburger:checked ~ ul{
+        } */
+    /* #hamburger:checked ~ ul{
         right: 0;
         
-        }
+        } */
         .hamburger-symbol{
             font-size:40px;
             margin-right:10px;
