@@ -22,31 +22,35 @@
 </head>
 
 <body>
-    <!-- header section -->
+    <!-- navigation -->
     <header class="page-header">
-        <a class="page-header_link" href="index.html" target="_self"><img src="./img/logo.svg" class="page-header_item"
-                alt="Website's logo image in black letters and a line of text in the middle"></a>
-        <!-- navigation -->
-        <nav class="page-header_item">
-            <input type="checkbox" name="" id="hamburger">
-            <div id="burger-menu">
-                <span></span>
-            </div>
-            <ul class="navigation-list">
-                <li role="presentation"><a href="index.html">About</a></li>
-                <li role="presentation"><a href="works.html">Projects</a></li>
-                <li role="presentation"><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="hamburger-container">
-                <label for="hamburger" id="hamburger-label">
-                    <i class="fa-solid fa-bars fa-xl"></i>
-                </label>
-            </div>
-        </nav>
-        <!-- end of navigation -->
+            <a class="page-header_link" href="index.html" target="_self"><img src="./img/logo.svg"
+                            class="page-header_item"
+                            alt="Website's logo image in black letters and a line of text in the middle"></a>
+
+            <nav class="page-header_item">
+                    <!-- <input type="checkbox" name="" id="hamburger"> -->
+                    <div id="burger-menu">
+                            <span></span>
+                    </div>
+                    <ul onclick="toggleMenu()" style="right: -100%;" class="navigation-list">
+                            <li role="presentation"><a href="index.html">About</a></li>
+                            <li role="presentation"><a href="works.html">Projects</a></li>
+                            <li role="presentation"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    <div >
+                            <a class="hamburger-container" style="cursor: pointer" onclick="toggleMenu()">
+                                    <label for="hamburger">
+                                            <i class="fa-solid fa-bars fa-xl"></i>
+                                    </label>
+                                    </a>
+                            
+                    </div>
+            </nav>
+
 
     </header>
-    <!-- end of header -->
+    <!-- end of navigation -->
 
     <!-- impressum section -->
     <main class="main-information">
