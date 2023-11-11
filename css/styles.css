@@ -261,9 +261,29 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, te
     outline:1px solid var(--primary-outline-input-color);
 }
 
+/* #read-more-1, #read-more-2, #read-more-3, #read-more-4, #read-more-5, #read-more-6, #read-more-7 {display: none;} */
+.slides p span:last-of-type{
+    display: none;
+}
 .table-container{
     overflow-x:auto;
 }
+
+.read-more-btn{
+        padding: 6px 16px;
+        margin-top: 10px;
+        margin-bottom: 14px;
+        display: inline-block;
+        background-color: #529fcc;
+        border-radius: 22px;
+        color: white;
+        text-decoration: none;
+    }
+    .read-more-btn:hover{
+        background-color: #3e8cb9;
+        color: white;
+        transition: background-color 0.3s ease-out, color 0.3s ease-out; 
+    }
 
 th{
     background-color:var(--primary-th-bg-color);
@@ -981,6 +1001,22 @@ input[type="text"], input[type="email"], input[type="tel"]{
     }
 }
 
+@media screen and (min-width: 600px){
+    .read-more-btn{
+        padding: 6px 16px;
+        margin-top: 10px;
+        margin-bottom: 14px;
+        margin-left: 8px;
+        display: inline;
+        background-color: #529fcc;
+        border-radius: 22px;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+
 @media screen and (max-width: 480px){
     .is-hidden{
         display:none;
@@ -990,6 +1026,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
         height: auto;
         display: block;
         margin: 0 auto;
+    }
+
+    .read-more-btn{
+        margin-left: 12px;
     }
 
     .slider-overview-paragraph{
@@ -1269,7 +1309,6 @@ input[type="text"], input[type="email"], input[type="tel"]{
 
     }
 @media screen and (min-width:921px){
-    
     
      img.img-half-width{
         width: 49%;
