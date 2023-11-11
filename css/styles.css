@@ -170,6 +170,7 @@ p{
 h1{
     font-size:30px;
     padding-left: 18px;
+    line-height: 1.8em;
 }
 
 h2{
@@ -1099,7 +1100,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
         background: #2b2b2b;
         height: calc(100vh - 250px);
         width: 100%;
-        height:72%;
+        height:84%;
         flex-direction: column;
         align-items: center;
         transition: right 0.2s linear;
@@ -1246,7 +1247,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
             background: #2b2b2b;
             height: calc(100vh - 250px);
             width: 100%;
-            height:70%;
+            height:80%;
             transition: right 0.2s linear;
             opacity:0.9;
 }
