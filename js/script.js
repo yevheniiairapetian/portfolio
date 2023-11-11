@@ -113,5 +113,3 @@ function myFunction() {
     readMore7.style.display = "inline";
   }
 }
-
-

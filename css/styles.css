@@ -257,6 +257,7 @@ a:focus{
     transition: opacity 0.4s, background-color 0.4s, border-bottom 0.2s;
 }
 
+
 input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus{
     outline:1px solid var(--primary-outline-input-color);
 }
