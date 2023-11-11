@@ -1144,6 +1144,11 @@ input[type="text"], input[type="email"], input[type="tel"]{
         }
 
 @media screen and (min-width: 1px) and (max-width:480px){
+
+.slide-prev-button, .slide-next-button{
+font-size: 14px;
+}
+
     .is-hidden{
         display:none;
     }
@@ -1227,6 +1232,12 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .is-hidden{
         display:none;
     }
+
+
+.slide-prev-button, .slide-next-button{
+font-size: 14px;
+}
+
     .to-do-hero-image{
         width: 100%;
         height: auto;
