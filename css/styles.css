@@ -42,6 +42,8 @@
 *{
     box-sizing: border-box;
     font-family:'Montserrat', sans-serif;
+    -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body{
@@ -58,6 +60,93 @@ body{
     padding:0;
     margin-top: 40px;
     margin-bottom:40px;
+}
+
+.project-headings{
+    margin-top: 34px;
+    text-align: center;
+}
+
+.slider-image{
+    width: 95%;
+    height: auto;
+}
+
+.slide-controls-container{
+    margin: 0 auto;
+}
+
+.slide-controls-section{
+    width: 242px;
+    margin: 32px auto 20px auto;
+}
+
+.slide-switch-section{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.slide-counts{
+    background-color: #529fcc;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: #000000;
+    margin-right: 8px;
+}
+
+.slide-counts:hover{
+    transform: scale(1.1);
+    background-color:#4090be;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.slide-prev-button{
+    margin-right: 30px;
+}
+
+.slide-prev-button, .slide-next-button{
+    background-color: #529fcc;
+    padding: 8px 14px;
+    color: #000000; 
+    width: 100px;
+    border-radius: 24px;
+
+}
+
+.slide-prev-button:hover{
+    background-color:#4090be;
+    padding-right: 26px;
+    transition: padding-right 0.4s ease-in-out, background-color 0.3s ease-in-out;
+    
+}
+
+.slide-next-button:hover{
+    background-color:#4090be;
+    padding-left: 26px;
+    transition: padding-left 0.4s ease-in-out, background-color 0.3s ease-in-out;  
+}
+
+.slider-container{
+    max-width: 70%;
+    margin: 0 auto;
+    background-color:
+}
+
+.slider-outer-wrapper{
+    background-color: #eeeef7;
+}
+
+.slides{
+    width:100%;
+    line-height: 2em;
 }
 
 .technologies-heading{
@@ -594,6 +683,10 @@ a.deployed-link:hover{
     color: white;
 }
 
+.main-footer p{
+    color: #000000;
+}
+
 .social-container{
     padding-top:50px;
     padding-bottom:20px;
@@ -629,6 +722,12 @@ a.deployed-link:hover{
 
 .projects-overview-paragraph{
     margin-left:20px;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+.slider-overview-paragraph{
+    margin-bottom:50px;
     line-height: 2em;
     font-size: 18px;
 }
@@ -872,6 +971,15 @@ input[type="text"], input[type="email"], input[type="tel"]{
         height: auto;
         display: block;
         margin: 0 auto;
+    }
+
+    .main-footer p{
+        text-align: center;
+    }
+
+    .slider-image{
+        width: 100%;
+        height: auto;
     }
     
     .r3play-case-video{
