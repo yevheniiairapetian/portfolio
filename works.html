@@ -20,9 +20,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
                 integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
                 crossorigin="anonymous" referrerpolicy="no-referrer" />
-                
+
         <link rel="stylesheet" type="text/css" href="css/style.production.css">
-        
+
         <title>Yevhenii Airapetian - Projects</title>
 </head>
 
@@ -42,14 +42,14 @@
                                 <li role="presentation"><a href="index.html">About</a></li>
                                 <li role="presentation"><a href="works.html">Projects</a></li>
                                 <li role="presentation"><a href="contact.html">Contact</a></li>
-                            </ul>
-                        <div >
+                        </ul>
+                        <div>
                                 <a class="hamburger-container" style="cursor: pointer" onclick="toggleMenu()">
                                         <label for="hamburger">
                                                 <i class="fa-solid fa-bars fa-xl"></i>
                                         </label>
-                                        </a>
-                                
+                                </a>
+
                         </div>
                 </nav>
 
@@ -58,153 +58,229 @@
         <!-- end of navigation -->
 
         <h1 class="projects-main-heading">Projects</h1>
-        <p class="projects-overview-paragraph">Here you will find the current web development projects that I completed and worked on. All of them have hyperlinks to the codebase and the project cases, most have a link to the deployed version, and some also have additional links.</p>
-        <img class="projects-image" src="img/projects.jpg" alt="An image showing a person typing in code and two laptops">
+        <p class="projects-overview-paragraph">Here you will find the current web development projects that I completed
+                and worked on. All of them have hyperlinks to the codebase and the project cases, most have a link to
+                the deployed version, and some also have additional links.</p>
+        <img class="projects-image" src="img/projects.jpg"
+                alt="An image showing a person typing in code and two laptops">
 
 
         <p class="slider-overview-paragraph center">Use the slider controls to click through the projects list.</p>
-        
+
         <!-- start of slider container -->
         <div class="slider-outer-wrapper">
-        <div class="slider-container">
-                <div class="slides">
-                        <h2 class="project-headings">R3play Web API</h2>
-        <p>A Web API developed with Node.js, Express, and MongoDB, allowing users to register and view
-                information about movies, TV series, and anime, and manage favorites.</p>
-        <div class="work-links"><a target="_blank" class="deployed-link"
-                        href="https://github.com/yevheniiairapetian/r3play"><i alt="An icon showing a code symbol" class="fa-solid fa-code fa-xl"></i></a></div>
-        <div class="work-links"><a class="deployed-link" target="_blank"
-                        href="https://r3play-934f9ea5664d.herokuapp.com/"><i alt="An icon showing an external resource symbol" class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                <div class="slider-container">
+                        <div class="slides">
+                                <h2 class="project-headings">R3play Web API</h2>
+                                <p>A Web API developed with Node.js, Express, and MongoDB, allowing users to register
+                                        and view
+                                        information about movies, TV series, and anime, and manage favorites.</p>
+                                <div class="work-links-container">
+                                        <div class="work-links"><a target="_blank" class="deployed-link"
+                                                        href="https://github.com/yevheniiairapetian/r3play"><i
+                                                                alt="An icon showing a code symbol"
+                                                                class="fa-solid fa-code fa-xl"></i></a></div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="https://r3play-934f9ea5664d.herokuapp.com/"><i
+                                                                alt="An icon showing an external resource symbol"
+                                                                class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                                        </div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="r3play-case.html"><i
+                                                                alt="An icon showing an information symbol"
+                                                                class="fa-solid fa-circle-info fa-xl"></i></a></div>
+                                </div>
+                                <img class="slider-image" src="./img/r3play-api-hero-image.png"
+                                        alt="R3play Web API screenshot">
+                        </div>
+                        <div class="slides" style="width:100%">
+                                <h2 class="project-headings">R3play App</h2>
+                                <p>The front end of the R3play Web API that allows users to register, view information
+                                        about
+                                        movies, TV series, and anime, and manage favorites.
+                                </p>
+                                <div class="work-links-container">
+                                        <div class="work-links"><a target="_blank" class="deployed-link"
+                                                        href="https://github.com/yevheniiairapetian/r3play-client"><i
+                                                                alt="An icon showing a code symbol"
+                                                                class="fa-solid fa-code fa-xl"></i></a></div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="https://r3play.netlify.app/"><i
+                                                                alt="An icon showing an external resource symbol"
+                                                                class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                                        </div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="r3play-case.html"><i
+                                                                alt="An icon showing an information symbol"
+                                                                class="fa-solid fa-circle-info fa-xl"></i></a></div>
+                                </div>
+                                <img class="slider-image" src="./img/project4.png" alt="R3play App screenshot">
+
+                        </div>
+                        <div class="slides" style="width:100%">
+                                <h2 class="project-headings">MyFlix Angular App</h2>
+                                <p>A front-end part for the R3play Web API designed with Angular, Typescript,
+                                        and Material UI allowing users to register, view information about movies, and
+                                        manage
+                                        favorites.</p>
+                                <div class="work-links-container">
+                                        <div class="work-links"><a target="_blank" class="deployed-link"
+                                                        href="https://github.com/yevheniiairapetian/myFlix-Angular-client"><i
+                                                                alt="An icon showing a code symbol"
+                                                                class="fa-solid fa-code fa-xl"></i></a>
+                                        </div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="https://yevheniiairapetian.github.io/myFlix-Angular-client/"><i
+                                                                alt="An icon showing an external resource symbol"
+                                                                class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                                        </div>
+
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="myFlix-app-case.html"><i
+                                                                alt="An icon showing an information symbol"
+                                                                class="fa-solid fa-circle-info fa-xl"></i></a></div>
+
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="https://trello.com/b/495tvGf9/kanban-template"><i
+                                                                alt="An icon showing a checked board symbol"
+                                                                class="fa-solid fa-clipboard-check fa-xl"></i></a></div>
+
+                                </div>
+                                <img class="slider-image" src="./img/myFlix-hero-image.png"
+                                        alt="MyFlix-Angular App screenshot">
+
+                        </div>
+                        <div class="slides" style="width:100%">
+                                <h2 class="project-headings">Meet App</h2>
+                                <p>A Progressive Web App written with AWS Lambda functions that employs OAuth2
+                                        authorization
+                                        and
+                                        authentication and
+                                        displays events from a Google Calendar API. </p>
+                                <div class="work-links-container">
+                                        <div class="work-links"><a target="_blank" class="deployed-link"
+                                                        href="https://github.com/yevheniiairapetian/meet"><i
+                                                                alt="An icon showing a code symbol"
+                                                                class="fa-solid fa-code fa-xl"></i></a></div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="https://yevheniiairapetian.github.io/meet/"><i
+                                                                alt="An icon showing an external resource symbol"
+                                                                class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                                        </div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="meet-app-case.html"><i
+                                                                alt="An icon showing an information symbol"
+                                                                class="fa-solid fa-circle-info fa-xl"></i></a></div>
+                                </div>
+                                <img class="slider-image" src="./img/meet-app-hero-image.png" alt="Meet App screenshot">
+                        </div>
+                        <div class="slides" style="width:100%">
+                                <h2 class="project-headings">OWrite React Native App</h2>
+                                <p>A React Native application that allows users to chat</p>
+                                <div class="work-links-container">
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="https://github.com/yevheniiairapetian/owrite"><i
+                                                                alt="An icon showing a code symbol"
+                                                                class="fa-solid fa-code fa-xl"></i></a></div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="owrite-app-case.html"><i
+                                                                alt="An icon showing an information symbol"
+                                                                class="fa-solid fa-circle-info fa-xl"></i></a></div>
+                                </div>
+                                <img class="slider-image" src="./img/owrite-case-hero-image-2.png"
+                                        alt="OWrite App screenshot">
+                        </div>
+                        <div class="slides" style="width:100%">
+                                <h2 class="project-headings">Pokemon App</h2>
+                                <p>A responsive Pokemon App fetching Pokemon with Ajax from an external API and
+                                        displaying
+                                        their info.
+                                </p>
+                                <div class="work-links-container">
+                                        <div class="work-links"><a target="_blank" class="deployed-link"
+                                                        href="https://github.com/yevheniiairapetian/pokemon-app"><i
+                                                                alt="An icon showing a code symbol"
+                                                                class="fa-solid fa-code fa-xl"></i></a></div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="https://yevheniiairapetian.github.io/pokemon-app/"><i
+                                                                alt="An icon showing an external resource symbol"
+                                                                class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                                        </div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="pokemon-app-case.html"><i
+                                                                alt="An icon showing an information symbol"
+                                                                class="fa-solid fa-circle-info fa-xl"></i></a></div>
+                                </div>
+                                <img class="slider-image" src="./img/pokemon-hero-image.png"
+                                        alt="Pokemon App screenshot">
+
+                        </div>
+                        <div class="slides" style="width:100%">
+                                <h2 class="project-headings">Responsive To-Do App</h2>
+                                <p>A jQuery and Bootstrap to-do app that allows users to manage to-dos.
+                                </p>
+                                <div class="work-links-container">
+                                        <div class="work-links"><a target="_blank" class="deployed-link"
+                                                        href="https://github.com/yevheniiairapetian/to-do-list-app"><i
+                                                                alt="An icon showing a code symbol"
+                                                                class="fa-solid fa-code fa-xl"></i></a></div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="https://yevheniiairapetian.github.io/to-do-list-app/"><i
+                                                                alt="An icon showing an external resource symbol"
+                                                                class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                                        </div>
+                                        <div class="work-links"><a class="deployed-link" target="_blank"
+                                                        href="to-do-app-case.html"><i
+                                                                alt="An icon showing an information symbol"
+                                                                class="fa-solid fa-circle-info fa-xl"></i></a></div>
+                                </div>
+                                <img class="slider-image" src="./img/to-do-hero-image.png" alt="To-Do App screenshot">
+                        </div>
+                </div>
         </div>
-        <div class="work-links"><a class="deployed-link" target="_blank" href="r3play-case.html"><i alt="An icon showing an information symbol" class="fa-solid fa-circle-info fa-xl"></i></a></div>
-        <img class="slider-image"
-         
-        src="./img/r3play-api-hero-image.png" alt="R3play Web API screenshot">
-                </div>
-                <div class="slides" style="width:100%">
-                        <h2 class="project-headings">R3play App</h2>
-                        <p>The front end of the R3play Web API that allows users to register, view information about
-                                movies, TV series, and anime, and manage favorites.
-                        </p>
-                        <div class="work-links"><a target="_blank" class="deployed-link"
-                                        href="https://github.com/yevheniiairapetian/r3play-client"><i alt="An icon showing a code symbol" class="fa-solid fa-code fa-xl"></i></a></div>
-                        <div class="work-links"><a class="deployed-link" target="_blank" href="https://r3play.netlify.app/"><i alt="An icon showing an external resource symbol" class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a></div>
-                        <div class="work-links"><a class="deployed-link" target="_blank" href="r3play-case.html"><i alt="An icon showing an information symbol" class="fa-solid fa-circle-info fa-xl"></i></a></div>
-                        <img class="slider-image" src="./img/project4.png" alt="R3play App screenshot">
-                
-                </div>
-                <div class="slides" style="width:100%">
-                        <h2 class="project-headings">MyFlix Angular App</h2>
-                        <p>A front-end part for the R3play Web API designed with Angular, Typescript,
-                                and Material UI allowing users to register, view information about movies, and manage
-                                favorites.</p>
-                        <div class="work-links"><a target="_blank" class="deployed-link"
-                                        href="https://github.com/yevheniiairapetian/myFlix-Angular-client"><i alt="An icon showing a code symbol" class="fa-solid fa-code fa-xl"></i></a>
-                        </div>
-                        <div class="work-links"><a class="deployed-link" target="_blank"
-                                        href="https://yevheniiairapetian.github.io/myFlix-Angular-client/"><i alt="An icon showing an external resource symbol" class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a></div>
-                
-                        <div class="work-links"><a class="deployed-link" target="_blank" href="myFlix-app-case.html"><i alt="An icon showing an information symbol" class="fa-solid fa-circle-info fa-xl"></i></a></div>
-                        <div class="work-links"><a class="deployed-link" target="_blank"
-                                        href="https://trello.com/b/495tvGf9/kanban-template"><i alt="An icon showing a checked board symbol" class="fa-solid fa-clipboard-check fa-xl"></i></a></div>
-                
-                        <img class="slider-image" src="./img/myFlix-hero-image.png"
-                                alt="MyFlix-Angular App screenshot">
-                
-                </div>
-                <div class="slides" style="width:100%">
-                        <h2 class="project-headings">Meet App</h2>
-                        <p>A Progressive Web App written with AWS Lambda functions that employs OAuth2 authorization
-                                and
-                                authentication and
-                                displays events from a Google Calendar API. </p>
-                        <div  class="work-links"><a target="_blank" class="deployed-link"
-                                        href="https://github.com/yevheniiairapetian/meet"><i alt="An icon showing a code symbol" class="fa-solid fa-code fa-xl"></i></a></div>
-                        <div class="work-links"><a class="deployed-link" target="_blank"
-                                        href="https://yevheniiairapetian.github.io/meet/"><i alt="An icon showing an external resource symbol" class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
-                        </div>
-                        <div class="work-links"><a class="deployed-link" target="_blank" href="meet-app-case.html"><i alt="An icon showing an information symbol" class="fa-solid fa-circle-info fa-xl"></i></a></div>
-                        <img class="slider-image" src="./img/meet-app-hero-image.png" alt="Meet App screenshot">
-                </div>
-                <div class="slides" style="width:100%">
-                        <h2 class="project-headings">OWrite React Native App</h2>
-                        <p>A React Native application that allows users to chat</p>
-                        <div class="work-links"><a class="deployed-link" target="_blank" href="https://github.com/yevheniiairapetian/owrite"><i alt="An icon showing a code symbol" class="fa-solid fa-code fa-xl"></i></a></div>
-                        <div class="work-links"><a class="deployed-link" target="_blank" href="owrite-app-case.html"><i alt="An icon showing an information symbol" class="fa-solid fa-circle-info fa-xl"></i></a></div>
-                        <img class="slider-image" src="./img/owrite-case-hero-image-2.png"
-                                alt="OWrite App screenshot">
-                </div>
-                <div class="slides" style="width:100%">
-                        <h2 class="project-headings">Pokemon App</h2>
-                        <p>A responsive Pokemon App fetching Pokemon with Ajax from an external API and displaying
-                                their info.
-                        </p>
-                
-                        <div class="work-links"><a target="_blank" class="deployed-link"
-                                        href="https://github.com/yevheniiairapetian/pokemon-app"><i alt="An icon showing a code symbol" class="fa-solid fa-code fa-xl"></i></a></div>
-                        <div class="work-links"><a class="deployed-link" target="_blank"
-                                        href="https://yevheniiairapetian.github.io/pokemon-app/"><i alt="An icon showing an external resource symbol" class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
-                        </div>
-                        <div class="work-links"><a class="deployed-link" target="_blank" href="pokemon-app-case.html"><i alt="An icon showing an information symbol" class="fa-solid fa-circle-info fa-xl"></i></a></div>
-                        <img class="slider-image" src="./img/pokemon-hero-image.png" alt="Pokemon App screenshot">
-                
-                </div>
-                <div class="slides" style="width:100%">
-                        <h2 class="project-headings">Responsive To-Do App</h2>
-                        <p>A jQuery and Bootstrap to-do app that allows users to manage to-dos.
-                        </p>
-                        <div class="work-links"><a target="_blank" class="deployed-link"
-                                        href="https://github.com/yevheniiairapetian/to-do-list-app"><i alt="An icon showing a code symbol" class="fa-solid fa-code fa-xl"></i></a></div>
-                        <div class="work-links"><a class="deployed-link" target="_blank"
-                                        href="https://yevheniiairapetian.github.io/to-do-list-app/"><i alt="An icon showing an external resource symbol" class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a></div>
-                        <div class="work-links"><a class="deployed-link" target="_blank" href="to-do-app-case.html"><i alt="An icon showing an information symbol" class="fa-solid fa-circle-info fa-xl"></i></a></div>
-                        <img class="slider-image" src="./img/to-do-hero-image.png" alt="To-Do App screenshot">
-                </div>
-              </div>
-        </div>
-              
-              <div class="slide-controls-container">
+
+        <div class="slide-controls-container">
                 <div class="slide-controls-section">
-                  <button class="slide-prev-button" onclick="plusDivs(-1)">❮ Prev</button>
-                  <button class="slide-next-button" onclick="plusDivs(1)">Next ❯</button>
+                        <button class="slide-prev-button" onclick="plusDivs(-1)">❮ Prev</button>
+                        <button class="slide-next-button" onclick="plusDivs(1)">Next ❯</button>
                 </div>
                 <div class="slide-switch-section">
-                <button class="slide-counter-button slide-counts" onclick="currentDiv(1)">1</button> 
-                <button class="slide-counter-button slide-counts" onclick="currentDiv(2)">2</button> 
-                <button class="slide-counter-button slide-counts" onclick="currentDiv(3)">3</button> 
-                <button class="slide-counter-button slide-counts" onclick="currentDiv(4)">4</button> 
-                <button class="slide-counter-button slide-counts" onclick="currentDiv(5)">5</button> 
-                <button class="slide-counter-button slide-counts" onclick="currentDiv(6)">6</button>
-                <button class="slide-counter-button slide-counts" onclick="currentDiv(7)">7</button>
+                        <button class="slide-counter-button slide-counts" onclick="currentDiv(1)">1</button>
+                        <button class="slide-counter-button slide-counts" onclick="currentDiv(2)">2</button>
+                        <button class="slide-counter-button slide-counts" onclick="currentDiv(3)">3</button>
+                        <button class="slide-counter-button slide-counts" onclick="currentDiv(4)">4</button>
+                        <button class="slide-counter-button slide-counts" onclick="currentDiv(5)">5</button>
+                        <button class="slide-counter-button slide-counts" onclick="currentDiv(6)">6</button>
+                        <button class="slide-counter-button slide-counts" onclick="currentDiv(7)">7</button>
+                </div>
         </div>
-              </div>
 
         <!-- footer section -->
-    <footer class="main-footer">
-        <div class="social-container">
-            <a href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><i alt="A Github icon"
-                    class="fa-brands fa-github fa-xl"></i></a>
-            <a href="https://www.linkedin.com/in/yevhenii-airapetian/" target="_blank" rel="noopener"><i
-                    alt="A LinkedIn icon" class="fa-brands fa-linkedin fa-xl"></i></a>
-            <a href="https://twitter.com/sonkozhenya" target="_blank" rel="noopener"><i alt="A Twitter icon"
-                    class="fa-brands fa-twitter fa-xl"></i></a>
-            <a href="https://dev.to/yevheniiairapetian" target="_blank" rel="noopener"><i alt="A Dev.to icon"
-                    class="fa-brands fa-dev fa-xl"></i></a>
-            <a href="https://medium.com/@sonkozhenia11" target="_blank" rel="noopener"><i alt="A Medium icon"
-                    class="fa-brands fa-medium fa-xl"></i></a>
+        <footer class="main-footer">
+                <div class="social-container">
+                        <a href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Github icon" class="fa-brands fa-github fa-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/yevhenii-airapetian/" target="_blank" rel="noopener"><i
+                                        alt="A LinkedIn icon" class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href="https://twitter.com/sonkozhenya" target="_blank" rel="noopener"><i alt="A Twitter icon"
+                                        class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href="https://dev.to/yevheniiairapetian" target="_blank" rel="noopener"><i
+                                        alt="A Dev.to icon" class="fa-brands fa-dev fa-xl"></i></a>
+                        <a href="https://medium.com/@sonkozhenia11" target="_blank" rel="noopener"><i
+                                        alt="A Medium icon" class="fa-brands fa-medium fa-xl"></i></a>
 
-        </div>
-        <p>© Yevhenii Airapetian. All rights reserved.</p>
-        <a class="impressum" target="_self" href="impressum.html">Impressum</a>
-        
-             
-    </footer>
-    <!-- end of footer section -->
+                </div>
+                <p>© Yevhenii Airapetian. All rights reserved.</p>
+                <a class="impressum" target="_self" href="impressum.html">Impressum</a>
+
+
+        </footer>
+        <!-- end of footer section -->
 
         <!-- accessibility testing library -->
 
         <!-- <script src="js/tota11y.min.js"></script> -->
-        
+
         <script src="js/script.js"></script>
 
 </body>

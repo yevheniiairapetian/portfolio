@@ -68,6 +68,8 @@ body{
 }
 
 .slider-image{
+    margin-top: 20px;
+    margin-bottom: 25px;
     width: 95%;
     height: auto;
 }
@@ -785,6 +787,14 @@ i.fa-envelope:hover, i.fa-skype:hover, i.fa-linkedin:hover, i.fa-twitter:hover, 
     transition: color 0.2s ease, translate 0.3s linear;
 }
 
+i.fa-envelope.contact-icons, i.fa-linkedin.contact-icons{
+    color: #529fcc;
+}
+
+i.fa-envelope.contact-icons:hover, i.fa-linkedin.contact-icons:hover{
+    color: #3888b6;
+}
+
 i.fa-envelope, i.fa-twitter, i.fa-linkedin, i.fa-github, i.fa-medium, i.fa-dev{
     padding-right:15px;
     font-size: 28px;
@@ -827,6 +837,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
     transition: color 0.3s ease, translate 0.3s linear;
 }
 
+.work-links-container{
+    text-align:center;
+}
 
 .owrite-hero-image{
     width: 40%;
@@ -842,6 +855,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
     margin: 0 auto;
 }
 
+
+.contact-hyperlinks{
+    text-decoration: none;
+}
 .projects-main-heading{
     margin-top: 40px;
 }
@@ -855,6 +872,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
 
 .fa-code, .fa-arrow-up-right-from-square, .fa-circle-info, .fa-clipboard-check{
     color: #3363AA;
+   
 }
 
 .fa-code:hover, .fa-arrow-up-right-from-square:hover, .fa-circle-info:hover, .fa-clipboard-check:hover{
@@ -890,7 +908,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
     width: 35%;
         }
 
-@media screen and (min-width: 1px) and (max-width:479px){
+@media screen and (min-width: 1px) and (max-width:480px){
     .is-hidden{
         display:none;
     }
@@ -973,11 +991,17 @@ input[type="text"], input[type="email"], input[type="tel"]{
         margin: 0 auto;
     }
 
+    .slider-overview-paragraph{
+        padding: 0 28px;
+    }
+
     .main-footer p{
         text-align: center;
     }
 
     .slider-image{
+        margin-top: 20px;
+    margin-bottom: 25px;
         width: 100%;
         height: auto;
     }
@@ -1118,6 +1142,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
             grid-template-columns:1fr;
             grid-gap:10px;
         }
+        .slider-overview-paragraph{
+            padding: 0 28px;
+        }
     }
     
     @media screen and (min-width: 951px) {
@@ -1132,6 +1159,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
 @media screen and (min-width:481px) and (max-width: 920px) {
     .is-hidden{
         display:none;
+    }
+
+    .slider-overview-paragraph{
+        padding: 0 28px;
     }
     .r3play-case-video{
         height: 400px;
