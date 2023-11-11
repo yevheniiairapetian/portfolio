@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
+        
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="./img/favicon.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
                 integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
                 crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -21,7 +23,7 @@
                 integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
                 crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
 
         <title>Yevhenii Airapetian - Projects</title>
 </head>
@@ -65,16 +67,15 @@
                 alt="An image showing a person typing in code and two laptops">
 
 
-        <p class="slider-overview-paragraph center">Use the slider controls to click through the projects list.</p>
+        <p class="slider-overview-paragraph center">Use the slider controls to click through the projects list. <br> Click on the image and hold to zoom in.</p>
 
         <!-- start of slider container -->
         <div class="slider-outer-wrapper">
                 <div class="slider-container">
                         <div class="slides">
                                 <h2 class="project-headings">R3play Web API</h2>
-                                <p>A Web API developed with Node.js, Express, and MongoDB<span class="dots" id="dots-1">...</span><span class="read-more" id="read-more-1">, allowing users to register
-                                        and view information about movies, TV series, and anime, and manage favorites.</span> 
-                                        <button class="read-more-btn myBtn" onclick="myFunction()" id="myBtn1">More</button>
+                                <p>A Web API developed with Node.js, Express, and MongoDB, <span class="dots" id="dots-1">...</span><span class="read-more" id="read-more-1">allowing users to register and view information about movies, TV series, and anime, and manage favorites.</span>
+                                        <a class="read-more-btn myBtn" onclick="myFunction()" id="myBtn1">More</a>
                                         </p>
                                         
                                 <div class="work-links-container">
@@ -97,9 +98,8 @@
                         </div>
                         <div class="slides" style="width:100%">
                                 <h2 class="project-headings">R3play Movie App</h2>
-                                <p>The front end of the R3play Web API that allows user<span class="dots" id="dots-2">...</span><span class="read-more" id="read-more-2">s to register, view information
-                                        about movies, TV series, and anime, and manage favorites.</span>
-                                        <button class="read-more-btn myBtn" onclick="myFunction()" id="myBtn2">More</button>
+                                <p>The front end of the R3play Web API that allows users <span class="dots" id="dots-2">...</span><span class="read-more" id="read-more-2">to register, view information about movies, TV series, and anime, and manage favorites.</span>
+                                        <a class="read-more-btn myBtn" onclick="myFunction()" id="myBtn2">More</a>
                                 </p>
                                 
                                 <div class="work-links-container">
@@ -122,10 +122,7 @@
                         </div>
                         <div class="slides" style="width:100%">
                                 <h2 class="project-headings">MyFlix Angular App</h2>
-                                <p>A front-end part for the R3play Web API designed wit<span class="dots" id="dots-3">...</span><span class="read-more" id="read-more-3">h Angular, Typescript,
-                                        and Material UI allowing users to register, view information about movies, and
-                                                manage
-                                                favorites.</span><button class="read-more-btn myBtn" onclick="myFunction()" id="myBtn3">More</button></p>
+                                <p>A front-end part for the R3play Web API designed with <span class="dots" id="dots-3">...</span><span class="read-more" id="read-more-3">Angular, Typescript, and Material UI allowing users to register, view information about movies, and manage favorites.</span><a class="read-more-btn myBtn" onclick="myFunction()" id="myBtn3">More</a></p>
                                         
                                 <div class="work-links-container">
                                         <div class="work-links"><a target="_blank" class="deployed-link"
@@ -156,11 +153,8 @@
                         </div>
                         <div class="slides" style="width:100%">
                                 <h2 class="project-headings">Meet App</h2>
-                                <p>A Progressive Web App written with AWS Lambda functi<span class="dots" id="dots-4">...</span><span class="read-more" id="read-more-4">ons that employs OAuth2
-                                        authorization and
-                                                authentication and
-                                                displays events from a Google Calendar API. </span>
-                                                <button class="read-more-btn myBtn" onclick="myFunction()" id="myBtn4">More</button>
+                                <p>A Progressive Web App written with AWS Lambda functions <span class="dots" id="dots-4">...</span><span class="read-more" id="read-more-4">that employs OAuth2 authorization and authentication and displays events from a Google Calendar API. </span>
+                                                <a class="read-more-btn myBtn" onclick="myFunction()" id="myBtn4">More</a>
                                         </p>
                                         
                                 <div class="work-links-container">
@@ -182,9 +176,8 @@
                         </div>
                         <div class="slides" style="width:100%">
                                 <h2 class="project-headings">OWrite Native App</h2>
-                                <p>A React Native application that allows users to chat
-                                        <span class="dots" id="dots-5"></span><span class="read-more" id="read-more-5"></span>
-                                        <button class="read-more-btn myBtn" onclick="myFunction()" id="myBtn5">More</button>
+                                <p>A React Native application that allows users to chat<span class="dots" id="dots-5"></span><span class="read-more" id="read-more-5"></span>
+                                        <a class="read-more-btn myBtn" onclick="myFunction()" id="myBtn5">More</a>
                                 </p>
                                 
                                 <div class="work-links-container">
@@ -202,9 +195,8 @@
                         </div>
                         <div class="slides" style="width:100%">
                                 <h2 class="project-headings">Pokemon App</h2>
-                                <p>A responsive Pokemon App fetching Pokemon with Ajax <span class="dots" id="dots-6">...</span><span class="read-more" id="read-more-6">from an external API and
-                                        displaying their info.</span>
-                                        <button class="read-more-btn myBtn" onclick="myFunction()" id="myBtn6">More</button>
+                                <p>A responsive Pokemon App fetching Pokemon with Ajax <span class="dots" id="dots-6">...</span><span class="read-more" id="read-more-6">from an external API and displaying their info.</span>
+                                        <a class="read-more-btn myBtn" onclick="myFunction()" id="myBtn6">More</a>
                                 </p>
                                 
                                 <div class="work-links-container">
@@ -229,7 +221,7 @@
                         <div class="slides" style="width:100%">
                                 <h2 class="project-headings">To-Do App</h2>
                                 <p>A jQuery and Bootstrap to-do app that allows users to manage to-dos.<span class="dots" id="dots-7"></span><span class="read-more" id="read-more-7"></span>
-                                        <button class="read-more-btn myBtn" onclick="myFunction()" id="myBtn7">More</button>
+                                        <a class="read-more-btn myBtn" onclick="myFunction()" id="myBtn7">More</a>
                                 </p>
                                 
                                 <div class="work-links-container">
