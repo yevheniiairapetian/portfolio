@@ -1094,6 +1094,12 @@ input[type="text"], input[type="email"], input[type="tel"]{
     text-align:center;
 }
 
+.slider-project-image-link:hover{
+    text-decoration: none;
+    padding-bottom:0;
+    border-bottom:0px solid transparent;
+}
+
 .owrite-hero-image{
     width: 40%;
     height: auto;
