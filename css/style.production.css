@@ -786,8 +786,7 @@ a.next-case:hover{
     max-width:400px;
     height:auto;
     margin-right:40px;
-    /* -webkit-animation: 3s picture-404 infinite;
-            animation: 3s picture-404 infinite; */
+    /* animation: 3s picture-404 infinite; */
 }
 
 .profile-picture{
@@ -1071,7 +1070,7 @@ a.next-case:hover{
         transition: all 0.2s ease;
     }
 
-    .projects-information_container--item img, .slider-image {
+    .projects-information_container--item img{
         -webkit-transition: -webkit-transform 0.25s ease;
         transition: -webkit-transform 0.25s ease;
         -o-transition: transform 0.25s ease;
@@ -1081,7 +1080,7 @@ a.next-case:hover{
         cursor: zoom-in;
       }
 
-      .projects-information_container--item img:active, .slider-image:active {
+      .projects-information_container--item img:active{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
         transform: scale(1.2);
@@ -1565,7 +1564,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
         display:none;
     }
 
-    .projects-information_container--item img, .slider-image {
+    .projects-information_container--item img{
         -webkit-transition: -webkit-transform 0.25s ease;
         transition: -webkit-transform 0.25s ease;
         -o-transition: transform 0.25s ease;
@@ -1575,7 +1574,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
         cursor: zoom-in;
       }
 
-      .projects-information_container--item img:active, .slider-image:active {
+      .projects-information_container--item img:active{
     -webkit-transform: scale(1.4);
     -ms-transform: scale(1.4);
         transform: scale(1.4);

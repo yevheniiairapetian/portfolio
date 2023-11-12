@@ -826,12 +826,12 @@ transform: translate(0, -4px);
         transition: all 0.2s ease;
     }
 
-    .projects-information_container--item img, .slider-image {
+    .projects-information_container--item img{
         transition: transform 0.25s ease;
         cursor: zoom-in;
       }
 
-      .projects-information_container--item img:active, .slider-image:active {
+      .projects-information_container--item img:active{
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     cursor: zoom-out;}
@@ -1263,12 +1263,12 @@ input[type="text"], input[type="email"], input[type="tel"]{
         display:none;
     }
 
-    .projects-information_container--item img, .slider-image {
+    .projects-information_container--item img{
         transition: transform 0.25s ease;
         cursor: zoom-in;
       }
 
-      .projects-information_container--item img:active, .slider-image:active {
+      .projects-information_container--item img:active{
     -webkit-transform: scale(1.4);
     transform: scale(1.4);
     cursor: zoom-out;}
