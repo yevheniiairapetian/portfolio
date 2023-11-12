@@ -661,7 +661,7 @@ a.next-case:hover{
     max-width:400px;
     height:auto;
     margin-right:40px;
-    animation: 3s picture-404 infinite;
+    /* animation: 3s picture-404 infinite; */
 }
 
 .profile-picture{
