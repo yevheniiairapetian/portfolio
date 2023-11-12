@@ -255,7 +255,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E687A", en
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #1c7488;
+    color: #529fcc;
     font-weight:bold;
     font-family:'Montserrat', sans-serif;
 }
@@ -463,6 +463,10 @@ td{
 .hamburger-container{
     display:none;
     padding: 42px 0 42px 0;
+}
+
+.hamburger-container label{
+    padding: 10px 24px;
 }
 
 .hamburger-symbol{
@@ -1146,7 +1150,7 @@ a.deployed-link:hover{
    /* end grid fallback */
    .projects-information_container--item h2{
     padding: 8px 18px;
-    background-color:#3363AA;
+    background-color:#529fcc;
     font-size: 17px;
     color: white;
    }
