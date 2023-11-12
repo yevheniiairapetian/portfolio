@@ -745,6 +745,51 @@ a.next-case:hover{
     }
 }
 
+@-webkit-keyframes picture-404{
+    0%{
+        -webkit-transform: translate(4px,0px);
+                transform: translate(4px,0px); 
+    }
+    50%{
+        -webkit-transform: translate(-4px, 0px);
+                transform: translate(-4px, 0px); 
+    }
+    100%{
+        -webkit-transform: translate(4px,0px);
+                transform: translate(4px,0px); 
+    }
+}
+
+@keyframes picture-404{
+    0%{
+        -webkit-transform: translate(4px,0px);
+                transform: translate(4px,0px); 
+    }
+    50%{
+        -webkit-transform: translate(-4px, 0px);
+                transform: translate(-4px, 0px); 
+    }
+    100%{
+        -webkit-transform: translate(4px,0px);
+                transform: translate(4px,0px); 
+    }
+}
+
+.overview-404{
+    margin-left: 20px;
+}
+
+.picture-404{
+    z-index:-1;
+    border-radius:10%;
+    width:400px;
+    max-width:400px;
+    height:auto;
+    margin-right:40px;
+    -webkit-animation: 3s picture-404 infinite;
+            animation: 3s picture-404 infinite;
+}
+
 .profile-picture{
     z-index:-1;
     border-radius:50%;
@@ -1457,6 +1502,11 @@ input[type="text"], input[type="email"], input[type="tel"]{
     .profile-picture{
      margin-right:0;   
     }
+    .picture-404{
+        margin-right:0;
+        width: 80%;
+        height: auto;   
+       }
     .contact-div{
         word-wrap: break-word;
         margin-bottom:30px;
@@ -1566,6 +1616,12 @@ input[type="text"], input[type="email"], input[type="tel"]{
     img.img-third-width{
         width: 32%;
     }
+    .picture-404{
+        width: 65%;
+        height: auto;
+        margin-top: 15px;
+    }
+
     .profile-picture{
         width: 60%;
         height: auto;
@@ -1768,6 +1824,12 @@ input[type="text"], input[type="email"], input[type="tel"]{
                         flex-direction: column; 
     }
     .profile-picture{
+        width: 42%;
+        height: auto;
+        margin:40px 0 30px 0;   
+       }
+
+       .picture-404{
         width: 42%;
         height: auto;
         margin:40px 0 30px 0;   
