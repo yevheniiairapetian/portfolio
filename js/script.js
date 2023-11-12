@@ -1,3 +1,23 @@
+
+// Get the button
+let backToTopBtn = document.querySelector(".backToTop");
+
+//Listens for the scroll event and shows the button when the user scrolls down by more than 20 pixels.
+window.addEventListener("scroll", () => {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    backToTopBtn.style.display = "block";
+  } else {
+    backToTopBtn.style.display = "none";
+  }
+});
+
+// When the button is clicked, it smoothly scrolls the page back to the top.
+backToTopBtn.addEventListener("click", () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
+
+
 let menu = document.querySelector('.navigation-list');
 let burgerMenu = document.querySelector('.hamburger-container');
 let body = document.querySelector('body');
@@ -69,4 +89,3 @@ function myFunction() {
         }
 
 }
-
