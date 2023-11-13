@@ -58,6 +58,18 @@
     inherits: false;
   }
 
+  @property --ResumeGradColor1 {
+    syntax: '<color>';
+    initial-value: #111111;
+    inherits: false;
+  }
+  
+  @property --ResumeGradColor2 {
+    syntax: '<color>';
+    initial-value: #a3a3a3;
+    inherits: false;
+  }
+
 *{
     box-sizing: border-box;
     font-family:'Montserrat', sans-serif;
@@ -550,6 +562,7 @@ img.img-third-width{
   /* end backtotop button section */
 
 a.check-out{
+    
     padding: 8px 18px;
     margin-top: 10px;
     display: inline-block;
@@ -584,6 +597,48 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E687A", en
     color: white;
     --CheckGradColor1:#0E687A; 
     --CheckGradColor2:#529FCC; 
+}
+
+a.resume{
+    padding: 8px 18px;
+    margin-top: 10px;
+    margin-left: 8px;
+    display: inline-block;
+    background: hsla(0, 100%, 100%, 1);
+
+background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor1)), to(var(--ResumeGradColor2)));
+
+background: -o-linear-gradient(left, var(--ResumeGradColor1) 30%, var(--ResumeGradColor2) 100%);
+
+background: linear-gradient(90deg, var(--ResumeGradColor1) 30%, var(--ResumeGradColor2) 100%);
+
+background: -webkit-linear-gradient(90deg, var(--ResumeGradColor1) 30%, var(--ResumeGradColor2) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#111111", endColorstr="#a3a3a3", GradientType=1 );
+    border-radius: 16px;
+    color: white;
+    text-decoration: none;
+    transition: --ResumeGradColor1 0.3s ease-out, --ResumeGradColor2 0.3s ease-out;
+}
+a.resume:hover{
+    background: hsla(0, 0%, 7%, 1);
+
+background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor2)), to(var(--ResumeGradColor1)));
+
+background: -o-linear-gradient(left, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
+
+background: linear-gradient(90deg, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
+
+background: -webkit-linear-gradient(90deg, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#a3a3a3", endColorstr="#111111", GradientType=1 );
+    color: white;
+    --ResumeGradColor1:#a3a3a3; 
+    --ResumeGradColor2:#111111; 
+}
+
+a.check-out, a.resume{
+    font-size: 15px;
 }
 
 .cases-container{
@@ -1572,6 +1627,14 @@ input[type="text"], input[type="email"], input[type="tel"]{
 @media screen and (max-width: 480px){
     .is-hidden{
         display:none;
+    }
+
+    a.check-out, a.resume{
+font-size: 15px;
+    }
+
+    a.resume{
+        margin: 14px 0 10px 0;
     }
 
     .projects-information_container--item img{
