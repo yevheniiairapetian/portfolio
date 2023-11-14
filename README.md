@@ -31,7 +31,7 @@ To clone the repo use the following command:
 Or download directly by clicking on <> Code button > Download ZIP. Then open the index.html file to view the app in your browser.
 
 ## Contact:
-Feel free to contact me via[ LinkedIn](https://www.linkedin.com/in/yevhenii-airapetian/) or  
+Feel free to contact me via[ LinkedIn](https://www.linkedin.com/in/yevheniiairapetian/) or  
 [email](mailto:contact@yevheniiairapetian.com) or 
 via the contact information on the [website](https://yevheniiairapetian.github.io/portfolio-website/contact.html) 
 
