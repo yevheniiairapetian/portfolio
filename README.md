@@ -1,25 +1,28 @@
 # Yevhenii Airapetian's Portfolio Website.
 ## Description:
-This repository contains a website showcasing my skills, education, projects, and information on how to get in touch with me.
+This repository contains a website showcasing my projects, about me information, and information on how to get in touch with me.
 
 ## Technologies Used:
 - Html5
 - CSS3
 - Javascript
+- jQuery
+- FontAwesome
 - Accessibility
 - Responsive design
 
 ## Pages
-- Index page with the introductory information
-- About page with skills and education
-- Works page with completed projects
-- Contact page with the contact information
+- About page with the introductory information
+- Projects page with projects list
+- Contact Page with the contact information
+- Resume Link with the downloadable resume file 
 
 ## Project Screenshot
-<a href="https://ibb.co/NLg3bVS"><img src="https://i.ibb.co/Xzf4M28/2023-10-25-19h16-29.png" alt="2023-10-25-19h16-29" border="0"></a>
+<a href="https://ibb.co/71LL2Pc"><img src="https://i.ibb.co/3CQQB2X/2023-11-14-23h16-55.png" alt="Portfolio Screenshot" border="0"></a>
 
 ## Project Dependencies:
 - Font-Awesome v6.4.0 for icons
+- jQuery for animations
 - Totally for accessibility
   
 ## Live Version:
