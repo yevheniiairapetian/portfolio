@@ -104,10 +104,15 @@ body{
 }
 
 .slider-image{
+    max-height: 47vw;
+    min-height: 47vw;
+    max-width:100%;
+    min-width: 100%;
     margin-top: 20px;
     margin-bottom: 25px;
-    width: 100%;
+    /* width: 100%;
     height: auto;
+    object-fit: contain; */
 }
 
 .slide-controls-container{
@@ -1606,6 +1611,21 @@ input[type="text"], input[type="email"], input[type="tel"]{
     }
 }
 
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 599.5px) {
+    .slider-image{
+        margin-top: 20px;
+        margin-bottom: 25px;
+        max-height: 47vw;
+        min-height: 47vw;
+        max-width:100%;
+        min-width: 100%;
+    }
+}
+
 @media screen and (min-width: 600px){
     .read-more-btn{
         /* padding: 6px 16px; */
@@ -1622,9 +1642,17 @@ input[type="text"], input[type="email"], input[type="tel"]{
         max-width: 90%;
         margin: 0 auto;
     }
+    .slider-image{
+        margin-top: 20px;
+        margin-bottom: 25px;
+        max-height: 47vw;
+        min-height: 47vw;
+        max-width:100%;
+        min-width: 100%;
+ 
 }
 
-
+}
 
 @media screen and (max-width: 480px){
     .is-hidden{
@@ -1676,9 +1704,11 @@ font-size: 15px;
 
     .slider-image{
         margin-top: 20px;
-    margin-bottom: 25px;
-        width: 100%;
-        height: auto;
+        margin-bottom: 25px;
+        max-height: 47vw;
+        min-height: 47vw;
+        max-width:100%;
+        min-width: 100%;
     }
     
     .r3play-case-video{
@@ -1852,6 +1882,14 @@ font-size: 15px;
         .slider-overview-paragraph{
             padding: 0 28px;
         }
+        .slider-image{
+            margin-top: 20px;
+            margin-bottom: 25px;
+            max-height: 47vw;
+            min-height: 47vw;
+            max-width:100%;
+            min-width: 100%;
+        }
     }
     
     @media screen and (min-width: 951px) {
@@ -1864,13 +1902,28 @@ font-size: 15px;
             -ms-grid-column-span: 2;
             grid-column: 1 / span 2;
          }
+         .slider-image{
+            margin-top: 20px;
+            margin-bottom: 25px;
+            max-height: 47vw;
+            min-height: 47vw;
+            max-width:100%;
+            min-width: 100%;
+        }
     }
     
 @media screen and (min-width:481px) and (max-width: 920px) {
     .is-hidden{
         display:none;
     }
-
+    .slider-image{
+        margin-top: 20px;
+        margin-bottom: 25px;
+        max-height: 47vw;
+        min-height: 47vw;
+        max-width:100%;
+        min-width: 100%;
+    }
     .slider-overview-paragraph{
         padding: 0 28px;
     }
@@ -1945,13 +1998,6 @@ font-size: 15px;
     }
 
 
-    /* input#hamburger{
-        display: none;
-        } */
-    /* #hamburger:checked ~ ul{
-        right: 0;
-        
-        } */
         .hamburger-symbol{
             font-size:40px;
             margin-right:10px;
@@ -1995,14 +2041,11 @@ font-size: 15px;
 }
 
 
-.hamburger-symbol{
-        
-
-        }
         .contact-links-containers{
             width: 49%;
             display: inline-block;
         }
+        
 
     }
 @media screen and (min-width:921px){
@@ -2038,4 +2081,5 @@ font-size: 15px;
         width: 33%;
         display: inline-block;
     }
+    
 }
