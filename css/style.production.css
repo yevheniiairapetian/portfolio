@@ -570,6 +570,7 @@ a.check-out{
     
     padding: 8px 18px;
     margin-top: 10px;
+    margin-right: 8px;
     display: inline-block;
     background: hsla(202, 54%, 56%, 1);
 
@@ -607,7 +608,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E687A", en
 a.resume{
     padding: 8px 18px;
     margin-top: 10px;
-    margin-left: 8px;
+    /* margin-left: 8px; */
     display: inline-block;
     background: hsla(0, 100%, 100%, 1);
 
@@ -1664,7 +1665,7 @@ font-size: 15px;
     }
 
     a.resume{
-        margin: 14px 0 10px 0;
+        margin: 14px 0 0 0;
     }
 
     .projects-information_container--item img{
@@ -2048,6 +2049,7 @@ font-size: 15px;
         
 
     }
+
 @media screen and (min-width:921px){
     
      img.img-half-width{
@@ -2060,7 +2062,6 @@ font-size: 15px;
         margin:0 auto;
         
     }
-
     table{
         
         width:100%;
@@ -2083,3 +2084,6 @@ font-size: 15px;
     }
     
 }
+
+
+
