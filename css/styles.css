@@ -493,9 +493,12 @@ img.img-third-width {
 
 /* end backtotop button section */
 a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 a.check-out {
     padding: 8px 18px;
@@ -1233,9 +1236,12 @@ input[type="tel"] {
         text-align: center;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     .about-buttons-big-screen {
@@ -1252,9 +1258,12 @@ input[type="tel"] {
         text-align: center;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     a.check-out {
@@ -1283,9 +1292,12 @@ input[type="tel"] {
         display: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     .about-buttons-big-screen {
@@ -1298,9 +1310,12 @@ input[type="tel"] {
         display: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     .contact-image {
@@ -1393,9 +1408,12 @@ input[type="tel"] {
         min-width: 100%;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     .about-buttons-small-screen {
@@ -1416,9 +1434,12 @@ input[type="tel"] {
         text-decoration: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     .slider-container {
@@ -1441,9 +1462,12 @@ input[type="tel"] {
         display: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     a.check-out,
@@ -1643,9 +1667,12 @@ input[type="tel"] {
         grid-gap: 10px;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     .slider-overview-paragraph {
@@ -1686,9 +1713,12 @@ input[type="tel"] {
         display: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     .slider-image {
@@ -1816,9 +1846,12 @@ input[type="tel"] {
         width: 32%;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active {
+    a.resume:hover, a.resume:active,
+    a.check-out:focus, a.resume:focus{
         padding-bottom: 6px;
         outline: none;
+        border-bottom: 2px solid transparent;
+        box-shadow: none;
     }
 
     .table-container {
