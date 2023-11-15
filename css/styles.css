@@ -1228,6 +1228,54 @@ input[type="text"], input[type="email"], input[type="tel"]{
     line-height: 1.5em;
     width: 35%;
         }
+        @media screen and (min-width: 1px) and (max-width:246px){
+            a.check-out, a.resume{
+                display:block;
+                width: 99%;
+                text-align:center;
+            }
+          
+            .about-buttons-big-screen{
+                display:none;
+            }
+        }
+@media screen and (min-width: 246px) and (max-width:480px){
+    a.check-out, a.resume{
+        font-size: 16px;
+        padding: 8px 12px;
+        width: 49%;
+        text-align:center;
+    }
+    a.check-out{
+    border-top-right-radius: 0px 0px;
+    border-bottom-right-radius: 0px 0px;
+    /* border-top-left-radius: 0px 0px;
+    border-bottom-left-radius: 0px 0px; */
+    margin-right:0;
+    
+ }
+ .main-information_container a.resume{
+    border-top-left-radius: 0px 0px;
+    /* border-top-right-radius: 0px 0px; */
+    /* border-bottom-right-radius: 0px 0px; */
+    border-bottom-left-radius: 0px 0px;
+    margin: 14px 0 0 -5px;
+ }
+ .about-buttons-big-screen{
+    display:inline;
+ }
+
+
+}
+
+@media screen and (min-width: 481px){
+    .about-buttons-small-screen{
+display: none;
+    }
+    .about-buttons-big-screen{
+        display:inline;
+    }
+}
 
 @media screen and (min-width: 1px) and (max-width:480px){
     .is-hidden{
@@ -1238,6 +1286,10 @@ input[type="text"], input[type="email"], input[type="tel"]{
         width: 100%;
         height: auto;
         
+    }
+
+    .about-buttons-big-screen{
+        display: none;
     }
 
     .projects-image{
@@ -1319,6 +1371,9 @@ input[type="text"], input[type="email"], input[type="tel"]{
         max-width:100%;
         min-width: 100%;
     }
+    .about-buttons-small-screen{
+        display: none;
+            }
 }
 
 @media screen and (min-width: 600px){
