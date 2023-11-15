@@ -566,6 +566,7 @@ a.check-out {
 }
 
 a.check-out:hover {
+    outline: none;
     padding-bottom: 6px;
     background: hsla(190, 79%, 27%, 1);
     background: -webkit-gradient(linear, left top, right top, color-stop(20%, var(--CheckGradColor2)), to(var(--CheckGradColor1)));
@@ -596,6 +597,7 @@ a.resume {
 }
 
 a.resume:hover {
+    outline: none;
     padding-bottom: 6px;
     background: hsla(0, 0%, 7%, 1);
     background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor2)), to(var(--ResumeGradColor1)));
@@ -1515,6 +1517,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     .about-buttons-big-screen {
@@ -1533,6 +1536,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     a.check-out {
@@ -1563,6 +1567,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     .about-buttons-big-screen {
@@ -1577,6 +1582,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     .contact-image {
@@ -1679,6 +1685,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     .about-buttons-small-screen {
@@ -1701,6 +1708,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     .slider-container {
@@ -1725,6 +1733,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     a.check-out,
@@ -1956,6 +1965,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     .slider-overview-paragraph {
@@ -2001,6 +2011,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     .slider-image {
@@ -2149,6 +2160,7 @@ input[type="tel"] {
     a.check-out:hover,
     a.resume:hover {
         padding-bottom: 6px;
+        outline: none;
     }
 
     .table-container {
