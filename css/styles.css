@@ -492,7 +492,11 @@ img.img-third-width {
 }
 
 /* end backtotop button section */
-
+a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
+        padding-bottom: 6px;
+        outline: none;
+    }
 a.check-out {
     padding: 8px 18px;
     margin-top: 10px;
@@ -510,7 +514,6 @@ a.check-out {
 }
 
 a.check-out:hover {
-    outline: none;
     padding-bottom: 6px;
     background: hsla(190, 79%, 27%, 1);
     background: linear-gradient(90deg, var(--CheckGradColor2) 20%, var(--CheckGradColor1) 100%);
@@ -539,7 +542,6 @@ a.resume {
 }
 
 a.resume:hover {
-    outline: none;
     padding-bottom: 6px;
     background: hsla(0, 0%, 7%, 1);
     background: linear-gradient(90deg, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
@@ -1230,8 +1232,8 @@ input[type="tel"] {
         width: 99%;
         text-align: center;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
@@ -1249,8 +1251,8 @@ input[type="tel"] {
         width: 49%;
         text-align: center;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
@@ -1280,8 +1282,8 @@ input[type="tel"] {
     .about-buttons-small-screen {
         display: none;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
@@ -1295,8 +1297,8 @@ input[type="tel"] {
     .is-hidden {
         display: none;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
@@ -1390,8 +1392,8 @@ input[type="tel"] {
         max-width: 100%;
         min-width: 100%;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
@@ -1413,8 +1415,8 @@ input[type="tel"] {
         color: #529fcc;
         text-decoration: none;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
@@ -1438,8 +1440,8 @@ input[type="tel"] {
     .is-hidden {
         display: none;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
@@ -1640,8 +1642,8 @@ input[type="tel"] {
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
@@ -1683,8 +1685,8 @@ input[type="tel"] {
     .is-hidden {
         display: none;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
@@ -1813,8 +1815,8 @@ input[type="tel"] {
     img.img-third-width {
         width: 32%;
     }
-    a.check-out:hover,
-    a.resume:hover {
+    a.check-out:hover, a.check-out:active,
+    a.resume:hover, a.resume:active {
         padding-bottom: 6px;
         outline: none;
     }
