@@ -557,6 +557,7 @@ a.check-out:hover, a.check-out:active,
                 box-shadow: none;
     }
 a.check-out {
+    height: 40px;
     padding: 8px 18px;
     margin-top: 10px;
     margin-right: 8px;
@@ -574,6 +575,7 @@ a.check-out {
 }
 
 a.check-out:hover {
+    
     padding-bottom: 6px;
     background: hsla(190, 79%, 27%, 1);
     background: -webkit-gradient(linear, left top, right top, color-stop(20%, var(--CheckGradColor2)), to(var(--CheckGradColor1)));
@@ -587,6 +589,7 @@ a.check-out:hover {
 }
 
 a.resume {
+    height: 40px;
     padding: 8px 18px;
     margin-top: 10px;
     /* margin-left: 8px; */
