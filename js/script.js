@@ -37,14 +37,18 @@ function toggleMenu() {
 // slider
 
 let slideIndex = 1;
+let testimSlideIndex = 1;
 showDivs(slideIndex);
+showTestimonials(testimSlideIndex);
 
 function plusDivs(n) {
   showDivs(slideIndex += n);
+  showTestimonials(testimSlideIndex += n);
 }
 
 function currentDiv(n) {
   showDivs(slideIndex = n);
+  showTestimonials(testimSlideIndex = n);
 }
 
 function showDivs(n) {
@@ -55,6 +59,17 @@ function showDivs(n) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
     x[slideIndex - 1].style.display = "block";
+  }
+}
+
+function showTestimonials(n) {
+  let i;
+  let x = document.getElementsByClassName("testimonials-slides");
+  if (n > x.length) { testimSlideIndex = 1 }
+  if (n < 1) { testimSlideIndex = x.length }
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+    x[testimSlideIndex - 1].style.display = "block";
   }
 }
 

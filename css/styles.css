@@ -213,6 +213,21 @@ body {
     line-height: 2em;
 }
 
+.testimonials-slides {
+    width: 100%;
+    line-height: 2em;
+    text-align: left;
+    /* display:flex;
+    flex-direction:row; */
+}
+
+.testimonial-slides-info {
+    display:inline-block;
+    padding: 30px 0 0 0;
+    width: 80%;
+    line-height: 2em;
+}
+
 .technologies-heading {
     text-align: center;
 }
@@ -517,6 +532,8 @@ a.check-out {
     transition: --CheckGradColor1 0.3s ease-out, --CheckGradColor2 0.3s ease-out;
 }
 
+
+
 a.check-out:hover {
     
     padding-bottom: 6px;
@@ -722,6 +739,33 @@ a.next-case:hover {
     height: auto;
     margin-right: 40px;
     animation: 4s profile-picture infinite;
+}
+
+/* .testimonial-cite{
+    margin: 40px 0;
+} */
+
+.testimonial-picture-1 {
+    z-index: -1;
+    border-radius: 50%;
+    width: 100px;
+    max-width: 100px;
+    height: auto;
+    text-align:left;
+    margin: 40px 40px 0px 0px;
+    /* margin-right: 40px; */
+    /* animation: 4s profile-picture infinite; */
+}
+.testimonial-picture-2 {
+    z-index: -1;
+    border-radius: 50%;
+    width: 100px;
+    max-width: 100px;
+    height: auto;
+    text-align:left;
+    margin: 40px 40px 0px 0px;
+    /* margin-right: 40px; */
+    /* animation: 4s profile-picture infinite; */
 }
 
 .main-logo {
@@ -1148,6 +1192,13 @@ input[type="tel"] {
 .work-links-container {
     text-align: center;
 }
+.testimonial-image-container {
+    width: 20%;
+    height: auto;
+    position: relative;
+    top:0;
+    right:0;
+}
 
 .slider-project-image-link:hover {
     text-decoration: none;
@@ -1410,6 +1461,9 @@ input[type="tel"] {
         max-width: 100%;
         min-width: 100%;
     }
+    
+   
+
     a.check-out:hover, a.check-out:active,
     a.resume:hover, a.resume:active,
     a.check-out:focus, a.resume:focus{
@@ -1424,7 +1478,23 @@ input[type="tel"] {
     }
 }
 
+@media screen and (max-width: 912px) {
+.testimonials-slides{
+    text-align:center;
+}
+.testimonial-picture-1{
+    display:block;
+    margin:40px auto 10px auto;
+}
+.testimonial-picture-2 {
+    
+    display:block;
+    margin:40px auto 10px auto;
+}
+
+}
 @media screen and (min-width: 600px) {
+    
     .read-more-btn {
         /* padding: 6px 16px; */
         margin-top: 10px;
