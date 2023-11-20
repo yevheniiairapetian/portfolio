@@ -1077,9 +1077,12 @@ a.deployed-link:hover {
 /* i.fa-envelope, i.fa-linkedin, i.fa-github{
       padding-bottom:18px;
   } */
-
-.fa-bars {
+  .fa-x{
+    display:none;
+  }
+.fa-bars, .fa-x {
     font-size: 28px;
+    cursor:pointer;
 }
 
 .contact-links-containers {

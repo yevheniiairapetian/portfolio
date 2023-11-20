@@ -21,16 +21,21 @@ backToTopBtn.addEventListener("click", () => {
 let menu = document.querySelector('.navigation-list');
 let burgerMenu = document.querySelector('.hamburger-container');
 let body = document.querySelector('body');
-
+let menuBars = document.querySelector('.fa-bars');
+let menuClose = document.querySelector('.fa-x');
 function toggleMenu() {
   // check if the menu is visible or not
   if (menu.style.right == "-100%") {
     // if the menu is hidden, show it
     menu.style.right = "0%";
+    menuBars.style.display = "none";
+    menuClose.style.display = "inline";
   }
   else {
     // if the menu is visible, hide it
     menu.style.right = "-100%";
+    menuBars.style.display = "inline";
+    menuClose.style.display = "none";
   }
 }
 
