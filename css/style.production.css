@@ -236,6 +236,7 @@ body {
 }
 
 .slides {
+    padding-top:1px;
     width: 100%;
     line-height: 2em;
 }
