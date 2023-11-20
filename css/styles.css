@@ -1597,6 +1597,10 @@ img.testimonial-picture-2 {
     a.resume {
         margin: 14px 0 0 0;
     }
+    img.page-header_item{
+        width: 100px;
+        height: auto;
+    }
 
     .projects-information_container--item img {
         transition: transform 0.25s ease;
@@ -1715,7 +1719,7 @@ img.testimonial-picture-2 {
         align-items: center;
     }
 
-    .hamburger-container {
+    a.hamburger-container {
         padding: 42px 0 42px 0;
         display: block;
         text-align: right;

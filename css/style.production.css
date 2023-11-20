@@ -1786,13 +1786,13 @@ input[type="tel"] {
         max-width: 100%;
         min-width: 100%;
     }
-    
     .hamburger-container {
         border-bottom:0;
         text-decoration: none;
         /* -webkit-animation: menu-animation 2s linear infinite;
                   animation: menu-animation 2s linear infinite; */
     }
+   
 
     a.check-out:hover, a.check-out:active,
     a.resume:hover, a.resume:active,
@@ -1832,6 +1832,12 @@ img.testimonial-picture-2 {
 
 }
 @media screen and (min-width: 600px) {
+    .hamburger-container {
+        border-bottom:0;
+        text-decoration: none;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                  animation: menu-animation 2s linear infinite; */
+    }
     
     .read-more-btn {
         /* padding: 6px 16px; */
@@ -1890,6 +1896,10 @@ img.testimonial-picture-2 {
 
     a.resume {
         margin: 14px 0 0 0;
+    }
+    img.page-header_item{
+        width: 100px;
+        height: auto;
     }
 
     .projects-information_container--item img {
@@ -2024,7 +2034,7 @@ img.testimonial-picture-2 {
                 align-items: center;
     }
 
-    .hamburger-container {
+    a.hamburger-container {
         padding: 42px 0 42px 0;
         display: block;
         text-align: right;
