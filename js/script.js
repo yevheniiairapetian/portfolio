@@ -23,6 +23,9 @@ let burgerMenu = document.querySelector('.hamburger-container');
 let body = document.querySelector('body');
 let menuBars = document.querySelector('.fa-bars');
 let menuClose = document.querySelector('.fa-x');
+let appContainer = document.querySelector('.app-container');
+
+
 function toggleMenu() {
   // check if the menu is visible or not
   if (menu.style.right == "-100%") {
@@ -37,6 +40,13 @@ function toggleMenu() {
     menuBars.style.display = "inline";
     menuClose.style.display = "none";
   }
+}
+
+
+function hideMenu() {
+  menu.style.right = "-100%";
+  menuBars.style.display = "inline";
+  menuClose.style.display = "none";
 }
 
 // slider
@@ -91,16 +101,16 @@ function myFunction() {
   let dots = $(".dots");
   let myBtn = $(".myBtn");
   let readMore = $(".read-more");
-  
-  if (dots1.style.display === "none"||dots2.style.display === "none"||dots3.style.display === "none"||dots4.style.display === "none"||dots5.style.display === "none"||dots6.style.display === "none"||dots7.style.display === "none") {
-          dots.fadeToggle();
-          myBtn.text("More");
-          readMore.fadeToggle();
-        }
-        else {
-          dots.fadeToggle();
-          myBtn.text("Less");
-          readMore.fadeToggle();
-        }
+
+  if (dots1.style.display === "none" || dots2.style.display === "none" || dots3.style.display === "none" || dots4.style.display === "none" || dots5.style.display === "none" || dots6.style.display === "none" || dots7.style.display === "none") {
+    dots.fadeToggle();
+    myBtn.text("More");
+    readMore.fadeToggle();
+  }
+  else {
+    dots.fadeToggle();
+    myBtn.text("Less");
+    readMore.fadeToggle();
+  }
 
 }
