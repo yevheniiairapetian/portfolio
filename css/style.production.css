@@ -866,25 +866,24 @@ a.next-case:hover {
     margin: 40px 0;
 } */
 
-.testimonial-picture-1 {
-    z-index: -1;
+img.testimonial-picture-1 {
     border-radius: 50%;
     width: 100px;
     max-width: 100px;
     height: auto;
     text-align:left;
-    margin: 40px 40px 0px 0px;
+    margin: -20px 40px 0px 0px;
     /* margin-right: 40px; */
     /* animation: 4s profile-picture infinite; */
 }
-.testimonial-picture-2 {
+img.testimonial-picture-2 {
     z-index: -1;
     border-radius: 50%;
     width: 100px;
     max-width: 100px;
     height: auto;
     text-align:left;
-    margin: 40px 40px 0px 0px;
+    margin: -20px 40px 0px 0px;
     /* margin-right: 40px; */
     /* animation: 4s profile-picture infinite; */
 }
@@ -1782,12 +1781,13 @@ input[type="tel"] {
 @media screen and (max-width: 912px) {
 .testimonials-slides{
     text-align:center;
+    padding-top: 1px;
 }
-.testimonial-picture-1{
+img.testimonial-picture-1{
     display:block;
     margin:40px auto 10px auto;
 }
-.testimonial-picture-2 {
+img.testimonial-picture-2 {
     
     display:block;
     margin:40px auto 10px auto;
