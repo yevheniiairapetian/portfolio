@@ -1344,10 +1344,10 @@ a.deployed-link:hover {
 /* i.fa-envelope, i.fa-linkedin, i.fa-github{
       padding-bottom:18px;
   } */
-  .fa-x{
+  .fa-xmark{
     display:none;
   }
-.fa-bars, .fa-x {
+.fa-bars, .fa-xmark {
     font-size: 28px;
     cursor:pointer;
 }

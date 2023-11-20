@@ -24,7 +24,7 @@ backToTopBtn.addEventListener("click", () => {
 function toggleMenu() {
   let menu = document.querySelector('.navigation-list');
   let menuBars = document.querySelector('.fa-bars');
-  let menuClose = document.querySelector('.fa-x');
+  let menuClose = document.querySelector('.fa-xmark');
   // check if the menu is visible or not
   if (menu.style.right == "-100%") {
     // if the menu is hidden, show it
@@ -44,7 +44,7 @@ function toggleMenu() {
 function hideMenu() {
   let menu = document.querySelector('.navigation-list');
   let menuBars = document.querySelector('.fa-bars');
-  let menuClose = document.querySelector('.fa-x');
+  let menuClose = document.querySelector('.fa-xmark');
   menu.style.right = "-100%";
   menuBars.style.display = "inline";
   menuClose.style.display = "none";
