@@ -18,15 +18,13 @@ backToTopBtn.addEventListener("click", () => {
 });
 
 
-let menu = document.querySelector('.navigation-list');
-let burgerMenu = document.querySelector('.hamburger-container');
-let body = document.querySelector('body');
-let menuBars = document.querySelector('.fa-bars');
-let menuClose = document.querySelector('.fa-x');
-let appContainer = document.querySelector('.app-container');
+
 
 
 function toggleMenu() {
+  let menu = document.querySelector('.navigation-list');
+  let menuBars = document.querySelector('.fa-bars');
+  let menuClose = document.querySelector('.fa-x');
   // check if the menu is visible or not
   if (menu.style.right == "-100%") {
     // if the menu is hidden, show it
@@ -44,6 +42,9 @@ function toggleMenu() {
 
 
 function hideMenu() {
+  let menu = document.querySelector('.navigation-list');
+  let menuBars = document.querySelector('.fa-bars');
+  let menuClose = document.querySelector('.fa-x');
   menu.style.right = "-100%";
   menuBars.style.display = "inline";
   menuClose.style.display = "none";
