@@ -470,6 +470,8 @@ td {
 .hamburger-container {
     display: none;
     padding: 42px 0 42px 0;
+    border-bottom:0;
+    text-decoration: none;
 }
 
 .hamburger-container label {
