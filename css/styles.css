@@ -1489,7 +1489,12 @@ input[type="tel"] {
         max-width: 100%;
         min-width: 100%;
     }
-    
+    .hamburger-container {
+        border-bottom:0;
+        text-decoration: none;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                  animation: menu-animation 2s linear infinite; */
+    }
    
 
     a.check-out:hover, a.check-out:active,
@@ -1507,6 +1512,12 @@ input[type="tel"] {
 }
 
 @media screen and (max-width: 912px) {
+    .hamburger-container {
+        border-bottom:0;
+        text-decoration: none;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                  animation: menu-animation 2s linear infinite; */
+    }
 .testimonials-slides{
     text-align:center;
     padding-top: 1px;
