@@ -1287,6 +1287,12 @@ input[type="tel"] {
 }
 
 @media screen and (min-width: 1px) and (max-width: 246px) {
+    .hamburger-container {
+        border-bottom:0;
+        text-decoration: none;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                  animation: menu-animation 2s linear infinite; */
+    }
     a.check-out,
     a.resume {
         display: block;
@@ -1308,6 +1314,12 @@ input[type="tel"] {
 }
 
 @media screen and (min-width: 246px) and (max-width: 480px) {
+    .hamburger-container {
+        border-bottom:0;
+        text-decoration: none;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                  animation: menu-animation 2s linear infinite; */
+    }
     a.check-out,
     a.resume {
         font-size: 16px;
@@ -1346,6 +1358,12 @@ input[type="tel"] {
 }
 
 @media screen and (min-width: 481px) {
+    .hamburger-container {
+        border-bottom:0;
+        text-decoration: none;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                  animation: menu-animation 2s linear infinite; */
+    }
     .about-buttons-small-screen {
         display: none;
     }
@@ -1364,6 +1382,12 @@ input[type="tel"] {
 }
 
 @media screen and (min-width: 1px) and (max-width: 480px) {
+    .hamburger-container {
+        border-bottom:0;
+        text-decoration: none;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                  animation: menu-animation 2s linear infinite; */
+    }
     .is-hidden {
         display: none;
     }
@@ -1499,6 +1523,12 @@ img.testimonial-picture-2 {
 
 }
 @media screen and (min-width: 600px) {
+    .hamburger-container {
+        border-bottom:0;
+        text-decoration: none;
+        /* -webkit-animation: menu-animation 2s linear infinite;
+                  animation: menu-animation 2s linear infinite; */
+    }
     
     .read-more-btn {
         /* padding: 6px 16px; */
@@ -1678,6 +1708,8 @@ img.testimonial-picture-2 {
         padding: 42px 0 42px 0;
         display: block;
         text-align: right;
+        border-bottom:0;
+        text-decoration: none;
         /* -webkit-animation: menu-animation 2s linear infinite;
                   animation: menu-animation 2s linear infinite; */
     }
@@ -1874,6 +1906,8 @@ img.testimonial-picture-2 {
         padding: 42px 0 42px 0;
         display: block;
         text-align: right;
+        border-bottom:0;
+        text-decoration: none;
         /* -webkit-animation: menu-animation 2s linear infinite;
                   animation: menu-animation 2s linear infinite; */
     }
