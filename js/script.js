@@ -31,7 +31,7 @@ function toggleMenu() {
    
     // if the menu is hidden, show it
     menu.style.right = "0%";
-    menu.style.top = "30%";
+    // menu.style.top = "30%";
     // menu.style.height = "calc(100vh - 250px)";
     
     menuBars.style.display = "none";
