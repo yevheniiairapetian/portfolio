@@ -25,15 +25,18 @@ function toggleMenu() {
   let menu = document.querySelector('.navigation-list');
   let menuBars = document.querySelector('.fa-bars');
   let menuClose = document.querySelector('.fa-xmark');
+  
   // check if the menu is visible or not
   if (menu.style.right == "-100%") {
+   
     // if the menu is hidden, show it
     menu.style.right = "0%";
-    menu.style.top = "3%";
-    menu.style.height = "calc(80vh - 60px)";
+    menu.style.top = "30%";
+    // menu.style.height = "calc(100vh - 250px)";
     
     menuBars.style.display = "none";
     menuClose.style.display = "inline";
+    
   }
   else {
     // if the menu is visible, hide it
@@ -41,16 +44,6 @@ function toggleMenu() {
     menuBars.style.display = "inline";
     menuClose.style.display = "none";
   }
-}
-
-
-function hideMenu() {
-  let menu = document.querySelector('.navigation-list');
-  let menuBars = document.querySelector('.fa-bars');
-  let menuClose = document.querySelector('.fa-xmark');
-  menu.style.right = "-100%";
-  menuBars.style.display = "inline";
-  menuClose.style.display = "none";
 }
 
 const body = document.body;
@@ -62,16 +55,27 @@ let lastScroll = 0;
 window.addEventListener("scroll", () => {
   let currentScroll = window.pageYOffset;
   if (currentScroll - lastScroll > 0) {
-    header.classList.add("scroll-down");
-    header.classList.remove("scroll-up");
+    // header.classList.add("scroll-down");
+    // header.classList.remove("scroll-up");
   } else {
     // scrolled up -- header show
-    header.classList.add("scroll-up");
+    // header.classList.add("scroll-up");
     
-    header.classList.remove("scroll-down");
+    // header.classList.remove("scroll-down");
   }
   lastScroll = currentScroll;
 })
+
+function hideMenu() {
+  let menu = document.querySelector('.navigation-list');
+  let menuBars = document.querySelector('.fa-bars');
+  let menuClose = document.querySelector('.fa-xmark');
+  menu.style.right = "-100%";
+  menuBars.style.display = "inline";
+  menuClose.style.display = "none";
+}
+
+
 
 // slider
 

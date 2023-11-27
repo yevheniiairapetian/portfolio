@@ -478,7 +478,7 @@ td {
 }
 
 /* Scroller */
-
+/* 
 header.scroll-up{
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
@@ -489,7 +489,7 @@ header.scroll-down{
     -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
             transform: translateY(-100%);
-}
+} */
 
 .hamburger-container {
     display: none;
@@ -2359,6 +2359,7 @@ img.testimonial-picture-2 {
     img.img-half-width {
         width: 49%;
     }
+
 
     img.img-third-width {
         width: 32%;

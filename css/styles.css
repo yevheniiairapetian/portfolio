@@ -432,13 +432,13 @@ td {
 
 /* Scroller */
 
-header.scroll-up{
+/* header.scroll-up{
     transform: translateY(0);
 }
 
 header.scroll-down{
     transform: translateY(-100%);
-}
+} */
 
 .hamburger-container {
     display: none;
@@ -1997,6 +1997,7 @@ img.testimonial-picture-2 {
     img.img-half-width {
         width: 49%;
     }
+    
 
     img.img-third-width {
         width: 32%;
