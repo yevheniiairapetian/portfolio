@@ -483,6 +483,10 @@ img.page-header_item {
     display: inline-block;
 }
 
+.app-container{
+    margin-top:130px;
+}
+
 .navigation-list li {
     list-style-type: none;
     display: inline-block;
@@ -701,7 +705,7 @@ a.next-case:hover {
 }
 
 .main-information {
-    margin-top: 40px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
