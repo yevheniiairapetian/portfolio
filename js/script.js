@@ -29,6 +29,9 @@ function toggleMenu() {
   if (menu.style.right == "-100%") {
     // if the menu is hidden, show it
     menu.style.right = "0%";
+    menu.style.top = "3%";
+    menu.style.height = "calc(80vh - 60px)";
+    
     menuBars.style.display = "none";
     menuClose.style.display = "inline";
   }
@@ -49,6 +52,26 @@ function hideMenu() {
   menuBars.style.display = "inline";
   menuClose.style.display = "none";
 }
+
+const body = document.body;
+const header = document.querySelector("header");
+const main = document.querySelector(".app-container");
+const headerHeight = document.querySelector("header").offsetHeight;
+main.style.top = headerHeight + "px";
+let lastScroll = 0;
+window.addEventListener("scroll", () => {
+  let currentScroll = window.pageYOffset;
+  if (currentScroll - lastScroll > 0) {
+    header.classList.add("scroll-down");
+    header.classList.remove("scroll-up");
+  } else {
+    // scrolled up -- header show
+    header.classList.add("scroll-up");
+    
+    header.classList.remove("scroll-down");
+  }
+  lastScroll = currentScroll;
+})
 
 // slider
 
@@ -115,3 +138,6 @@ function myFunction() {
   }
 
 }
+
+
+
