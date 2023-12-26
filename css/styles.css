@@ -1654,8 +1654,9 @@ img.testimonial-picture-2 {
     }
 
     .fa-code,
-    .fa-arrow-up-right-from-square{
-        font-size:20px;
+    .fa-arrow-up-right-from-square,
+    .fa-clipboard-check{
+        font-size:21px;
 }
     a.check-out,
     a.resume {
