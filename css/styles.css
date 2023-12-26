@@ -1657,7 +1657,10 @@ img.testimonial-picture-2 {
     a.resume {
         font-size: 15px;
     }
-
+    a.next-case,
+    a.prev-case{
+        text-align:center
+    }
     a.resume {
         margin: 14px 0 0 0;
     }
@@ -1963,6 +1966,10 @@ img.testimonial-picture-2 {
     .main-information {
         margin-top: 0px;
     }
+       a.next-case,
+a.prev-case{
+    text-align:center
+}
 
     .main-information_container h1 {
         margin-bottom: 20px;

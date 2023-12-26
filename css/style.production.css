@@ -1964,6 +1964,10 @@ img.testimonial-picture-2 {
         -webkit-box-shadow: none;
                 box-shadow: none;
     }
+    a.next-case,
+a.prev-case{
+    text-align:center
+}
 
     a.check-out,
     a.resume {
