@@ -92,6 +92,10 @@ body {
             flex-direction: column;
 }
 
+.body{
+    background-color: var(--projects-information-container-item-bg-color);
+}
+
 .about-heading {
     padding: 0;
     margin-top: 40px;
@@ -1952,6 +1956,7 @@ img.testimonial-picture-2 {
 }
 
 @media screen and (max-width: 480px) {
+    
     .is-hidden {
         display: none;
     }
