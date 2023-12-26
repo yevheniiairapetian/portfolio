@@ -1964,6 +1964,12 @@ img.testimonial-picture-2 {
         -webkit-box-shadow: none;
                 box-shadow: none;
     }
+
+    .fa-code,
+    .fa-arrow-up-right-from-square{
+        font-size:20px;
+}
+
     a.next-case,
 a.prev-case{
     text-align:center

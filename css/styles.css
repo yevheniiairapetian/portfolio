@@ -1653,6 +1653,10 @@ img.testimonial-picture-2 {
         box-shadow: none;
     }
 
+    .fa-code,
+    .fa-arrow-up-right-from-square{
+        font-size:20px;
+}
     a.check-out,
     a.resume {
         font-size: 15px;
