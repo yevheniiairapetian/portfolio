@@ -46,6 +46,33 @@ function toggleMenu() {
   }
 }
 
+function toggleSidebar() {
+  let sidebar = document.querySelector('.social-container');
+  let menuBars = document.querySelector('.fa-arrow-right');
+  let menuClose = document.querySelector('.close-sidebar');
+  
+  // check if the menu is visible or not
+  if (sidebar.style.left == "-24px") {
+   
+    // if the menu is hidden, show it
+    sidebar.style.left = "0px";
+    sidebar.style.transition = "all 0.4s ease-in-out";
+    // menu.style.top = "30%";
+    // menu.style.height = "calc(100vh - 250px)";
+    
+    menuBars.style.display = "none";
+    menuClose.style.display = "inline";
+    
+  }
+  else {
+    // if the menu is visible, hide it
+    sidebar.style.transition = "all 0.4s ease-in-out";
+    sidebar.style.left = "-24px";
+    menuBars.style.display = "inline";
+    menuClose.style.display = "none";
+  }
+}
+
 const body = document.body;
 const header = document.querySelector("header");
 const main = document.querySelector(".app-container");

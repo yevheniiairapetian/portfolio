@@ -1328,13 +1328,26 @@ a.deployed-link:hover {
     color: #000000;
 }
 
+.open-sidebar, .close-sidebar{
+    color: black;
+}
+
+.sidebar-close{
+    position:fixed;
+    top:24%;
+    z-index:30;
+    left:0px;
+    height:20px;
+    width:20px;
+}
+
 .social-container {
     padding-top: 40px;
     padding-bottom: 20px;
     /* align-items: center; */
     position:fixed;
     bottom:22%;
-    left:-20px;
+    left:0px;
     height:350px;
     width:42px;
     /* width: 100%; */
@@ -1353,7 +1366,7 @@ a.deployed-link:hover {
     
 }
 .social-container:hover {
-    left:0;
+    /* left:0; */
     opacity:1;
     -webkit-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
