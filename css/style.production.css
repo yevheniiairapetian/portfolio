@@ -1322,13 +1322,13 @@ a.deployed-link:hover {
 }
 
 .social-container {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     /* align-items: center; */
     position:fixed;
     bottom:22%;
     left:-16px;
-    height:330px;
+    height:350px;
     width:42px;
     /* width: 100%; */
     opacity:0.8;
