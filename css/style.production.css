@@ -716,7 +716,7 @@ a.prev-case {
     background: -webkit-linear-gradient(90deg, var(--CheckGradColor1) 20%, var(--CheckGradColor2) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#529FCC", endColorstr="#0E687A", GradientType=1 );
     border-radius: 16px;
-    /* font-size:12px; */
+    font-size:16px;
     color: white;
     text-decoration: none;
     transition: --CheckGradColor1 0.3s ease-out, --CheckGradColor2 0.3s ease-out;
@@ -2428,7 +2428,7 @@ a.prev-case{
         width: 31%;
     }
 
-    .fa-arrow-left{
+    .fa-arrow-left, .fa-arrow-right {
         font-size:22px;
     }
     a.check-out:hover, a.check-out:active,

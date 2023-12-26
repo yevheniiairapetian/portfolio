@@ -2065,7 +2065,7 @@ a.prev-case{
         width: 31%;
     }
 
-    .fa-arrow-left{
+    .fa-arrow-left, .fa-arrow-right {
         font-size:22px;
     }
     a.check-out:hover, a.check-out:active,
