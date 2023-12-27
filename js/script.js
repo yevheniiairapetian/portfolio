@@ -50,11 +50,12 @@ function toggleMenu() {
 
 function toggleSidebar() {
   let sidebar = document.querySelector('.social-container');
-  let menuBars = document.querySelector('.fa-arrow-right');
-  let menuClose = document.querySelector('.close-sidebar');
+  // let menuBars = document.querySelector('.fa-arrow-right');
+  let menuClose = document.querySelector('.fa-caret-right');
+  // let menuClose = document.querySelector('.close-sidebar');
   
   // check if the menu is visible or not
-  if (sidebar.style.left == "-30px") {
+  if (sidebar.style.left == "-36px") {
    
     // if the menu is hidden, show it
     sidebar.style.left = "0px";
@@ -63,25 +64,26 @@ function toggleSidebar() {
     // menu.style.height = "calc(100vh - 250px)";
     
     // hide arrow button, show close button
-    menuBars.style.display = "inline";
-    // menuClose.style.display = "inline";
+    // menuBars.style.display = "inline";
+    menuClose.style.display = "inline";
     
   }
   else {
     // if the menu is visible, hide it
     sidebar.style.transition = "all 0.4s ease-in-out";
-    sidebar.style.left = "-30px";
+    sidebar.style.left = "-36px";
     // hide close button, show arrow button
-    menuBars.style.display = "inline";
-    menuClose.style.display = "none";
+    // menuBars.style.display = "inline";
+    menuClose.style.display = "inline";
   }
 }
 
 //expands sidebar menu
 function showSidebar() {
   let sidebar = document.querySelector('.social-container');
-  let menuBars = document.querySelector('.fa-arrow-right');
-  let menuClose = document.querySelector('.close-sidebar');
+  // let menuBars = document.querySelector('.fa-arrow-right');
+  // let menuClose = document.querySelector('.close-sidebar');
+  let menuClose = document.querySelector('.fa-caret-right');
   
     // show sidebar menu
     sidebar.style.left = "0px";
@@ -90,26 +92,26 @@ function showSidebar() {
     // menu.style.height = "calc(100vh - 250px)";
     
     // hide arrow button, show close button
-    menuBars.style.display = "inline";
-    menuClose.style.display = "none";
+    // menuBars.style.display = "inline";
+    menuClose.style.display = "inline";
     
   }
 
   // collapses sidebar menu
   function closeSidebar() {
     let sidebar = document.querySelector('.social-container');
-    let menuBars = document.querySelector('.fa-arrow-right');
-    let menuClose = document.querySelector('.close-sidebar');
-         
+    // let menuBars = document.querySelector('.fa-arrow-right');
+    // let menuClose = document.querySelector('.close-sidebar');
+    let menuClose = document.querySelector('.fa-caret-right');
       // hide sidebar menu
-      sidebar.style.left = "-30px";
+      sidebar.style.left = "-36px";
       sidebar.style.transition = "all 0.4s ease-in-out";
       // menu.style.top = "30%";
       // menu.style.height = "calc(100vh - 250px)";
       
       // show arrow button
-      menuBars.style.display = "inline";
-      menuClose.style.display = "none";
+      // menuBars.style.display = "inline";
+      menuClose.style.display = "inline";
       
     }
 

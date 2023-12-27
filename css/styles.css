@@ -1069,15 +1069,21 @@ a.deployed-link:hover {
     color: #000000;
 }
 
-.open-sidebar, .close-sidebar{
+/* .open-sidebar, .close-sidebar{
     color: black;
+} */
+
+.fa-caret-right{
+    font-size: 34px;
+    color:#529fcc;
 }
 
 .sidebar-close{
-    position:fixed;
-    top:25%;
+    
+    position:absolute;
+    bottom:45%;
     z-index:30;
-    left:0px;
+    left:16px;
     height:20px;
     width:20px;
 }
