@@ -1,5 +1,5 @@
 
-// Get the button
+// Get the backToTop button
 let backToTopBtn = document.querySelector(".backToTop");
 
 //Listens for the scroll event and shows the button when the user scrolls down by more than 20 pixels.
@@ -18,9 +18,7 @@ backToTopBtn.addEventListener("click", () => {
 });
 
 
-
-
-
+// toggles menu
 function toggleMenu() {
   let menu = document.querySelector('.navigation-list');
   let menuBars = document.querySelector('.fa-bars');
@@ -34,6 +32,7 @@ function toggleMenu() {
     // menu.style.top = "30%";
     // menu.style.height = "calc(100vh - 250px)";
     
+    // hide hamburger bars, show close button
     menuBars.style.display = "none";
     menuClose.style.display = "inline";
     
@@ -41,10 +40,13 @@ function toggleMenu() {
   else {
     // if the menu is visible, hide it
     menu.style.right = "-100%";
+    // hide close button, show hamburger bars
     menuBars.style.display = "inline";
     menuClose.style.display = "none";
   }
 }
+
+// toggle siebar menu
 
 function toggleSidebar() {
   let sidebar = document.querySelector('.social-container');
@@ -60,6 +62,7 @@ function toggleSidebar() {
     // menu.style.top = "30%";
     // menu.style.height = "calc(100vh - 250px)";
     
+    // hide arrow button, show close button
     menuBars.style.display = "none";
     menuClose.style.display = "inline";
     
@@ -68,42 +71,43 @@ function toggleSidebar() {
     // if the menu is visible, hide it
     sidebar.style.transition = "all 0.4s ease-in-out";
     sidebar.style.left = "-30px";
+    // hide close button, show arrow button
     menuBars.style.display = "inline";
     menuClose.style.display = "none";
   }
 }
 
+//expands sidebar menu
 function showSidebar() {
   let sidebar = document.querySelector('.social-container');
   let menuBars = document.querySelector('.fa-arrow-right');
   let menuClose = document.querySelector('.close-sidebar');
   
-  // check if the menu is visible or not
-   
-    // if the menu is hidden, show it
+    // show sidebar menu
     sidebar.style.left = "0px";
     sidebar.style.transition = "all 0.4s ease-in-out";
     // menu.style.top = "30%";
     // menu.style.height = "calc(100vh - 250px)";
     
+    // hide arrow button, show close button
     menuBars.style.display = "none";
     menuClose.style.display = "inline";
     
   }
 
+  // collapses sidebar menu
   function closeSidebar() {
     let sidebar = document.querySelector('.social-container');
     let menuBars = document.querySelector('.fa-arrow-right');
     let menuClose = document.querySelector('.close-sidebar');
-    
-    // check if the menu is visible or not
-     
-      // if the menu is hidden, show it
+         
+      // hide sidebar menu
       sidebar.style.left = "-30px";
       sidebar.style.transition = "all 0.4s ease-in-out";
       // menu.style.top = "30%";
       // menu.style.height = "calc(100vh - 250px)";
       
+      // show arrow button
       menuBars.style.display = "inline";
       menuClose.style.display = "none";
       
@@ -131,6 +135,7 @@ window.addEventListener("scroll", () => {
   lastScroll = currentScroll;
 })
 
+// hides menu
 function hideMenu() {
   let menu = document.querySelector('.navigation-list');
   let menuBars = document.querySelector('.fa-bars');
@@ -139,8 +144,6 @@ function hideMenu() {
   menuBars.style.display = "inline";
   menuClose.style.display = "none";
 }
-
-
 
 // slider
 
@@ -170,6 +173,7 @@ function showDivs(n) {
   }
 }
 
+// show testimonials
 function showTestimonials(n) {
   let i;
   let x = document.getElementsByClassName("testimonials-slides");
