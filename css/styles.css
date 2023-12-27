@@ -1075,7 +1075,7 @@ a.deployed-link:hover {
 
 .sidebar-close{
     position:fixed;
-    top:24%;
+    top:25%;
     z-index:30;
     left:0px;
     height:20px;
@@ -1375,6 +1375,30 @@ input[type="tel"] {
     text-align: left;
     line-height: 1.5em;
     width: 35%;
+}
+
+.sidebar-toggler, .sidebar-toggler:hover, .sidebar-toggler:active, .sidebar-toggler:focus {
+    border-bottom:none;
+    text-decoration:none;
+}
+
+@media screen and (max-height: 640px) {
+    .social-container{
+        position:static;
+        flex-direction:row;
+        padding:0;
+        margin:0;
+        width:initial;
+        height:50px;
+        
+    }
+    .main-footer{
+        height:190px;
+        
+    }
+    .sidebar-toggler{
+        display:none;
+    }
 }
 
 @media screen and (min-width: 1px) and (max-width: 246px) {

@@ -52,7 +52,7 @@ function toggleSidebar() {
   let menuClose = document.querySelector('.close-sidebar');
   
   // check if the menu is visible or not
-  if (sidebar.style.left == "-24px") {
+  if (sidebar.style.left == "-30px") {
    
     // if the menu is hidden, show it
     sidebar.style.left = "0px";
@@ -67,7 +67,7 @@ function toggleSidebar() {
   else {
     // if the menu is visible, hide it
     sidebar.style.transition = "all 0.4s ease-in-out";
-    sidebar.style.left = "-24px";
+    sidebar.style.left = "-30px";
     menuBars.style.display = "inline";
     menuClose.style.display = "none";
   }
