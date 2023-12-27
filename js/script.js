@@ -33,8 +33,8 @@ function toggleMenu() {
     // menu.style.height = "calc(100vh - 250px)";
     
     // hide hamburger bars, show close button
-    menuBars.style.display = "none";
-    menuClose.style.display = "inline";
+    menuBars.style.display = "inline";
+    menuClose.style.display = "none";
     
   }
   else {
@@ -63,8 +63,8 @@ function toggleSidebar() {
     // menu.style.height = "calc(100vh - 250px)";
     
     // hide arrow button, show close button
-    menuBars.style.display = "none";
-    menuClose.style.display = "inline";
+    menuBars.style.display = "inline";
+    // menuClose.style.display = "inline";
     
   }
   else {
@@ -90,8 +90,8 @@ function showSidebar() {
     // menu.style.height = "calc(100vh - 250px)";
     
     // hide arrow button, show close button
-    menuBars.style.display = "none";
-    menuClose.style.display = "inline";
+    menuBars.style.display = "inline";
+    menuClose.style.display = "none";
     
   }
 
