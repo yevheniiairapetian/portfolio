@@ -73,6 +73,26 @@ function toggleSidebar() {
   }
 }
 
+function showSidebar() {
+  let sidebar = document.querySelector('.social-container');
+  let menuBars = document.querySelector('.fa-arrow-right');
+  let menuClose = document.querySelector('.close-sidebar');
+  
+  // check if the menu is visible or not
+   
+    // if the menu is hidden, show it
+    sidebar.style.left = "0px";
+    sidebar.style.transition = "all 0.4s ease-in-out";
+    // menu.style.top = "30%";
+    // menu.style.height = "calc(100vh - 250px)";
+    
+    menuBars.style.display = "none";
+    menuClose.style.display = "inline";
+    
+  }
+
+
+
 const body = document.body;
 const header = document.querySelector("header");
 const main = document.querySelector(".app-container");
