@@ -1335,6 +1335,7 @@ a.deployed-link:hover {
 .fa-caret-right{
     font-size: 34px;
     color:#529fcc;
+    cursor: pointer;
 }
 
 .sidebar-close{
@@ -1675,6 +1676,10 @@ input[type="tel"] {
 .sidebar-toggler, .sidebar-toggler:hover, .sidebar-toggler:active, .sidebar-toggler:focus {
     border-bottom:none;
     text-decoration:none;
+    cursor:pointer;
+}
+
+.sidebar-toggler label{
     cursor:pointer;
 }
 
