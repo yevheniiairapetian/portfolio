@@ -1495,6 +1495,9 @@ input[type="tel"] {
     .about-buttons-big-screen {
         display: inline;
     }
+    .page-header_item .navigation-list li{
+        margin-right:0;
+    }
 }
 
 @media screen and (min-width: 481px) {
@@ -1936,6 +1939,10 @@ img.testimonial-picture-2 {
       right: -100%;
   } */
 
+    .page-header_item .navigation-list li{
+        margin-right:0;
+    }
+
     .page-header_item .navigation-list li a {
         font-size: 26px;
         color: white;
@@ -2131,6 +2138,10 @@ a.prev-case{
         height: 80%;
         transition: right 0.2s linear;
         opacity: 0.9;
+    }
+
+    .page-header_item .navigation-list li{
+        margin-right:0;
     }
 
     .page-header_item .navigation-list li a {
