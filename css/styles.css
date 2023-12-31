@@ -84,8 +84,19 @@ body {
     background-color: var(--projects-information-container-item-bg-color);
 }
 
+.text-black{
+    color: #529fcc !important;   
+}
+
+.send-input{
+    margin: 0 auto;
+    background-color: #529fcc !important;
+    border-color: #529fcc !important;
+}
+
 .about-heading {
     padding: 0;
+    font-size:30px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -290,7 +301,9 @@ span {
 }
 
 .contact-image {
-    width: 50%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
