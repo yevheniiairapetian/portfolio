@@ -586,6 +586,10 @@ img.img-third-width {
     margin-bottom:20px;
 }
 
+.form-asterisk{
+    color: red;
+}
+
 /* backtotop button section */
 
 .backToTop {

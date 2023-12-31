@@ -598,6 +598,10 @@ a.check-out:hover {
     --CheckGradColor2: #529fcc;
 }
 
+.form-asterisk{
+    color: red;
+}
+
 a.resume {
     height: 40px;
     padding: 8px 18px;
