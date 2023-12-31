@@ -62,7 +62,7 @@ function toggleSidebar() {
   // let menuClose = document.querySelector('.close-sidebar');
   
   // check if the menu is visible or not
-  if (sidebar.style.left == "-36px") {
+  if (sidebar.style.left == "-37px") {
    
     // if the menu is hidden, show it
     sidebar.style.left = "0px";
@@ -78,7 +78,7 @@ function toggleSidebar() {
   else {
     // if the menu is visible, hide it
     sidebar.style.transition = "all 0.4s ease-in-out";
-    sidebar.style.left = "-36px";
+    sidebar.style.left = "-37px";
     // hide close button, show arrow button
     // menuBars.style.display = "inline";
     menuClose.style.display = "inline";
@@ -111,7 +111,7 @@ function showSidebar() {
     // let menuClose = document.querySelector('.close-sidebar');
     let menuClose = document.querySelector('.fa-caret-right');
       // hide sidebar menu
-      sidebar.style.left = "-36px";
+      sidebar.style.left = "-37px";
       sidebar.style.transition = "all 0.4s ease-in-out";
       // menu.style.top = "30%";
       // menu.style.height = "calc(100vh - 250px)";
