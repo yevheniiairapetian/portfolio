@@ -851,6 +851,7 @@ a.next-case:hover {
     }
 }
 
+
 @keyframes profile-picture {
     0% {
         -webkit-transform: translate(0px, 3px);
@@ -865,6 +866,45 @@ a.next-case:hover {
     100% {
         -webkit-transform: translate(0px, 3px);
                 transform: translate(0px, 3px);
+    }
+}
+
+@-webkit-keyframes close-sidebar {
+    0% {
+        -webkit-transform: translate(0px, 3px);
+                transform: translate(0px, 3px);
+        color:#529fcc;
+    }
+
+    50% {
+        -webkit-transform: translate(0px, -3px);
+                transform: translate(0px, -3px);
+        color:#000;
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 3px);
+                transform: translate(0px, 3px);
+        color:#fff;
+    }
+}
+@keyframes close-sidebar {
+    0% {
+        -webkit-transform: translate(0px, 3px);
+                transform: translate(0px, 3px);
+        color:#529fcc;
+    }
+
+    50% {
+        -webkit-transform: translate(0px, -3px);
+                transform: translate(0px, -3px);
+        color:#000;
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 3px);
+                transform: translate(0px, 3px);
+        color:#fff;
     }
 }
 
@@ -1358,16 +1398,19 @@ a.deployed-link:hover {
     font-size: 34px;
     color:#529fcc;
     cursor: pointer;
+    -webkit-animation: 4s close-sidebar infinite;
+            animation: 4s close-sidebar infinite;
 }
 
 .sidebar-close{
     
-    position:absolute;
-    bottom:45%;
+    position:fixed;
+    bottom:75%;
     z-index:30;
-    left:16px;
+    left:-6px;
     height:20px;
     width:20px;
+    
 }
 
 .social-container {
@@ -1376,7 +1419,7 @@ a.deployed-link:hover {
     /* align-items: center; */
     position:fixed;
     bottom:22%;
-    left:0px;
+    left:-36px;
     height:336px;
     width:42px;
     /* width: 100%; */

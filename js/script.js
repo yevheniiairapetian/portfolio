@@ -151,7 +151,10 @@ function hideMenu() {
   let menuClose = document.querySelector('.fa-xmark');
   menu.style.right = "-100%";
   menuBars.style.display = "inline";
-  menuClose.style.display = "none";
+    menuBars.style.fontSize = "30px"
+    menuBars.style.transition = "all 0.3s ease-out";
+    menuClose.style.fontSize = "0px";
+    menuClose.style.transition = "all 0.3s ease-out";
 }
 
 // slider
