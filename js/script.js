@@ -33,16 +33,23 @@ function toggleMenu() {
     // menu.style.height = "calc(100vh - 250px)";
     
     // hide hamburger bars, show close button
-    menuBars.style.display = "none";
+    // menuBars.style.display = "none";
+    menuBars.style.fontSize = "0px"
+    menuBars.style.transition = "all 0.3s ease-out";
     menuClose.style.display = "inline";
-    
+    menuClose.style.fontSize = "30px";
+    menuClose.style.transition = "all 0.3s ease-out";
   }
   else {
     // if the menu is visible, hide it
     menu.style.right = "-100%";
     // hide close button, show hamburger bars
     menuBars.style.display = "inline";
-    menuClose.style.display = "none";
+    menuBars.style.fontSize = "30px"
+    menuBars.style.transition = "all 0.3s ease-out";
+    // menuClose.style.display = "none";
+    menuClose.style.fontSize = "0px";
+    menuClose.style.transition = "all 0.3s ease-out";
   }
 }
 
