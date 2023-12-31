@@ -33,8 +33,8 @@ function toggleMenu() {
     // menu.style.height = "calc(100vh - 250px)";
     
     // hide hamburger bars, show close button
-    menuBars.style.display = "inline";
-    menuClose.style.display = "none";
+    menuBars.style.display = "none";
+    menuClose.style.display = "inline";
     
   }
   else {
