@@ -1,3 +1,20 @@
+const elements = document.querySelectorAll('.fade-in-up-on-scroll');
+
+const fadeInUpOnScroll = () => {
+  elements.forEach((element) => {
+    const elementTop = element.getBoundingClientRect().top;
+    const elementBottom = element.getBoundingClientRect().bottom;
+
+    if (elementTop < window.innerHeight && elementBottom > 0) {
+      element.classList.add('is-visible');
+    } else {
+      element.classList.remove('is-visible');
+    }
+  });
+};
+
+window.addEventListener('scroll', fadeInUpOnScroll);
+
 
 // Get the backToTop button
 let backToTopBtn = document.querySelector(".backToTop");
