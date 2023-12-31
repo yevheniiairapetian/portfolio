@@ -254,6 +254,8 @@ h3,
 h4,
 h5,
 h6 {
+    margin-bottom:24px;
+    margin-top:10px;
     color: #529fcc;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
@@ -520,7 +522,9 @@ img.img-half-width {
 }
 
 img.img-third-width {
-    width: 32%;
+    display: inline-block;
+    width: 30%;
+    margin-bottom:20px;
 }
 
 /* backtotop button section */
@@ -577,7 +581,9 @@ a.check-out {
     transition: --CheckGradColor1 0.3s ease-out, --CheckGradColor2 0.3s ease-out;
 }
 
-
+h3 ~ ul{
+    list-style-type: circle;
+}
 
 a.check-out:hover {
     

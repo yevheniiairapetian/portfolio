@@ -281,6 +281,8 @@ h3,
 h4,
 h5,
 h6 {
+    margin-bottom:24px;
+    margin-top:10px;
     color: #529fcc;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
@@ -574,8 +576,14 @@ img.img-half-width {
     width: 49%;
 }
 
+h3 ~ ul{
+    list-style-type: circle;
+}
+
 img.img-third-width {
     width: 32%;
+    display:inline-block;
+    margin-bottom:20px;
 }
 
 /* backtotop button section */
