@@ -1386,6 +1386,7 @@ input[type="tel"] {
 .sidebar-toggler, .sidebar-toggler:hover, .sidebar-toggler:active, .sidebar-toggler:focus {
     border-bottom:none;
     text-decoration:none;
+    cursor:pointer;
 }
 
 @media screen and (max-height: 640px) {
