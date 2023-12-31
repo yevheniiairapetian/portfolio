@@ -1790,7 +1790,8 @@ input[type="tel"] {
         display: inline;
     }
     .page-header_item .navigation-list li{
-        margin-right:0;
+        margin-right:auto;
+        margin-left:auto;
     }
 }
 
@@ -2278,7 +2279,8 @@ img.testimonial-picture-2 {
   } */
 
     .page-header_item .navigation-list li{
-        margin-right:0;
+        margin-right:auto;
+        margin-left:auto;
     }
 
     .page-header_item .navigation-list li a {
