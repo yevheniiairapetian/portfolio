@@ -261,7 +261,8 @@ h6 {
 
 p {
     font-size: inherit;
-    line-height: inherit;
+    line-height: 2em;
+    margin-bottom:8px;
 }
 
 h1 {
@@ -502,7 +503,7 @@ img.page-header_item {
 
 .app-container{
     /* margin-top:130px; */
-    width:75%;
+    width:85%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -1103,13 +1104,13 @@ a.deployed-link:hover {
 }
 
 .social-container {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 20px;
     /* align-items: center; */
     position:fixed;
     bottom:22%;
     left:0px;
-    height:350px;
+    height:336px;
     width:42px;
     /* width: 100%; */
     opacity:0.8;
@@ -2162,7 +2163,9 @@ a.prev-case{
         width: 49%;
     }
     
-
+.hello-heading{
+    margin-bottom: 20px;
+}
     img.img-third-width {
         width: 31%;
     }
