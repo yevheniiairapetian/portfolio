@@ -151,6 +151,10 @@ body {
       object-fit: contain; */
 }
 
+.resume-tooltip{
+    font-size: 13px;
+}
+
 .slide-controls-container {
     margin: 0 auto;
 }

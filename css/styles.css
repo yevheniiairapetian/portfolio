@@ -140,6 +140,10 @@ body {
     margin: 32px auto 20px auto;
 }
 
+.resume-tooltip{
+    font-size: 13px;
+}
+
 .slide-switch-section {
     text-align: center;
     padding-top: 12px;
