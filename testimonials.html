@@ -43,29 +43,38 @@
                                 class="page-header_item"
                                 alt="Website's logo image in black letters and a line of text in the middle"></a>
 
-                <nav class="page-header_item">
-                        <!-- <input type="checkbox" name="" id="hamburger"> -->
-                        <div id="burger-menu">
-                                <span></span>
-                        </div>
-                        <ul onclick="toggleMenu()" style="right: -100%;" class="navigation-list">
-                                <li role="presentation"><a href="index.html">About</a></li>
-                                <li role="presentation"><a href="works.html">Projects</a></li>
-                                <li role="presentation"><a href="testimonials.html">Testimonials</a></li>
-                                <li role="presentation"><a href="contact.html">Contact</a></li>
-                                <li role="presentation"><a href="img/Yevhenii-Airapetian.7z?v=9315"
-                                                download="Yevhenii-Airapetian">Resume</a></li>
-                        </ul>
-                        <div>
-                                <a class="hamburger-container" style="cursor: pointer" onclick="toggleMenu()">
-                                        <label for="hamburger">
-                                                <i class="fa-solid fa-bars fa-xl"></i>
-                                                <i class="fa-solid fa-xmark fa-xl"></i>
-                                        </label>
-                                </a>
-
-                        </div>
-                </nav>
+                                <nav class="page-header_item">
+                                        <!-- <input type="checkbox" name="" id="hamburger"> -->
+                                        <div id="burger-menu">
+                                            <span></span>
+                                        </div>
+                                        <ul style="right: -100%;" class="navigation-list">
+                                            <li onclick="toggleMenu()" role="presentation"><a href="index.html">About</a></li>
+                                            <li onclick="toggleMenu()" role="presentation"><a href="works.html">Projects</a></li>
+                                            <li onclick="toggleMenu()" role="presentation"><a href="testimonials.html">Testimonials</a></li>
+                                            <li onclick="toggleMenu()" role="presentation"><a href="contact.html">Contact</a></li>
+                                            
+                                                <li onclick="showMenuDownloadLinks()" role="presentation"><a href="#">Resume <i class="fa-solid fa-caret-down resume-caret"></i> </a>
+                                                    
+                                                </li>
+                                                <ul class="menu-resume-container">
+                                                    <li><a title="Download the resume version in German" class="download-menu-de" target="_blank" href="img/Yevhenii-Airapetian-DE.pdf" download="Yevhenii-Airapetian-DE"><img class="flags" src="img/germany.svg" alt="An icon showing the German flag"></a></li>
+                                                    <li><a title="Download the resume version in English" class="download-menu-en" target="_blank" href="img/Yevhenii-Airapetian-EN.pdf" download="Yevhenii-Airapetian-EN"><img class="flags" src="img/united-states.svg" alt="An icon showing the USA flag"></a></li>
+                                                    <li><a title="Download the resume version in Ukrainian" class="download-menu-uk" target="_blank" href="img/Yevhenii-Airapetian-UK.pdf" download="Yevhenii-Airapetian-UK"><img class="flags" src="img/ukraine.svg" alt="An icon showing Ukrainian flag"></a></li>
+                                                    </ul>
+                                            
+                                            
+                                        </ul>
+                                        <div>
+                                            <a class="hamburger-container" style="cursor: pointer" onclick="toggleMenu()">
+                                                <label for="hamburger">
+                                                    <i class="fa-solid fa-bars fa-xl"></i>
+                                                    <i class="fa-solid fa-xmark fa-xl"></i>
+                                                </label>
+                                            </a>
+                            
+                                        </div>
+                                    </nav>
 
 
         </header>

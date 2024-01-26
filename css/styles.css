@@ -107,6 +107,11 @@ a.download-de, a.download-en, a.download-uk{
     border-bottom: none !important;
 }
 
+.resume-caret{
+    display:none;
+    text-align: center
+}
+
 .menu-resume-container img{
     
     text-align:right;
@@ -120,6 +125,14 @@ a.download-de, a.download-en, a.download-uk{
     border-radius:13px;
     width:35px;
     height:auto;
+}
+
+.menu-resume-container{
+    display:flex;
+    flex-direction:column;
+    position: absolute;
+    top: 82px;
+    right:21px;
 }
 
 .download-resumes-links-container .flags:hover{
@@ -2168,12 +2181,21 @@ img.testimonial-picture-2 {
     }
 }
 
- /* @media screen and (max-width: 920px){
-    .download-menu-de, .download-menu-en, .download-menu-uk{
-        margin-top:10px;
-        font-size:12px;
+ @media screen and (max-width: 920px){
+    .menu-resume-container{
+        display:flex;
+        flex-direction:row;
+        position: relative;
+        top:-42px;
+        right:-10px;
     }
-} */
+    .menu-resume-container a{
+        margin-right:20px;
+    }
+    .menu-resume-container img{
+        border-radius:16px;
+    }
+}
 
 
 @media screen and (min-width: 481px) and (max-width: 920px) {
