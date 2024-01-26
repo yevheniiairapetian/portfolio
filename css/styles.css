@@ -113,8 +113,10 @@ a.download-de, a.download-en, a.download-uk{
 }
 
 .menu-resume-container img{
-    
-    text-align:right;
+    margin-top:16px;
+    border-radius:13px;
+    width:35px;
+    height:auto;
 }
 .download-resumes-links-container{
     margin:20px auto 0 auto;
@@ -137,7 +139,7 @@ a.download-de, a.download-en, a.download-uk{
     flex-direction:column;
     position: absolute;
     top: 82px;
-    right:21px;
+    right:19px;
 }
 
 .download-resumes-links-container .flags:hover{
