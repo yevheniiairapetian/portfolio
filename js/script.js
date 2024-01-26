@@ -39,7 +39,6 @@ function showDownloadLinks(){
   let linkUK = document.querySelector('.download-uk');
   if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
     linkDE.style.display = "inline-block";
-    linkDE.style.transition = "all 0.3s ease-out";
     linkEN.style.display = "inline-block";
     linkUK.style.display = "inline-block";
   }else{
@@ -49,6 +48,24 @@ function showDownloadLinks(){
   }
   
 }
+
+function showMenuDownloadLinks(){
+  let linkDE = document.querySelector('.download-menu-de');
+  let linkEN = document.querySelector('.download-menu-en');
+  let linkUK = document.querySelector('.download-menu-uk');
+  if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
+    linkDE.style.display = "block";
+    linkEN.style.display = "block";
+    linkUK.style.display = "block";
+  }else{
+    linkDE.style.display = 'none';
+    linkEN.style.display = 'none';
+    linkUK.style.display = 'none';
+  }
+  
+}
+
+
 // toggles menu
 function toggleMenu() {
   let menu = document.querySelector('.navigation-list');

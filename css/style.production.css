@@ -119,10 +119,15 @@ body {
 
 .text-black{
     color: #529fcc !important;   
-}
+} 
 
 .download-de, .download-en, .download-uk{
     display:none;
+}
+
+.menu-resume-container img{
+    
+    text-align:right;
 }
 .download-resumes-links-container{
     margin:14px auto 0 auto;
@@ -133,6 +138,12 @@ body {
     border-radius:13px;
     width:35px;
     height:auto;
+}
+
+.download-menu-de, .download-menu-en, .download-menu-uk{
+    display:none;
+    margin-top:10px;
+    font-size:12px;
 }
 
 .send-input{
@@ -2556,6 +2567,14 @@ img.testimonial-picture-2 {
         min-width: 100%;
     }
 }
+
+ /* @media screen and (max-width: 920px){
+    .download-menu-de, .download-menu-en, .download-menu-uk{
+        margin-top:10px;
+        font-size:12px;
+    }
+} */
+
 
 @media screen and (min-width: 481px) and (max-width: 920px) {
     .is-hidden {
