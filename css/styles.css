@@ -101,6 +101,20 @@ body {
     color: #529fcc !important;   
 }
 
+.download-de, .download-en, .download-uk{
+    display:none;
+}
+.download-resumes-links-container{
+    margin:14px auto 0 auto;
+}
+.download-resumes-links-container .flags{
+    margin-right:8px;
+    margin-top:10px;
+    border-radius:13px;
+    width:35px;
+    height:auto;
+}
+
 .send-input{
     margin: 0 auto;
     background-color: #529fcc !important;
@@ -578,8 +592,8 @@ img.img-third-width {
 
 /* end backtotop button section */
 a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -623,7 +637,7 @@ a.check-out:hover {
     color: red;
 }
 
-a.resume {
+button.resume {
     height: 40px;
     padding: 8px 18px;
     margin-top: 10px;
@@ -640,7 +654,7 @@ a.resume {
     transition: --ResumeGradColor1 0.3s ease-out, --ResumeGradColor2 0.3s ease-out;
 }
 
-a.resume:hover {
+button.resume:hover {
     padding-bottom: 6px;
     background: hsla(0, 0%, 7%, 1);
     background: linear-gradient(90deg, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
@@ -653,7 +667,7 @@ a.resume:hover {
 }
 
 a.check-out,
-a.resume {
+button.resume {
     font-size: 15px;
 }
 
@@ -1540,14 +1554,14 @@ input[type="tel"] {
                   animation: menu-animation 2s linear infinite; */
     }
     a.check-out,
-    a.resume {
+    button.resume {
         display: block;
         width: 99%;
         text-align: center;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -1569,15 +1583,15 @@ input[type="tel"] {
                   animation: menu-animation 2s linear infinite; */
     }
     a.check-out,
-    a.resume {
+    button.resume {
         font-size: 16px;
         padding: 8px 12px;
         width: 49%;
         text-align: center;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -1592,7 +1606,7 @@ input[type="tel"] {
         margin-right: 0;
     }
 
-    .main-information_container a.resume {
+    .main-information_container button.resume {
         border-top-left-radius: 0px 0px;
         /* border-top-right-radius: 0px 0px; */
         /* border-bottom-right-radius: 0px 0px; */
@@ -1620,8 +1634,8 @@ input[type="tel"] {
         display: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -1644,8 +1658,8 @@ input[type="tel"] {
         display: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -1750,8 +1764,8 @@ input[type="tel"] {
    
 
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -1832,8 +1846,8 @@ img.testimonial-picture-2 {
         text-decoration: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -1860,8 +1874,8 @@ img.testimonial-picture-2 {
         display: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -1874,7 +1888,7 @@ img.testimonial-picture-2 {
         font-size:21px;
 }
     a.check-out,
-    a.resume {
+    button.resume {
         font-size: 15px;
     }
     a.next-case,
@@ -1887,7 +1901,7 @@ img.testimonial-picture-2 {
         font-size:15px;
         text-align:center;
     }
-    a.resume {
+    button.resume {
         margin: 14px 0 0 0;
     }
     img.page-header_item{
@@ -2094,8 +2108,8 @@ img.testimonial-picture-2 {
         grid-gap: 10px;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -2140,8 +2154,8 @@ img.testimonial-picture-2 {
         display: none;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;
@@ -2295,8 +2309,8 @@ a.prev-case{
         font-size:22px;
     }
     a.check-out:hover, a.check-out:active,
-    a.resume:hover, a.resume:active,
-    a.check-out:focus, a.resume:focus{
+    button.resume:hover, button.resume:active,
+    a.check-out:focus, button.resume:focus{
         padding-bottom: 6px;
         outline: none;
         border-bottom: 2px solid transparent;

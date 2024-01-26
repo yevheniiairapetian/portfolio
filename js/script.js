@@ -15,7 +15,6 @@ const fadeInUpOnScroll = () => {
 
 window.addEventListener('scroll', fadeInUpOnScroll);
 
-
 // Get the backToTop button
 let backToTopBtn = document.querySelector(".backToTop");
 
@@ -34,7 +33,22 @@ backToTopBtn.addEventListener("click", () => {
   document.documentElement.scrollTop = 0;
 });
 
-
+function showDownloadLinks(){
+  let linkDE = document.querySelector('.download-de');
+  let linkEN = document.querySelector('.download-en');
+  let linkUK = document.querySelector('.download-uk');
+  if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
+    linkDE.style.display = "inline-block";
+    linkDE.style.transition = "all 0.3s ease-out";
+    linkEN.style.display = "inline-block";
+    linkUK.style.display = "inline-block";
+  }else{
+    linkDE.style.display = 'none';
+    linkEN.style.display = 'none';
+    linkUK.style.display = 'none';
+  }
+  
+}
 // toggles menu
 function toggleMenu() {
   let menu = document.querySelector('.navigation-list');
