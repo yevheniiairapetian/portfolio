@@ -118,9 +118,14 @@ a.download-de, a.download-en, a.download-uk{
 }
 .download-resumes-links-container{
     margin:20px auto 0 auto;
+    display:flex;
+        flex-direction:row;
+        /* position: relative; */
+        /* top:-42px; */
+        /* right:-10px; */
 }
 .download-resumes-links-container .flags{
-    margin-right:8px;
+    margin-right:16px;
     margin-top:16px;
     border-radius:13px;
     width:35px;
