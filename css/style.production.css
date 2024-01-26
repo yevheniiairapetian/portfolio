@@ -121,8 +121,10 @@ body {
     color: #529fcc !important;   
 } 
 
-.download-de, .download-en, .download-uk{
+a.download-de, a.download-en, a.download-uk{
     display:none;
+    text-decoration: none !important;
+    border-bottom: none !important;
 }
 
 .menu-resume-container img{

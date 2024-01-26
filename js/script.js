@@ -34,18 +34,22 @@ backToTopBtn.addEventListener("click", () => {
 });
 
 function showDownloadLinks(){
-  let linkDE = document.querySelector('.download-de');
-  let linkEN = document.querySelector('.download-en');
-  let linkUK = document.querySelector('.download-uk');
-  if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
-    linkDE.style.display = "inline-block";
-    linkEN.style.display = "inline-block";
-    linkUK.style.display = "inline-block";
-  }else{
-    linkDE.style.display = 'none';
-    linkEN.style.display = 'none';
-    linkUK.style.display = 'none';
-  }
+  let linkDE = $('.download-de');
+  let linkEN = $('.download-en');
+  let linkUK = $('.download-uk');
+  // if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
+    
+    linkDE.fadeToggle();
+    linkEN.fadeToggle();
+    linkUK.fadeToggle();
+    
+
+
+  // }else{
+    // linkDE.fadeToggle();
+    // linkEN.fadeToggle();
+    // linkUK.fadeToggle();
+  // }
   
 }
 
