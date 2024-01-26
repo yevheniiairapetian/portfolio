@@ -112,14 +112,20 @@ a.download-de, a.download-en, a.download-uk{
     text-align:right;
 }
 .download-resumes-links-container{
-    margin:14px auto 0 auto;
+    margin:20px auto 0 auto;
 }
 .download-resumes-links-container .flags{
     margin-right:8px;
-    margin-top:10px;
+    margin-top:16px;
     border-radius:13px;
     width:35px;
     height:auto;
+}
+
+.download-resumes-links-container .flags:hover{
+    opacity:0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .download-menu-de, .download-menu-en, .download-menu-uk{
