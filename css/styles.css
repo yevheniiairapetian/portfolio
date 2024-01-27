@@ -2213,7 +2213,7 @@ img.testimonial-picture-2 {
         display:flex;
         flex-direction:row;
         position: relative;
-        top:-130px;
+        top:-21%;
         right:-10px;
     }
     .langs{
@@ -2235,6 +2235,7 @@ img.testimonial-picture-2 {
     }
     .menu-resume-container img{
         border-radius:16px;
+        width:30px;
     }
 }
 
