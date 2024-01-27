@@ -23,7 +23,7 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Yevhenii Airapetian - About</title>
+    <title class="websiteTitleAbout">Yevhenii Airapetian - About</title>
 </head>
 
 <body>
@@ -42,21 +42,32 @@
                 <span></span>
             </div>
             <ul style="right: -100%;" class="navigation-list">
-                <li onclick="toggleMenu()" role="presentation"><a href="index.html">About</a></li>
-                <li onclick="toggleMenu()" role="presentation"><a href="works.html">Projects</a></li>
-                <li onclick="toggleMenu()" role="presentation"><a href="testimonials.html">Testimonials</a></li>
-                <li onclick="toggleMenu()" role="presentation"><a href="contact.html">Contact</a></li>
-                
-                    <li onclick="showMenuDownloadLinks()" role="presentation"><a href="#">Resume <i class="fa-solid fa-caret-down resume-caret"></i> </a>
-                        
-                    </li>
+                <li  onclick="toggleMenu()" role="presentation"><a class="aboutMenu" href="index.html">About</a></li>
+                <li onclick="toggleMenu()" role="presentation"><a class="projectsMenu" href="works.html">Projects</a></li>
+                <li onclick="toggleMenu()" role="presentation"><a class="testimonialsMenu" href="testimonials.html">Testimonials</a></li>
+                <li onclick="toggleMenu()" role="presentation"><a class="contactMenu" href="contact.html">Contact</a></li>
+                <li onclick="showMenuDownloadLinks()" role="presentation"><a class="resumeMenu" href="#">Resume <i class="fa-solid fa-caret-down resume-caret"></i> </a>
+                </li>
+                <li onclick="showLocalize()" role="presentation"><a href="#" class="showLocalize"><i alt="An icon showing a globe icon" title="Change language" class="fa-solid fa-globe"></i></a>
+                    
+                </li>
                     <ul class="menu-resume-container">
                         <li><a title="Download the resume version in German" class="download-menu-de" target="_blank" href="img/Yevhenii-Airapetian-DE.pdf" download="Yevhenii-Airapetian-DE"><img class="flags" src="img/germany.svg" alt="An icon showing the German flag"></a></li>
                         <li><a title="Download the resume version in English" class="download-menu-en" target="_blank" href="img/Yevhenii-Airapetian-EN.pdf" download="Yevhenii-Airapetian-EN"><img class="flags" src="img/united-states.svg" alt="An icon showing the USA flag"></a></li>
                         <li><a title="Download the resume version in Ukrainian" class="download-menu-uk" target="_blank" href="img/Yevhenii-Airapetian-UK.pdf" download="Yevhenii-Airapetian-UK"><img class="flags" src="img/ukraine.svg" alt="An icon showing Ukrainian flag"></a></li>
-                        </ul>
-                
-                
+                    </ul>
+                    <ul >
+                        <li>
+                            
+                            <ul class="langs">
+                                <li><a href="#" class="languages active english" language="english">EN</a></li>
+                                <li><a href="#" class="languages ukrainian" language="ukrainian">УКР</a></li>
+                                <li><a href="#" class="languages german" language="german">DE</a></li>
+                            </ul>
+                        </li>  
+                            
+                            
+                    </ul>
             </ul>
             <div>
                 <a class="hamburger-container" style="cursor: pointer" onclick="toggleMenu()">
@@ -78,27 +89,27 @@
         <img src="./img/yevhenii_airapetian_profile_picture.jpg" class="profile-picture"
             alt="A portrait photo showing the website's owner">
         <div class="main-information_container">
-            <h1 class="hello-heading">Hi, I'm Yevhenii!</h1>
-            <p>I'm a web developer passionate about technology</p>
-            <p>With previous experience in teaching foreign languages and academic writing, I'm excited to pursue a
+            <h1 class="hello-heading hello">Hi, I'm Yevhenii!</h1>
+            <p class="introduction">I'm a web developer passionate about technology</p>
+            <p class="prevExperience">With previous experience in teaching foreign languages and academic writing, I'm excited to pursue a
                 career as a web developer.</p>
-            <p>I have always focused on delivering high-quality work
+            <p class="myFocus">I have always focused on delivering high-quality work
                 that met deadlines, employing my refined problem-solving, time-management, and
                 logical thinking skills.</p>
-            <p>My focus is to combine my
+            <p class="mySecondFocus">My focus is to combine my
                 expertise with my professional aspirations to help create functional, responsive, and accessible
                 software solutions.</p>
-            <p>I'm available for on-site and hybrid employment in the Berlin and Potsdam area or remotely.</p>
-            <p class="fade-in-up-on-scroll">In addition to my passions in web development, I'm also an active hobby photographer and fitness
+            <p class="availability">I'm available for on-site and hybrid employment in the Berlin and Potsdam area or remotely.</p>
+            <p class="fade-in-up-on-scroll hobbies">In addition to my passions in web development, I'm also an active hobby photographer and fitness
                 enthusiast, and any other day
                 you can find me outside taking photos or lifting heavy weights.</p>
             <!-- <p>I am a <span class="paragraph_additional_info--color">&lt;web&gt;</span> developer from Berlin.</p> -->
             <a class="check-out fade-in-up-on-scroll" href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><span title="Check out code on Github"
-                    class="about-buttons-big-screen">Check out
-                    Code</span><span title="Check out code on Github" class="about-buttons-small-screen">Code</span></a>
+                    class="about-buttons-big-screen checkOutBig">Check out
+                    Code</span><span title="Check out code on Github" class="about-buttons-small-screen checkOutSmall">Code</span></a>
             <button onclick="showDownloadLinks()" class="resume fade-in-up-on-scroll" target="_blank">
-                <span title="* Download zip folder with resumes. You might need to use a file archiver to view the files" class="about-buttons-big-screen">Download Resume</span><span
-                    title="* Download zip folder with resumes. You might need to use a file archiver to view the files" class="about-buttons-small-screen">Resume</span>
+                <span title="* Download zip folder with resumes. You might need to use a file archiver to view the files" class="about-buttons-big-screen resumeBig">Download Resume</span><span
+                    title="* Download zip folder with resumes. You might need to use a file archiver to view the files" class="about-buttons-small-screen resumeSmall">Resume</span>
             
                 </button><br>
                 <div class="download-resumes-links-container">
@@ -141,7 +152,7 @@
                 class="fa-brands fa-medium fa-xl"></i></a>
 
     </div>
-    <p class="fade-in-up-on-scroll">© Yevhenii Airapetian. All rights reserved.</p>
+    <p class="fade-in-up-on-scroll copyright">© Yevhenii Airapetian. All rights reserved.</p>
     <a class="impressum fade-in-up-on-scroll" target="_self" href="impressum.html">Impressum</a>
 
 
