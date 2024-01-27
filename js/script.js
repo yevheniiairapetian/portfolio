@@ -73,16 +73,20 @@ function showLocalize(){
   let DE = $('.german');
   let EN = $('.english');
   let UK = $('.ukrainian');
+  let caret = $('.localize-caret');
+  let langs = $('.langs');
   // if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
     DE.fadeToggle();
     
     EN.fadeToggle();
     UK.fadeToggle();
+    caret.fadeToggle();
   // }else{
     
   // }
   
 }
+
 
 let langs = document.querySelector(".langs"),
      link = document.querySelectorAll(".languages"),
@@ -104,10 +108,7 @@ let langs = document.querySelector(".langs"),
      resumeBig = document.querySelector(".resumeBig"),
      resumeSmall = document.querySelector(".resumeSmall"),
      copyright = document.querySelector(".copyright"),
-     impressum = document.querySelector(".impressum"),
-     write = document.querySelector(".write"),
-     reason = document.querySelector(".reason"),
-     where = document.querySelector(".where")
+     impressum = document.querySelector(".impressum")
 
 
 link.forEach(el=>{
@@ -136,9 +137,6 @@ link.forEach(el=>{
           resumeSmall.textContent = data[attr].resumeSmall;
           copyright.textContent = data[attr].copyright;
           impressum.textContent = data[attr].impressum;
-          write.textContent = data[attr].write;
-          reason.textContent = data[attr].reason;
-          where.textContent = data[attr].where;
 
           
         
@@ -166,9 +164,6 @@ let data = {
       resumeSmall:"CV",
       copyright:"© Yevhenii Airapetian. Alle Rechte vorbehalten.",
       impressum:"Impressum",
-      write:"Kontakt",
-      reason:"Möchten Sie mit mir zusammenarbeiten oder haben Sie eine Anregung? Ich bin offen für Rekrutierungsmöglichkeiten und Kommentare",
-      where:"Schreiben Sie mir eine E-Mail mit dem unten stehenden Formular",
      },
      english: {
           websiteTitleAbout:"Yevhenii Airapetian - About",
@@ -190,9 +185,13 @@ let data = {
           resumeSmall:"Resume",
           copyright:"© Yevhenii Airapetian. All rights reserved.",
           impressum:"Impressum",
-          write:"Contact",
-          reason:"Want to work together or have a suggestion? I'm open to recruitment opportunities and comments",
-          where:"Feel free to email me using the form below",
+
+
+
+
+
+
+
 
      },
      ukrainian: {
@@ -214,14 +213,9 @@ let data = {
       resumeBig:"Завантажити резюме",
       resumeSmall:"Резюме",
       copyright:"© Євгеній Айрапетян. Усі права захищено.",
-      impressum:"Відбиток",  
-      write:"Зв'язок",
-      reason:"Хочете попрацювати разом або маєте пропозицію? Я відкритий до можливостей рекрутингу та коментарів",
-      where:"Не соромтеся написати мені за допомогою форми нижче",        
+      impressum:"Відбиток",          
      }
 }
-
-
 
 // toggles menu
 function toggleMenu() {

@@ -107,10 +107,6 @@ a.download-de, a.download-en, a.download-uk{
     border-bottom: none !important;
 }
 
-.langs a:active{
-    opacity:0.8;
-}
-
 .german, .english, .ukrainian{
     display:none;
     
