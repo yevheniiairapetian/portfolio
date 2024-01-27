@@ -69,6 +69,22 @@ function showMenuDownloadLinks(){
   
 }
 
+function closeMenuDownloadLinks(){
+  let linkDE = $('.download-menu-de');
+  let linkEN = $('.download-menu-en');
+  let linkUK = $('.download-menu-uk');
+  let caret = $('.resume-caret');
+  // if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
+    linkDE.fadeOut();
+    linkEN.fadeOut();
+    linkUK.fadeOut();
+    caret.fadeOut();
+  // }else{
+    
+  // }
+  
+}
+
 function showLocalize(){
   let DE = $('.german');
   let EN = $('.english');
@@ -87,6 +103,17 @@ function showLocalize(){
   
 }
 
+
+function closeLocalize() {
+  let DE = $('.german');
+  let EN = $('.english');
+  let UK = $('.ukrainian');
+  DE.fadeOut();
+    
+    EN.fadeOut();
+    UK.fadeOut();
+    
+  }
 
 let langs = document.querySelector(".langs"),
      link = document.querySelectorAll(".languages"),
@@ -137,8 +164,6 @@ link.forEach(el=>{
           resumeSmall.textContent = data[attr].resumeSmall;
           copyright.textContent = data[attr].copyright;
           impressum.textContent = data[attr].impressum;
-
-          
         
      })
 })

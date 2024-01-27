@@ -133,6 +133,7 @@ a.download-de, a.download-en, a.download-uk{
 }
 
 .langs{
+    width:60px;
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -160,7 +161,7 @@ a.download-de, a.download-en, a.download-uk{
 .menu-resume-container img{
     margin-top:16px;
     border-radius:13px;
-    width:35px;
+    width:28px;
     height:auto;
 }
 .download-resumes-links-container{
@@ -192,10 +193,11 @@ a.download-de, a.download-en, a.download-uk{
     -webkit-box-direction:normal;
         -ms-flex-direction:column;
             flex-direction:column;
-    position: absolute;
-    top: 82px;
-    right:72px;
+    position: fixed;
+    top: 120px;
+    right:80px;
 }
+
 
 .download-resumes-links-container .flags:hover{
     opacity:0.8;
@@ -2645,7 +2647,7 @@ img.testimonial-picture-2 {
             -ms-flex-direction:row;
                 flex-direction:row;
         position: relative;
-        top:-21%;
+        top:5%;
         right:-10px;
     }
     .langs{
@@ -2657,13 +2659,13 @@ img.testimonial-picture-2 {
             -ms-flex-direction:row;
                 flex-direction:row;
         position: relative;
-        top:-42px;
-        right:-10px;
+        top:-70px;
+        right:62px;
         background-color:#2b2b2b;
     }
     .langs li a{
-        padding:14px 18px;
-        font-size:18px !important;
+        padding:10px 14px;
+        font-size:14px !important;
         text-align:center !important;
         background: #404040;
     }
