@@ -11,9 +11,9 @@ import { ContactView } from '../contact-view/contact-view';
 import { AboutView } from '../about-view/about-view';
 import { TestimonialsView } from '../testimonials-view/testimonials-view';
 import { Row, Col, InputGroup, Form } from 'react-bootstrap';
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { UncontrolledExample } from '../Carousel/carousel';
-export const MainView = () => {
+export const MainView = () =>{
 
 
 
@@ -22,19 +22,19 @@ export const MainView = () => {
 
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         {/* <ScrollButton /> */}
         {/* <ScrollToTop /> */}
-        <NavigationBar
+        {/* <NavigationBar */}
           
 
-        />
+        {/* />
         <Row className="justify-content-center">
-          <Routes>
+          <Routes> */}
             
             
 
-
+{/* 
           <Route
               path="/"
               element={
@@ -72,8 +72,8 @@ export const MainView = () => {
                   
                 
                 </>
-              }
-            />
+              } */}
+            {/* />
 
             
 
@@ -114,11 +114,11 @@ export const MainView = () => {
               }
             />
 
-          </Routes>
-
+          </Routes> */}
+{/* 
         </Row>
 
-      </BrowserRouter>
+      </BrowserRouter> */}
 
     </>
 
@@ -126,5 +126,5 @@ export const MainView = () => {
 
 }
 
-         
+       
 
