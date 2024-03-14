@@ -11,7 +11,7 @@ import { ContactView } from '../contact-view/contact-view';
 import { AboutView } from '../about-view/about-view';
 import { TestimonialsView } from '../testimonials-view/testimonials-view';
 import { Row, Col, InputGroup, Form } from 'react-bootstrap';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 // import { UncontrolledExample } from '../Carousel/carousel';
 export const MainView = () =>{
 
@@ -22,30 +22,30 @@ export const MainView = () =>{
 
   return (
     <>
-      {/* <BrowserRouter> */}
-        {/* <ScrollButton /> */}
-        {/* <ScrollToTop /> */}
-        {/* <NavigationBar */}
+       <BrowserRouter> 
+        {/* <ScrollButton />
+        <ScrollToTop />  */}
+         <NavigationBar 
           
 
-        {/* />
+         />
         <Row className="justify-content-center">
-          <Routes> */}
+          <Routes> 
             
             
 
-{/* 
+ 
           <Route
               path="/"
               element={
                 <>
                   
                     <Col>
-                    <NavigationBar />
-                      <AboutView
+                    {/* <NavigationBar /> */}
+                      {/* <AboutView
                         
                       />
-                      <Footer />
+                      <Footer /> */}
                     </Col>
                   
                 
@@ -63,17 +63,17 @@ export const MainView = () =>{
                 <>
                   
                     <Col>
-                    <NavigationBar />
-                      <ProjectsView
+                    {/* <NavigationBar /> */}
+                      {/* <ProjectsView
                         
                       />
-                      <Footer />
+                      <Footer /> */}
                     </Col>
                   
                 
                 </>
-              } */}
-            {/* />
+              } 
+             />
 
             
 
@@ -83,11 +83,11 @@ export const MainView = () =>{
                 <>
                   
                     <Col>
-                    <NavigationBar />
-                      <TestimonialsView
+                    {/* <NavigationBar /> */}
+                      {/* <TestimonialsView
                         
                       />
-                      <Footer />
+                      <Footer /> */}
                     </Col>
                   
                 
@@ -102,11 +102,11 @@ export const MainView = () =>{
                 <>
                   
                     <Col>
-                    <NavigationBar />
-                      <ContactView
+                    {/* <NavigationBar /> */}
+                      {/* <ContactView
                         
                       />
-                      <Footer />
+                      <Footer /> */}
                     </Col>
                   
                 
@@ -114,11 +114,11 @@ export const MainView = () =>{
               }
             />
 
-          </Routes> */}
-{/* 
+          </Routes> 
+
         </Row>
 
-      </BrowserRouter> */}
+      </BrowserRouter> 
 
     </>
 
