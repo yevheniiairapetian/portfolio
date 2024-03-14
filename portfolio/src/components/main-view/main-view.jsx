@@ -41,11 +41,11 @@ export const MainView = () =>{
                 <>
                   
                     <Col>
-                    {/* <NavigationBar /> */}
-                      {/* <AboutView
+                     
+                      <AboutView
                         
                       />
-                      <Footer /> */}
+                      {/* <Footer /> */}
                     </Col>
                   
                 

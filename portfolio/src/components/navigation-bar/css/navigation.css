@@ -1,0 +1,17 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.page-header {
+    font-size: 1.2em;
+    background-color: #529fcc;
+    
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    
+    transition: transform 0.3s ease-out, padding-right 0.3s ease-out, border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out;
+}
