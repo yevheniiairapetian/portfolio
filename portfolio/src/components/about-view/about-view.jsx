@@ -1,5 +1,6 @@
 import { Navbar, Button, Container, Row, Col, Nav, Image } from "react-bootstrap";
 import { Link } from 'react-router-dom';
+import $ from 'jquery';
 import aboutCSS from './css/about.css';
 import profileImg from "./img/yevhenii_airapetian_profile_picture.jpg";
 import ukraineImg from "./img/ukraine.svg";
@@ -7,7 +8,25 @@ import usImg from "./img/united-states.svg";
 import deImg from "./img/germany.svg";
 
 export const AboutView = () => {
-	
+	function showDownloadLinks(){
+        let linkDE = $('.download-de');
+        let linkEN = $('.download-en');
+        let linkUK = $('.download-uk');
+        // if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
+          
+          linkDE.fadeToggle();
+          linkEN.fadeToggle();
+          linkUK.fadeToggle();
+          
+      
+      
+        // }else{
+          // linkDE.fadeToggle();
+          // linkEN.fadeToggle();
+          // linkUK.fadeToggle();
+        // }
+        
+      }
 	return (
 
 		<Container className="aboutContainer pt-5">
@@ -32,9 +51,10 @@ export const AboutView = () => {
                 you can find me outside taking photos or lifting heavy weights.</p>
             
             <Button variant="primary" className="check-out fade-in-up-on-scroll ps-3 pe-3" href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener noreferrer"><span title="Check out code on Github" className="about-buttons-small-screen checkOutSmall">Code</span></Button>
-            <Button variant="dark" 
-            // onClick={showDownloadLinks()} 
-            className="resume fade-in-up-on-scroll ps-3 pe-3 ms-2" target="_blank">
+            <Button 
+            variant="dark" 
+            onClick={()=>{showDownloadLinks()}} 
+            className="resume fade-in-up-on-scroll ps-3 pe-3 ms-2">
                 <span title="* Download zip folder with resumes. You might need to use a file archiver to view the files" className="about-buttons-big-screen resumeBig">Resume</span>
             
                 </Button><br/>

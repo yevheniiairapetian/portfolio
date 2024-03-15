@@ -38,8 +38,8 @@ a.download-de, a.download-en, a.download-uk{
   }
 
   a.check-out:hover, a.check-out:active,
-  a.resume:hover, a.resume:active,
-  a.check-out:focus, a.resume:focus{
+  button.resume:hover, button.resume:active,
+  a.check-out:focus, button.resume:focus{
       /* padding-bottom: 6px; */
       outline: none;
       border-bottom: 2px solid transparent;
@@ -79,7 +79,7 @@ a.check-out:hover {
     --CheckGradColor2: #529fcc;
 }
 
-a.resume {
+button.resume {
     font-family: "Montserrat", sans-serif;
     /* height: 40px; */
     /* padding: 8px 18px; */
@@ -98,7 +98,7 @@ a.resume {
     transition: --ResumeGradColor1 0.3s ease-out, --ResumeGradColor2 0.3s ease-out;
 }
 
-a.resume:hover {
+button.resume:hover {
     /* padding-bottom: 6px; */
     background: hsla(0, 0%, 7%, 1);
     background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor2)), to(var(--ResumeGradColor1)));
@@ -112,7 +112,7 @@ a.resume:hover {
 }
 
 a.check-out,
-a.resume {
+button.resume {
     font-size: 15px;
 }
 
