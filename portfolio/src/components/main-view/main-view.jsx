@@ -45,7 +45,7 @@ export const MainView = () =>{
                       <AboutView
                         
                       />
-                      {/* <Footer /> */}
+                       <Footer /> 
                     </Col>
                   
                 
