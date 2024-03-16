@@ -1,0 +1,46 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+img{
+    width: 100%;
+    height:auto;
+    opacity:0.9;
+}
+
+.carousel-caption{
+    font-size:0px;
+    background-color: #529fcc;
+    /* width: 100%; */
+    padding:10px 30px;
+    right:0;
+    left:0;
+    border-radius: 15px;
+}
+
+.carousel-heading{
+    font-size:18px;
+}
+
+/* .carousel-heading:hover{
+    font-size:14px;
+    transition: font-size 200ms ease-in-out;
+} */
+
+.carousel-caption:hover{
+    font-size:16px;
+    transition: font-size 200ms ease-in-out;
+}
+
+@media screen and (max-width: 980px){
+    .carousel-caption{
+        font-size:0px;
+    }
+    .carousel-caption:hover{
+        font-size:12px;
+    }
+
+    .carousel-heading{
+        font-size:12px;
+    }
+} 
