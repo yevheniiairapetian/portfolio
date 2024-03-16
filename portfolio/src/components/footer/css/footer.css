@@ -136,7 +136,7 @@
 margin-left:-4px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 992px) {
     .social-container{
         position:static;
         -webkit-box-orient:horizontal;
