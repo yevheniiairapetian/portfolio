@@ -131,7 +131,7 @@ export const ContactView = () =>{
               <div className="btn-toolbar flex items-center space-x-3">
                 <Button type="submit" className="m-auto pe-5 ps-5 fade-in-up-on-scroll send-input inline-flex cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90">
                 
-                <FontAwesomeIcon className="" icon={faPaperPlane} />
+                <FontAwesomeIcon className="plane-icon" icon={faPaperPlane} />
                 
                 </Button>
               </div>

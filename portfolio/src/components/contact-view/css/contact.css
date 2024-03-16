@@ -4142,4 +4142,12 @@ input[type="checkbox"]:checked ~ span span {
     color: red;
 }
 
+.plane-icon:hover{
+    transform: scale(1.2);
+    transition: all 200ms ease-in-out;
+}
 
+.send-input:hover{
+    opacity:0.9;
+    transition: all 200ms ease-in-out;
+}
