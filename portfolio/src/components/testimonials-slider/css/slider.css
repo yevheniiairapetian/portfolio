@@ -2,19 +2,25 @@
     font-family: "Montserrat", sans-serif;
 }
 
-img{
+.testim-image{
+    margin: 0 auto;
     width: 100%;
+    max-width: 300px;
     height:auto;
     opacity:0.9;
 }
 
 .carousel-caption{
     font-size:0px;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
     background-color: #529fcc;
     /* width: 100%; */
-    padding:10px 30px;
+    padding:2.25rem 30px;
     right:0;
     left:0;
+    bottom:0.25rem;
     border-radius: 15px;
 }
 
@@ -32,9 +38,22 @@ img{
     transition: font-size 200ms ease-in-out;
 }
 
+.carousel-indicators {
+bottom:-20px !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #fff !important;
+}
+
 @media screen and (max-width: 980px){
     .carousel-caption{
         font-size:0px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 194px;
+        left:0;
+        right:0;
     }
     .carousel-caption:hover{
         font-size:12px;

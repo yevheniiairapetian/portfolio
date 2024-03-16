@@ -16,7 +16,7 @@ export const UncontrolledExample = () => {
             <Col>
             <Carousel className="w-75 m-auto">
       <Carousel.Item>
-        <Image src={testimonialsPicture1} roundedCircle text="First slide" />
+        <Image className="testim-image" src={testimonialsPicture1} roundedCircle text="First slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">Nizar Triki, Software Engineering Manager chez Expensya</h3>
           <cite>I had the opportunity to mentor Yevhenii
@@ -28,19 +28,18 @@ export const UncontrolledExample = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={testimonialsPicture2} roundedCircle circular text="Second slide" />
+        <Image className="testim-image" src={testimonialsPicture2} roundedCircle circular text="Second slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">Maya Septriana, Career Consultant, CareerFoundry</h3>
           <cite>Yevhenii is someone that is so easy to
                                                         collaborate with. He always strives for excellence. Every time I
                                                         give him feedback he would be willing to listen and adjust the
-                                                        submission...
-                                                        <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                        submission...<Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={testimonialsPicture3} roundedCircle text="Third slide" />
+        <Image className="testim-image" src={testimonialsPicture3} roundedCircle text="Third slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">Dejan Gogov, Web Developer, Wild Code School</h3>
           <cite>
