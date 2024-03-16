@@ -102,11 +102,11 @@ export const MainView = () =>{
                 <>
                   
                     <Col>
-                    {/* <NavigationBar /> */}
-                      {/* <ContactView
+                    
+                      <ContactView
                         
                       />
-                      <Footer /> */}
+                      <Footer /> 
                     </Col>
                   
                 
