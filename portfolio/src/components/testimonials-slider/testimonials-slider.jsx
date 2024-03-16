@@ -15,17 +15,7 @@ export const UncontrolledExample = () => {
         <Row>
             <Col>
             <Carousel className="w-75 m-auto">
-      <Carousel.Item>
-        <Image className="testim-image" src={testimonialsPicture1} roundedCircle text="First slide" />
-        <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">Nizar Triki, Software Engineering Manager chez Expensya</h3>
-          <cite>I had the opportunity to mentor Yevhenii
-                                                        throughout his web development training at CareerFoundry.
-                                                        Yevhenii's self-sufficiency, rapid grasp of concepts...
-                                                        <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
-                                                        </cite>
-        </Carousel.Caption>
-      </Carousel.Item>
+      
       <Carousel.Item>
         <Image className="testim-image" src={testimonialsPicture2} roundedCircle circular text="Second slide" />
         <Carousel.Caption className="carousel-caption">
@@ -34,6 +24,17 @@ export const UncontrolledExample = () => {
                                                         collaborate with. He always strives for excellence. Every time I
                                                         give him feedback he would be willing to listen and adjust the
                                                         submission...<Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                        </cite>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <Image className="testim-image" src={testimonialsPicture1} roundedCircle text="First slide" />
+        <Carousel.Caption className="carousel-caption">
+          <h3 className="carousel-heading">Nizar Triki, Software Engineering Manager chez Expensya</h3>
+          <cite>I had the opportunity to mentor Yevhenii
+                                                        throughout his web development training at CareerFoundry.
+                                                        Yevhenii's self-sufficiency, rapid grasp of concepts...
+                                                        <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>

@@ -8,6 +8,7 @@
     max-width: 300px;
     height:auto;
     opacity:0.9;
+    border: 2px solid #529fcc;
 }
 
 .carousel-caption{

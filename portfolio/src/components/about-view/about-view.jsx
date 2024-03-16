@@ -6,6 +6,9 @@ import profileImg from "./img/yevhenii_airapetian_profile_picture.jpg";
 import ukraineImg from "./img/ukraine.svg";
 import usImg from "./img/united-states.svg";
 import deImg from "./img/germany.svg";
+import uaCV from "./img/Yevhenii-Airapetian-UK.pdf";
+import usCV from "./img/Yevhenii-Airapetian-EN.pdf";
+import deCV from "./img/Yevhenii-Airapetian-DE.pdf";
 
 export const AboutView = () => {
 	function showDownloadLinks(){
@@ -27,26 +30,47 @@ export const AboutView = () => {
         // }
         
       }
+
+      function closeDownloadLinks(){
+        let linkDE = $('.download-de');
+        let linkEN = $('.download-en');
+        let linkUK = $('.download-uk');
+        // if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
+          
+          linkDE.fadeOut();
+          linkEN.fadeOut();
+          linkUK.fadeOut();
+          
+      
+      
+        // }else{
+          // linkDE.fadeToggle();
+          // linkEN.fadeToggle();
+          // linkUK.fadeToggle();
+        // }
+        
+      }
+
 	return (
 
 		<Container className="aboutContainer pt-5">
 			<Row>
 				<Col xs={12} md={5}>
-                <Image  className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle alt="logo" src={profileImg} />
+                <Image  onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle alt="logo" src={profileImg} />
                 </Col>
                 <Col xs={12} md={7}>
-                <h1 className="hello-heading hello text-primary mt-4 mb-4">Hi, I'm Yevhenii!</h1>
-            <p className="introduction">I'm a web developer passionate about technology</p>
-            <p className="prevExperience">With previous experience in teaching foreign languages and academic writing, I'm excited to pursue a
+                <h1 onClick={()=>{closeDownloadLinks()}} className="hello-heading hello text-primary mt-4 mb-4">Hi, I'm Yevhenii!</h1>
+            <p onClick={()=>{closeDownloadLinks()}} className="introduction">I'm a web developer passionate about technology</p>
+            <p onClick={()=>{closeDownloadLinks()}} className="prevExperience">With previous experience in teaching foreign languages and academic writing, I'm excited to pursue a
                 career as a web developer.</p>
-            <p className="myFocus">I have always focused on delivering high-quality work
+            <p onClick={()=>{closeDownloadLinks()}} className="myFocus">I have always focused on delivering high-quality work
                 that met deadlines, employing my refined problem-solving, time-management, and
                 logical thinking skills.</p>
-            <p className="mySecondFocus">My focus is to combine my
+            <p onClick={()=>{closeDownloadLinks()}} className="mySecondFocus">My focus is to combine my
                 expertise with my professional aspirations to help create functional, responsive, and accessible
                 software solutions.</p>
-            <p className="availability">I'm available for on-site and hybrid employment in the Berlin and Potsdam area or remotely.</p>
-            <p className="fade-in-up-on-scroll hobbies mb-4">In addition to my passions in web development, I'm also an active hobby photographer and fitness
+            <p onClick={()=>{closeDownloadLinks()}} className="availability">I'm available for on-site and hybrid employment in the Berlin and Potsdam area or remotely.</p>
+            <p onClick={()=>{closeDownloadLinks()}} className="fade-in-up-on-scroll hobbies mb-4">In addition to my passions in web development, I'm also an active hobby photographer and fitness
                 enthusiast, and any other day
                 you can find me outside taking photos or lifting heavy weights.</p>
             
@@ -59,9 +83,9 @@ export const AboutView = () => {
             
                 </Button><br/>
                 
-                <Link to="img/germany.svg" title="Download the resume version in German" className="download-de" target="_blank" download="Yevhenii-Airapetian-DE"><Image roundedCircle className="flags mt-3 me-3" src={deImg} alt="An icon showing the German flag"/></Link>
-            <Link to="img/united-states.svg" title="Download the resume version in English" className="download-en" target="_blank" download="Yevhenii-Airapetian-EN"><Image roundedCircle className="flags mt-3 me-3" src={usImg} alt="An icon showing the USA flag"/></Link>
-            <Link to="img/ukraine.svg" title="Download the resume version in Ukrainian" className="download-uk" target="_blank" download="Yevhenii-Airapetian-UK"><Image roundedCircle className="flags mt-3 me-3" src={ukraineImg} alt="An icon showing Ukrainian flag"/></Link>
+                <Link to={deCV} title="Download the resume version in German" className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf"><Image roundedCircle className="flags mt-3 me-3" src={deImg} alt="An icon showing the German flag"/></Link>
+            <Link to={usCV} title="Download the resume version in English" className="download-en" target="_blank" download="Yevhenii-Airapetian-EN.pdf"><Image roundedCircle className="flags mt-3 me-3" src={usImg} alt="An icon showing the USA flag"/></Link>
+            <Link to={uaCV} title="Download the resume version in Ukrainian" className="download-uk" target="_blank" download="Yevhenii-Airapetian-UK.pdf"><Image roundedCircle className="flags mt-3 me-3" src={ukraineImg} alt="An icon showing Ukrainian flag"/></Link>
                 
                     
                 </Col>
