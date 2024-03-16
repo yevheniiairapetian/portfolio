@@ -5,7 +5,8 @@ import { NavigationBar } from '../navigation-bar/navigation-bar';
 import { ProjectsView } from '../projects-view/projects-view';
 import { Fragment } from 'react';
 // import { ScrollButton } from '../scroll-button/ScrollButton';
-
+import { ImpressumView } from '../impressum-view/impressum-view';
+import { PageNotFoundView } from '../page-not-found-view/page-not-found-view';
 import { Footer } from '../footer/footer';
 import { ContactView } from '../contact-view/contact-view';
 import { AboutView } from '../about-view/about-view';
@@ -13,112 +14,136 @@ import { TestimonialsView } from '../testimonials-view/testimonials-view';
 import { Row, Col, InputGroup, Form } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 // import { UncontrolledExample } from '../Carousel/carousel';
-export const MainView = () =>{
+export const MainView = () => {
 
 
 
 
-  
+
 
   return (
     <>
-       <BrowserRouter> 
+      <BrowserRouter>
         {/* <ScrollButton />
         <ScrollToTop />  */}
-         <NavigationBar 
-          
+        <NavigationBar
 
-         />
+
+        />
         <Row className="justify-content-center">
-          <Routes> 
-            
-            
+          <Routes>
 
- 
-          <Route
+
+
+
+            <Route
               path="/"
               element={
                 <>
-                  
-                    <Col>
-                     
-                      <AboutView
-                        
-                      />
-                       <Footer /> 
-                    </Col>
-                  
-                
+
+                  <Col>
+
+                    <AboutView
+
+                    />
+                    <Footer />
+                  </Col>
+
+
                 </>
               }
 
             />
 
-              
 
-            
+
+
             <Route
               path='/projects'
               element={
                 <>
-                  
-                    <Col>
+
+                  <Col>
                     {/* <NavigationBar /> */}
-                      {/* <ProjectsView
+                    {/* <ProjectsView
                         
                       />
                       <Footer /> */}
-                    </Col>
-                  
-                
+                  </Col>
+
+
                 </>
-              } 
-             />
+              }
+            />
 
-            
 
-<Route
+
+            <Route
               path='/testimonials'
               element={
                 <>
-                  
-                    <Col>
-                  
-                      <TestimonialsView
-                        
-                      />
-                      <Footer />
-                    </Col>
-                  
-                
+
+                  <Col>
+
+                    <TestimonialsView
+
+                    />
+                    <Footer />
+                  </Col>
+
+
                 </>
               }
             />
 
 
-<Route
+            <Route
               path='/contact'
               element={
                 <>
-                  
-                    <Col>
-                    
-                      <ContactView
-                        
-                      />
-                      <Footer /> 
-                    </Col>
-                  
-                
+
+                  <Col>
+
+                    <ContactView
+
+                    />
+                    <Footer />
+                  </Col>
+
+
                 </>
               }
             />
 
-          </Routes> 
+
+            <Route
+              path='/impressum'
+              element={
+                <>
+
+                  <Col>
+
+                    <ImpressumView
+
+                    />
+                    <Footer />
+                  </Col>
+
+
+                </>
+              }
+            />
+
+            <Route
+              path="*"
+              element={<PageNotFoundView />}
+            />
+
+          </Routes>
 
         </Row>
 
-      </BrowserRouter> 
+      </BrowserRouter>
 
     </>
 
@@ -126,5 +151,5 @@ export const MainView = () =>{
 
 }
 
-       
+
 

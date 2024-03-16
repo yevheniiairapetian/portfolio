@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faDev, faTwitter, faMedium } from '@fortawesome/free-brands-svg-icons';
 import footerCSS from './css/footer.css';
 import { Link } from "react-router-dom";
+import { ImpressumView } from '../impressum-view/impressum-view';
 
 export const Footer = () =>{
     function toggleSidebar() {
@@ -95,7 +96,10 @@ export const Footer = () =>{
 
     </div>
     <p className="fade-in-up-on-scroll copyright">© Yevhenii Airapetian, 2024. All rights reserved.</p>
-    <a className="impressum fade-in-up-on-scroll" target="_self" href="impressum.html">Impressum</a>
+    <Nav.Link className="text-light pe-4" as={Link} to='/impressum'>
+									Impressum
+								</Nav.Link>
+    {/* <Link to={ImpressumView} className="impressum fade-in-up-on-scroll" >Impressum</Link> */}
 
 
 </footer>
