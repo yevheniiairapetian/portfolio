@@ -49,7 +49,7 @@ export const ContactView = () =>{
             >
               <div className="SortableItem fb-builder-item">
                 <h3
-                  class="static fade-in-up-on-scroll !font-bold text-xl font-semibold leading-tight text-black sm:text-[28px]"
+                  className="form-heading static fade-in-up-on-scroll text-xl leading-tight sm:text-[28px]"
                 >
                   Contact
                 </h3>
@@ -57,7 +57,7 @@ export const ContactView = () =>{
               <div className="SortableItem fb-builder-item">
                 <div className="mb-4">
                   <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
-                    ><span>First Name</span
+                    ><span className="captions">First Name</span
                     ><span className="label-required pl-1 text-red-400">*</span></label
                   ><input
                     type="text"
@@ -72,7 +72,7 @@ export const ContactView = () =>{
               <div className="SortableItem fb-builder-item">
                 <div className="mb-4">
                   <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
-                    ><span>Last Name</span
+                    ><span className="captions">Last Name</span
                     ><span className="label-required pl-1 text-red-400">*</span></label
                   ><input
                     type="text"
@@ -86,7 +86,7 @@ export const ContactView = () =>{
               <div className="SortableItem fb-builder-item">
                 <div className="mb-4">
                   <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
-                    ><span>Phone Number</span></label
+                    ><span className="captions">Phone Number</span></label
                   ><input
                     type="tel"
                     className="fade-in-up-on-scroll w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
@@ -98,7 +98,7 @@ export const ContactView = () =>{
               <div className="SortableItem fb-builder-item">
                 <div className="mb-4">
                   <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
-                    ><span>E-Mail</span
+                    ><span className="captions">E-Mail</span
                     ><span className="label-required pl-1 text-red-400">*</span></label
                   ><input
                     type="email"
@@ -112,7 +112,7 @@ export const ContactView = () =>{
               <div className="SortableItem fb-builder-item">
                 <div className="mb-4">
                   <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
-                    ><span>Message or Comment. Please be nice!</span>
+                    ><span className="captions">Message or Comment. Please be nice!</span>
                     <span className="label-required pl-1 text-red-400">*</span></label
                   ><input
                     type="text"
@@ -129,7 +129,7 @@ export const ContactView = () =>{
                 </p>
               </div>
               <div className="btn-toolbar flex items-center space-x-3">
-                <Button type="submit" className="pe-5 ps-5 fade-in-up-on-scroll send-input inline-flex cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90">
+                <Button type="submit" className="m-auto pe-5 ps-5 fade-in-up-on-scroll send-input inline-flex cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90">
                 
                 <FontAwesomeIcon className="" icon={faPaperPlane} />
                 

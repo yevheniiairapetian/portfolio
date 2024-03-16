@@ -4134,10 +4134,12 @@ input[type="checkbox"]:checked ~ span span {
     margin-bottom: 40px;
 }
 
+.form-heading{
+    color: #529fcc; 
+}
+
 .form-asterisk{
     color: red;
 }
 
-/* .send-input{
-    background-image: url('../img/paper-plane-regular.svg');
-} */
+
