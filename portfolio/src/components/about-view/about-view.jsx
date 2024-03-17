@@ -12,14 +12,12 @@ import deCV from "./img/Yevhenii-Airapetian-DE.pdf";
 
 export const AboutView = () => {
 	function showDownloadLinks(){
-        let linkDE = $('.download-de');
-        let linkEN = $('.download-en');
-        let linkUK = $('.download-uk');
+        let CVs = $('.CVbuttons');
+    
         // if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
           
-          linkDE.fadeToggle();
-          linkEN.fadeToggle();
-          linkUK.fadeToggle();
+          
+          CVs.fadeToggle();
           
       
       
@@ -32,14 +30,11 @@ export const AboutView = () => {
       }
 
       function closeDownloadLinks(){
-        let linkDE = $('.download-de');
-        let linkEN = $('.download-en');
-        let linkUK = $('.download-uk');
+        
+        let CVs = $('.CVbuttons');
         // if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
           
-          linkDE.fadeOut();
-          linkEN.fadeOut();
-          linkUK.fadeOut();
+        CVs.fadeOut();
           
       
       
@@ -82,10 +77,12 @@ export const AboutView = () => {
                 <span title="* Download zip folder with resumes. You might need to use a file archiver to view the files" className="about-buttons-big-screen resumeBig">Resume</span>
             
                 </Button><br/>
-                
+                <div className="CVbuttons">
                 <Link to={deCV} title="Download the resume version in German" className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf"><Image roundedCircle className="flags mt-3 me-3" src={deImg} alt="An icon showing the German flag"/></Link>
             <Link to={usCV} title="Download the resume version in English" className="download-en" target="_blank" download="Yevhenii-Airapetian-EN.pdf"><Image roundedCircle className="flags mt-3 me-3" src={usImg} alt="An icon showing the USA flag"/></Link>
             <Link to={uaCV} title="Download the resume version in Ukrainian" className="download-uk" target="_blank" download="Yevhenii-Airapetian-UK.pdf"><Image roundedCircle className="flags mt-3 me-3" src={ukraineImg} alt="An icon showing Ukrainian flag"/></Link>
+                </div>
+                
                 
                     
                 </Col>

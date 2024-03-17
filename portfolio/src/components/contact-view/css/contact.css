@@ -4151,3 +4151,8 @@ input[type="checkbox"]:checked ~ span span {
     opacity:0.9;
     transition: all 200ms ease-in-out;
 }
+
+.CVbuttons{
+  display: flex;
+  flex-direction: row;
+}
