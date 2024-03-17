@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "react-bootstrap": "^2.10.1"
   }
 }
