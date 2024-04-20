@@ -65,10 +65,10 @@ export const MainView = () => {
 
                   <Col>
                     {/* <NavigationBar /> */}
-                    {/* <ProjectsView
+                    <ProjectsView
                         
                       />
-                      <Footer /> */}
+                      <Footer /> 
                   </Col>
 
 
