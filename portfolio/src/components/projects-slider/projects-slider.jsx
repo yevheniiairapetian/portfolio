@@ -28,7 +28,7 @@ export const ProjectsSlider = () => {
           <h3 className="carousel-heading">R3play API</h3>
           <cite>The front end of the R3play Web API that allows users to
                                                 register and deregister, view information about movies, TV series, and
-                                                anime, and manage their favorites list.<Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                anime, and manage their favorites list.<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
                                                         <div class="work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
@@ -50,7 +50,7 @@ export const ProjectsSlider = () => {
           <cite>A Web API developed with Node.js, Express, and MongoDB, allowing
                                                 users to register, deregister, view information about movies, TV series,
                                                 and anime, and manage favorites.
-                                                        <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                        <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
                                                         
                             
@@ -58,7 +58,7 @@ export const ProjectsSlider = () => {
                                 
         
         
-                                        <div class="work-links">
+                                        <div className="work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -81,9 +81,9 @@ export const ProjectsSlider = () => {
           A front-end part for the R3play Web API designed with Angular,
                                                 Typescript, and Material UI allowing users to register, view information
                                                 about movies, and add favorites.
-          <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
           </cite>
-          <div class="work-links">
+          <div className="work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -103,8 +103,18 @@ export const ProjectsSlider = () => {
           <h3 className="carousel-heading">Meet App</h3>
           <cite>A Progressive Web App written with AWS Lambda functions that
                                                 employs OAuth2 authorization and authentication and displays events from
-                                                CareerFoundry's Google Calendar API.<Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                CareerFoundry's Google Calendar API.<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
+                                                        <div className="work-links">
+                                                        <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                                                        {/* </div> */}
+                                        {/* <div class="work-links"> */}
+                                        <Link to='https://www.linkedin.com/in/yevheniiairapetian/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare}/></Link>
+                                        {/* </div> */}
+                                        {/* <div class="work-links"> */}
+                                          <Link to='https://twitter.com/airapetian_dev' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
+                                          {/* </div> */}
+                                </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -114,9 +124,9 @@ export const ProjectsSlider = () => {
           <cite>A React Native application that allows users to chat. Users can
                                                 set a username, choose the chat background color, and send text
                                                 messages, pictures, and audio recordings.
-                                                        <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                        <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
-                                                        <div class="work-links">
+                                                        <div className="work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -136,9 +146,9 @@ export const ProjectsSlider = () => {
           A responsive Pokemon App fetching Pokemon with Ajax from an
                                                 external Pokedex API and displaying their info such as Pokemon height,
                                                 weight, ID, and front and back images
-          <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
           </cite>
-          <div class="work-links">
+          <div className="work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -159,9 +169,9 @@ export const ProjectsSlider = () => {
           <cite>
           A jQuery and Bootstrap to-do app that allows users to manage to-dos. Users can add, delete, and rearrange to-dos, create and
                                                 delete to-do lists, and see a guide on how to use the app.
-          <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
           </cite>
-          <div class="work-links">
+          <div className="work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
