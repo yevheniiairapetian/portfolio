@@ -1,6 +1,6 @@
 
 import { Navbar, Container, Row, Col, Nav, Image } from "react-bootstrap";
-import { UncontrolledExample } from "../testimonials-slider/testimonials-slider";
+import { TestimonialsSlider } from "../testimonials-slider/testimonials-slider";
 import feedbackPicture from "./img/feedback.jpg";
 import testimonialsViewCSS from "./css/testimonialsview.css";
 export const TestimonialsView = () => {
@@ -85,7 +85,7 @@ export const TestimonialsView = () => {
                         </div>
                 </div> */}
 
-<UncontrolledExample />
+<TestimonialsSlider />
                 
 
                

@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import {Container, Col, Row, Image} from "react-bootstrap";
 import { Link } from "react-router-dom";
-import {CarouselCaption} from "react-bootstrap/Carousel";
+// import {CarouselCaption} from "react-bootstrap/Carousel";
 import React from "react";
 import testimonialsPicture1 from "./img/testimonial-1.jpeg";
 import testimonialsPicture2 from "./img/testimonial-2.jpeg";
@@ -9,7 +9,7 @@ import testimonialsPicture3 from "./img/testimonial-3.jpeg";
 import sliderCSS from "./css/slider.css";
 
 
-export const UncontrolledExample = () => {
+export const TestimonialsSlider = () => {
   return (
     <Container>
         <Row>
@@ -23,7 +23,7 @@ export const UncontrolledExample = () => {
           <cite>Yevhenii is someone that is so easy to
                                                         collaborate with. He always strives for excellence. Every time I
                                                         give him feedback he would be willing to listen and adjust the
-                                                        submission...<Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                        submission...<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>
@@ -34,7 +34,7 @@ export const UncontrolledExample = () => {
           <cite>I had the opportunity to mentor Yevhenii
                                                         throughout his web development training at CareerFoundry.
                                                         Yevhenii's self-sufficiency, rapid grasp of concepts...
-                                                        <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                        <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>
@@ -44,7 +44,7 @@ export const UncontrolledExample = () => {
           <h3 className="carousel-heading">Dejan Gogov, Web Developer, Wild Code School</h3>
           <cite>
           During our 6-month Fullstack bootcamp, Yevhenii consistently showed a positive and friendly demeanor. He approached tasks with determination...
-          <Link className="pl-2 text-white" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
           </cite>
         </Carousel.Caption>
       </Carousel.Item>
