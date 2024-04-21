@@ -62,7 +62,7 @@ export const NavigationBar = () => {
 									Projects
 									
 								</Nav.Link>
-								<NavDropdown color="white" className="cases-nav-container" title="Cases" id="collapsible-nav-dropdown">
+								<NavDropdown className="cases-nav-container" title="Cases" id="collapsible-nav-dropdown">
               {/* <NavDropdown.Item href="#action/3.1">Resume</NavDropdown.Item> */}
 			  
             
@@ -78,6 +78,9 @@ export const NavigationBar = () => {
               </NavDropdown.Item>
 			  <NavDropdown.Item title="Klicken Sie hier, um einen externen Link mit der deutschen Lebenslaufversion zu öffnen" href="https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0" target="_self" alt="An icon showing the German flag">
 			  <Link to="./../owrite-case" title="Download the resume version in German" className="nav-cases" target="_self" >Owrite App</Link>
+              </NavDropdown.Item>
+			  <NavDropdown.Item title="Klicken Sie hier, um einen externen Link mit der deutschen Lebenslaufversion zu öffnen" href="https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0" target="_self" alt="An icon showing the German flag">
+			  <Link to="./../pokemon-case" title="Download the resume version in German" className="nav-cases" target="_self" >Pokemon App</Link>
               </NavDropdown.Item>
 			  
             </NavDropdown>

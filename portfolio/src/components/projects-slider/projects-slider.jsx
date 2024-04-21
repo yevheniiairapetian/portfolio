@@ -25,7 +25,7 @@ export const ProjectsSlider = () => {
 
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture2} text="Second slide" />
-              <Link className="pl-2 text-white projects-more" target="_blank" to="./../r3play-case">
+              <Link className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">R3play App</h3>
                   <cite>The front end of the R3play Web API that allows users to
@@ -49,7 +49,7 @@ export const ProjectsSlider = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture1} text="First slide" />
-              <Link className="pl-2 text-white projects-more" target="_blank" to="./../r3play-case">
+              <Link className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">R3play Web API</h3>
                   <cite>A Web API developed with Node.js, Express, and MongoDB, allowing
@@ -75,7 +75,7 @@ export const ProjectsSlider = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture3} text="Third slide" />
-              <Link className="pl-2 text-white projects-more" target="_blank" to="./../myFlix-case">
+              <Link className="pl-2 text-white projects-more" target="_self" to="./../myFlix-case">
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">MyFlix Angular App</h3>
                   <cite>
@@ -105,7 +105,7 @@ export const ProjectsSlider = () => {
 
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture4} text="Second slide" />
-              <Link className="pl-2 text-white projects-more" target="_blank" to="./../myFlix-case">
+              <Link className="pl-2 text-white projects-more" target="_self" to="./../meet-case">
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">Meet App</h3>
                   <cite>A Progressive Web App written with AWS Lambda functions that
@@ -127,7 +127,7 @@ export const ProjectsSlider = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture5} text="First slide" />
-              <Link className="pl-2 text-white projects-more" target="_blank" to="./../owrite-case">
+              <Link className="pl-2 text-white projects-more" target="_self" to="./../owrite-case">
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">OWrite Native App</h3>
                   <cite>A React Native application that allows users to chat. Users can
@@ -138,7 +138,7 @@ export const ProjectsSlider = () => {
                   <div className="projects-work-links">
                     <Link title="Click to open the Owrite App Github repository" to='https://github.com/yevheniiairapetian/owrite' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
 
-                    <Link title="Click to read more about the Owrite App" to='./../owrite-case' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
+                    <Link title="Click to read more about the Owrite App" to='./../owrite-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
 
                   </div>
                 </Carousel.Caption>
@@ -146,25 +146,27 @@ export const ProjectsSlider = () => {
             </Carousel.Item>
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture6} text="Third slide" />
+              <Link className="pl-2 text-white projects-more" target="_self" to="./../pokemon-case">
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">Pokemon App</h3>
                 <cite>
                   A responsive Pokemon App fetching Pokemon with Ajax from an
                   external Pokedex API and displaying their info such as Pokemon height,
                   weight, ID, and front and back images
-                  <Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                  <Link title="Click to read more about the Pokemon App" className="pl-2 text-white projects-more" target="_blank" to="./../pokemon-case" >More</Link>
                 </cite>
                 <div className="projects-work-links">
-                  <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                  <Link title="Click to open the the Pokemon App Github repository" to='https://github.com/yevheniiairapetian/pokemon-app' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                   {/* </div> */}
                   {/* <div class="work-links"> */}
-                  <Link to='https://www.linkedin.com/in/yevheniiairapetian/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                  <Link title="Click to open the Pokemon App" to='https://yevheniiairapetian.github.io/pokemon-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
                   {/* </div> */}
                   {/* <div class="work-links"> */}
-                  <Link to='https://twitter.com/airapetian_dev' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
+                  <Link title="Click to read more about the Pokemon App" to='./../pokemon-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                   {/* </div> */}
                 </div>
               </Carousel.Caption>
+              </Link>
             </Carousel.Item>
 
 

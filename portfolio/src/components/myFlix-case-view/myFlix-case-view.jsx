@@ -27,7 +27,7 @@ export const MyFlixCaseView = () => {
     <Container>
         <Row>
             <Col>
-            <h1 className="r3play-headings text-center">MyFlix-Angular-App Case Study</h1>
+            <h1 className="r3play-headings text-center">MyFlix App Case Study</h1>
       
          
 
