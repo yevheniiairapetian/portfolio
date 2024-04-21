@@ -13,6 +13,7 @@ import { AboutView } from '../about-view/about-view';
 import { TestimonialsView } from '../testimonials-view/testimonials-view';
 import { Row, Col, InputGroup, Form } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { R3playCaseView } from '../r3play-case-view/r3play-case-view';
 // import { UncontrolledExample } from '../Carousel/carousel';
 export const MainView = () => {
 
@@ -76,7 +77,23 @@ export const MainView = () => {
               }
             />
 
+<Route
+              path='/r3play-case'
+              element={
+                <>
 
+                  <Col>
+                    {/* <NavigationBar /> */}
+                    <R3playCaseView
+                        
+                      />
+                      <Footer /> 
+                  </Col>
+
+
+                </>
+              }
+            />
 
             <Route
               path='/testimonials'

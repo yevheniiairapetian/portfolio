@@ -1,9 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel';
-import {Container, Col, Row, Image} from "react-bootstrap";
+import {Container, Row, Col, Nav, Image} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { faCircleInfo, faArrowUpRightFromSquare, faCode} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {CarouselCaption} from "react-bootstrap/Carousel";
+import {R3playCaseView} from "../r3play-case-view/r3play-case-view";
 import React from "react";
 import projectsPicture1 from "./img/r3play-api-hero-image.png";
 import projectsPicture2 from "./img/r3play-hero-image.png";
@@ -24,23 +25,27 @@ export const ProjectsSlider = () => {
       
       <Carousel.Item>
         <Image className="projects-testim-image" src={projectsPicture1} text="Second slide" />
+        <Link className="pl-2 text-white projects-more" target="_blank" to="./../r3play-case">
         <Carousel.Caption className="projects-carousel-caption">
           <h3 className="projects-carousel-heading">R3play API</h3>
           <cite>The front end of the R3play Web API that allows users to
                                                 register and deregister, view information about movies, TV series, and
-                                                anime, and manage their favorites list.<Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                anime, and manage their favorites list.<Link className="pl-2 text-white projects-more" target="_blank" to="./../r3play-case">More</Link>
                                                         </cite>
                                                         <div class="projects-work-links">
-                                                        <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                                                        <Link to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
-                                        <Link to='https://www.linkedin.com/in/yevheniiairapetian/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare}/></Link>
+                                        <Link to='https://r3play-934f9ea5664d.herokuapp.com/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare}/></Link>
                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
-                                          <Link to='https://twitter.com/airapetian_dev' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
+                                          <Link to='./../r3play-case' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                                           {/* </div> */}
                                 </div>
+                                   
+                            
         </Carousel.Caption>
+        </Link>
       </Carousel.Item>
       <Carousel.Item>
         <Image className="projects-testim-image" src={projectsPicture2} text="First slide" />
