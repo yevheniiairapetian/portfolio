@@ -23,14 +23,14 @@ export const ProjectsSlider = () => {
             <Carousel className="w-75 m-auto">
       
       <Carousel.Item>
-        <Image className="testim-image" src={projectsPicture1} text="Second slide" />
-        <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">R3play API</h3>
+        <Image className="projects-testim-image" src={projectsPicture1} text="Second slide" />
+        <Carousel.Caption className="projects-carousel-caption">
+          <h3 className="projects-carousel-heading">R3play API</h3>
           <cite>The front end of the R3play Web API that allows users to
                                                 register and deregister, view information about movies, TV series, and
-                                                anime, and manage their favorites list.<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                anime, and manage their favorites list.<Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
-                                                        <div class="work-links">
+                                                        <div class="projects-work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -43,14 +43,14 @@ export const ProjectsSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="testim-image" src={projectsPicture2} text="First slide" />
+        <Image className="projects-testim-image" src={projectsPicture2} text="First slide" />
         
-        <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">R3play Web API</h3>
+        <Carousel.Caption className="projects-carousel-caption">
+          <h3 className="projects-carousel-heading">R3play Web API</h3>
           <cite>A Web API developed with Node.js, Express, and MongoDB, allowing
                                                 users to register, deregister, view information about movies, TV series,
                                                 and anime, and manage favorites.
-                                                        <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                        <Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
                                                         
                             
@@ -58,7 +58,7 @@ export const ProjectsSlider = () => {
                                 
         
         
-                                        <div className="work-links">
+                                        <div className="projects-work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -74,16 +74,16 @@ export const ProjectsSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="testim-image" src={projectsPicture3} text="Third slide" />
-        <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">MyFlix Angular App</h3>
+        <Image className="projects-testim-image" src={projectsPicture3} text="Third slide" />
+        <Carousel.Caption className="projects-carousel-caption">
+          <h3 className="projects-carousel-heading">MyFlix Angular App</h3>
           <cite>
           A front-end part for the R3play Web API designed with Angular,
                                                 Typescript, and Material UI allowing users to register, view information
                                                 about movies, and add favorites.
-          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
           </cite>
-          <div className="work-links">
+          <div className="projects-work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -98,14 +98,14 @@ export const ProjectsSlider = () => {
       
       
       <Carousel.Item>
-        <Image className="testim-image" src={projectsPicture4} text="Second slide" />
-        <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">Meet App</h3>
+        <Image className="projects-testim-image" src={projectsPicture4} text="Second slide" />
+        <Carousel.Caption className="projects-carousel-caption">
+          <h3 className="projects-carousel-heading">Meet App</h3>
           <cite>A Progressive Web App written with AWS Lambda functions that
                                                 employs OAuth2 authorization and authentication and displays events from
-                                                CareerFoundry's Google Calendar API.<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                CareerFoundry's Google Calendar API.<Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
-                                                        <div className="work-links">
+                                                        <div className="projects-work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -118,15 +118,15 @@ export const ProjectsSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="testim-image" src={projectsPicture5} text="First slide" />
-        <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">OWrite Native App</h3>
+        <Image className="projects-testim-image" src={projectsPicture5} text="First slide" />
+        <Carousel.Caption className="projects-carousel-caption">
+          <h3 className="projects-carousel-heading">OWrite Native App</h3>
           <cite>A React Native application that allows users to chat. Users can
                                                 set a username, choose the chat background color, and send text
                                                 messages, pictures, and audio recordings.
-                                                        <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                        <Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
-                                                        <div className="work-links">
+                                                        <div className="projects-work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -139,16 +139,16 @@ export const ProjectsSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="testim-image" src={projectsPicture6} text="Third slide" />
-        <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">Pokemon App</h3>
+        <Image className="projects-testim-image" src={projectsPicture6} text="Third slide" />
+        <Carousel.Caption className="projects-carousel-caption">
+          <h3 className="projects-carousel-heading">Pokemon App</h3>
           <cite>
           A responsive Pokemon App fetching Pokemon with Ajax from an
                                                 external Pokedex API and displaying their info such as Pokemon height,
                                                 weight, ID, and front and back images
-          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
           </cite>
-          <div className="work-links">
+          <div className="projects-work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
@@ -163,15 +163,15 @@ export const ProjectsSlider = () => {
 
 
       <Carousel.Item>
-        <Image className="testim-image" src={projectsPicture7} text="Third slide" />
-        <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">To-Do App</h3>
+        <Image className="projects-testim-image" src={projectsPicture7} text="Third slide" />
+        <Carousel.Caption className="projects-carousel-caption">
+          <h3 className="projects-carousel-heading">To-Do App</h3>
           <cite>
           A jQuery and Bootstrap to-do app that allows users to manage to-dos. Users can add, delete, and rearrange to-dos, create and
                                                 delete to-do lists, and see a guide on how to use the app.
-          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
           </cite>
-          <div className="work-links">
+          <div className="projects-work-links">
                                                         <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}

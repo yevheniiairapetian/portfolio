@@ -2,7 +2,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-img.testim-image{
+img.projects-testim-image{
     margin: 0 auto;
     width: 100%;
     max-width: 800px;
@@ -11,7 +11,7 @@ img.testim-image{
     border: 2px solid #529fcc;
 }
 
-div.carousel-caption{
+div.projects-carousel-caption{
     font-size:0px;
     width: 100%;
     height:360px;
@@ -27,7 +27,7 @@ div.carousel-caption{
     /* border-radius: 15px; */
 }
 
-.carousel-heading{
+.projects-carousel-heading{
     font-size:20px;
     margin-bottom:20px;
 }
@@ -37,7 +37,7 @@ div.carousel-caption{
     transition: font-size 200ms ease-in-out;
 } */
 
-.carousel-caption:hover{
+.projects-carousel-caption:hover{
     font-size:18px;
     transition: font-size 200ms ease-in-out;
     opacity:0.9;
@@ -62,7 +62,7 @@ bottom:-20px !important;
 }
 
 
-.work-links{
+.projects-work-links{
     display:flex;
     height:40px;
     width:110px;
@@ -90,7 +90,7 @@ bottom:-20px !important;
 }
 
 @media screen and (max-width: 980px){
-    img.testim-image{
+    img.projects-testim-image{
         margin: 0 auto;
         /* width: 100%; */
         max-width: 800px;
@@ -98,7 +98,7 @@ bottom:-20px !important;
         opacity:0.9;
         border: 2px solid #529fcc;
     }
-    div.carousel-caption{
+    div.projects-carousel-caption{
         font-size:0px;
         margin: -10px auto;
         width: 100%;
@@ -108,14 +108,14 @@ bottom:-20px !important;
         left:0;
         right:0;
     }
-    div.carousel-caption:hover{
+    div.projects-carousel-caption:hover{
         font-size:14px;
         -webkit-transition:font-size 0.2s ease-in-out;
     -o-transition:font-size 0.2s ease-in-out;
     transition:font-size 0.2s ease-in-out;
     }
 
-    h3.carousel-heading{
+    h3.projects-carousel-heading{
         font-size:14px;
         margin-top:-35px;
     }
@@ -124,7 +124,7 @@ bottom:-20px !important;
         font-size:18px;
         padding-right: 16px;
     }
-    div.work-links{
+    div.projects-work-links{
         display:flex;
         height:40px;
         width:90px;
@@ -136,7 +136,7 @@ bottom:-20px !important;
 } 
 
 @media screen and (max-width: 600px){
-    img.testim-image{
+    img.projects-testim-image{
         margin: 0 auto;
         /* width: 100%; */
         max-width: 800px;
@@ -148,7 +148,7 @@ bottom:-20px !important;
         font-size:0px;
     }
     
-    div.carousel-caption{
+    div.projects-carousel-caption{
         opacity:0;
         font-size:0px;
         margin: -20px auto;
@@ -159,7 +159,7 @@ bottom:-20px !important;
         left:0;
         right:0;
     }
-    div.carousel-caption:hover{
+    div.projects-carousel-caption:hover{
         opacity:0.9;
         -webkit-transition: opacity 0.2s ease-in-out;
     -o-transition: opacity 0.2s ease-in-out;
@@ -167,7 +167,7 @@ bottom:-20px !important;
         
     }
 
-    h3.carousel-heading{
+    h3.projects-carousel-heading{
         font-size:14px;
         margin-top:14px;
         
@@ -177,7 +177,7 @@ bottom:-20px !important;
         font-size:18px;
         padding-right: 16px;
     }
-    div.work-links{
+    div.projects-work-links{
         display:flex;
         height:30px;
         width:90px;
@@ -187,7 +187,7 @@ bottom:-20px !important;
     
     }
 
-    .more{
+    .projects-more{
         font-size:14px;
     }
 } 
