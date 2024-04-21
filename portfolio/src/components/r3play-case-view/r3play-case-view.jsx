@@ -111,11 +111,11 @@ export const R3playCaseView = () => {
         <Image className="screenshot img-full-width fade-in-up-on-scroll"
                 alt="A gif image showing additional features of the R3play app"
                 src={R3playPicture6}></Image> */}
-        <h2 className="video-image-heading fade-in-up-on-scroll">App Preview
+        <h2 className="video-image-heading fade-in-up-on-scroll">API Preview
         </h2>
         <iframe title="vimeo-player" src="https://player.vimeo.com/video/937369818?h=28da240343" width="100%" height="460" frameborder="0"    allowfullscreen></iframe>
         
-        <h2 className="video-image-heading fade-in-up-on-scroll fade-in-up-on-scroll">API Preview
+        <h2 className="video-image-heading fade-in-up-on-scroll fade-in-up-on-scroll">App Preview
         </h2>
         
         
@@ -154,9 +154,9 @@ export const R3playCaseView = () => {
                         href="https://www.linkedin.com/in/nizartriki/">Software Engineering Manager</a>
         </p>
 
-        <Link className="r3play-external-links" to='https://github.com/yevheniiairapetian/r3play-client' target="_blank" rel="noopener"><FontAwesomeIcon className="r3play-fa-code" icon={faCode} /></Link>
+        <Link className="r3play-external-links" title="Click to open the R3play App Github repository" to='https://github.com/yevheniiairapetian/r3play-client' target="_blank" rel="noopener"><FontAwesomeIcon title="Click to read more about the R3play App" className="r3play-fa-code" icon={faCode} /></Link>
                                                   
-        <Link className="r3play-external-links" to='https://r3play.netlify.app/' target="_blank" rel="noopener"><FontAwesomeIcon className="r3play-fa-up" icon={faArrowUpRightFromSquare}/></Link>
+        <Link className="r3play-external-links" title="Click to open the R3play App" to='https://r3play.netlify.app/' target="_blank" rel="noopener"><FontAwesomeIcon className="r3play-fa-up" icon={faArrowUpRightFromSquare}/></Link>
                                       
 
         

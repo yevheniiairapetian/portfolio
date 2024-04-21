@@ -15,6 +15,7 @@ import { Row, Col, InputGroup, Form } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { R3playCaseView } from '../r3play-case-view/r3play-case-view';
 import { MyFlixCaseView } from '../myFlix-case-view/myFlix-case-view';
+import { MeetCaseView } from '../meet-case-view/meet-case-view';
 // import { UncontrolledExample } from '../Carousel/carousel';
 export const MainView = () => {
 
@@ -114,6 +115,26 @@ export const MainView = () => {
                 </>
               }
             />
+
+
+<Route
+              path='/meet-case'
+              element={
+                <>
+
+                  <Col>
+                    {/* <NavigationBar /> */}
+                    <MeetCaseView
+                        
+                      />
+                      <Footer /> 
+                  </Col>
+
+
+                </>
+              }
+            />
+
             <Route
               path='/testimonials'
               element={

@@ -189,11 +189,11 @@ export const MyFlixCaseView = () => {
                         href="https://www.linkedin.com/in/nizartriki/">Software Engineering Manager</a>
         </p>
 
-        <Link className="myFlix-external-links" to='https://github.com/yevheniiairapetian/myFlix-Angular-client' target="_blank" rel="noopener"><FontAwesomeIcon className="myFlix-fa-code" icon={faCode} /></Link>
+        <Link title="Click to open the MyFlix App Github repository" className="myFlix-external-links" to='https://github.com/yevheniiairapetian/myFlix-Angular-client' target="_blank" rel="noopener"><FontAwesomeIcon className="myFlix-fa-code" icon={faCode} /></Link>
                                                   
-        <Link className="myFlix-external-links" to='https://yevheniiairapetian.github.io/myFlix-Angular-client/' target="_blank" rel="noopener"><FontAwesomeIcon className="myFlix-fa-up" icon={faArrowUpRightFromSquare}/></Link>
+        <Link title="Click to open the MyFlix App app" className="myFlix-external-links" to='https://yevheniiairapetian.github.io/myFlix-Angular-client/' target="_blank" rel="noopener"><FontAwesomeIcon className="myFlix-fa-up" icon={faArrowUpRightFromSquare}/></Link>
                                       
-        <Link className="myFlix-external-links" to='https://trello.com/b/495tvGf9/kanban-template' target="_blank" rel="noopener"><FontAwesomeIcon className="myFlix-fa-info" icon={faCircleInfo}/></Link>
+        <Link title="Click to open the MyFlix App project Kanban board" className="myFlix-external-links" to='https://trello.com/b/495tvGf9/kanban-template' target="_blank" rel="noopener"><FontAwesomeIcon className="myFlix-fa-info" icon={faCircleInfo}/></Link>
        
         
 
