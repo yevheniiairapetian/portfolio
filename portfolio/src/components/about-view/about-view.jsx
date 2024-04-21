@@ -82,13 +82,13 @@ export const AboutView = () => {
             variant="dark" 
             onClick={()=>{showDownloadLinks()}} 
             className="resume fade-in-up-on-scroll ps-3 pe-3 ms-2">
-                <span title="* Download zip folder with resumes. You might need to use a file archiver to view the files" className="about-buttons-big-screen resumeBig">Resume</span>
+                <span title="Toggle resume files" className="about-buttons-big-screen resumeBig">Resume</span>
             
                 </Button><br/>
                 <div className="resumes">
-                <Link to={deCV} title="Klicken Sie hier, um meinen Lebenslauf auf Deutsch herunterzuladen" className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf"><Image roundedCircle className="flags mt-3 me-3" src={deImg} alt="An icon showing the German flag"/></Link>
-            <Link to={usCV} title="Click here to download my resume in English" className="download-en" target="_blank" download="Yevhenii-Airapetian-EN.pdf"><Image roundedCircle className="flags mt-3 me-3" src={usImg} alt="An icon showing the USA flag"/></Link>
-            <Link to={uaCV} title="Натисніть тут, щоб завантажити моє резюме українською мовою" className="download-uk" target="_blank" download="Yevhenii-Airapetian-UK.pdf"><Image roundedCircle className="flags mt-3 me-3" src={ukraineImg} alt="An icon showing Ukrainian flag"/></Link>
+                <Link to={deCV} title="Klicken Sie hier, um meinen Lebenslauf auf Deutsch herunterzuladen. Möglicherweise müssen Sie einen Dateibetrachter wie Adobe Acrobat oder ähnliches verwenden" className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf"><Image roundedCircle className="flags mt-3 me-3" src={deImg} alt="An icon showing the German flag"/></Link>
+            <Link to={usCV} title="Click here to download my resume in English. You might need to use a file viewer like Adobe Acrobat or similar" className="download-en" target="_blank" download="Yevhenii-Airapetian-EN.pdf"><Image roundedCircle className="flags mt-3 me-3" src={usImg} alt="An icon showing the USA flag"/></Link>
+            <Link to={uaCV} title="Натисніть тут, щоб завантажити моє резюме українською мовою. Можливо, вам знадобиться програма для перегляду файлів, наприклад Adobe Acrobat або подібна" className="download-uk" target="_blank" download="Yevhenii-Airapetian-UK.pdf"><Image roundedCircle className="flags mt-3 me-3" src={ukraineImg} alt="An icon showing Ukrainian flag"/></Link>
                 
             </div>    
                 </Col>
