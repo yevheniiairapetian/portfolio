@@ -16,6 +16,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { R3playCaseView } from '../r3play-case-view/r3play-case-view';
 import { MyFlixCaseView } from '../myFlix-case-view/myFlix-case-view';
 import { MeetCaseView } from '../meet-case-view/meet-case-view';
+import { OwriteCaseView } from '../owrite-case-view/owrite-case-view';
 // import { UncontrolledExample } from '../Carousel/carousel';
 export const MainView = () => {
 
@@ -134,6 +135,26 @@ export const MainView = () => {
                 </>
               }
             />
+
+
+<Route
+              path='/owrite-case'
+              element={
+                <>
+
+                  <Col>
+                    {/* <NavigationBar /> */}
+                    <OwriteCaseView
+                        
+                      />
+                      <Footer /> 
+                  </Col>
+
+
+                </>
+              }
+            />
+
 
             <Route
               path='/testimonials'

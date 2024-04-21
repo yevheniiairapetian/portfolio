@@ -1,0 +1,76 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+p.skills-paragraphs {
+    line-height: 1em;
+    display: inline-block;
+    padding: 6px 0 6px 0;
+    margin-right:6px;
+}
+
+p.skills-paragraphs span {
+    border-radius: 8px;
+    color: white;
+    background-color: #223c50;
+    padding: 8px;
+    font-size: 16px;
+}
+
+p.skills-paragraphs span:hover {
+    color: #0cc4e9;
+    padding: 10px;
+    opacity: 0.9;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.video-image-heading,
+.technologies-heading {
+    font-size: 17px;
+    background-color: #7898e4;
+    padding: 8px 18px;
+    color: white;
+    text-align: center;
+}
+
+
+.r3play-takeaways li::before {
+    content: attr(data-icon);
+    /* Make slightly larger than the li font-size
+    but smaller than the li gap */
+    font-size: 1.25em;
+  }
+
+ .r3play-external-links .r3play-fa-code, .r3play-external-links .r3play-fa-up{
+    color: black;
+    font-size:24px;
+    padding-right: 16px;
+    padding-bottom:0;
+}
+
+.r3play-external-links .r3play-fa-code:hover,
+.r3play-external-links .r3play-fa-up:hover {
+    color: #529fcc;
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+} 
+
+  .credits ~ p{
+    font-size:16px;
+    text-align:center;
+}
+
+.r3play-slider-hint{
+    color:#529fcc;
+}
+
+.r3play-headings{
+    color: #529fcc;
+    margin-bottom:24px;
+    margin-top:10px;
+    color: #529fcc;
+    font-weight: bold;
+}
