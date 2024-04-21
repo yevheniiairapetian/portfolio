@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import {Container, Row, Col, Nav, Image} from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { faCircleInfo, faArrowUpRightFromSquare, faCode} from '@fortawesome/free-solid-svg-icons';
+import { faCircleInfo, faArrowUpRightFromSquare, faCode, faClipboardCheck} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {CarouselCaption} from "react-bootstrap/Carousel";
 import {R3playCaseView} from "../r3play-case-view/r3play-case-view";
@@ -49,7 +49,7 @@ export const ProjectsSlider = () => {
       </Carousel.Item>
       <Carousel.Item>
         <Image className="projects-testim-image" src={projectsPicture2} text="First slide" />
-        
+        <Link className="pl-2 text-white projects-more" target="_blank" to="./../r3play-case">
         <Carousel.Caption className="projects-carousel-caption">
           <h3 className="projects-carousel-heading">R3play Web API</h3>
           <cite>A Web API developed with Node.js, Express, and MongoDB, allowing
@@ -71,28 +71,34 @@ export const ProjectsSlider = () => {
 
                                 
         </Carousel.Caption>
+        </Link>
       </Carousel.Item>
       <Carousel.Item>
         <Image className="projects-testim-image" src={projectsPicture3} text="Third slide" />
+        <Link className="pl-2 text-white projects-more" target="_blank" to="./../myFlix-case">
         <Carousel.Caption className="projects-carousel-caption">
           <h3 className="projects-carousel-heading">MyFlix Angular App</h3>
           <cite>
           A front-end part for the R3play Web API designed with Angular,
                                                 Typescript, and Material UI allowing users to register, view information
                                                 about movies, and add favorites.
-          <Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <Link className="pl-2 text-white projects-more" target="_blank" to="./../myFlix-case" >More</Link>
           </cite>
           <div className="projects-work-links">
-                                                        <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                                                        <Link to='https://github.com/yevheniiairapetian/myFlix-Angular-client' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
-                                        <Link to='https://www.linkedin.com/in/yevheniiairapetian/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare}/></Link>
+                                        <Link to='https://yevheniiairapetian.github.io/myFlix-Angular-client/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare}/></Link>
                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
-                                          <Link to='https://twitter.com/airapetian_dev' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
+                                          <Link to='./../myFlix-case' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                                           {/* </div> */}
+                                          <Link to='https://trello.com/b/495tvGf9/kanban-template' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-clipboard-check" icon={faClipboardCheck} /></Link>
                                 </div>
+                                
+                                
         </Carousel.Caption>
+        </Link>
       </Carousel.Item>
       
       

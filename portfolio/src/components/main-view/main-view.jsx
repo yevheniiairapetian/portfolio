@@ -14,6 +14,7 @@ import { TestimonialsView } from '../testimonials-view/testimonials-view';
 import { Row, Col, InputGroup, Form } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { R3playCaseView } from '../r3play-case-view/r3play-case-view';
+import { MyFlixCaseView } from '../myFlix-case-view/myFlix-case-view';
 // import { UncontrolledExample } from '../Carousel/carousel';
 export const MainView = () => {
 
@@ -95,6 +96,24 @@ export const MainView = () => {
               }
             />
 
+
+<Route
+              path='/myFlix-case'
+              element={
+                <>
+
+                  <Col>
+                    {/* <NavigationBar /> */}
+                    <MyFlixCaseView
+                        
+                      />
+                      <Footer /> 
+                  </Col>
+
+
+                </>
+              }
+            />
             <Route
               path='/testimonials'
               element={
