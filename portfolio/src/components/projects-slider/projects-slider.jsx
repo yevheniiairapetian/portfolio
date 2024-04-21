@@ -27,7 +27,7 @@ export const ProjectsSlider = () => {
         <Image className="projects-testim-image" src={projectsPicture1} text="Second slide" />
         <Link className="pl-2 text-white projects-more" target="_blank" to="./../r3play-case">
         <Carousel.Caption className="projects-carousel-caption">
-          <h3 className="projects-carousel-heading">R3play API</h3>
+          <h3 className="projects-carousel-heading">R3play App</h3>
           <cite>The front end of the R3play Web API that allows users to
                                                 register and deregister, view information about movies, TV series, and
                                                 anime, and manage their favorites list.<Link className="pl-2 text-white projects-more" target="_blank" to="./../r3play-case">More</Link>
@@ -36,7 +36,7 @@ export const ProjectsSlider = () => {
                                                         <Link to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
-                                        <Link to='https://r3play-934f9ea5664d.herokuapp.com/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare}/></Link>
+                                        <Link to='http://r3play.netlify.app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare}/></Link>
                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
                                           <Link to='./../r3play-case' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
@@ -55,22 +55,16 @@ export const ProjectsSlider = () => {
           <cite>A Web API developed with Node.js, Express, and MongoDB, allowing
                                                 users to register, deregister, view information about movies, TV series,
                                                 and anime, and manage favorites.
-                                                        <Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                <Link className="pl-2 text-white projects-more" target="_blank" to="./../r3play-case">More</Link>
                                                         </cite>
-                                                        
-                            
-                                {/* <div className="work-links-container"> */}
-                                
-        
-        
-                                        <div className="projects-work-links">
-                                                        <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                                                        <div class="projects-work-links">
+                                                        <Link to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
-                                        <Link to='https://www.linkedin.com/in/yevheniiairapetian/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare}/></Link>
+                                        <Link to='https://r3play-934f9ea5664d.herokuapp.com/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare}/></Link>
                                         {/* </div> */}
                                         {/* <div class="work-links"> */}
-                                          <Link to='https://twitter.com/airapetian_dev' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
+                                          <Link to='./../r3play-case' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                                           {/* </div> */}
                                 </div>
                                 
