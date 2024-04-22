@@ -67,20 +67,23 @@ export const NavigationBar = () => {
 			  
             
             
-               <NavDropdown.Item title="Klicken Sie hier, um einen externen Link mit der deutschen Lebenslaufversion zu öffnen" href="https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0" target="_self" alt="An icon showing the German flag">
-			  <Link to="./../r3play-case" title="Download the resume version in German" className="nav-cases" target="_self" >R3Play App</Link>
+               <NavDropdown.Item target="_self" alt="">
+			  <Link to="./../r3play-case" className="nav-cases" target="_self" >R3Play App</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item title="Klicken Sie hier, um einen externen Link mit der deutschen Lebenslaufversion zu öffnen" href="https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0" target="_self" alt="An icon showing the German flag">
-			  <Link to="./../myFlix-case" title="Download the resume version in German" className="nav-cases" target="_self" >MyFlix App</Link>
+              <NavDropdown.Item target="_self" alt="">
+			  <Link to="./../myFlix-case" className="nav-cases" target="_self" >MyFlix App</Link>
               </NavDropdown.Item>
-			  <NavDropdown.Item title="Klicken Sie hier, um einen externen Link mit der deutschen Lebenslaufversion zu öffnen" href="https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0" target="_self" alt="An icon showing the German flag">
-			  <Link to="./../meet-case" title="Download the resume version in German" className="nav-cases" target="_self" >Meet App</Link>
+			  <NavDropdown.Item target="_self" alt="">
+			  <Link to="./../meet-case" className="nav-cases" target="_self" >Meet App</Link>
               </NavDropdown.Item>
-			  <NavDropdown.Item title="Klicken Sie hier, um einen externen Link mit der deutschen Lebenslaufversion zu öffnen" href="https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0" target="_self" alt="An icon showing the German flag">
-			  <Link to="./../owrite-case" title="Download the resume version in German" className="nav-cases" target="_self" >Owrite App</Link>
+			  <NavDropdown.Item target="_self" alt="">
+			  <Link to="./../owrite-case" className="nav-cases" target="_self" >Owrite App</Link>
               </NavDropdown.Item>
-			  <NavDropdown.Item title="Klicken Sie hier, um einen externen Link mit der deutschen Lebenslaufversion zu öffnen" href="https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0" target="_self" alt="An icon showing the German flag">
-			  <Link to="./../pokemon-case" title="Download the resume version in German" className="nav-cases" target="_self" >Pokemon App</Link>
+			  <NavDropdown.Item target="_self" alt="">
+			  <Link to="./../pokemon-case" className="nav-cases" target="_self" >Pokemon App</Link>
+              </NavDropdown.Item>
+			  <NavDropdown.Item target="_self" alt="">
+			  <Link to="./../to-do-case" className="nav-cases" target="_self" >To Do App</Link>
               </NavDropdown.Item>
 			  
             </NavDropdown>
@@ -106,6 +109,7 @@ export const NavigationBar = () => {
 			  <Image roundedCircle className="flags mt-3 me-3 nav-lang-cases" src={ukraineImg} alt="An icon showing Ukrainian flag"/>
 			  <Link to={"https://file.io/fsghnXVPdFna"} title="Download the resume zip folder" className="download-uk" target="_blank" download="https://file.io/fsghnXVPdFna"></Link>
               </NavDropdown.Item>
+			  
             </NavDropdown>
 								
 								 

@@ -18,6 +18,8 @@ import { MyFlixCaseView } from '../myFlix-case-view/myFlix-case-view';
 import { MeetCaseView } from '../meet-case-view/meet-case-view';
 import { OwriteCaseView } from '../owrite-case-view/owrite-case-view';
 import { PokemonCaseView } from '../pokemon-case-view/pokemon-case-view';
+import { ToDoCaseView } from '../to-do-case-view/to-do-case-view';
+
 // import { UncontrolledExample } from '../Carousel/carousel';
 export const MainView = () => {
 
@@ -164,6 +166,24 @@ export const MainView = () => {
                   <Col>
                     {/* <NavigationBar /> */}
                     <PokemonCaseView
+                        
+                      />
+                      <Footer /> 
+                  </Col>
+
+
+                </>
+              }
+            />
+
+<Route
+              path='/to-do-case'
+              element={
+                <>
+
+                  <Col>
+                    {/* <NavigationBar /> */}
+                    <ToDoCaseView
                         
                       />
                       <Footer /> 

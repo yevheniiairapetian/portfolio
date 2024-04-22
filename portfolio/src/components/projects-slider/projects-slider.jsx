@@ -172,24 +172,26 @@ export const ProjectsSlider = () => {
 
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture7} text="Third slide" />
+              <Link title="Click to read more about the To Do App" className="pl-2 text-white projects-more" target="_self" to="./../to-do-case">
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">To-Do App</h3>
                 <cite>
                   A jQuery and Bootstrap to-do app that allows users to manage to-dos. Users can add, delete, and rearrange to-dos, create and
                   delete to-do lists, and see a guide on how to use the app.
-                  <Link className="pl-2 text-white projects-more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                  <Link title="Click to read more about the To Do App" className="pl-2 text-white projects-more" target="_self" to="./../to-do-case" >More</Link>
                 </cite>
                 <div className="projects-work-links">
-                  <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                  <Link title="Click to open the To Do App Github repository" to='https://github.com/yevheniiairapetian/to-do-list-app' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                   {/* </div> */}
                   {/* <div class="work-links"> */}
-                  <Link to='https://www.linkedin.com/in/yevheniiairapetian/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                  <Link title="Click to open the To Do App" to='https://yevheniiairapetian.github.io/to-do-list-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
                   {/* </div> */}
                   {/* <div class="work-links"> */}
-                  <Link to='https://twitter.com/airapetian_dev' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
+                  <Link title="Click to read more about the To Do App" to='./../to-do-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                   {/* </div> */}
                 </div>
               </Carousel.Caption>
+              </Link>
             </Carousel.Item>
 
           </Carousel>
