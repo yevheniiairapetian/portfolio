@@ -44,7 +44,7 @@ export const MainView = () => {
 
 
             <Route
-              path="/"
+              path="/portfolio"
               element={
                 <>
 
