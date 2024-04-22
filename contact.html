@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdn.formbold.com/formbold.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Yevhenii Airapetian - Contact</title>
+</head>
+
+<body>
+    <!-- backtotop button -->
+    <button class="backToTop fade-in-up-on-scroll">
+        <span>&#8593;</span>
+    </button>
+    <!-- navigation -->
+    <header class="page-header">
+        <a class="page-header_link" href="index.html" target="_self"><img src="./img/logo.svg" class="page-header_item"
+                alt="Website's logo image in black letters and a line of text in the middle"></a>
+
+                <nav class="page-header_item">
+                  <!-- <input type="checkbox" name="" id="hamburger"> -->
+                  <div id="burger-menu">
+                      <span></span>
+                  </div>
+                  <ul style="right: -100%;" class="navigation-list">
+                      <li onclick="toggleMenu()" role="presentation"><a href="index.html">About</a></li>
+                      <li onclick="toggleMenu()" role="presentation"><a href="works.html">Projects</a></li>
+                      <li onclick="toggleMenu()" role="presentation"><a href="testimonials.html">Testimonials</a></li>
+                      <li onclick="toggleMenu()" role="presentation"><a href="contact.html">Contact</a></li>
+                      
+                          <li onclick="showMenuDownloadLinks()" role="presentation"><a href="#">Resume <i class="fa-solid fa-caret-down resume-caret"></i> </a>
+                              
+                          </li>
+                          <ul class="menu-resume-container">
+                              <li><a title="Download the resume version in German" class="download-menu-de" target="_blank" href="img/Yevhenii-Airapetian-DE.pdf" download="Yevhenii-Airapetian-DE"><img class="flags" src="img/germany.svg" alt="An icon showing the German flag"></a></li>
+                              <li><a title="Download the resume version in English" class="download-menu-en" target="_blank" href="img/Yevhenii-Airapetian-EN.pdf" download="Yevhenii-Airapetian-EN"><img class="flags" src="img/united-states.svg" alt="An icon showing the USA flag"></a></li>
+                              <li><a title="Download the resume version in Ukrainian" class="download-menu-uk" target="_blank" href="img/Yevhenii-Airapetian-UK.pdf" download="Yevhenii-Airapetian-UK"><img class="flags" src="img/ukraine.svg" alt="An icon showing Ukrainian flag"></a></li>
+                              </ul>
+                      
+                      
+                  </ul>
+                  <div>
+                      <a class="hamburger-container" style="cursor: pointer" onclick="toggleMenu()">
+                          <label for="hamburger">
+                              <i class="fa-solid fa-bars fa-xl"></i>
+                              <i class="fa-solid fa-xmark fa-xl"></i>
+                          </label>
+                      </a>
+      
+                  </div>
+              </nav>
+
+
+    </header>
+    <!-- end of navigation -->
+    <div class="app-container" onclick="hideMenu(); closeSidebar(); closeMenuDownloadLinks()">
+    <!-- start of main section -->
+    <main class="contact-main_container">
+        <div>
+            <h1 class="about-heading">Contact</h1>
+            <p class="contact-info">Want to work together or have a suggestion? I'm open to recruitment opportunities and comments</p>
+            <p class="contact-info">Feel free to email me using the form below</p>
+            <img class="contact-image" src="img/contact.jpg?v=9312"
+                alt="An image showing writing utensils and a person writing">
+        </div>
+        <div>
+          <br />
+          <div class="formbold-builder-form themeOne">
+            <form
+              enctype="multipart/form-data"
+              action="https://formbold.com/s/3pMe1"
+              method="POST"
+              class="mx-auto w-full max-w-[570px] rounded-[10px] border border-stroke bg-white p-10 themeOne"
+            >
+              <div class="SortableItem fb-builder-item">
+                <h3
+                  class="static fade-in-up-on-scroll !font-bold text-xl font-semibold leading-tight text-black sm:text-[28px]"
+                >
+                  Contact
+                </h3>
+              </div>
+              <div class="SortableItem fb-builder-item">
+                <div class="mb-4">
+                  <label class="fade-in-up-on-scroll mb-2.5 block text-base text-black"
+                    ><span>First Name</span
+                    ><span class="label-required pl-1 text-red-400">*</span></label
+                  ><input
+                    type="text"
+                    class="w-full fade-in-up-on-scroll rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                    name="text_input_D05C7D01-55C5-42E1-8FD8-28833E685F50"
+                    placeholder="Joe"
+                    required=""
+                    value=""
+                  />
+                </div>
+              </div>
+              <div class="SortableItem fb-builder-item">
+                <div class="mb-4">
+                  <label class="fade-in-up-on-scroll mb-2.5 block text-base text-black"
+                    ><span>Last Name</span
+                    ><span class="label-required pl-1 text-red-400">*</span></label
+                  ><input
+                    type="text"
+                    class="fade-in-up-on-scroll w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                    name="text_input_DB0F7555-7FE7-47FF-A446-C4AFBDDCCA0E"
+                    placeholder="Black"
+                    value=""
+                    required=""
+                  />
+                </div>
+              </div>
+              <div class="SortableItem fb-builder-item">
+                <div class="mb-4">
+                  <label class="fade-in-up-on-scroll mb-2.5 block text-base text-black"
+                    ><span>Phone Number</span></label
+                  ><input
+                    type="tel"
+                    class="fade-in-up-on-scroll w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                    name="phone_input_043B56DD-8A30-43A5-8480-CD53C16BB98E"
+                    placeholder="+49 1234 5678901"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div class="SortableItem fb-builder-item">
+                <div class="mb-4">
+                  <label class="fade-in-up-on-scroll mb-2.5 block text-base text-black"
+                    ><span>E-Mail</span
+                    ><span class="label-required pl-1 text-red-400">*</span></label
+                  ><input
+                    type="email"
+                    class="fade-in-up-on-scroll w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                    name="email_input_D31D4B26-26C7-4B1D-A2AC-FF576851FD2F"
+                    placeholder="example@mail.com"
+                    required=""
+                    value=""
+                  />
+                </div>
+              </div>
+              <div class="SortableItem fb-builder-item">
+                <div class="mb-4">
+                  <label class="fade-in-up-on-scroll mb-2.5 block text-base text-black"
+                    ><span>Message or Comment</span
+                    ><span class="label-required pl-1 text-red-400">*</span></label
+                  ><input
+                    type="text"
+                    class="fade-in-up-on-scroll w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                    name="text_input_720C400E-AAA2-42F1-AA01-5009CEB08220"
+                    placeholder="Enter Your Message"
+                    required=""
+                    value=""
+                  />
+                </div>
+              </div>
+              <div class="SortableItem fb-builder-item">
+                <p class="fade-in-up-on-scroll static italic text-base text-body-color">
+                  <span class="form-asterisk">*</span> Fields marked with an asterisk are required
+                </p>
+              </div>
+              <div class="btn-toolbar flex items-center space-x-3">
+                <input
+                  type="submit"
+                  class="fade-in-up-on-scroll send-input inline-flex cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90"
+                  value="Submit"
+                />
+              </div>
+            </form>
+            <p class="fade-in-up-on-scroll mt-8 flex items-center justify-center">
+              Powered by<span class="pl-2"
+                ><a href="https://formbold.com" rel="nofollow noopener" target="_blank"
+                  ><img
+                    src="https://cdn.formbold.com/formbold-logo.svg"
+                    alt="Formbold Logo"
+                    style="max-width: 100px;" /></a
+              ></span>
+            </p>
+          </div>
+        </div>
+        <div class="contact-div">
+
+        </div>
+
+    </main>
+    <!-- end of main section -->
+
+   
+</div>
+ <!-- footer section -->
+<footer class="main-footer">
+    
+    <div class="social-container" 
+    onmouseenter="showSidebar()"
+    >
+        <div class="sidebar-close">
+            <a class="sidebar-toggler" style="cursor: pointer" onclick="toggleSidebar()">
+                <label for="sidebar">
+                    <!-- <i class="fa-solid fa-arrow-right fa-xl open-sidebar"></i>
+                    <i class="fa-solid fa-xmark fa-xl close-sidebar"></i> -->
+                    <i class="fa-solid fa-xl fa-caret-right close-sidebar"></i>
+        
+                </label>
+            </a>
+        </div>
+        <a href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener"><i alt="A Github icon"
+          class="fa-brands fa-github fa-xl"></i></a>
+  <a href="https://www.linkedin.com/in/yevheniiairapetian/" target="_blank" rel="noopener"><i
+          alt="A LinkedIn icon" class="fa-brands fa-linkedin fa-xl"></i></a>
+  <a href="https://twitter.com/airapetian_dev" target="_blank" rel="noopener"><i alt="A Twitter icon"
+          class="fa-brands fa-twitter fa-xl"></i></a>
+  <a href="https://dev.to/yevheniiairapetian" target="_blank" rel="noopener"><i alt="A Dev.to icon"
+          class="fa-brands fa-dev fa-xl"></i></a>
+  <a href="https://medium.com/@yevheniiairapetian" target="_blank" rel="noopener"><i alt="A Medium icon"
+          class="fa-brands fa-medium fa-xl"></i></a>
+
+    </div>
+    <p class="fade-in-up-on-scroll">© Yevhenii Airapetian. All rights reserved.</p>
+    <a class="impressum fade-in-up-on-scroll" target="_self" href="impressum.html">Impressum</a>
+
+
+</footer>
+<!-- end of footer section -->
+    <!-- <script src="js/tota11y.min.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
