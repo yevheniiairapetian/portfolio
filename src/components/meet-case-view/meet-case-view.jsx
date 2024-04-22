@@ -7,9 +7,7 @@ import 'video-react/dist/video-react.css'; // import css
 import { MeetCaseSlider } from '../meet-case-slider/meet-case-slider';
 import { Player } from 'video-react';
 import styleCSS from "./css/style.css";
-import R3playPicture4 from "./img/r3play-hero-image.png";
-import R3playPicture5 from "./img/retrospective-1.gif";
-import R3playPicture6 from "./img/retrospective-2.gif";
+import MeetPicture1 from "./img/meet-app-hero-image.png";
 import { faArrowUpRightFromSquare, faCode} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -31,7 +29,7 @@ export const MeetCaseView = () => {
 
 <div className="projects-information_container--item">
         
-        <Image src={R3playPicture4} className="screenshot" alt="R3play Case Study hero image"></Image>
+        <Image src={MeetPicture1} className="screenshot" alt="R3play Case Study hero image"></Image>
         <h2 className="fade-in-up-on-scroll r3play-headings">Overview</h2>
         <p className="fade-in-up-on-scroll">Meet App is a responsive Progressive Web Application, developed using the test-driven development approach using the AWS Serverless Lambda functions, OAuth2 Google authentication and authorization screen, and the Recharts library to allow users to view the Google Calendar API events. Users can authenticate with Google, specify the city and number of events to display the events, and read more about them. The app can be installed on desktop/mobile thanks to the PWA recommendations, used both online and offline, and shows notifications when incorrect data is entered and/or the internet connection is lost.</p>
         <h2 className="fade-in-up-on-scroll r3play-headings">Purpose and Context</h2>
