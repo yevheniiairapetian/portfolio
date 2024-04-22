@@ -11,7 +11,7 @@ import { Footer } from '../footer/footer';
 import { ContactView } from '../contact-view/contact-view';
 import { AboutView } from '../about-view/about-view';
 import { TestimonialsView } from '../testimonials-view/testimonials-view';
-import { Row, Col, InputGroup, Form } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { R3playCaseView } from '../r3play-case-view/r3play-case-view';
 import { MyFlixCaseView } from '../myFlix-case-view/myFlix-case-view';
@@ -19,6 +19,7 @@ import { MeetCaseView } from '../meet-case-view/meet-case-view';
 import { OwriteCaseView } from '../owrite-case-view/owrite-case-view';
 import { PokemonCaseView } from '../pokemon-case-view/pokemon-case-view';
 import { ToDoCaseView } from '../to-do-case-view/to-do-case-view';
+import React from "react";
 
 // import { UncontrolledExample } from '../Carousel/carousel';
 export const MainView = () => {
@@ -37,7 +38,7 @@ export const MainView = () => {
 
 
         />
-        <Row className="justify-content-center">
+       
           <Routes>
 
 
@@ -266,8 +267,7 @@ export const MainView = () => {
             
             
           </Routes>
-
-        </Row>
+         
 
       
 

@@ -77,7 +77,7 @@ export const PokemonCaseView = () => {
         <h2 className="technologies-heading fade-in-up-on-scroll">Technologies used/Skills</h2>
 
 
-        <p class="skills-paragraphs"><span>Ajax</span>
+        <p className="skills-paragraphs"><span>Ajax</span>
                         </p>
                         <p className="skills-paragraphs"><span>External
                                         API</span></p>
@@ -99,7 +99,7 @@ export const PokemonCaseView = () => {
         
         <h2 className="credits r3play-headings text-center fade-in-up-on-scroll">Credits</h2>
         <p className="fade-in-up-on-scroll">Role: <br/>Lead Developer</p>
-        <p>Tonny Ntambaazi: <br/><a class="deployed-link fade-in-up-on-scroll" target="_blank"
+        <p>Tonny Ntambaazi: <br/><a className="deployed-link fade-in-up-on-scroll" target="_blank"
                         href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">Creative
                         Director</a>
         </p>

@@ -32,7 +32,7 @@ export const ProjectsSlider = () => {
                     register and deregister, view information about movies, TV series, and
                     anime, and manage their favorites list.<Link title="Click to read more about the R3play Project" className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">More</Link>
                   </cite>
-                  <div class="projects-work-links">
+                  <div className="projects-work-links">
                     <Link title="Click to open the R3play App Github repository" to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                     {/* </div> */}
                     {/* <div class="work-links"> */}
@@ -57,7 +57,7 @@ export const ProjectsSlider = () => {
                     and anime, and manage favorites.
                     <Link title="Click to read more about the R3play Project" className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">More</Link>
                   </cite>
-                  <div class="projects-work-links">
+                  <div className="projects-work-links">
                     <Link title="Click to open the R3play API Github repository" to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                     {/* </div> */}
                     {/* <div class="work-links"> */}

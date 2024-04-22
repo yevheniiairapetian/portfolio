@@ -111,7 +111,7 @@ export const ToDoCaseView = () => {
         
         <h2 className="credits r3play-headings text-center fade-in-up-on-scroll">Credits</h2>
         <p className="fade-in-up-on-scroll">Role: <br/>Lead Developer</p>
-        <p>Tonny Ntambaazi: <br/><a class="deployed-link fade-in-up-on-scroll" target="_blank"
+        <p>Tonny Ntambaazi: <br/><a className="deployed-link fade-in-up-on-scroll" target="_blank"
                         href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">Creative
                         Director</a>
         </p>

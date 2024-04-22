@@ -74,7 +74,7 @@ export const Footer = () =>{
           }
     return (
     <>
-<footer className="main-footer pt-5 pb-4">
+<footer className="main-footer pt-5 pb-4 w-100">
     
     <div className="social-container" 
     onMouseEnter={()=>{showSidebar()}}
@@ -96,7 +96,7 @@ export const Footer = () =>{
 
     </div>
     <p className="fade-in-up-on-scroll copyright">© Yevhenii Airapetian, 2024. All rights reserved.</p>
-    <Nav.Link className="text-light pe-4" as={Link} to='/impressum'>
+    <Nav.Link className="text-light" as={Link} to='/impressum'>
 									Impressum
 								</Nav.Link>
     {/* <Link to={ImpressumView} className="impressum fade-in-up-on-scroll" >Impressum</Link> */}

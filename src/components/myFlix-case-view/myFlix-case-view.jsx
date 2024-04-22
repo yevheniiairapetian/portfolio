@@ -54,25 +54,25 @@ export const MyFlixCaseView = () => {
                                 client-side for the application from scratch.</p>
         <h2 className="fade-in-up-on-scroll r3play-headings">Approach</h2>
 
-                        <h3 class="fade-in-up-on-scroll">Agile project management</h3>
-                        <p class="fade-in-up-on-scroll">The work on the project started with creating the Kanban board and filling it with
+                        <h3 className="fade-in-up-on-scroll">Agile project management</h3>
+                        <p className="fade-in-up-on-scroll">The work on the project started with creating the Kanban board and filling it with
                                 the project requirements and user stories. When a project task was completed, it was
                                 moved
                                 to the "Done" section. As well, I generated detailed documentation with Typedoc as per
                                 the project's requirements.
                         </p>
-                        <h3 class="fade-in-up-on-scroll">Server-Side</h3>
-                        <p class="fade-in-up-on-scroll">I developed a RESTful API using Node.js and Express that interacts with a non-relational
+                        <h3 className="fade-in-up-on-scroll">Server-Side</h3>
+                        <p className="fade-in-up-on-scroll">I developed a RESTful API using Node.js and Express that interacts with a non-relational
                                 database (MongoDB). The API employs common HTTP methods like GET, PUT, POST, and DELETE.
                                 To retrieve data from and store data in the database, CRUD methods are used. The API
                                 provides movie, TV series, and anime information in JSON format.</p>
-                        <a class="deployed-link fade-in-up-on-scroll" target="_blank"
+                        <a className="deployed-link fade-in-up-on-scroll" target="_blank"
                                 href="https://r3play-934f9ea5664d.herokuapp.com/#user">&#x2192; View Endpoints</a>
-                        <p class="fade-in-up-on-scroll pt-4">I used Postman to test responses and requests to the API. I also made use of basic HTTP
+                        <p className="fade-in-up-on-scroll pt-4">I used Postman to test responses and requests to the API. I also made use of basic HTTP
                                 authentication and JWT authentication to provide for the authentication and
                                 authorization features.</p>
-                        <h3 class="fade-in-up-on-scroll">Client-Side</h3>
-                        <p class="fade-in-up-on-scroll">I built the front-end interface for users to be able to interact
+                        <h3 className="fade-in-up-on-scroll">Client-Side</h3>
+                        <p className="fade-in-up-on-scroll">I built the front-end interface for users to be able to interact
                                 with the logic and data from the API and the database. It is a
                                 single-page, responsive web application, developed with Angular and Material UI. It
                                 displays several interface views, including a main view (shows a
@@ -103,7 +103,7 @@ export const MyFlixCaseView = () => {
                 skills, specifically the test-driven development approach. It requires
                 implementing the testing phase before adding the actual functional logic, allowing for
                 safer, bug-free, and quicker development.</p>
-                <p class="fade-in-up-on-scroll">The difficulties I encountered happened at the end of the project and related more to the
+                <p className="fade-in-up-on-scroll">The difficulties I encountered happened at the end of the project and related more to the
                                 peculiarities of Angular and Github. One issue occurred when Github pages refused to
                                 deploy the app
                                 for a long time. The other one happened when the local changes to the codebase didn't
@@ -111,13 +111,13 @@ export const MyFlixCaseView = () => {
                                 and, during a pair programming session, we managed to fix the problems.
 
                         </p>
-                        <p class="fade-in-up-on-scroll">It was also a useful experience in debugging and troubleshooting, using git terminal
+                        <p className="fade-in-up-on-scroll">It was also a useful experience in debugging and troubleshooting, using git terminal
                                 commands, specifics of working with Angular, and pair programming sessions. I also added
                                 new skills to my arsenal, such as
                                 Typescript, Angular, Material UI, proper code commenting, collaboration, and others.
                         </p>
-                        <h3 class="fade-in-up-on-scroll r3play-headings">Conclusion and Key Takeaways</h3>
-                        <p class="fade-in-up-on-scroll">The myFlix app was the last full web application I developed in the Full-Stack
+                        <h3 className="fade-in-up-on-scroll r3play-headings">Conclusion and Key Takeaways</h3>
+                        <p className="fade-in-up-on-scroll">The myFlix app was the last full web application I developed in the Full-Stack
                                 web development course. When it was finished, I proceeded to enhance my portfolio.</p>
                         
         <h3 className="fade-in-up-on-scroll r3play-headings">Main takeaways for future projects</h3>
@@ -140,7 +140,7 @@ export const MyFlixCaseView = () => {
         <iframe title="vimeo-player" src="https://player.vimeo.com/video/937369818?h=28da240343" width="100%" height="460" frameborder="0"    allowfullscreen></iframe>        <h2 className="technologies-heading fade-in-up-on-scroll">Technologies used/Skills</h2>
         
         
-        <p class="skills-paragraphs"><span>Angular</span>
+        <p className="skills-paragraphs"><span>Angular</span>
                         </p>
                         <p className="skills-paragraphs"><span>
                                         Material UI</span></p>
@@ -164,7 +164,7 @@ export const MyFlixCaseView = () => {
                         </p>
                         <p className="skills-paragraphs"><span>Providing feedback</span>
                         </p>
-                        <p class="skills-paragraphs"><span>Teamwork</span>
+                        <p className="skills-paragraphs"><span>Teamwork</span>
                         </p>
                         <p className="skills-paragraphs"><span>Responsive
                                         design</span></p>
@@ -172,7 +172,7 @@ export const MyFlixCaseView = () => {
                         </p>
                         <p className="skills-paragraphs"><span>HTML5</span>
                         </p>
-                        <p class="skills-paragraphs"><span>Ajax</span>
+                        <p className="skills-paragraphs"><span>Ajax</span>
                         </p>
                         <p className="skills-paragraphs"><span>Deploying
                                         a website</span></p>
@@ -181,7 +181,7 @@ export const MyFlixCaseView = () => {
         
         <h2 className="credits r3play-headings text-center fade-in-up-on-scroll">Credits</h2>
         <p className="fade-in-up-on-scroll">Role: <br/>Lead Developer</p>
-        <p>Tonny Ntambaazi: <br/><a class="deployed-link fade-in-up-on-scroll" target="_blank"
+        <p>Tonny Ntambaazi: <br/><a className="deployed-link fade-in-up-on-scroll" target="_blank"
                         href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">Creative
                         Director</a>
         </p>

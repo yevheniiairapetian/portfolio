@@ -45,7 +45,7 @@ export const ContactView = () =>{
               enctype="multipart/form-data"
               action="https://formbold.com/s/3pMe1"
               method="POST"
-              class="mx-auto w-full max-w-[570px] rounded-[10px] border border-stroke bg-white p-10 themeOne"
+              className="mx-auto w-full max-w-[570px] rounded-[10px] border border-stroke bg-white p-10 themeOne"
             >
               <div className="SortableItem fb-builder-item">
                 <h3
@@ -137,7 +137,7 @@ export const ContactView = () =>{
               </div>
             </form>
             <p className="fade-in-up-on-scroll mt-8 flex items-center justify-center">
-              Powered by<span class="pl-2"
+              Powered by<span className="pl-2"
                 ><a href="https://formbold.com" rel="nofollow noreferrer" target="_blank"
                   ><img
                     src="https://cdn.formbold.com/formbold-logo.svg"

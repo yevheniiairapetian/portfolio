@@ -39,14 +39,14 @@ export const MeetCaseView = () => {
         <p className="fade-in-up-on-scroll">The project aimed to develop a fully-functioning full-stack app that I could add to my professional portfolio. The problem I wanted to solve was to build a complete full-stack web application by employing the test-driven development approach using the AWS serverless Lambda functions, React.js, and the Progressive Web App requirements.</p>
         
         <h2 className="fade-in-up-on-scroll r3play-headings">Approach</h2>
-                        <h3 class="fade-in-up-on-scroll">Test-Driven Development</h3>
-                        <p class="fade-in-up-on-scroll">I developed the application by first writing the user stories. With the help of the
+                        <h3 className="fade-in-up-on-scroll">Test-Driven Development</h3>
+                        <p className="fade-in-up-on-scroll">I developed the application by first writing the user stories. With the help of the
                                 test-driven development approach, I incorporated the unit, integration, user acceptance,
                                 and end-to-end testing methods to write the required tests before implementing the code.
 
                         </p>
-                        <h3 class="fade-in-up-on-scroll">Server-Side and API</h3>
-                        <p class="fade-in-up-on-scroll">I developed the server side using the AWS serverless Lambda functions as the requirement for
+                        <h3 className="fade-in-up-on-scroll">Server-Side and API</h3>
+                        <p className="fade-in-up-on-scroll">I developed the server side using the AWS serverless Lambda functions as the requirement for
                                 the project. The use of serverless allows for the reduction of extra work for managing a
                                 server and
                                 makes scalability easier. For the app's events data, CareerFoundry's Google Calendar
@@ -56,9 +56,9 @@ export const MeetCaseView = () => {
                                 Recharts library allows the visualization of event data in the form of two types of
                                 charts
                                 (Scatter and Pie).</p>
-                        <h3 class="fade-in-up-on-scroll">Client-Side</h3>
-                        <p class="fade-in-up-on-scroll">For the visual part, the frontend was responsively styled with regular CSS and JSX.</p>
-                        <p class="center r3play-slider-hint fade-in-up-on-scroll">Use the slider controls to click through the testimonials
+                        <h3 className="fade-in-up-on-scroll">Client-Side</h3>
+                        <p className="fade-in-up-on-scroll">For the visual part, the frontend was responsively styled with regular CSS and JSX.</p>
+                        <p className="center r3play-slider-hint fade-in-up-on-scroll">Use the slider controls to click through the testimonials
                         list. <br/>Hover over the slides' headings to read more.</p>
         
         
@@ -120,7 +120,7 @@ export const MeetCaseView = () => {
 
         <h2 className="credits r3play-headings text-center fade-in-up-on-scroll">Credits</h2>
         <p className="fade-in-up-on-scroll">Role: <br/>Lead Developer</p>
-        <p>Tonny Ntambaazi: <br/><a class="deployed-link fade-in-up-on-scroll" target="_blank"
+        <p>Tonny Ntambaazi: <br/><a className="deployed-link fade-in-up-on-scroll" target="_blank"
                         href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">Creative
                         Director</a>
         </p>
