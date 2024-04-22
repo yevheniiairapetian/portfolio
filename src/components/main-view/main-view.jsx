@@ -252,7 +252,7 @@ export const MainView = () => {
 
             <Route
         
-              path="/404"
+              path="*"
               
               element={
               <>
@@ -264,7 +264,7 @@ export const MainView = () => {
             
             />
             
-            <Navigate to="/404"/>
+            <Navigate to={<PageNotFoundView />}/>
           </Routes>
 
         </Row>
