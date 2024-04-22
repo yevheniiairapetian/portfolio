@@ -66,7 +66,8 @@ export const PokemonCaseView = () => {
         <p className="fade-in-up-on-scroll">The Pokemon app was the first Full-Stack Immersion course project. When it was finished, I focused on enhancing my development skills, specifically diving into Node.js, Express, and APIs. Designing my own API was a useful and important step to further mastering the crucial back-end web development skills.</p>
         <h3 className="fade-in-up-on-scroll r3play-headings">Main takeaways for future projects</h3>
         <ul className="r3play-takeaways">{listItems}</ul>;
-
+        <p className="center r3play-slider-hint fade-in-up-on-scroll">Use the slider controls to click through the testimonials
+                        list. <br/>Hover over the slides' headings to read more.</p>
         <PokemonCaseSlider/>
         
         <h2 className="video-image-heading fade-in-up-on-scroll">App Preview

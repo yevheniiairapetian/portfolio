@@ -83,7 +83,7 @@ export const MyFlixCaseView = () => {
 
 
         <p className="center r3play-slider-hint fade-in-up-on-scroll">Use the slider controls to click through the testimonials
-                        list. <br/>Hover over the testimonials' headings to read more.</p>
+                        list. <br/>Hover over the slides' headings to read more.</p>
         <MyFlixCaseSlider/>
         {/* <Image className="screenshot img-third-width fade-in-up-on-scroll" src={R3playPicture1}
                 alt="R3play app case interface screenshot 1"></Image>

@@ -59,7 +59,7 @@ export const MeetCaseView = () => {
                         <h3 class="fade-in-up-on-scroll">Client-Side</h3>
                         <p class="fade-in-up-on-scroll">For the visual part, the frontend was responsively styled with regular CSS and JSX.</p>
                         <p class="center r3play-slider-hint fade-in-up-on-scroll">Use the slider controls to click through the testimonials
-                        list. <br/>Hover over the testimonials' headings to read more.</p>
+                        list. <br/>Hover over the slides' headings to read more.</p>
         
         
         

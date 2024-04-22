@@ -66,7 +66,8 @@ export const ToDoCaseView = () => {
         <h2 className="fade-in-up-on-scroll r3play-headings">Approach</h2>
         <h3 className="fade-in-up-on-scroll r3play-headings">Client Side</h3>
         <p className="fade-in-up-on-scroll">After receiving the initial plain Javascript code with basic app functionality, I started turning it into a jQuery one. This type of work allowed me to introduce additional features and styles.</p>
-
+        <p className="center r3play-slider-hint fade-in-up-on-scroll">Use the slider controls to click through the testimonials
+                        list. <br/>Hover over the slides' headings to read more.</p>
         
         <ToDoCaseSlider/>
         

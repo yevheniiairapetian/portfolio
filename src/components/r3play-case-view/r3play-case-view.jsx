@@ -70,7 +70,7 @@ export const R3playCaseView = () => {
                 delete them to or from their list of favorites), a login view, a registration view and a
                 profile view (where users can update their user data and list of favorites).</p>
         <p className="center r3play-slider-hint fade-in-up-on-scroll">Use the slider controls to click through the testimonials
-                        list. <br/>Hover over the testimonials' headings to read more.</p>
+                        list. <br/>Hover over the slides' headings to read more.</p>
         <R3playCaseSlider/>
         {/* <Image className="screenshot img-third-width fade-in-up-on-scroll" src={R3playPicture1}
                 alt="R3play app case interface screenshot 1"></Image>

@@ -46,7 +46,7 @@ export const OwriteCaseView = () => {
         <p className="fade-in-up-on-scroll">For the interface, Android Studio and Expo Go Android App were incorporated for testing purposes. React Native was used to design two app screens: a welcome and a chat screen. The welcome screen was designed with accessible elements as per React Native recommendations, allows to set a username and choose a background color for the chat screen. The chat screen displays the user's name, message history, a text field, and a menu with additional file options. To develop the required features, I incorporated such libraries as Gifted Chat, Expo Media, Expo Image Picker, Stack Navigation, and others. To allow for an offline use, AsyncStorage was used.</p>
         
         <p className="center r3play-slider-hint fade-in-up-on-scroll">Use the slider controls to click through the testimonials
-                        list. <br/>Hover over the testimonials' headings to read more.</p>
+                        list. <br/>Hover over the slides' headings to read more.</p>
         <OwriteCaseSlider/>
         
         <h2 className="fade-in-up-on-scroll r3play-headings">Duration</h2>
