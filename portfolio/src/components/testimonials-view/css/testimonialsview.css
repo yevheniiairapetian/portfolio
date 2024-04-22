@@ -1,0 +1,44 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.projects-main-heading {
+    margin-top: 40px;
+    color: #529fcc;
+}
+
+cite{
+    color: black;
+}
+
+.projects-image {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 40px auto 40px auto;
+}
+
+.projects-overview-paragraph {
+    /* margin: 0 auto; */
+    line-height: 2em;
+    font-size: 18px;
+    
+}
+
+.slider-overview-paragraph {
+    margin-bottom: 50px;
+    line-height: 2em;
+    font-size: 18px;
+    font-style:italic;
+}
+
+.center {
+    text-align: center;
+}
+
+h3{
+    
+        font-size:12px;
+    
+
+}
