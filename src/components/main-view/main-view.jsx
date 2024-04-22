@@ -12,7 +12,7 @@ import { ContactView } from '../contact-view/contact-view';
 import { AboutView } from '../about-view/about-view';
 import { TestimonialsView } from '../testimonials-view/testimonials-view';
 import { Row, Col, InputGroup, Form } from 'react-bootstrap';
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { R3playCaseView } from '../r3play-case-view/r3play-case-view';
 import { MyFlixCaseView } from '../myFlix-case-view/myFlix-case-view';
 import { MeetCaseView } from '../meet-case-view/meet-case-view';
@@ -30,7 +30,7 @@ export const MainView = () => {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         {/* <ScrollButton />
         <ScrollToTop />  */}
         <NavigationBar
@@ -269,7 +269,7 @@ export const MainView = () => {
 
         </Row>
 
-      </BrowserRouter>
+      </HashRouter>
 
     </>
 
