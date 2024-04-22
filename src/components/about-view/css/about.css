@@ -171,3 +171,17 @@ color: #529fcc;
     font-weight: bold;
     
 }
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .profile-picture {
+        width:60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:480px){
+    .profile-picture {
+        width:70%;
+        margin: 0 auto;
+    }
+}
