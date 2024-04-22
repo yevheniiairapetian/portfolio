@@ -16,7 +16,7 @@ export const OwriteCaseSlider = () => {
     <Container>
         <Row>
             <Col>
-            <Carousel className="w-75 m-auto">
+            <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
         <Image className="r3play-image" src={OwritePicture2} text="Second slide" />

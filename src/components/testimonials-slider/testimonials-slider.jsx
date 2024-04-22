@@ -14,7 +14,7 @@ export const TestimonialsSlider = () => {
     <Container>
         <Row>
             <Col>
-            <Carousel className="w-75 m-auto">
+            <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
         <Image className="testim-image" src={testimonialsPicture2} roundedCircle circular text="Second slide" />

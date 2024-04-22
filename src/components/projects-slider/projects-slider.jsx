@@ -21,7 +21,7 @@ export const ProjectsSlider = () => {
     <Container>
       <Row>
         <Col>
-          <Carousel className="w-75 m-auto">
+          <Carousel className="w-100 m-auto">
 
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture2} text="Second slide" />

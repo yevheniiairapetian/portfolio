@@ -17,7 +17,7 @@ export const PokemonCaseSlider = () => {
     <Container>
         <Row>
             <Col>
-            <Carousel className="w-75 m-auto">
+            <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
         <Image className="r3play-image" src={PokemonPicture1} text="Second slide" />

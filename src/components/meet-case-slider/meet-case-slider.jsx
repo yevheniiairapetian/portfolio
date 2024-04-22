@@ -17,7 +17,7 @@ export const MeetCaseSlider = () => {
     <Container>
       <Row>
         <Col>
-          <Carousel className="w-75 m-auto">
+          <Carousel className="w-100 m-auto">
 
 
             <Carousel.Item>

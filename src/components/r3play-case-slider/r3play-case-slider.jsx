@@ -24,7 +24,7 @@ export const R3playCaseSlider = () => {
     <Container>
         <Row>
             <Col>
-            <Carousel className="w-75 m-auto">
+            <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
         <Image className="r3play-image" src={R3playPicture1} text="Second slide" />
