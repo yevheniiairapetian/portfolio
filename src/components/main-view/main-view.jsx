@@ -251,9 +251,12 @@ export const MainView = () => {
             />
 
             <Route
-              path="*"
-              element={<PageNotFoundView />}
+              path="/404"
+              element={<PageNotFoundView />
+            
+            }
             />
+            <Redirect to="404/"/>
 
           </Routes>
 
