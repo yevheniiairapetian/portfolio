@@ -7,6 +7,26 @@
     "second focus":"我的目标是将我的经验与我的职业抱负结合起来，帮助创建功能强大、反应灵敏、易于使用的软件解决方案。",
     "availability":"我可以在柏林和波茨坦地区现场或远程工作。",
     "hobbies":"除了热衷于网站开发，我还是一名活跃的业余摄影师和健身爱好者，无论哪一天，你都能发现我在外面拍照或举重。",
-    "code":"代码"
+    "code":"代码",
+    "menu":{
+      "aboutMenu" : "关于我",
+      "projectsMenu": "网络应用程序", 
+      "casesMenu": "项目说明",
+      "testimonialsMenu": "积极反馈",
+      "contactMenu": "联系方式",
+      "resumeMenu": "简历",
+      "r3playMenu": "r3play 网络应用程序",
+      "myFlixMenu": "MyFlix 网络应用程序",
+      "meetMenu": "Meet 网络应用程序",
+      "owriteMenu": "Owrite 网络应用程序",
+      "pokemonMenu": "Pokemon 网络应用程序",
+      "toDoMenu": "To Do 网络应用程序"
+    },
+    "footer":{
+       "copy":"© Yevhenii Airapetian, 2024。保留所有权利。",
+       "impressumFooter":"印记"
+   }
+}
 
-  }
+
+  

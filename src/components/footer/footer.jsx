@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Navbar, Button, Container, Row, Col, Nav, Image } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faDev, faTwitter, faMedium } from '@fortawesome/free-brands-svg-icons';
@@ -6,6 +7,13 @@ import { Link } from "react-router-dom";
 import { ImpressumView } from '../impressum-view/impressum-view';
 
 export const Footer = () =>{
+  const { t } = useTranslation();
+	const footer = [
+		{
+		  title: t("footer.copy"),
+		  // ...
+		},
+	  ];
     function toggleSidebar() {
         let sidebar = document.querySelector('.social-container');
         // let menuBars = document.querySelector('.fa-arrow-right');
@@ -95,9 +103,9 @@ export const Footer = () =>{
         <Link to='https://medium.com/@yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-medium" icon={faMedium} /></Link>
 
     </div>
-    <p className="fade-in-up-on-scroll copyright">© Yevhenii Airapetian, 2024. All rights reserved.</p>
+    <p className="fade-in-up-on-scroll copyright">{t("footer.copy")}</p>
     <Nav.Link className="text-light" as={Link} to='/impressum'>
-									Impressum
+    {t("footer.impressumFooter")}
 								</Nav.Link>
     {/* <Link to={ImpressumView} className="impressum fade-in-up-on-scroll" >Impressum</Link> */}
 

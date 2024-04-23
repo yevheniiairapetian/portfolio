@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Navbar, Container, Row, Col, Nav, Image } from "react-bootstrap";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import ukraineImg from "./img/ukraine.svg";
@@ -8,6 +9,14 @@ import { Link } from "react-router-dom";
 import $ from 'jquery';
 
 export const NavigationBar = () => {
+	const { t } = useTranslation();
+	const menu = [
+		{
+		  title: t("menu.aboutMenu"),
+		  // ...
+		},
+		
+	  ];
 	function showMenuDownloadLinks(){
 		let linkDE = $('.download-menu-de');
 		let linkEN = $('.download-menu-en');
@@ -56,44 +65,44 @@ export const NavigationBar = () => {
 					<Nav>
 					
 								<Nav.Link className="text-light pe-4" as={Link} to='/'>
-									About
+								{t("menu.aboutMenu")}
 								</Nav.Link>
 								<Nav.Link className="text-light pe-4" as={Link} to='/projects'>
-									Projects
+								{t("menu.projectsMenu")}
 									
 								</Nav.Link>
-								<NavDropdown className="cases-nav-container" title="Cases" id="collapsible-nav-dropdown">
+								<NavDropdown className="cases-nav-container" title={t("menu.casesMenu")} id="collapsible-nav-dropdown">
               {/* <NavDropdown.Item href="#action/3.1">Resume</NavDropdown.Item> */}
 			  
             
             
                <NavDropdown.Item target="_self" alt="">
-			  <Link to="./../r3play-case" className="nav-cases" target="_self" >R3Play App</Link>
+			  <Link to="./../r3play-case" className="nav-cases" target="_self" >{t("menu.r3playMenu")}</Link>
               </NavDropdown.Item>
               <NavDropdown.Item target="_self" alt="">
-			  <Link to="./../myFlix-case" className="nav-cases" target="_self" >MyFlix App</Link>
+			  <Link to="./../myFlix-case" className="nav-cases" target="_self" >{t("menu.myFlixMenu")}</Link>
               </NavDropdown.Item>
 			  <NavDropdown.Item target="_self" alt="">
-			  <Link to="./../meet-case" className="nav-cases" target="_self" >Meet App</Link>
+			  <Link to="./../meet-case" className="nav-cases" target="_self" >{t("menu.meetMenu")}</Link>
               </NavDropdown.Item>
 			  <NavDropdown.Item target="_self" alt="">
-			  <Link to="./../owrite-case" className="nav-cases" target="_self" >Owrite App</Link>
+			  <Link to="./../owrite-case" className="nav-cases" target="_self" >{t("menu.owriteMenu")}</Link>
               </NavDropdown.Item>
 			  <NavDropdown.Item target="_self" alt="">
-			  <Link to="./../pokemon-case" className="nav-cases" target="_self" >Pokemon App</Link>
+			  <Link to="./../pokemon-case" className="nav-cases" target="_self" >{t("menu.pokemonMenu")}</Link>
               </NavDropdown.Item>
 			  <NavDropdown.Item target="_self" alt="">
-			  <Link to="./../to-do-case" className="nav-cases" target="_self" >To Do App</Link>
+			  <Link to="./../to-do-case" className="nav-cases" target="_self" >{t("menu.toDoMenu")}</Link>
               </NavDropdown.Item>
 			  
             </NavDropdown>
 								<Nav.Link className="text-light pe-4" as={Link} to='/testimonials'>
-									Testimonials
+								{t("menu.testimonialsMenu")}
 								</Nav.Link>
 								<Nav.Link className="text-light pe-4" as={Link} to='/contact'>
-									Contact
+									{t("menu.contactMenu")}
 								</Nav.Link>
-								<NavDropdown onClick={()=>{showMenuDownloadLinks()}} title="Resume" id="collapsible-nav-dropdown">
+								<NavDropdown onClick={()=>{showMenuDownloadLinks()}} title={t("menu.resumeMenu")} id="collapsible-nav-dropdown">
               {/* <NavDropdown.Item href="#action/3.1">Resume</NavDropdown.Item> */}
 			  
             

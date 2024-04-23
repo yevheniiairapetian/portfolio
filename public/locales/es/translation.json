@@ -7,6 +7,24 @@
     "second focus":"Mi objetivo es combinar mi experiencia con mis aspiraciones profesionales para ayudar a crear soluciones de software funcionales, receptivas y accesibles.",
     "availability":"Estoy disponible para trabajo de oficina e híbrido en la zona de Berlín y Potsdam o a distancia.",
     "hobbies":"Además de mis pasiones en el desarrollo web, también soy un fotógrafo aficionado activo y un entusiasta del fitness, y en cualquier otro día puedes encontrarme fuera haciendo fotos o levantando pesas.",
-    "code":"código"
+    "code":"código",
+    "menu":{
+        "aboutMenu" : "Sobre mí",
+        "projectsMenu": "Proyectos", 
+        "casesMenu": "Casos",
+        "testimonialsMenu": "Testimonios",
+        "contactMenu": "Contacto",
+        "resumeMenu": "Currículum",
+        "r3playMenu": "R3play App",
+        "myFlixMenu": "MyFlix App",
+        "meetMenu": "Meet App",
+        "owriteMenu": "Owrite App",
+        "pokemonMenu": "Pokemon App",
+        "toDoMenu": "To Do App"
+      },
+      "footer":{
+         "copy":"© Yevhenii Airapetian, 2024 Todos los derechos reservados.",
+         "impressumFooter":"Impresión"
+     }
 
   }
