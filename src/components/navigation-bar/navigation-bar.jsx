@@ -69,7 +69,7 @@ export const NavigationBar = () => {
 
 	useEffect(() => {
 		//   document.body.dir = currentLangObj.dir || "ltr";
-		document.title = t("app_title");
+		// document.title = t("app_title");
 	}, [currentLangObj, t]);
 
 	return (
