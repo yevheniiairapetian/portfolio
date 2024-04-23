@@ -1,3 +1,11 @@
 {
-    "welcome text": "Welcome to the react-i18next tutorial"
+    "welcome text": "Hi, I'm Yevhenii!",
+    "resume": "Resume",
+    "introduction":"I'm a web developer passionate about technology",
+    "experience":"With previous experience in teaching foreign languages and academic writing, I'm excited to pursue a career as a web developer.",
+    "first focus":"I have always focused on delivering high-quality work that met deadlines, employing my refined problem-solving, time-management, and logical thinking skills.",
+    "second focus":"My focus is to combine my expertise with my professional aspirations to help create functional, responsive, and accessible software solutions.",
+    "availability":"I'm available for on-site and hybrid employment in the Berlin and Potsdam area or remotely.",
+    "hobbies":"In addition to my passions in web development, I'm also an active hobby photographer and fitness enthusiast, and any other day you can find me outside taking photos or lifting heavy weights.",
+    "code":"Code"
   }

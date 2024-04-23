@@ -63,27 +63,20 @@ export const AboutView = () => {
                 <Image  onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle alt="logo" src={profileImg} />
                 </Col>
                 <Col xs={12} md={7}>
-                <h1 onClick={()=>{closeDownloadLinks()}} className="hello-heading hello text-primary mt-4 mb-4">Hi, I'm Yevhenii!</h1>
-            <p onClick={()=>{closeDownloadLinks()}} className="introduction">I'm a web developer passionate about technology</p>
-            <p onClick={()=>{closeDownloadLinks()}} className="prevExperience">With previous experience in teaching foreign languages and academic writing, I'm excited to pursue a
-                career as a web developer.</p>
-            <p onClick={()=>{closeDownloadLinks()}} className="myFocus">I have always focused on delivering high-quality work
-                that met deadlines, employing my refined problem-solving, time-management, and
-                logical thinking skills.</p>
-            <p onClick={()=>{closeDownloadLinks()}} className="mySecondFocus">My focus is to combine my
-                expertise with my professional aspirations to help create functional, responsive, and accessible
-                software solutions.</p>
-            <p onClick={()=>{closeDownloadLinks()}} className="availability">I'm available for on-site and hybrid employment in the Berlin and Potsdam area or remotely.</p>
-            <p onClick={()=>{closeDownloadLinks()}} className="fade-in-up-on-scroll hobbies mb-4">In addition to my passions in web development, I'm also an active hobby photographer and fitness
-                enthusiast, and any other day
-                you can find me outside taking photos or lifting heavy weights.</p>
+                <h1>{t("welcome text")}</h1>
+            <p onClick={()=>{closeDownloadLinks()}} className="introduction">{t("introduction")}</p>
+            <p onClick={()=>{closeDownloadLinks()}} className="prevExperience">{t("experience")}</p>
+            <p onClick={()=>{closeDownloadLinks()}} className="myFocus">{t("first focus")}</p>
+            <p onClick={()=>{closeDownloadLinks()}} className="mySecondFocus">{t("second focus")}</p>
+            <p onClick={()=>{closeDownloadLinks()}} className="availability">{t("availability")}</p>
+            <p onClick={()=>{closeDownloadLinks()}} className="fade-in-up-on-scroll hobbies mb-4">{t("hobbies")}</p>
             
-            <Button variant="primary" className="check-out fade-in-up-on-scroll ps-3 pe-3" href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener noreferrer"><span title="Check out code on Github" className="about-buttons-small-screen checkOutSmall">Code</span></Button>
+            <Button variant="primary" className="check-out fade-in-up-on-scroll ps-3 pe-3" href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener noreferrer"><span title="Check out code on Github" className="about-buttons-small-screen checkOutSmall">{t("code")}</span></Button>
             <Button 
             variant="dark" 
             onClick={()=>{showDownloadLinks()}} 
             className="resume fade-in-up-on-scroll ps-3 pe-3 ms-2">
-                <span title="Toggle resume files" className="about-buttons-big-screen resumeBig">Resume</span>
+                <span title="Toggle resume files" className="about-buttons-big-screen resumeBig">{t("resume")}</span>
             
                 </Button><br/>
                 <div className="resumes">
