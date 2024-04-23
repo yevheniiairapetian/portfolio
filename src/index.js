@@ -6,11 +6,15 @@ import {MainView} from '../src/components/main-view/main-view';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter } from 'react-router-dom';
+import "./i18n";
+import { Suspense } from "react";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
+    <Suspense fallback={<div>Loading...</div>}>
     <MainView />
+    </Suspense>
   </HashRouter>
 );
 

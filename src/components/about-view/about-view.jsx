@@ -9,6 +9,7 @@ import deImg from "./img/germany.svg";
 import uaCV from "./img/Yevhenii-Airapetian-UK.pdf";
 import usCV from "./img/Yevhenii-Airapetian-EN.pdf";
 import deCV from "./img/Yevhenii-Airapetian-DE.pdf";
+import { useTranslation } from 'react-i18next';
 
 export const AboutView = () => {
 	function showDownloadLinks(){
@@ -53,7 +54,7 @@ export const AboutView = () => {
         // }
         
       }
-
+      const { t } = useTranslation();
 	return (
 
 		<Container className="aboutContainer pt-5">
@@ -62,7 +63,7 @@ export const AboutView = () => {
                 <Image  onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle alt="logo" src={profileImg} />
                 </Col>
                 <Col xs={12} md={7}>
-                <h1 onClick={()=>{closeDownloadLinks()}} className="hello-heading hello text-primary mt-4 mb-4">Hi, I'm Yevhenii!</h1>
+                <h1>{t("welcome text")}</h1>
             <p onClick={()=>{closeDownloadLinks()}} className="introduction">I'm a web developer passionate about technology</p>
             <p onClick={()=>{closeDownloadLinks()}} className="prevExperience">With previous experience in teaching foreign languages and academic writing, I'm excited to pursue a
                 career as a web developer.</p>
