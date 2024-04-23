@@ -8,6 +8,9 @@
     "availability":"Ich stehe für Büro- und Hybridarbeit im Raum Berlin und Potsdam oder aus der Ferne zur Verfügung.",
     "hobbies":"Zusätzlich zu meinen Leidenschaften in der Webentwicklung bin ich auch ein aktiver Hobbyfotograf und Fitnessenthusiast, und an jedem anderen Tag kann man mich draußen beim Fotografieren oder beim Gewichtheben antreffen.",
     "code":"Code",
+    "projects":"Projekte",
+    "projectsInfo":"Hier finden Sie die aktuellen Webentwicklungsprojekte, die ich abgeschlossen und an denen ich gearbeitet habe. Sie haben alle Hyperlinks zur Codebasis und zu den Projektfällen, die meisten haben einen Link zur bereitgestellten Version, und einige haben auch zusätzliche Links",
+    "projectsViewTip":"Verwenden Sie die Schieberegler, um durch die Projektliste zu blättern. Bewegen Sie die Maus über eine bestimmte Folie, um die Projektlinks anzuzeigen.",
     "menu":{
         "aboutMenu" : "Über",
         "projectsMenu": "Projekte", 
