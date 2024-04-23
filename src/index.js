@@ -8,13 +8,15 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter } from 'react-router-dom';
 import "./i18n";
 import { Suspense } from "react";
+import { faArrowUpRightFromSquare, faSpinner} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Row, Col } from 'react-bootstrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div className="m-auto text-center">Loading...<FontAwesomeIcon icon={faSpinner} spinPulse style={{"--fa-primary-color": "#183153", "--fa-secondary-color": "#418fde"}} /></div>}></Suspense>
     <MainView />
-    </Suspense>
   </HashRouter>
 );
 
