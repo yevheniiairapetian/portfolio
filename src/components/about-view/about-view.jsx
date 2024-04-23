@@ -63,7 +63,7 @@ export const AboutView = () => {
                 <Image  onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle alt="logo" src={profileImg} />
                 </Col>
                 <Col xs={12} md={7}>
-                <h1>{t("welcome text")}</h1>
+                <h1 onClick={()=>{closeDownloadLinks()}} className="hello-heading hello text-primary mt-4 mb-4">Hi, I'm Yevhenii!</h1>
             <p onClick={()=>{closeDownloadLinks()}} className="introduction">I'm a web developer passionate about technology</p>
             <p onClick={()=>{closeDownloadLinks()}} className="prevExperience">With previous experience in teaching foreign languages and academic writing, I'm excited to pursue a
                 career as a web developer.</p>
