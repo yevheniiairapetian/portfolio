@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.18dc574d.css",
-    "main.js": "/static/js/main.b2cb7352.js",
+    "main.js": "/static/js/main.ddf09aa3.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/retrospective-1.gif": "/static/media/retrospective-1.0b2a48d77a9e0082eef0.gif",
     "static/media/r3play-hero-image.png": "/static/media/r3play-hero-image.0a34861315051f55a803.png",
@@ -48,11 +48,11 @@
     "static/media/arrow-ios-forward.svg": "/static/media/arrow-ios-forward.d73ef74fecf0b1b13593.svg",
     "static/media/arrow-ios-back.svg": "/static/media/arrow-ios-back.7ade10504a85d9828ae0.svg",
     "main.18dc574d.css.map": "/static/css/main.18dc574d.css.map",
-    "main.b2cb7352.js.map": "/static/js/main.b2cb7352.js.map",
+    "main.ddf09aa3.js.map": "/static/js/main.ddf09aa3.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18dc574d.css",
-    "static/js/main.b2cb7352.js"
+    "static/js/main.ddf09aa3.js"
   ]
 }
