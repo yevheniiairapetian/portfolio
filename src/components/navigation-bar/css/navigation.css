@@ -16,9 +16,20 @@
     transition: transform 0.3s ease-out, padding-right 0.3s ease-out, border-bottom 0.3s ease-out, padding-bottom 0.3s ease-out, color 0.3s ease-out;
 }
 
+.switcher select {
+    width: 92px;
+    height: 44px;
+    background-color: #529fcc;
+    color:black;
+  }
+
 .dropdown-menu{
     background-color: #f3f0f0 !important;
     padding:0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color:white;
 }
 
 #nav-dropdown{ color: white}
