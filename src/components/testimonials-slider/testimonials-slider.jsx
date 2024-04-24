@@ -7,9 +7,10 @@ import testimonialsPicture1 from "./img/testimonial-1.jpeg";
 import testimonialsPicture2 from "./img/testimonial-2.jpeg";
 import testimonialsPicture3 from "./img/testimonial-3.jpeg";
 import sliderCSS from "./css/slider.css";
-
+import { useTranslation } from 'react-i18next';
 
 export const TestimonialsSlider = () => {
+  const { t } = useTranslation();
   return (
     <Container>
         <Row>
@@ -19,21 +20,16 @@ export const TestimonialsSlider = () => {
       <Carousel.Item>
         <Image className="testim-image" src={testimonialsPicture2} roundedCircle circular text="Second slide" />
         <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">Maya Septriana, Career Consultant, CareerFoundry</h3>
-          <cite>Yevhenii is someone that is so easy to
-                                                        collaborate with. He always strives for excellence. Every time I
-                                                        give him feedback he would be willing to listen and adjust the
-                                                        submission...<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <h3 className="carousel-heading">{t("testimonial1")}</h3>
+          <cite>{t("testimonial1Text")}<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Image className="testim-image" src={testimonialsPicture1} roundedCircle text="First slide" />
         <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">Nizar Triki, Software Engineering Manager chez Expensya</h3>
-          <cite>I had the opportunity to mentor Yevhenii
-                                                        throughout his web development training at CareerFoundry.
-                                                        Yevhenii's self-sufficiency, rapid grasp of concepts...
+          <h3 className="carousel-heading">{t("testimonial2")}</h3>
+          <cite>{t("testimonial2Text")}
                                                         <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
                                                         </cite>
         </Carousel.Caption>
@@ -41,9 +37,9 @@ export const TestimonialsSlider = () => {
       <Carousel.Item>
         <Image className="testim-image" src={testimonialsPicture3} roundedCircle text="Third slide" />
         <Carousel.Caption className="carousel-caption">
-          <h3 className="carousel-heading">Dejan Gogov, Web Developer, Wild Code School</h3>
-          <cite>
-          During our 6-month Fullstack bootcamp, Yevhenii consistently showed a positive and friendly demeanor. He approached tasks with determination...
+          <h3 className="carousel-heading">{t("testimonial3")}</h3>
+          <cite>{t("testimonial3Text")}
+          
           <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
           </cite>
         </Carousel.Caption>
