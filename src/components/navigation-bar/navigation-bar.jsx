@@ -149,7 +149,8 @@ export const NavigationBar = () => {
 
 						<div className="switcher">
 							{/* Language switch dropdown here */}
-							<span>{t("")}</span>{" "}
+							
+							<span>{t("")}<FontAwesomeIcon className="fa-globe" icon={faGlobe} style={{color: "#fff", fontSize:"19px"}} /></span>{" "}
 							<select onChange={handleChangeLocale} value={language}>
 								{languages.map(({ name, code }) => (
 									<option key={code} value={code}>

@@ -59,3 +59,13 @@
     padding-left:10px;
     transition: all 0.2s ease-in;
 }
+
+.fa-globe{
+    padding-left:14px;
+}
+
+@media screen and (max-width:991px){
+    .fa-globe{
+        padding-left:0px;
+    }
+}
