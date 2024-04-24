@@ -17,9 +17,10 @@ import R3playPicture1 from "./img/r3play-case-example-1.png";
 import R3playPicture2 from "./img/r3play-case-example-2.png";
 import R3playPicture3 from "./img/r3play-case-example-3.png";
 import sliderCSS from "./css/slider.css";
-
+import { useTranslation } from 'react-i18next';
 
 export const R3playCaseSlider = () => {
+  const { t } = useTranslation();
   return (
     <Container>
         <Row>
@@ -29,8 +30,8 @@ export const R3playCaseSlider = () => {
       <Carousel.Item>
         <Image className="r3play-image" src={R3playPicture1} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Login View</h3>
-          <cite>The R3play App login view where users can log in to the app
+          <h3 className="r3play-carousel-heading">{t("r3playSlide1Heading")}</h3>
+          <cite>{t("r3playSlide1Description")}
                                                         </cite>
                                                         
         </Carousel.Caption>
@@ -39,8 +40,8 @@ export const R3playCaseSlider = () => {
         <Image className="r3play-image" src={R3playPicture2} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Movie View</h3>
-          <cite>The R3play App movie view that displays a list of movies available in the app
+          <h3 className="r3play-carousel-heading">{t("r3playSlide2Heading")}</h3>
+          <cite>{t("r3playSlide2Description")}
                                                         
                                                         </cite>
                                                         
@@ -51,9 +52,9 @@ export const R3playCaseSlider = () => {
       <Carousel.Item>
         <Image className="r3play-image" src={R3playPicture3} text="Third slide" />
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Profile View</h3>
-          <cite>
-          The R3play App profile view where users can alter their account information
+          <h3 className="r3play-carousel-heading">{t("r3playSlide3Heading")}</h3>
+          <cite>{t("r3playSlide3Description")}
+          
           
           </cite>
           

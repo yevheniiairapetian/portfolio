@@ -89,6 +89,13 @@
     "r3playMainTakeaway4": "No dudo en pedir ayuda en caso de problemas técnicos",
     "r3playCaseChallenge1": "El desarrollo del lado del backend fue el más lento, mientras que el trabajo en el lado del cliente fue el más difícil técnicamente. Como resultado, me tomó más tiempo completar la pila completa en comparación con la duración habitual de dos logros de CareerFoundry. La razón de esto fue que me concentré en las mejoras funcionales y visuales de ambos logros por encima de los requisitos básicos, y necesitaba más tiempo para solucionar los problemas de la representación condicional de los elementos JSX, cómo implementar Redux en React, y la lógica condicional detrás de la representación de las sugerencias de películas para el usuario." ,
     "r3playCaseChallenge2": "Sin embargo, este fue mi proyecto favorito. He disfrutado desarrollando la interfaz de usuario y trabajando con la información de la base de datos. También mejoré rápidamente mis habilidades de terminal, comprensión de la consulta de la base de datos MongoDB NoSQL, renderizado condicional, filtrado de datos, personalización de los componentes de React Bootstrap, así como habilidades de administración de tiempo y priorización. Afortunadamente, mi tutor y mentor me ayudó durante el proyecto y pude aplicar las habilidades adquiridas más tarde al implementar características adicionales a la aplicación." ,
+    "r3playSlide1Heading": "Vista de inicio de sesión",
+    "r3playSlide2Heading": "Vista de película",
+    "r3playSlide3Heading": "Vista de perfil",
+    "r3playSlide1Description": "La vista de inicio de sesión de la aplicación R3 play donde los usuarios pueden iniciar sesión en la aplicación",
+    "r3playSlide2Description": "La vista de películas de la aplicación R3play, que muestra una lista de películas disponibles en la aplicación",
+    "r3playSlide3Description": "La vista de perfil de la aplicación R3play donde los usuarios pueden cambiar la información de su cuenta",
+    
     "menu": {
         "aboutMenu": "Sobre mí",
         "projectsMenu": "Proyectos",

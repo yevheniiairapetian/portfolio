@@ -30,7 +30,6 @@
     "testimonial2Text":"Ich hatte die Gelegenheit, Yevhenii während seiner Webentwicklungsausbildung bei CareerFoundry zu betreuen. Yevheniis Selbstgenügsamkeit, schnelle Auffassungsgabe von Konzepten...",
     "testimonial3Text":"Während unseres 6-monatigen Fullstack-Bootcamps zeigte Yevhenii durchweg ein positives und freundliches Auftreten. Er ging zielstrebig an die Aufgaben heran...",
     "testimonialsMore":"mehr",
-
     "contact":"Kontakt",
     "suggestion":"Möchtest du mit dir zusammenarbeiten oder hast du einen Vorschlag? Ich bin offen für Angebote und Kommentare.",
     "eMailMe":"Zögern Sie nicht, mir eine E-Mail über das untenstehende Formular zu senden",
@@ -47,9 +46,6 @@
     "messageOrCommentPlaceholder":"Ihre Nachricht",
     "contactFormTip":"Felder, die mit einem Sternchen gekennzeichnet sind, müssen ausgefüllt werden",
     "contactFormPoweredBy":"Angetrieben von",
-    
-
-
     "caseOverview":"Übersicht",
     "casePurpose":"Zweck und Kontext",
     "caseObjective":"Ziel",
@@ -65,7 +61,6 @@
     "caseAppPreview":"App Vorschau",
     "caseTechnologies":"Eingesetzte Technologien/Skills",
     "caseCredits":"Credits",
-
     "r3playCaseHeading":"R3play App Fallstudie",
     "r3playCaseIntroduction":"R3play ist eine Webanwendung, die mit dem MERN-Stack entwickelt wurde und die Benutzer mit Informationen über Filme, TV-Serien und Anime versorgt. Benutzer können auf Informationen zu Filmen, Regisseuren und Genres zugreifen. Benutzer können ein Konto erstellen, ihre Informationen aktualisieren und eine Liste der Lieblingsfilme, TV-Serien und Anime erstellen." ,
     "r3playCaseRequired":"R3play war ein erforderliches Projekt, das ich im Rahmen meines Full-Stack-Immersionskurses bei CareerFoundry entwickelt habe, um meine Beherrschung der Full-Stack-Webentwicklung mit JavaScript zu demonstrieren.",
@@ -77,7 +72,6 @@
     "caseSliderTip":"Klicken Sie sich mit den Steuerelementen durch die Liste der Projekte. Bewegen Sie den Mauszeiger über die Überschriften der Folien, um mehr zu lesen." ,
     "r3playCaseDurationData":"12 Wochen insgesamt (Backend: 7 Wochen, Frontend: 5 Wochen)",
     "r3playCaseConclusionData":"Die Film-App war erst die zweite vollständige Webanwendung, die ich im Full-Stack-Webentwicklungskurs entwickelt habe. Als es fertig war, konzentrierte ich mich darauf, meine Entwicklungsfähigkeiten zu verbessern, insbesondere den testgetriebenen Entwicklungsansatz. Es erfordert die Implementierung der Testphase, bevor die eigentliche Funktionslogik hinzugefügt wird, was eine sicherere, fehlerfreie und schnellere Entwicklung ermöglicht." ,
- 
     "testingSkill":"Testen",
     "apiSkill":"Google Kalender API",
     "pwsSkill":"Progressive Web Apps",
@@ -88,15 +82,22 @@
     "caseTutor2":"Creative Director",
     "caseMentor":"Nizar Triki:",
     "caseMentor2":"Software Engineering Manager",
-
     "r3playMainTakeaway1":"Konzentrieren Sie sich zuerst auf die erforderliche Funktionalität",
     "r3playMainTakeaway2":"Verbesserung der Zeitmanagement-Fähigkeiten",
     "r3playMainTakeaway3":"Vertiefen Sie das Wissen über die verwendeten Technologien durch Lesen und Üben mehr",
     "r3playMainTakeaway4":"Kein Zweifel, bei technischen Problemen Hilfe zu suchen",
-
-
     "r3playCaseChallenge1":"Die Entwicklung der Backend-Seite war die zeitaufwändigste, während die Arbeit auf Kundenseite die technisch schwierigste war. Daher dauerte es länger, bis ich den vollen Stack abgeschlossen hatte, verglichen mit der üblichen Dauer von zwei CareerFoundry-Erfolgen. Der Grund dafür war, dass ich mich auf die funktionalen und visuellen Verbesserungen beider Errungenschaften über die grundlegenden Anforderungen konzentrierte und mehr Zeit benötigte, um die bedingte Darstellung von JSX-Elementen zu beheben und Redux in React zu implementieren, und die bedingte Logik hinter dem Rendern der Filmvorschläge für den Benutzer." ,
     "r3playCaseChallenge2":"Trotzdem war das mein Lieblingsprojekt. Ich habe es genossen, die Benutzeroberfläche zu entwickeln und mit Datenbankinformationen zu arbeiten. Ich habe auch schnell meine Terminal-Fähigkeiten, das Verständnis für die Abfrage der MongoDB NoSQL-Datenbank, bedingtes Rendering, Filterdaten, Anpassung von React Bootstrap-Komponenten sowie Zeitmanagement- und Priorisierungsfähigkeiten verbessert. Zum Glück hat mich mein erfahrener Tutor und Mentor während des Projekts unterstützt und ich konnte die erworbenen Fähigkeiten später bei der Implementierung zusätzlicher Funktionen in die App anwenden." ,
+
+
+
+    "r3playSlide1Heading": "Loginansicht",
+    "r3playSlide2Heading": "Filmansicht",
+    "r3playSlide3Heading": "Profilansicht",
+    "r3playSlide1Description": "Die Anmeldeansicht der R3play-App, in der sich Benutzer in der App anmelden können",
+    "r3playSlide2Description": "Die Filmansicht der R3play App, die eine Liste der in der App verfügbaren Filme anzeigt",
+    "r3playSlide3Description": "Die Profilansicht der R3play-App, in der Benutzer ihre Kontoinformationen ändern können",
+
 
     "menu":{
         "aboutMenu" : "Über",
