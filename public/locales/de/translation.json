@@ -48,6 +48,56 @@
     "contactFormTip":"Felder, die mit einem Sternchen gekennzeichnet sind, müssen ausgefüllt werden",
     "contactFormPoweredBy":"Angetrieben von",
     
+
+
+    "caseOverview":"Übersicht",
+    "casePurpose":"Zweck und Kontext",
+    "caseObjective":"Ziel",
+    "caseServer":"Server-Seite",
+    "caseClient":"Client-Seite",
+    "caseApproach":"Ansatz",
+    "caseDuration":"Dauer",
+    "caseRetrospective":"Retrospektive",
+    "caseChallenges":"Herausforderungen.",
+    "caseConclusion":" Fazit und wichtige Erkenntnisse",
+    "caseMainTakeaways":"Wichtige Erkenntnisse für zukünftige Projekte",
+    "caseApiPreview":"API Vorschau",
+    "caseAppPreview":"App Vorschau",
+    "caseTechnologies":"Eingesetzte Technologien/Skills",
+    "caseCredits":"Credits",
+
+    "r3playCaseHeading":"R3play App Fallstudie",
+    "r3playCaseIntroduction":"R3play ist eine Webanwendung, die mit dem MERN-Stack entwickelt wurde und die Benutzer mit Informationen über Filme, TV-Serien und Anime versorgt. Benutzer können auf Informationen zu Filmen, Regisseuren und Genres zugreifen. Benutzer können ein Konto erstellen, ihre Informationen aktualisieren und eine Liste der Lieblingsfilme, TV-Serien und Anime erstellen." ,
+    "r3playCaseRequired":"R3play war ein erforderliches Projekt, das ich im Rahmen meines Full-Stack-Immersionskurses bei CareerFoundry entwickelt habe, um meine Beherrschung der Full-Stack-Webentwicklung mit JavaScript zu demonstrieren.",
+    "r3playCaseAim":"Das Projekt zielte darauf ab, eine voll funktionsfähige Full-Stack-App zu entwickeln, die ich meinem professionellen Portfolio hinzufügen konnte. Das Problem, das ich lösen wollte, bestand darin, die komplette Full-Stack-Webanwendung zu erstellen, indem die zuvor entworfene Server- und Clientseite für die Anwendung von Grund auf neu verbunden wurde." ,
+    "r3playCaseAboutServer":"Ich habe eine RESTful API mit Node.js und Express entwickelt, die mit einer nicht relationalen Datenbank (MongoDB) interagiert. Die API verwendet gängige HTTP-Methoden wie GET, PUT, POST und DELETE. Um Daten aus der Datenbank abzurufen und in der Datenbank zu speichern, werden CRUD-Methoden verwendet. Die API bietet Film-, TV-Serien- und Anime-Informationen im JSON-Format." ,
+    "caseViewEndpoints":"Endpunkte anzeigen",
+    "r3playCasePostman":"Ich habe Postman verwendet, um Antworten und Anfragen an die API zu testen. Ich habe auch die grundlegende HTTP-Authentifizierung und die JWT-Authentifizierung verwendet, um die Authentifizierungs- und Autorisierungsfunktionen bereitzustellen." ,
+    "r3playCaseAboutClient":"Nach Abschluss des API-Projekts habe ich die Frontend-Schnittstelle erstellt, die Benutzer benötigen, wenn sie mit der Logik und den Daten aus der API und der Datenbank interagieren. Es ist eine Single-Page, responsive Web-Anwendung, entwickelt mit React und React-Redux. Es zeigt mehrere Interface-Ansichten, einschließlich (aber nicht beschränkt auf) eine Hauptansicht (zeigt eine Liste aller Filme, TV-Serien und Anime), einzelne Filme, TV-Serien und Anime-Ansichten (zeigt Daten zu einem einzelnen Film, einer TV-Serie und einem Anime und ermöglicht es Benutzern, sie zu oder aus ihrer Favoritenliste hinzuzufügen oder zu löschen), eine Anmeldeansicht, eine Registrierungsansicht und eine Profilansicht (in der Benutzer ihre Benutzerdaten und ihre Favoritenliste aktualisieren können)." ,
+    "caseSliderTip":"Klicken Sie sich mit den Steuerelementen durch die Liste der Projekte. Bewegen Sie den Mauszeiger über die Überschriften der Folien, um mehr zu lesen." ,
+    "r3playCaseDurationData":"12 Wochen insgesamt (Backend: 7 Wochen, Frontend: 5 Wochen)",
+    "r3playCaseConclusionData":"Die Film-App war erst die zweite vollständige Webanwendung, die ich im Full-Stack-Webentwicklungskurs entwickelt habe. Als es fertig war, konzentrierte ich mich darauf, meine Entwicklungsfähigkeiten zu verbessern, insbesondere den testgetriebenen Entwicklungsansatz. Es erfordert die Implementierung der Testphase, bevor die eigentliche Funktionslogik hinzugefügt wird, was eine sicherere, fehlerfreie und schnellere Entwicklung ermöglicht." ,
+ 
+    "testingSkill":"Testen",
+    "apiSkill":"Google Kalender API",
+    "pwsSkill":"Progressive Web Apps",
+    "responsiveSkill":"Responsive design",
+    "deploySkill":"Bereitstellen einer Website",
+    "caseLead":"Rolle: Leitender Entwickler",
+    "caseTutor":"Tonny Ntambaazi:",
+    "caseTutor2":"Creative Director",
+    "caseMentor":"Nizar Triki:",
+    "caseMentor2":"Software Engineering Manager",
+
+    "r3playMainTakeaway1":"Konzentrieren Sie sich zuerst auf die erforderliche Funktionalität",
+    "r3playMainTakeaway2":"Verbesserung der Zeitmanagement-Fähigkeiten",
+    "r3playMainTakeaway3":"Vertiefen Sie das Wissen über die verwendeten Technologien durch Lesen und Üben mehr",
+    "r3playMainTakeaway4":"Kein Zweifel, bei technischen Problemen Hilfe zu suchen",
+
+
+    "r3playCaseChallenge1":"Die Entwicklung der Backend-Seite war die zeitaufwändigste, während die Arbeit auf Kundenseite die technisch schwierigste war. Daher dauerte es länger, bis ich den vollen Stack abgeschlossen hatte, verglichen mit der üblichen Dauer von zwei CareerFoundry-Erfolgen. Der Grund dafür war, dass ich mich auf die funktionalen und visuellen Verbesserungen beider Errungenschaften über die grundlegenden Anforderungen konzentrierte und mehr Zeit benötigte, um die bedingte Darstellung von JSX-Elementen zu beheben und Redux in React zu implementieren, und die bedingte Logik hinter dem Rendern der Filmvorschläge für den Benutzer." ,
+    "r3playCaseChallenge2":"Trotzdem war das mein Lieblingsprojekt. Ich habe es genossen, die Benutzeroberfläche zu entwickeln und mit Datenbankinformationen zu arbeiten. Ich habe auch schnell meine Terminal-Fähigkeiten, das Verständnis für die Abfrage der MongoDB NoSQL-Datenbank, bedingtes Rendering, Filterdaten, Anpassung von React Bootstrap-Komponenten sowie Zeitmanagement- und Priorisierungsfähigkeiten verbessert. Zum Glück hat mich mein erfahrener Tutor und Mentor während des Projekts unterstützt und ich konnte die erworbenen Fähigkeiten später bei der Implementierung zusätzlicher Funktionen in die App anwenden." ,
+
     "menu":{
         "aboutMenu" : "Über",
         "projectsMenu": "Projekte", 

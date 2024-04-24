@@ -49,6 +49,57 @@
     "contactFormTip":"Fields marked with an asterisk are required",
     "contactFormPoweredBy":"Powered by",
     
+    "caseOverview":"Overview",
+    "casePurpose":"Purpose and Context",
+    "caseObjective":"Objective",
+    "caseServer":"Server-Side",
+    "caseClient":"Client-Side",
+    "caseApproach":"Approach",
+    "caseDuration":"Duration",
+    "caseRetrospective":"Retrospective",
+    "caseChallenges":"Challenges.",
+    "caseConclusion":" Conclusion and Key Takeaways",
+    "caseMainTakeaways":"Main takeaways for future projects",
+    "caseApiPreview":"API Preview",
+    "caseAppPreview":"App Preview",
+    "caseTechnologies":"Technologies used/Skills",
+    "caseCredits":"Credits",
+
+    "r3playCaseHeading":"R3play App Case Study",
+    "r3playCaseIntroduction":"R3play is a web application, developed using the MERN stack, that provides users with information about movies, TV series, and anime. Users can access information about movies, directors, and genres. Users can create an account, update their information, and create a list of favorite movies, TV series, and anime.",
+    "r3playCaseRequired":"R3play was a required project I developed as part of my full-stack immersion course at CareerFoundry to demonstrate my mastery of full-stack web development using JavaScript.",
+    "r3playCaseAim":"The project aimed to develop a fully-functioning full-stack app that I could add to my professional portfolio. The problem I wanted to solve was to build the complete full-stack web application by connecting the previously designed server-side and the client-side for the application from scratch.",
+    "r3playCaseAboutServer":"I developed a RESTful API using Node.js and Express, that interacts with a non-relational database (MongoDB). The API employs common HTTP methods like GET, PUT, POST, and DELETE. To retrieve data from and store data in the database, CRUD methods are used. The API provides movie, TV series, and anime information in JSON format.",
+    "caseViewEndpoints":"View Endpoints",
+    "r3playCasePostman":"I used Postman to test responses and requests to the API. I also made use of basic HTTP authentication and JWT authentication to provide for the authentication and authorization features.",
+    "r3playCaseAboutClient":"After completing the API project, I proceeded to build the front-end interface users would need when interacting with the logic and data from the API and the database. It is a single-page, responsive web application, developed with React and React-Redux. It displays several interface views, including (but not limited to) a main view (shows a list of all movies, TV series, and anime), single movie, TV series, and anime views (shows data about a single movie, TV series, and anime, and allows users to add or delete them to or from their list of favorites), a login view, a registration view and a profile view (where users can update their user data and list of favorites).",
+    "caseSliderTip":"Use the slider controls to click through the projects' list. Hover over the slides' headings to read more.",
+    "r3playCaseDurationData":"12 weeks in total (backend: 7 weeks, frontend: 5 weeks)",
+    "r3playCaseConclusionData":"The movie app was only the second full web application I developed in the Full-Stack web development course. When it was finished, I focused on enhancing my development skills, specifically the test-driven development approach. It requires implementing the testing phase before adding the actual functional logic, allowing for safer, bug-free, and quicker development.",
+ 
+    "testingSkill":"Testing",
+    "apiSkill":"Google Calendar API",
+    "pwsSkill":"Progressive Web Apps",
+    "responsiveSkill":"Responsive design",
+    "deploySkill":"Deploying a website",
+    "caseLead":"Role: Lead Developer",
+    "caseTutor":"Tonny Ntambaazi:",
+    "caseTutor2":"Creative Director",
+    "caseMentor":"Nizar Triki:",
+    "caseMentor2":"Software Engineering Manager",
+
+   
+    
+    
+   
+    "r3playMainTakeaway1":"Focus on the required functionality first",
+    "r3playMainTakeaway2":"Enhance the time-management skills",
+    "r3playMainTakeaway3":"Deepen the knowledge of the used technologies by reading and practicing more",
+    "r3playMainTakeaway4":"Not doubting to reach out for help in case of technical issues",
+
+
+    "r3playCaseChallenge1":"The development of the backend side was the most time-consuming, while the work on the client side was the most challenging technically. As a result, it took me longer to complete the full stack as compared to the usual duration of two CareerFoundry achievements. The reason for this was that I concentrated on the functional and visual improvements of both achievements above the basic requirements, and needed more time to troubleshoot the conditional rendering of JSX elements, how to implement Redux in React, and the conditional logic behind rendering the movie suggestions to the user.",
+    "r3playCaseChallenge2":"Nevertheless, this was my favorite project. I have enjoyed developing the user interface and working with database information. I also quickly enhanced my terminal skills, understanding of querying the MongoDB NoSQL database, conditional rendering, filtering data, customization of React Bootstrap components, as well as time-management and prioritization skills. Thankfully, my skilled tutor and mentor assisted me during the project and I was able to apply the gained skills later on when implementing additional features to the app.",
     
     "menu":{
         "aboutMenu" : "About",
