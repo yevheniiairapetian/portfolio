@@ -8,6 +8,10 @@
     
 }
 
+/* .download-de, .download-en, .download-uk{
+    width:20px;
+} */
+
 .logo:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);

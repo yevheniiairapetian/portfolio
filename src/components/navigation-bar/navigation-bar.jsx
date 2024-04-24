@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { Navbar, Container, Row, Col, Nav, Image } from "react-bootstrap";
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import ukraineImg from "./img/ukraine.svg";
+
 import Cookies from "js-cookie";
-import usImg from "./img/united-states.svg";
+
 import { useState, useEffect } from "react";
-import deImg from "./img/germany.svg";
+
 import navigationCSS from './css/navigation.css';
 import { Link } from "react-router-dom";
 import $ from 'jquery';
@@ -131,15 +131,19 @@ export const NavigationBar = () => {
 
 
 
-							<NavDropdown.Item title="Klicken Sie hier, um meinen Lebenslauf auf Deutsch herunterzuladen. Möglicherweise müssen Sie einen Dateibetrachter wie Adobe Acrobat oder ähnliches verwenden" download="Yevhenii-Airapetian-DE" href="https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0" target="_blank"><Image roundedCircle className="flags mt-3 me-3 nav-lang-cases" src={deImg} alt="An icon showing the German flag" />
+							<NavDropdown.Item className="text-center" title="Klicken Sie hier, um meinen Lebenslauf auf Deutsch herunterzuladen. Möglicherweise müssen Sie einen Dateibetrachter wie Adobe Acrobat oder ähnliches verwenden" download="Yevhenii-Airapetian-DE" href="https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0" target="_blank">
+								{/* <Image roundedCircle className="flags mt-3 me-3 nav-lang-cases" src={deImg} alt="An icon showing the German flag" /> */}
+								<img className="flags mt-3 me-3" alt="An icon showing the German flag" src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="28"/>
 								<Link to={"https://file.io/Mck4WxEzQGAu"} title="Download the resume version in German" className="download-de" target="_blank" ></Link>
 							</NavDropdown.Item>
-							<NavDropdown.Item title="Click here to download my resume in English. You might need to use a file viewer like Adobe Acrobat or similar" download="Yevhenii-Airapetian-EN" href="https://www.dropbox.com/scl/fi/y1s7krvn2tcri1495fdyb/Yevhenii-Airapetian-EN.pdf?rlkey=hxo8aghbdcdysd8otdd57c1t1&st=t0wgsfx3&dl=0" target="_blank">
-								<Image roundedCircle className="flags mt-3 me-3 nav-lang-cases" src={usImg} alt="An icon showing the USA flag" />
+							<NavDropdown.Item className="text-center" title="Click here to download my resume in English. You might need to use a file viewer like Adobe Acrobat or similar" download="Yevhenii-Airapetian-EN" href="https://www.dropbox.com/scl/fi/y1s7krvn2tcri1495fdyb/Yevhenii-Airapetian-EN.pdf?rlkey=hxo8aghbdcdysd8otdd57c1t1&st=t0wgsfx3&dl=0" target="_blank">
+								{/* <Image roundedCircle className="flags mt-3 me-3 nav-lang-cases" src={usImg} alt="An icon showing the USA flag" /> */}
+								<img className="flags mt-3 me-3" alt="An icon showing the USA flag" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="28"/>
 								<Link to={"https://file.io/HVTDNPEXVS7b"} title="Download the resume version in English" className="download-en" target="_blank" download="Yevhenii-Airapetian-EN"></Link>
 							</NavDropdown.Item>
-							<NavDropdown.Item title="Натисніть тут, щоб завантажити моє резюме українською мовою. Можливо, вам знадобиться програма для перегляду файлів, наприклад Adobe Acrobat або подібна" download="Yevhenii-Airapetian-UK" href="https://www.dropbox.com/scl/fi/k1z3vwrnxmqux24j1m49r/Yevhenii-Airapetian-UA.pdf?rlkey=xy4vqr68rcljth5z23kp6wu7m&st=n0kmkcas&dl=0" target="_blank">
-								<Image roundedCircle className="flags mt-3 me-3 nav-lang-cases" src={ukraineImg} alt="An icon showing Ukrainian flag" />
+							<NavDropdown.Item className="text-center" title="Натисніть тут, щоб завантажити моє резюме українською мовою. Можливо, вам знадобиться програма для перегляду файлів, наприклад Adobe Acrobat або подібна" download="Yevhenii-Airapetian-UK" href="https://www.dropbox.com/scl/fi/k1z3vwrnxmqux24j1m49r/Yevhenii-Airapetian-UA.pdf?rlkey=xy4vqr68rcljth5z23kp6wu7m&st=n0kmkcas&dl=0" target="_blank">
+								{/* <Image roundedCircle className="flags mt-3 me-3 nav-lang-cases" src={ukraineImg} alt="An icon showing Ukrainian flag" /> */}
+								<img className="flags mt-3 me-3" alt="An icon showing Ukrainian flag" src="https://hatscripts.github.io/circle-flags/flags/ua.svg" width="28"/>
 								<Link to={"https://file.io/fsghnXVPdFna"} title="Download the resume zip folder" className="download-uk" target="_blank" download="https://file.io/fsghnXVPdFna"></Link>
 							</NavDropdown.Item>
 
@@ -150,14 +154,19 @@ export const NavigationBar = () => {
 						<div className="switcher">
 							{/* Language switch dropdown here */}
 							
-							<span>{t("")}<FontAwesomeIcon className="fa-globe" icon={faGlobe} style={{color: "#fff", fontSize:"19px"}} /></span>{" "}
+							<span>
+								{/* {t("")}<FontAwesomeIcon className="fa-globe" icon={faGlobe} style={{color: "#fff", fontSize:"19px"}} /> */}
+								</span>{" "}
 							<select onChange={handleChangeLocale} value={language}>
+								
 								{languages.map(({ name, code }) => (
 									<option key={code} value={code}>
+										<span style={{display: "inline-block", fontSize: "24px", color: "#ffffff"}}>🌏︎ </span>
 										{name}
 									</option>
 								))}
 							</select>
+							
 						</div>
 
 

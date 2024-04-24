@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import $ from 'jquery';
 import aboutCSS from './css/about.css';
 import profileImg from "./img/yevhenii_airapetian_profile_picture.jpg";
-import ukraineImg from "./img/ukraine.svg";
-import usImg from "./img/united-states.svg";
-import deImg from "./img/germany.svg";
+// import ukraineImg from "./img/ukraine.svg";
+// import usImg from "./img/united-states.svg";
+// import deImg from "./img/germany.svg";
 import uaCV from "./img/Yevhenii-Airapetian-UK.pdf";
 import usCV from "./img/Yevhenii-Airapetian-EN.pdf";
 import deCV from "./img/Yevhenii-Airapetian-DE.pdf";
@@ -81,9 +81,15 @@ export const AboutView = () => {
                 </Button><br/>
                 <div className="resumes">
                   
-                <Link to={"https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0"} title="Klicken Sie hier, um meinen Lebenslauf auf Deutsch herunterzuladen. Möglicherweise müssen Sie einen Dateibetrachter wie Adobe Acrobat oder ähnliches verwenden" className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf"><Image roundedCircle className="flags mt-3 me-3" src={deImg} alt="An icon showing the German flag"/></Link>
-            <Link to={"https://www.dropbox.com/scl/fi/y1s7krvn2tcri1495fdyb/Yevhenii-Airapetian-EN.pdf?rlkey=hxo8aghbdcdysd8otdd57c1t1&st=t0wgsfx3&dl=0"} title="Click here to download my resume in English. You might need to use a file viewer like Adobe Acrobat or similar" className="download-en" target="_blank" download="Yevhenii-Airapetian-EN.pdf"><Image roundedCircle className="flags mt-3 me-3" src={usImg} alt="An icon showing the USA flag"/></Link>
-            <Link to={"https://www.dropbox.com/scl/fi/k1z3vwrnxmqux24j1m49r/Yevhenii-Airapetian-UA.pdf?rlkey=xy4vqr68rcljth5z23kp6wu7m&st=n0kmkcas&dl=0"} title="Натисніть тут, щоб завантажити моє резюме українською мовою. Можливо, вам знадобиться програма для перегляду файлів, наприклад Adobe Acrobat або подібна" className="download-uk" target="_blank" download="Yevhenii-Airapetian-UK.pdf"><Image roundedCircle className="flags mt-3 me-3" src={ukraineImg} alt="An icon showing Ukrainian flag"/></Link>
+                <Link to={"https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0"} title="Klicken Sie hier, um meinen Lebenslauf auf Deutsch herunterzuladen. Möglicherweise müssen Sie einen Dateibetrachter wie Adobe Acrobat oder ähnliches verwenden" className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf">
+                <img className="flags mt-3 me-3" alt="An icon showing the German flag" src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="29"/>
+                  {/* <Image roundedCircle className="flags mt-3 me-3" src={deImg} alt="An icon showing the German flag"/>*/}</Link> 
+            <Link to={"https://www.dropbox.com/scl/fi/y1s7krvn2tcri1495fdyb/Yevhenii-Airapetian-EN.pdf?rlkey=hxo8aghbdcdysd8otdd57c1t1&st=t0wgsfx3&dl=0"} title="Click here to download my resume in English. You might need to use a file viewer like Adobe Acrobat or similar" className="download-en" target="_blank" download="Yevhenii-Airapetian-EN.pdf">
+            <img className="flags mt-3 me-3" alt="An icon showing the USA flag" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="29"/>
+              {/* <Image roundedCircle className="flags mt-3 me-3" src={usImg} alt="An icon showing the USA flag"/>*/}</Link> 
+            <Link to={"https://www.dropbox.com/scl/fi/k1z3vwrnxmqux24j1m49r/Yevhenii-Airapetian-UA.pdf?rlkey=xy4vqr68rcljth5z23kp6wu7m&st=n0kmkcas&dl=0"} title="Натисніть тут, щоб завантажити моє резюме українською мовою. Можливо, вам знадобиться програма для перегляду файлів, наприклад Adobe Acrobat або подібна" className="download-uk" target="_blank" download="Yevhenii-Airapetian-UK.pdf">
+            <img className="flags mt-3 me-3" alt="An icon showing Ukrainian flag" src="https://hatscripts.github.io/circle-flags/flags/ua.svg" width="29"/>
+              {/* <Image roundedCircle className="flags mt-3 me-3" src={ukraineImg} alt="An icon showing Ukrainian flag"/>*/}</Link> 
                 
             </div>    
                 </Col>
