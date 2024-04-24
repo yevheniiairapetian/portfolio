@@ -21,7 +21,7 @@ export const TestimonialsSlider = () => {
         <Image className="testim-image" src={testimonialsPicture2} roundedCircle circular text="Second slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">{t("testimonial1")}</h3>
-          <cite>{t("testimonial1Text")}<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <cite>{t("testimonial1Text")}<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>
@@ -30,7 +30,7 @@ export const TestimonialsSlider = () => {
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">{t("testimonial2")}</h3>
           <cite>{t("testimonial2Text")}
-                                                        <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+                                                        <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>
@@ -40,7 +40,7 @@ export const TestimonialsSlider = () => {
           <h3 className="carousel-heading">{t("testimonial3")}</h3>
           <cite>{t("testimonial3Text")}
           
-          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >More</Link>
+          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
           </cite>
         </Carousel.Caption>
       </Carousel.Item>
