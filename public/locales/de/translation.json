@@ -22,6 +22,12 @@
     "testimonials":"Die Leute sagen",
     "wordOfMouth":"Ich wäre heute nicht da, wo ich bin, wenn ich nicht das Privileg hätte, mit so vielen wunderbaren Menschen zusammenzuarbeiten.",
     "testimonialsViewTip":"Verwenden Sie den Schieberegler, um sich durch die Liste der Empfehlungen zu klicken. Bewegen Sie den Mauszeiger über einen Empfehlungstitel, um mehr zu erfahren.",
+    "testimonial1":"Maya Septriana, Karriereberaterin, CareerFoundry",
+    "testimonial2":"Nizar Triki, Software Engineering Manager chez Expensya",
+    "testimonial3":"Dejan Gogov, Webentwickler, Wild Code School",
+    "testimonial1Text":"Yevhenii ist jemand, mit dem man so einfach zusammenarbeiten kann. Er strebt immer nach Exzellenz. Jedes Mal, wenn ich ihm Feedback gebe, ist er bereit, zuzuhören und die Einreichung anzupassen...",
+    "testimonial2Text":"Ich hatte die Gelegenheit, Yevhenii während seiner Webentwicklungsausbildung bei CareerFoundry zu betreuen. Yevheniis Selbstgenügsamkeit, schnelle Auffassungsgabe von Konzepten...",
+    "testimonial3Text":"Während unseres 6-monatigen Fullstack-Bootcamps zeigte Yevhenii durchweg ein positives und freundliches Auftreten. Er ging zielstrebig an die Aufgaben heran...",
     "menu":{
         "aboutMenu" : "Über",
         "projectsMenu": "Projekte", 

@@ -24,6 +24,12 @@
     "testimonials":"人们说",
     "wordOfMouth":"如果不是有幸与这么多优秀的人共事，我不会有今天的成就。",
     "testimonialsViewTip":"使用滑块控制点击推荐列表。将鼠标悬停在推荐标题上，阅读更多内容。",
+    "testimonial1":"Maya Septriana, 职业顾问, CareerFoundry",
+    "testimonial2":"Nizar Triki, 软件工程经理 chez Expensya",
+    "testimonial3":"Dejan Gogov, Web 开发人员, Wild Code School",
+    "testimonial1Text":"Yevhenii是一个非常容易合作的人。他总是追求卓越。每次我给他反馈时，他都愿意倾听并调整提交的内容...",
+    "testimonial2Text":"我有机会在CareerFoundry的整个Web开发培训中指导Yevhenii。叶夫赫尼的自给自足，对概念的快速掌握...",
+    "testimonial3Text":"在我们为期 6 个月的全栈训练营中，Yevhenii 始终表现出积极友好的举止。他坚定地完成任务...",
     "menu":{
       "aboutMenu" : "关于我",
       "projectsMenu": "网络应用程序", 
