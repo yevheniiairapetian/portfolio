@@ -103,7 +103,7 @@ export const Footer = () =>{
         <Link to='https://medium.com/@yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-medium" icon={faMedium} /></Link>
 
     </div>
-    <p className="fade-in-up-on-scroll copyright">{t("footer.copy")}</p>
+    <p className="fade-in-up-on-scroll copyright text-center">{t("footer.copy")}</p>
     <Nav.Link className="text-light" as={Link} to='/impressum'>
     {t("footer.impressumFooter")}
 								</Nav.Link>
