@@ -30,6 +30,25 @@
     "testimonial1Text":"Yevhenii es alguien con quien es muy fácil colaborar. Siempre se esfuerza por alcanzar la excelencia. Cada vez que le doy mi opinión, está dispuesto a escuchar y ajustar la presentación...",
     "testimonial2Text":"Tuve la oportunidad de ser mentor de Yevhenii a lo largo de su formación en desarrollo web en CareerFoundry. La autosuficiencia de Yevhenii, la rápida comprensión de los conceptos...",
     "testimonial3Text":"Durante nuestro bootcamp Fullstack de 6 meses, Yevhenii mostró constantemente un comportamiento positivo y amistoso. Abordaba las tareas con determinación...",
+    
+    
+    "contact":"Contacto",
+    "suggestion":"¿Quieres trabajar juntos o tienes una sugerencia? Estoy abierto a oportunidades de reclutamiento y comentarios",
+    "eMailMe":"Siéntase libre de enviarme un correo electrónico utilizando el siguiente formulario",
+    "contactFormHeader":"Contacto",
+    "firstName":"Nombre",
+    "firstNamePlaceholder":"Joey",
+    "lastName":"Apellido",
+    "lastNamePlaceholder":"Tribbiani",
+    "phoneNumber":"Número de teléfono",
+    "phoneNumberPlaceholder":"+49 1234 5678910",
+    "eMail":"Correo electrónico",
+    "eMailPlaceholder":"example@mail.com",
+    "messageOrComment":"Mensaje o comentario. ¡Por favor, sé amable!",
+    "messageOrCommentPlaceholder":"Tu mensaje",
+    "contactFormTip":"Los campos marcados con un asterisco son obligatorios",
+    "contactFormPoweredBy":"Desarrollado por",
+    
     "menu":{
         "aboutMenu" : "Sobre mí",
         "projectsMenu": "Proyectos", 
