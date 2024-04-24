@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2480f793.css",
-    "main.js": "/static/js/main.b16bf5c0.js",
+    "main.js": "/static/js/main.dd9c52fb.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/retrospective-1.gif": "/static/media/retrospective-1.0b2a48d77a9e0082eef0.gif",
     "static/media/r3play-hero-image.png": "/static/media/r3play-hero-image.0a34861315051f55a803.png",
@@ -40,19 +40,16 @@
     "static/media/to-do-case-retrospective-1.png": "/static/media/to-do-case-retrospective-1.bff1aac0e42369dc2bdb.png",
     "static/media/r3play-case-example-1.png": "/static/media/r3play-case-example-1.74bc8378e6140d540378.png",
     "static/media/testimonial-1.jpeg": "/static/media/testimonial-1.e6796120ff82cdc9c9c3.jpeg",
-    "static/media/united-states.svg": "/static/media/united-states.c318bb55db69953e7ede7c0ff01788df.svg",
     "index.html": "/index.html",
-    "static/media/ukraine.svg": "/static/media/ukraine.112e87b479b4f529d1bcb7069aaa635f.svg",
-    "static/media/germany.svg": "/static/media/germany.6ec458086cccec11d6f97a9d75d3a024.svg",
     "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "static/media/arrow-ios-forward.svg": "/static/media/arrow-ios-forward.d73ef74fecf0b1b13593.svg",
     "static/media/arrow-ios-back.svg": "/static/media/arrow-ios-back.7ade10504a85d9828ae0.svg",
     "main.2480f793.css.map": "/static/css/main.2480f793.css.map",
-    "main.b16bf5c0.js.map": "/static/js/main.b16bf5c0.js.map",
+    "main.dd9c52fb.js.map": "/static/js/main.dd9c52fb.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2480f793.css",
-    "static/js/main.b16bf5c0.js"
+    "static/js/main.dd9c52fb.js"
   ]
 }
