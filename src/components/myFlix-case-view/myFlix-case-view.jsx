@@ -132,8 +132,6 @@ export const MyFlixCaseView = () => {
                                                 </p>
                                                 <p className="skills-paragraphs"><span>{t("feedbackSkill")}</span>
                                                 </p>
-                                                <p className="skills-paragraphs"><span>{t("teamworkSkill")}</span>
-                                                </p>
                                                 <p className="skills-paragraphs"><span>{t("responsiveSkill")}</span></p>
                                                 <p className="skills-paragraphs"><span>CSS3</span>
                                                 </p>
