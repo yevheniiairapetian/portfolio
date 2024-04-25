@@ -50,7 +50,7 @@
     "contactFormPoweredBy":"Напојувана од",
     
 
-
+    "caseAgile":"Agile Workflow",
     "caseOverview": "Преглед",
     "casePurpose": "Цел и контекст",
     "caseObjective": "Објективно",
@@ -77,6 +77,39 @@
     "caseSliderTip": "Користете ги контролите на лизгачот за да кликнете низ списокот на проекти. Преместете го покажувачот на глувчето преку насловите на слајдовите за да прочитате повеќе.",
     "r3playCaseDurationData": "вкупно 12 недели (заднина: 7 недели, преден дел: 5 недели)",
     "r3playCaseConclusionData": "Филмската апликација беше само втората целосна веб-апликација што ја развив во курсот за развој на веб со целосен стек. Кога беше завршен, се фокусирав на подобрување на моите развојни вештини, особено на развојниот пристап управуван од тестот. Потребно е спроведување на фазата на тестирање пред да се додаде вистинската функционална логика, овозможувајќи побезбеден, без грешки и побрз развој.",
+   
+    "myFlixCaseHeading":"MyFlix App Case Study",
+    "myFlixCaseIntroduction":"MyFlix-Angular-App is a web app, developed using the MEAN stack, that provides users with information about movies. Users can access information about movies, directors, and genres. Users can create an account, update their information, and create a list of favorite movies.",
+    "myFlixCaseRequired":"MyFlix-Angular-App was a required project I developed as part of my full-stack immersion course at CareerFoundry to demonstrate my mastery of full-stack web development using JavaScript. Additionally, I practiced Agile project management, feedback providing, and documentation generation skills.",
+    "myFlixCaseAboutServer":"I developed a RESTful API using Node.js and Express that interacts with a non-relational database (MongoDB). The API employs common HTTP methods like GET, PUT, POST, and DELETE. To retrieve data from and store data in the database, CRUD methods are used. The API provides movie, TV series, and anime information in JSON format.",
+    "myFlixCasePostman":"I used Postman to test responses and requests to the API. I also made use of basic HTTP authentication and JWT authentication to provide for the authentication and authorization features.",
+    "myFlixCaseAgileData":"The work on the project started with creating the Kanban board and filling it with the project requirements and user stories. When a project task was completed, it was moved to the \"Done\" section. As well, I generated detailed documentation with Typedoc as per the project's requirements.",
+    "myFlixCaseAim":"The project aimed to develop a fully-functioning full-stack app that I could add to my professional portfolio. The problem I wanted to solve was to build the complete full-stack web application by connecting the previously designed server-side and the client-side for the application from scratch.",
+    "myFlixCaseConclusion":"The myFlix app was the last full web application I developed in the Full-Stack web development course. When it was finished, I proceeded to enhance my portfolio.",
+    "myFlixCaseAboutClient":"I built the front-end interface for users to be able to interact with the logic and data from the API and the database. It is a single-page, responsive web application, developed with Angular and Material UI. It displays several interface views, including a main view (shows a list of all movies, a button to manage favorites, and buttons to view additional movie information), a login/signup view, and a profile view (where users can update their user data).",
+    "myFlixCaseConclusionData":"The myFlix app was the last full web application I developed in the Full-Stack web development course. When it was finished, I proceeded to enhance my portfolio.",
+    "myFlixCaseConclusionData2":"The difficulties I encountered happened at the end of the project and related more to the peculiarities of Angular and Github. One issue occurred when Github pages refused to deploy the app for a long time. The other one happened when the local changes to the codebase didn't display in the deployed app. To troubleshoot this, I reached out to my mentor and tutor and, during a pair programming session, we managed to fix the problems.",
+    "myFlixCaseConclusionData3":"It was also a useful experience in debugging and troubleshooting, using git terminal commands, specifics of working with Angular, and pair programming sessions. I also added new skills to my arsenal, such as Typescript, Angular, Material UI, proper code commenting, collaboration, and others.",
+    "myFlixCaseDurationData":"Almost 1.5 weeks (10 days)",
+    "myFlixCaseChallenge":"The development of the myFlix app took much less time and effort as compared to the R3play React app since:",
+    "myFlixCaseChallengeDetail1":"The API has already been built",
+    "myFlixCaseChallengeDetail2":"The extensive practice with React helped to progress faster",
+    "myFlixCaseChallengeDetail3":"I didn't add many additional features and stick to the basic course requirements",
+    "myFlixCaseChallengeDetail4":"The time left in the program was already limited",    
+    "myFlixMainTakeaway1":"Improve the app's functionality to reflect the R3play app's features",
+    "myFlixMainTakeaway2":"Research more about Typescript",
+    "myFlixMainTakeaway3":"Read more about Material UI",
+    "myFlixMainTakeaway4":"Continue exploring other technologies and best practices in web development",
+    
+    
+
+    "kanbanSkill":"Kanban board",
+    "agileSkill":"Agile workflow",
+    "documentationSkill":"documentationSkill",
+    "userStoriesSkill":"User stories",
+    "collabSkill":"Collaboration",
+    "feedbackSkill":"Providing feedback",
+    "contributeSkill":"Contributing",
     "testingSkill": "Тестирање",
     "apiSkill": "Google Calendar API",
     "pwsSkill": "Прогресивни веб-апликации",
