@@ -48,6 +48,8 @@
     "contactFormTip":"标有星号的字段为必填项",
     "contactFormPoweredBy":"由 FormBold 提供",
 
+    "caseTDD":"测试驱动开发",
+    "caseServerAndApi":"服务器端和API",
     "caseAgile":"敏捷工作流",
     "caseOverview":"概述",
     "casePurpose":"目的和背景",
@@ -99,10 +101,28 @@
     "myFlixMainTakeaway2":"更多关于Typescript的研究",
     "myFlixMainTakeaway3":"阅读更多关于材质UI的信息",
     
+
+    "meetCaseHeading":"Meet App案例研究",
+    "meetCaseIntroduction":"Meet App是一款响应式渐进式Web应用程序，使用测试驱动开发方法开发，使用AWS Serverless Lambda函数、Oauth2Google身份验证和授权屏幕以及Recharts库，允许用户查看Google Calendar API事件。 用户可以通过Google进行身份验证，指定要显示事件的城市和数量，并阅读有关它们的更多信息。 该应用程序可以安装在桌面/移动感谢PWA建议，使用在线和离线，并显示通知时，输入不正确的数据和/或互联网连接丢失。",
+    "meetCaseRequired":"Meet App是我在CareerFoundry全栈沉浸式课程中开发的一个必修项目，旨在展示我对使用JavaScript和无服务器技术的测试驱动全栈web开发技能的掌握。",
+    "meetCaseAboutTDD":"我通过首先编写用户故事来开发应用程序。 在测试驱动开发方法的帮助下，我结合了单元，集成，用户接受和端到端测试方法，以便在实现代码之前编写所需的测试。",
+    "meetCaseAboutServerAndApi":"我使用AWS serverless Lambda函数作为项目的要求开发了服务器端。 使用无服务器可以减少管理服务器的额外工作，并使可伸缩性更容易。 对于应用程序的事件数据，使用了CareerFoundry的Google日历。 Google OAuth2身份验证屏幕设置为对用户进行身份验证并授权应用程序。 在开发的最后阶段，我利用React的service worker将应用程序转换为渐进式Web应用程序。 Recharts库允许以两种类型的图表（散点图和饼图）的形式可视化事件数据。",
+    "meetCaseAim":"该项目旨在开发一个功能齐全的全栈应用程序，我可以将其添加到我的专业产品组合中。 我想要解决的问题是通过使用AWS serverless Lambda函数React的测试驱动开发方法来构建完整的全栈web应用程序。js，以及渐进式Web应用程序的要求。",
+    "meetCaseConclusion":"myFlix应用程序是我在全栈web开发课程中开发的最后一个完整的web应用程序。 当它完成后，我继续加强我的投资组合。",
+    "meetCaseAboutClient":"对于视觉部分，前端使用常规CSS和JSX进行响应样式化。",
+    "meetCaseConclusionData":"Meet应用程序是全堆栈web开发课程中的最后一个项目之一。 当它完成后，我专注于提高我的反应开发技能，特别是通过深入研究一个新的主题-本机应用程序开发与反应本机和安卓工作室。",
+    "meetCaseDurationData":"差不多1个月(28天)",
+    "meetCaseChallenge1":"这个项目对我来说最大的挑战是测试驱动的开发方法本身。 以前以行为驱动风格编写代码，我不得不花一些时间习惯新方法。 然而，应用程序的工作进行得很好，我很快就习惯了这个新的话题。 在该项目上工作时的一个问题是用户无法对应用程序进行身份验证。 在与我的导师联系后，我通过Google Developer console手动添加测试用户来解决问题。",
+    "meetCaseChallenge2":"在对应用程序在智能手机上的安装进行故障排除后，我成功地将其转换为渐进式Web应用程序。 我也喜欢使用用户通知和Recharts库。 我还提高了我对TDD方法的知识和技能，并设置了AWS和Google开发人员帐户，以及确认了域的所有权。",
+    "meetMainTakeaway1":"在辅助项目上实践TDD方法",
+    "meetMainTakeaway2":"了解更多关于数据可视化的信息",
+
+
     "notFound":"我们找不到您要找的资源。",
     "returnHomeParagraph":"但你可以随时回到 ",
     "returnHomeLink":"主页",
 
+    "TDDSkill":"测试驱动开发",
     "kanbanSkill":"看板",
     "agileSkill":"敏捷工作流",
     "documentationSkill":"文档技能",
