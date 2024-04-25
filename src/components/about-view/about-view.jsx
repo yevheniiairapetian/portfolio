@@ -71,7 +71,7 @@ export const AboutView = () => {
             <p onClick={()=>{closeDownloadLinks()}} className="availability">{t("availability")}</p>
             <p onClick={()=>{closeDownloadLinks()}} className="fade-in-up-on-scroll hobbies mb-4">{t("hobbies")}</p>
             
-            <Button variant="primary" className="check-out fade-in-up-on-scroll ps-3 pe-3" href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener noreferrer"><span title="Check out code on Github" className="about-buttons-small-screen checkOutSmall">{t("code")}</span></Button>
+            <Button variant="primary" className="check-out fade-in-up-on-scroll ps-3 pe-3" href="https://github.com/yevheniiairapetian" target="_blank" rel="noopener noreferrer"><span title={t("checkOutCodeTitle")} className="about-buttons-small-screen checkOutSmall">{t("code")}</span></Button>
             <Button 
             variant="dark" 
             onClick={()=>{showDownloadLinks()}} 
