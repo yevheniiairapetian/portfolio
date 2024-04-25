@@ -96,6 +96,13 @@
     "myFlixMainTakeaway2": "Дізнатися більше про Typescript",
     "myFlixMainTakeaway3": "Дізнатися більше про Material UI",
     "myFlixMainTakeaway4": "продовжувати досліджувати інші технології та найкращі практики у веб-розробці",
+    
+    
+    "notFound":"Ми не змогли знайти ресурс, який Ви шукали",
+    "returnHomeParagraph":"Але Ви завжди можете повернутися на ",
+    "returnHomeLink":"Головну сторінку",
+    
+    
     "kanbanSkill": "Kanban-дошка",
     "agileSkill": "Робочий процес Agile",
     "documentationSkill": "Вміння документувати",

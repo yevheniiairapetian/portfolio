@@ -99,7 +99,9 @@
     "myFlixMainTakeaway2":"更多关于Typescript的研究",
     "myFlixMainTakeaway3":"阅读更多关于材质UI的信息",
     
-
+    "notFound":"我们找不到您要找的资源。",
+    "returnHomeParagraph":"但你可以随时回到 ",
+    "returnHomeLink":"主页",
 
     "kanbanSkill":"看板",
     "agileSkill":"敏捷工作流",

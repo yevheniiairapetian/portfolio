@@ -100,8 +100,10 @@
     "myFlixMainTakeaway3":"Read more about Material UI",
     "myFlixMainTakeaway4":"Continue exploring other technologies and best practices in web development",
     
+    "notFound":"We couldn't find the resource you were looking for.",
+    "returnHomeParagraph":"But you can always return to the ",
+    "returnHomeLink":"home page",
     
-
 
 
     

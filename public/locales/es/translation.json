@@ -100,6 +100,12 @@
     "myFlixMainTakeaway3":"Leer más sobre Material UI",
     "myFlixMainTakeaway4":"Continuar explorando otras tecnologías y mejores prácticas en el desarrollo web",
     
+
+    "notFound": "No pudimos encontrar el recurso que estabas buscando.",
+    "returnHomeParagraph": "Pero siempre puedes volver a la ",
+    "returnHomeLink": "página de inicio",
+
+
     "kanbanSkill":"Junta de Kanban",
     "agileSkill":"Flujo de trabajo ágil",
     "userStoriesSkill":"Historias de usuarios",
