@@ -181,6 +181,18 @@
      "footer":{
         "copy":"© Yevhenii Airapetian, 2024. All rights reserved.",
         "impressumFooter":"Imprint"
-    }
+    },
+
+    "aboutCvDeAlt":"An icon showing the German flag",
+    "aboutCvEnAlt":"An icon showing the American flag",
+    "aboutCvUkAlt":"An icon showing the Ukrainian flag",
+    "aboutCvDeTitle":"Click here to download my resume in German. You might need to use a file viewer like Adobe Acrobat or similar",
+    "aboutCvEnTitle":"Click here to download my resume in English. You might need to use a file viewer like Adobe Acrobat or similar",
+    "aboutCvUkTitle":"Click here to download my resume in Ukrainian. You might need to use a file viewer like Adobe Acrobat or similar",
+    "toggleResumeTitle":"Toggle resume files",
+    "checkoutCodeTitle":"Check out code on Github",
+    "profileImageAlt":"An image showing a man in a jacket"
+
+
   }
   

@@ -172,5 +172,14 @@
     "footer": {
         "copy": "© Yevhenii Airapetian, 2024 Todos los derechos reservados.",
         "impressumFooter": "Impresión"
-    }
+    },
+    "aboutCvDeAlt": "Un icono que muestra la bandera alemana",
+"aboutCvEnAlt": "Un icono que muestra la bandera estadounidense",
+"aboutCvUkAlt": "Un icono que muestra la bandera ucraniana",
+"aboutCvDeTitle": "Haga clic aquí para descargar mi currículum en alemán. Es posible que deba utilizar un visor de archivos como Adobe Acrobat o similar",
+"aboutCvEnTitle": "Haga clic aquí para descargar mi currículum en inglés. Es posible que deba utilizar un visor de archivos como Adobe Acrobat o similar",
+"aboutCvUkTitle": "Haga clic aquí para descargar mi currículum en ucraniano. Es posible que deba utilizar un visor de archivos como Adobe Acrobat o similar",
+"toggleResumeTitle": "Alternar archivos de reanudación",
+"checkoutCodeTitle": "Verificar el código en Github",
+"profileImageAlt": "Una imagen que muestra a un hombre con una chaqueta"
 }

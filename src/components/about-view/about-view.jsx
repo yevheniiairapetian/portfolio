@@ -60,7 +60,7 @@ export const AboutView = () => {
 		<Container className="aboutContainer pt-5">
 			<Row>
 				<Col xs={12} md={5}>
-                <Image  onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle alt="logo" src={profileImg} />
+                <Image alt={t("profileImageAlt")} onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle src={profileImg} />
                 </Col>
                 <Col xs={12} md={7}>
                 <h1>{t("welcome text")}</h1>
@@ -76,19 +76,19 @@ export const AboutView = () => {
             variant="dark" 
             onClick={()=>{showDownloadLinks()}} 
             className="resume fade-in-up-on-scroll ps-3 pe-3 ms-2">
-                <span title="Toggle resume files" className="about-buttons-big-screen resumeBig">{t("resume")}</span>
+                <span title={t("toggleResumeTitle")} className="about-buttons-big-screen resumeBig">{t("resume")}</span>
             
                 </Button><br/>
                 <div className="resumes">
                   
-                <Link to={"https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0"} title="Klicken Sie hier, um meinen Lebenslauf auf Deutsch herunterzuladen. Möglicherweise müssen Sie einen Dateibetrachter wie Adobe Acrobat oder ähnliches verwenden" className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf">
-                <img className="flags mt-3 me-3" alt="An icon showing the German flag" src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="29"/>
+                <Link to={"https://www.dropbox.com/scl/fi/kzn7bsab05ddugcjrkjub/Yevhenii-Airapetian-DE.pdf?rlkey=sam0r180x4qfjn7ey2rv5hd03&st=rljwq2uz&dl=0"} title={t("aboutCvDeTitle")} className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf">
+                <img className="flags mt-3 me-3" alt={t("aboutCvDeAlt")} src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="29"/>
                   {/* <Image roundedCircle className="flags mt-3 me-3" src={deImg} alt="An icon showing the German flag"/>*/}</Link> 
-            <Link to={"https://www.dropbox.com/scl/fi/y1s7krvn2tcri1495fdyb/Yevhenii-Airapetian-EN.pdf?rlkey=hxo8aghbdcdysd8otdd57c1t1&st=t0wgsfx3&dl=0"} title="Click here to download my resume in English. You might need to use a file viewer like Adobe Acrobat or similar" className="download-en" target="_blank" download="Yevhenii-Airapetian-EN.pdf">
-            <img className="flags mt-3 me-3" alt="An icon showing the USA flag" src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="29"/>
+            <Link to={"https://www.dropbox.com/scl/fi/y1s7krvn2tcri1495fdyb/Yevhenii-Airapetian-EN.pdf?rlkey=hxo8aghbdcdysd8otdd57c1t1&st=t0wgsfx3&dl=0"} title={t("aboutCvEnTitle")} className="download-en" target="_blank" download="Yevhenii-Airapetian-EN.pdf">
+            <img className="flags mt-3 me-3" alt={t("aboutCvEnAlt")} src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="29"/>
               {/* <Image roundedCircle className="flags mt-3 me-3" src={usImg} alt="An icon showing the USA flag"/>*/}</Link> 
-            <Link to={"https://www.dropbox.com/scl/fi/k1z3vwrnxmqux24j1m49r/Yevhenii-Airapetian-UA.pdf?rlkey=xy4vqr68rcljth5z23kp6wu7m&st=n0kmkcas&dl=0"} title="Натисніть тут, щоб завантажити моє резюме українською мовою. Можливо, вам знадобиться програма для перегляду файлів, наприклад Adobe Acrobat або подібна" className="download-uk" target="_blank" download="Yevhenii-Airapetian-UK.pdf">
-            <img className="flags mt-3 me-3" alt="An icon showing Ukrainian flag" src="https://hatscripts.github.io/circle-flags/flags/ua.svg" width="29"/>
+            <Link to={"https://www.dropbox.com/scl/fi/k1z3vwrnxmqux24j1m49r/Yevhenii-Airapetian-UA.pdf?rlkey=xy4vqr68rcljth5z23kp6wu7m&st=n0kmkcas&dl=0"} title={t("aboutCvUkTitle")} className="download-uk" target="_blank" download="Yevhenii-Airapetian-UK.pdf">
+            <img className="flags mt-3 me-3" alt={t("aboutCvUkAlt")} src="https://hatscripts.github.io/circle-flags/flags/ua.svg" width="29"/>
               {/* <Image roundedCircle className="flags mt-3 me-3" src={ukraineImg} alt="An icon showing Ukrainian flag"/>*/}</Link> 
                 
             </div>    

@@ -51,6 +51,7 @@ export const NavigationBar = () => {
 		{ name: "English", code: "en" },
 		{ name: "Deutsch", code: "de" },
 		{ name: "Español", code: "es" },
+		{ name: "Lingua italiana", code: "it" },
 		{ name: "Українська", code: "uk" },
 		{ name: "Македонски јазик", code: "mk" },
 		{ name: "中文", code: "zh" },

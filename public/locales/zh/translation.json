@@ -173,7 +173,16 @@
     "footer":{
        "copy":"© Yevhenii Airapetian, 2024。保留所有权利。",
        "impressumFooter":"印记"
-   }
+   },
+   "aboutCvDeAlt":"显示德国国旗的图标",
+"aboutCvEnAlt":"显示美国国旗的图标",
+"aboutCvUkAlt":"显示乌克兰国旗的图标",
+"aboutCvDeTitle":"点击这里下载我的德语简历。 您可能需要使用像Adobe Acrobat或类似的文件查看器",
+"aboutCvEnTitle":"点击这里下载我的英文简历。 您可能需要使用像Adobe Acrobat或类似的文件查看器",
+"aboutCvUkTitle":"点击这里下载我的乌克兰简历。 您可能需要使用像Adobe Acrobat或类似的文件查看器",
+"toggleResumeTitle":"切换简历文件",
+"checkoutCodeTitle":"查看Github上的代码",
+"profileImageAlt":"一个穿着夹克的男人的图像"
 }
 
 
