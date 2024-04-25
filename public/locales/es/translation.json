@@ -47,10 +47,12 @@
     "messageOrCommentPlaceholder": "Tu mensaje",
     "contactFormTip": "Los campos marcados con un asterisco son obligatorios",
     "contactFormPoweredBy": "Desarrollado por",
+    "caseTDD":"Desarrollo impulsado por pruebas",
+    "caseServerAndApi":"Lado del servidor y API",
     "caseAgile":"Flujo de trabajo ágil",
     "caseOverview": "Visión general",
     "casePurpose": "Propósito y contexto",
-    "caseObjetivo": "Objetivo",
+    "caseObjective": "Objetivo",
     "caseServer": "Lado del servidor",
     "caseClient": "Lado del cliente",
     "caseApproach": "Enfoque",
@@ -101,11 +103,28 @@
     "myFlixMainTakeaway4":"Continuar explorando otras tecnologías y mejores prácticas en el desarrollo web",
     
 
+    "meetCaseHeading": "Estudio de caso de Meet App",
+    "meetCaseIntroduction": "Meet App es una aplicación Web progresiva receptiva, desarrollada utilizando el enfoque de desarrollo basado en pruebas utilizando las funciones Lambda sin servidor de AWS, la pantalla de autenticación y autorización de Google OAuth2 y la biblioteca Recharts para permitir a los usuarios ver los eventos de la API de Google Calendar. Los usuarios pueden autenticarse con Google, especificar la ciudad y el número de eventos para mostrar los eventos y leer más sobre ellos. La aplicación se puede instalar en escritorio / móvil gracias a las recomendaciones de la PWA, se usa tanto en línea como fuera de línea, y muestra notificaciones cuando se ingresan datos incorrectos y/o se pierde la conexión a Internet.",
+    "meetCaseRequired": "Meet App fue un proyecto obligatorio que desarrollé como parte de mi curso de inmersión de pila completa en CareerFoundry para demostrar mi dominio de las habilidades de desarrollo web de pila completa impulsadas por pruebas utilizando JavaScript y tecnologías sin servidor.",
+    "meetCaseAboutTDD": "Desarrollé la aplicación escribiendo primero las historias de usuario. Con la ayuda del enfoque de desarrollo basado en pruebas, incorporé la unidad, la integración, la aceptación del usuario y los métodos de prueba de extremo a extremo para escribir las pruebas requeridas antes de implementar el código.",
+    "meetCaseAboutServerAndApi": "Desarrollé el lado del servidor utilizando las funciones Lambda sin servidor de AWS como requisito para el proyecto. El uso de serverless permite reducir el trabajo adicional para administrar un servidor y facilita la escalabilidad. Para los datos de eventos de la aplicación, se utilizó el Calendario de Google de CareerFoundry. La pantalla de autenticación de Google OAuth2 se configuró para autenticar y autorizar a los usuarios a la aplicación. En las etapas finales de desarrollo, hice uso del service worker de React para transformar la aplicación en una aplicación Web Progresiva. La librería Recharts permite la visualización de datos de eventos en forma de dos tipos de gráficos (Scatter y Pie).",
+    "meetCaseAim": "El proyecto tenía como objetivo desarrollar una aplicación full-stack completamente funcional que pudiera agregar a mi cartera profesional. El problema que quería resolver era crear una aplicación web completa de pila completa empleando el enfoque de desarrollo basado en pruebas utilizando las funciones Lambda sin servidor de AWS, React.js, y los requisitos de la Aplicación Web Progresiva.",
+    "meetCaseConclusion": "La aplicación myFlix fue la última aplicación web completa que desarrollé en el curso de desarrollo web Full-Stack. Cuando estuvo terminado, procedí a mejorar mi portafolio.",
+    "meetCaseAboutClient":"Para la parte visual, la interfaz se diseñó de manera receptiva con CSS y JSX normales.",
+    "meetCaseConclusionData":" La aplicación Meet fue uno de los últimos proyectos en el curso de desarrollo web Full-Stack. Cuando terminó, me concentré en mejorar mis habilidades de desarrollo de React, específicamente sumergiéndome en un nuevo tema: el desarrollo de aplicaciones nativas con React Native y Android Studio.",
+    "meetCaseDurationData": "Casi 1 mes (28 días)",
+    "meetCaseChallenge1": "El mayor desafío para mí en este proyecto fue el enfoque de desarrollo basado en pruebas en sí mismo. Habiendo escrito código en el estilo impulsado por el comportamiento antes, tuve que dedicar un tiempo a acostumbrarme al nuevo método. Sin embargo, el trabajo en la aplicación fue bastante bien y me acostumbré al nuevo tema rápidamente. Uno de los problemas mientras trabajaba en el proyecto fue la incapacidad de los usuarios para autenticarse en la aplicación. Después de comunicarme con mi tutor, resolví el problema agregando manualmente los usuarios de prueba a través de la consola de desarrolladores de Google.",
+    "meetCaseChallenge2": "Después de solucionar problemas de instalación de la aplicación en un teléfono inteligente, la convertí con éxito en una Aplicación Web Progresiva. También disfruté trabajando con las notificaciones de usuario y la biblioteca Recharts. También mejoré mis conocimientos y habilidades del enfoque TDD y configuré las cuentas de desarrollador de AWS y Google, además de confirmar la propiedad del dominio.",    
+    "meetMainTakeaway1": "Practique el enfoque TDD en proyectos paralelos",
+    "meetMainTakeaway2": "Descubra más sobre la visualización de datos",
+
+
+
     "notFound": "No pudimos encontrar el recurso que estabas buscando.",
     "returnHomeParagraph": "Pero siempre puedes volver a la ",
     "returnHomeLink": "página de inicio",
 
-
+    "TDDSkill":"Desarrollo impulsado por pruebas",
     "kanbanSkill":"Junta de Kanban",
     "agileSkill":"Flujo de trabajo ágil",
     "userStoriesSkill":"Historias de usuarios",
