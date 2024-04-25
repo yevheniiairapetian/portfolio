@@ -66,7 +66,7 @@ export const R3playCaseView = () => {
                                                         <li data-icon="&#9745; ">{t("r3playMainTakeaway1")}</li>
                                                         <li data-icon="&#9745; ">{t("r3playMainTakeaway2")}</li>
                                                         <li data-icon="&#9745; ">{t("r3playMainTakeaway3")}</li>
-                                                        <li data-icon="&#9745; ">{t("r3playMainTakeaway4")}</li></ul>;
+                                                        <li data-icon="&#9745; ">{t("r3playMainTakeaway4")}</li></ul>
 
 
                                                 <h2 className="video-image-heading fade-in-up-on-scroll">{t("caseApiPreview")}
