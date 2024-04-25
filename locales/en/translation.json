@@ -47,6 +47,8 @@
     "messageOrCommentPlaceholder":"Your Message",
     "contactFormTip":"Fields marked with an asterisk are required",
     "contactFormPoweredBy":"Powered by",
+    "caseTDD":"Test-Driven Development",
+    "caseServerAndApi":"Server-Side and API",
     "caseAgile":"Agile Workflow",
     "caseOverview":"Overview",
     "casePurpose":"Purpose and Context",
@@ -100,6 +102,24 @@
     "myFlixMainTakeaway3":"Read more about Material UI",
     "myFlixMainTakeaway4":"Continue exploring other technologies and best practices in web development",
     
+
+
+    "meetCaseHeading":"Meet App Case Study",
+    "meetCaseIntroduction":"Meet App is a responsive Progressive Web Application, developed using the test-driven development approach using the AWS Serverless Lambda functions, OAuth2 Google authentication and authorization screen, and the Recharts library to allow users to view the Google Calendar API events. Users can authenticate with Google, specify the city and number of events to display the events, and read more about them. The app can be installed on desktop/mobile thanks to the PWA recommendations, used both online and offline, and shows notifications when incorrect data is entered and/or the internet connection is lost.",
+    "meetCaseRequired":"Meet App was a required project I developed as part of my full-stack immersion course at CareerFoundry to demonstrate my mastery of test-driven full-stack web development skills using JavaScript and serverless technologies.",
+    "meetCaseAboutTDD":"I developed the application by first writing the user stories. With the help of the test-driven development approach, I incorporated the unit, integration, user acceptance, and end-to-end testing methods to write the required tests before implementing the code.",
+    "meetCaseAboutServerAndApi":"I developed the server side using the AWS serverless Lambda functions as the requirement for the project. The use of serverless allows for the reduction of extra work for managing a server and makes scalability easier. For the app's events data, CareerFoundry's Google Calendar was used. The Google OAuth2 authentication screen was set up to authenticate and authorize users to the app. In the final stages of development, I made use of React's service worker to transform the app into a Progressive Web Application. The Recharts library allows the visualization of event data in the form of two types of charts (Scatter and Pie).",
+    "meetCaseAim":"The project aimed to develop a fully-functioning full-stack app that I could add to my professional portfolio. The problem I wanted to solve was to build a complete full-stack web application by employing the test-driven development approach using the AWS serverless Lambda functions, React.js, and the Progressive Web App requirements.",
+    "meetCaseConclusion":"The myFlix app was the last full web application I developed in the Full-Stack web development course. When it was finished, I proceeded to enhance my portfolio.",
+    "meetCaseAboutClient":"For the visual part, the frontend was responsively styled with regular CSS and JSX.",
+    "meetCaseConclusionData":"The Meet app was one of the last projects in the Full-Stack web development course. When it was finished, I focused on enhancing my React development skills, specifically by diving into a new topic - Native app development with React Native and Android Studio.",
+    "meetCaseDurationData":"Almost 1 month (28 days)",
+    "meetCaseChallenge1":"The biggest challenge for me in this project was the test-driven development approach itself. Having written code in the behavior-driven style before, I had to spend some time getting used to the new method. However, the work on the app went quite well and I got used to the new topic quickly. One of the issues while working on the project was the users' inability to authenticate to the app. After reaching out to my tutor, I solved the problem by adding manually the test users through the Google Developer console.",
+    "meetCaseChallenge2":"After troubleshooting the app's installation on a smartphone, I successfully turned it into a Progressive Web App. I also enjoyed working with the user notifications and the Recharts library. I also improved my knowledge and skills of the TDD approach and setting up the AWS and Google Developer accounts, as well as confirming the domain's ownership.",    
+    "meetMainTakeaway1":"Practice the TDD approach on side projects",
+    "meetMainTakeaway2":"Discover more about data visualization",
+    
+
     "notFound":"We couldn't find the resource you were looking for.",
     "returnHomeParagraph":"But you can always return to the ",
     "returnHomeLink":"home page",
@@ -107,6 +127,7 @@
 
 
     
+    "TDDSkill":"Test-driven development",
     "kanbanSkill":"Kanban board",
     "agileSkill":"Agile workflow",
     "documentationSkill":"Documentation",
