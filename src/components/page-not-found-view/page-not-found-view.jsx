@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 export const PageNotFoundView = () => {
     const { t } = useTranslation();
     return(
-        <Container>
+        <Container fluid className="ps-0 pe-0">
             <Row>
                 <Col xs={10} sm={10} md={10} className="text-center m-auto" >
         <Image src={image404} className="picture-404 m-auto mt-5 mb-5" alt="An image showing an old TV" />
