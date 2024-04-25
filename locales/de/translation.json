@@ -99,6 +99,11 @@
     "myFlixMainTakeaway2":"Recherchiere mehr über Typescript",
     "myFlixMainTakeaway3":"Weiterlesen über Material UI",
     "myFlixMainTakeaway4":"Weitere Technologien und Best Practices in der Webentwicklung erforschen",
+    
+    "notFound": "Wir konnten diese Ressource nicht finden.",
+    "returnHomeParagraph":"Sie können jedoch jederzeit zur ",
+    "returnHomeLink":"Startseite zurückkehren",
+    
     "kanbanSkill":"Kanban board",
     "agileSkill":"Agiler Workflow",
     "documentationSkill":"Dokumentation",
