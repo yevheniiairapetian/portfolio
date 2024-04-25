@@ -44,15 +44,15 @@ export const MyFlixCaseView = () => {
                                                 <p className="fade-in-up-on-scroll">{t("myFlixCaseAim")}</p>
                                                 <h2 className="fade-in-up-on-scroll r3play-headings">{t("caseApproach")}</h2>
 
-                                                <h3 className="fade-in-up-on-scroll">{t("caseAgile")}</h3>
+                                                <h3 className="fade-in-up-on-scroll r3play-headings">{t("caseAgile")}</h3>
                                                 <p className="fade-in-up-on-scroll">{t("myFlixCaseAgileData")}
                                                 </p>
-                                                <h3 className="fade-in-up-on-scroll">{t("caseServer")}</h3>
+                                                <h3 className="fade-in-up-on-scroll r3play-headings">{t("caseServer")}</h3>
                                                 <p className="fade-in-up-on-scroll">{t("myFlixCaseAboutServer")}</p>
                                                 <a className="deployed-link fade-in-up-on-scroll" target="_blank"
                                                         href="https://r3play-934f9ea5664d.herokuapp.com/#user">&#x2192; {t("caseViewEndpoints")}</a>
                                                 <p className="fade-in-up-on-scroll pt-4">{t("myFlixCasePostman")}</p>
-                                                <h3 className="fade-in-up-on-scroll">{t("caseClient")}</h3>
+                                                <h3 className="fade-in-up-on-scroll r3play-headings">{t("caseClient")}</h3>
                                                 <p className="fade-in-up-on-scroll">{t("myFlixCaseAboutClient")}</p>
 
 

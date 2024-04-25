@@ -41,13 +41,13 @@ export const R3playCaseView = () => {
                                                 <h2 className="fade-in-up-on-scroll r3play-headings">{t("caseObjective")}</h2>
                                                 <p className="fade-in-up-on-scroll">{t("r3playCaseAim")}</p>
                                                 <h2 className="fade-in-up-on-scroll r3play-headings">{t("caseApproach")}</h2>
-                                                <h3 className="fade-in-up-on-scroll">{t("caseServer")}</h3>
+                                                <h3 className="fade-in-up-on-scroll r3play-headings">{t("caseServer")}</h3>
                                                 <p className="fade-in-up-on-scroll">{t("r3playCaseAboutServer")}</p>
 
                                                 <a className="deployed-link fade-in-up-on-scroll" target="_blank"
                                                         href="https://r3play-934f9ea5664d.herokuapp.com/#user">{t("caseViewEndpoints")}&#x2192; </a>
                                                 <p className="fade-in-up-on-scroll pt-4">{t("r3playCasePostman")}</p>
-                                                <h3 className="fade-in-up-on-scroll">{t("caseClient")}</h3>
+                                                <h3 className="fade-in-up-on-scroll r3play-headings">{t("caseClient")}</h3>
                                                 <p className="fade-in-up-on-scroll">{t("r3playCaseAboutClient")}</p>
                                                 <p className="center r3play-slider-hint fade-in-up-on-scroll">{t("caseSliderTip")}</p>
 
