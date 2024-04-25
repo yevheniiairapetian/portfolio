@@ -9,7 +9,7 @@
     "second focus": "Mi objetivo es combinar mi experiencia con mis aspiraciones profesionales para ayudar a crear soluciones de software funcionales, receptivas y accesibles.",
     "availability": "Estoy disponible para trabajo de oficina e híbrido en la zona de Berlín y Potsdam o a distancia.",
     "hobbies": "Además de mis pasiones en el desarrollo web, también soy un fotógrafo aficionado activo y un entusiasta del fitness, y en cualquier otro día puedes encontrarme fuera haciendo fotos o levantando pesas.",
-    "code": "código",
+    "code": "Código",
     "projects": "Proyectos",
     "projectsInfo": "Aquí encontrarás los proyectos actuales de desarrollo web que he completado y en los que he trabajado. Todos ellos tienen hipervínculos a la base de código y los casos del proyecto, la mayoría tienen un enlace a la versión desplegada, y algunos también tienen enlaces adicionales.",
     "projectsViewTip": "Utilice los controles deslizantes para desplazarse por la lista de proyectos. Mueva el ratón sobre una diapositiva concreta para mostrar los enlaces del proyecto.",
@@ -180,6 +180,6 @@
 "aboutCvEnTitle": "Haga clic aquí para descargar mi currículum en inglés. Es posible que deba utilizar un visor de archivos como Adobe Acrobat o similar",
 "aboutCvUkTitle": "Haga clic aquí para descargar mi currículum en ucraniano. Es posible que deba utilizar un visor de archivos como Adobe Acrobat o similar",
 "toggleResumeTitle": "Alternar archivos de reanudación",
-"checkoutCodeTitle": "Verificar el código en Github",
+"checkOutCodeTitle": "Verificar el código en Github",
 "profileImageAlt": "Una imagen que muestra a un hombre con una chaqueta"
 }
