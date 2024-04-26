@@ -208,6 +208,45 @@
     "r3playSlide1Description": "Die Anmeldeansicht der R3play-App, in der sich Benutzer in der App anmelden können",
     "r3playSlide2Description": "Die Filmansicht der R3play App, die eine Liste der in der App verfügbaren Filme anzeigt",
     "r3playSlide3Description": "Die Profilansicht der R3play-App, in der Benutzer ihre Kontoinformationen ändern können",
+    
+    "myFlixSlide1Heading":"Anmelde-Ansicht",
+"myFlixSlide2Heading":"Film ansehen",
+"myFlixSlide3Heading":"Profilansicht",
+"myFlixSlide1Description":"Die MyFlix-App-Anmeldeansicht, in der sich Benutzer bei der App anmelden können",
+"myFlixSlide2Description":"Die Filmansicht der MyFlix-App, die eine Liste der in der App verfügbaren Filme anzeigt",
+"myFlixSlide3Description":"Die Profilansicht der MyFlix-App, in der Benutzer ihre Kontoinformationen ändern können",
+
+
+"meetSlide1Heading":"Allgemeine Benutzeroberfläche",
+"meetSlide2Heading":"Fehler und Warnungen",
+"meetSlide3Heading":"Ereignisdetails",
+"meetSlide1Description":"Die in die App geladenen Meet-App-Ereignisse mit den Formularfeldern zum Anpassen der Ergebnisse",
+"meetSlide2Description": " Der Meet-App-Ereignisbildschirm wurde mit Warnungen und Fehlern aufgrund der falsch eingegebenen Daten angezeigt.",
+"meetSlide3Description":"Der Meet-App-Ereignisbildschirm mit einer Ereigniskarte wurde erweitert",
+
+
+"owriteSlide1Heading":"Begrüßungsbildschirm",
+"owriteSlide2Heading":"Chat-Bildschirm",
+"owriteSlide1Description":"Der Begrüßungsbildschirm der Owrite-App, auf dem Benutzer ein Thema auswählen und den Chatraum betreten können.",
+"owriteSlide2Description":"Der Chat-Bildschirm der Owrite-App, auf dem Benutzer chatten können, einschließlich Senden von Audio- und Bilddateien.",
+
+
+"pokemonSlide1Heading":"Begrüßungsnachricht",
+"pokemonSlide2Heading":"Pokemon-Ergebnisse",
+"pokemonSlide3Heading":"Pokemon-Karte",
+"pokemonSlide1Description":"Die Pokemon App Hauptseite mit einer Willkommensnachricht",
+"pokemonSlide2Description": "Die Pokemon-App hat Pokemon-Ergebnisse gefiltert, die als Liste angezeigt werden.",
+"pokemonSlide3Description":"Die Pokemon-Karte mit Daten, die der Benutzer sehen kann, wenn er auf einen Pokemon-Namen klickt",
+
+
+"toDoSlide1Heading":"Erste Ansicht",
+"toDoSlide2Heading":"Neue Liste",
+"toDoSlide3Heading":"Benachrichtigung",
+"toDoSlide1Description":"Die erste Ansicht der Aufgaben-App, in der Benutzer Tipps zur Verwendung der App anzeigen und eine erste Liste hinzufügen.",
+"toDoSlide2Description":"Eine neue Liste von Aufgaben wurde hinzugefügt",
+"toDoSlide3Description":"Wenn der Benutzer das Eingabefeld leer lässt und versucht, eine neue Aufgabe hinzuzufügen, wird eine Benachrichtigung angezeigt.",
+    
+    
     "menu": {
         "aboutMenu": "Über",
         "projectsMenu": "Projekte",

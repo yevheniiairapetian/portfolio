@@ -216,6 +216,44 @@
     "r3playSlide2Description": "La vista de películas de la aplicación R3play, que muestra una lista de películas disponibles en la aplicación",
     "r3playSlide3Description": "La vista de perfil de la aplicación R3play donde los usuarios pueden cambiar la información de su cuenta",
     
+
+    "myFlixSlide1Heading":"Vista de inicio de sesión",
+    "myFlixSlide2Heading": "Vista de película",
+    "myFlixSlide3Heading": "Vista de perfil",
+    "myFlixSlide1Description":" La vista de inicio de sesión de la aplicación MyFlix donde los usuarios pueden iniciar sesión en la aplicación",
+    "myFlixSlide2Description":" La vista de películas de la aplicación MyFlix que muestra una lista de películas disponibles en la aplicación",
+    "myFlixSlide3Description": "La vista de perfil de la aplicación MyFlix donde los usuarios pueden modificar la información de su cuenta",
+    
+    
+    "meetSlide1Heading": "Interfaz general",
+    "meetSlide2Heading": "Errores y advertencias",
+    "meetSlide3Heading":"Detalles del evento",
+    "meetSlide1Description":" Los eventos de Meet App cargados en la app con los campos del formulario permitiendo ajustar los resultados",
+    "meetSlide2Description": "La pantalla de eventos de la aplicación Meet se mostró con advertencias y errores debido a los datos incorrectos ingresados",
+    "meetSlide3Description": "La pantalla de eventos de la aplicación Meet con una tarjeta de eventos expandida",
+    
+    
+    "owriteSlide1Heading": "Pantalla de bienvenida",
+    "owriteSlide2Heading": "Pantalla de chat",
+    "owriteSlide1Description": "La pantalla de bienvenida de la aplicación Owrite donde los usuarios pueden elegir un tema e ingresar a la sala de chat",
+    "owriteSlide2Description": "La pantalla de Chat de la aplicación Owrite donde los usuarios pueden chatear, incluido el envío de archivos de audio e imagen",
+    
+    
+    "pokemonSlide1Heading": "Mensaje de bienvenida",
+    "pokemonSlide2Heading":"Resultados de Pokémon",
+    "pokemonSlide3Heading": "Carta de Pokémon",
+    "pokemonSlide1Description": "La página principal de la aplicación Pokemon con un mensaje de bienvenida",
+    "pokemonSlide2Description": "La Aplicación Pokémon filtró los resultados de Pokémon mostrados como una lista",
+    "pokemonSlide3Description":" La tarjeta Pokémon con datos que el usuario puede ver al hacer clic en el nombre de un Pokémon",
+    
+    
+    "toDoSlide1Heading": "Vista inicial",
+    "toDoSlide2Heading": "Nueva lista",
+    "toDoSlide3Heading":"Notificación",
+    "toDoSlide1Description": "La vista inicial de Tareas pendientes de la aplicación donde los usuarios ven consejos sobre cómo usar la aplicación y agregan una primera lista",
+    "toDoSlide2Description": "Se ha añadido una nueva lista de tareas pendientes",
+    "toDoSlide3Description": "Cuando el usuario deja la entrada en blanco e intenta agregar una nueva tarea, aparece un mensaje de notificación",
+
     "menu": {
         "aboutMenu": "Sobre mí",
         "projectsMenu": "Proyectos",

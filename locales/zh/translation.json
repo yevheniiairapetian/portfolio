@@ -182,7 +182,7 @@
     "notFound":"我们找不到您要找的资源。",
     "returnHomeParagraph":"但你可以随时回到 ",
     "returnHomeLink":"主页",
-    
+
     "externalApiSkill":"外部API",
     "nativeSkill":"原生应用开发",
     "troubleshootingSkill":"疑难解答",
@@ -218,6 +218,44 @@
     "r3playSlide1Description":"在用户可以登录应用程序的R3play应用程序中登录页面",
     "r3playSlide2Description":"R3play 应用程序中的电影页面,显示应用程序中可用的电影列表",
     "r3playSlide3Description":"R3play 应用程序中的个人资料页面,用户可以在其中更改帐户信息",
+
+
+    "myFlixSlide1Heading":"登录视图",
+"myFlixSlide2Heading":"电影视图",
+"myFlixSlide3Heading":"个人资料视图",
+"myFlixSlide1Description":"用户可以登录应用的MyFlix应用登录视图",
+"myFlixSlide2Description":"显示应用中可用电影列表的MyFlix应用电影视图",
+"myFlixSlide3Description":"MyFlix应用程序配置文件视图，用户可以在其中更改其帐户信息",
+
+
+"meetSlide1Heading":"通用接口",
+"meetSlide2Heading":"错误和警告",
+"meetSlide3Heading":"活动详情",
+"meetSlide1Description":"在应用程序中加载的满足应用程序事件，表单字段允许调整结果",
+"meetSlide2Description":"Meet App events屏幕显示了由于输入的数据不正确而导致的警告和错误",
+"meetSlide3Description":"与事件卡展开的Meet App事件屏幕",
+
+
+"owriteSlide1Heading":"欢迎屏幕",
+"owriteSlide2Heading":"聊天屏幕",
+"owriteSlide1Description":"Owrite应用程序欢迎屏幕，用户可以在其中选择主题并进入聊天室",
+"owriteSlide2Description":"用户可以聊天的Owrite应用程序聊天屏幕，包括发送音频和图像文件",
+
+
+"pokemonSlide1Heading":"欢迎留言",
+"pokemonSlide2Heading":"口袋妖怪结果",
+"pokemonSlide3Heading":"口袋妖怪卡",
+"pokemonSlide1Description":"带有欢迎信息的口袋妖怪应用程序主页",
+"pokemonSlide2Description":"口袋妖怪应用程序过滤口袋妖怪结果显示为列表",
+"pokemonSlide3Description":"带有数据的Pokemon卡，用户可以在点击Pokemon名称时看到",
+
+
+"toDoSlide1Heading":"初始视图",
+"toDoSlide2Heading":"新列表",
+"toDoSlide3Heading":"通知",
+"toDoSlide1Description":"待办事项应用程序初始视图，用户在其中查看有关如何使用应用程序的提示并添加第一个列表",
+"toDoSlide2Description":"新增待办事项清单",
+"toDoSlide3Description":"当用户将输入框留空并尝试添加新任务时，会出现通知消息",
 
 
     "menu":{
