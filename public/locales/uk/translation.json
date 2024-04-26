@@ -238,11 +238,11 @@
 "owriteSlide2Description": "Інтерфейс чату додатку Owrite, в якому користувачі можуть спілкуватися, в тому числі надсилати аудіо та графічні файли",
 
 
-"Pokemonslide1Heading": "Привітання",
-"Pokemonslide2Heading": "Результати пошуку покемонів",
-"Pokemonslide3Heading": "Картка покемона",
-"Pokemonslide1Description": "Головна сторінка Pokemon App з привітанням",
-"Pokemonslide2Description": "Веб-додаток Pokemon відфільтрував результати пошуку покемонів, що відображаються у вигляді списку",
+"pokemonSlide1Heading": "Привітання",
+"pokemonSlide2Heading": "Результати пошуку покемонів",
+"pokemonSlide3Heading": "Картка покемона",
+"pokemonSlide1Description": "Головна сторінка Pokemon App з привітанням",
+"pokemonSlide2Description": "Веб-додаток Pokemon відфільтрував результати пошуку покемонів, що відображаються у вигляді списку",
 "pokemonSlide3Description": "Картка покемона з даними, які користувач може переглянути, натиснувши на ім'я покемона",
 
 
