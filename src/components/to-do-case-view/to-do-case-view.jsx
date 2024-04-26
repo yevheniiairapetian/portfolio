@@ -106,7 +106,7 @@ export const ToDoCaseView = () => {
         </p>
         <p className="skills-paragraphs"><span>{t("deploySkill")}</span>
         </p>
-        <p className="skills-paragraphs"><span>{t("troubleshootingSkill")}Troubleshooting</span></p>
+        <p className="skills-paragraphs"><span>{t("troubleshootingSkill")}</span></p>
         
         <h2 className="credits r3play-headings text-center fade-in-up-on-scroll">{t("caseCredits")}</h2>
         <p className="fade-in-up-on-scroll">{t("caseLead")}</p>
