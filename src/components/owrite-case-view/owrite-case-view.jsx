@@ -83,7 +83,7 @@ export const OwriteCaseView = () => {
         </p>
         <p className="skills-paragraphs"><span>Javascript</span>
         </p>
-        <p className="skills-paragraphs"><span>{t("nativeDevSkill")}</span></p>
+        <p className="skills-paragraphs"><span>{t("nativeSkill")}</span></p>
         <p className="skills-paragraphs"><span>Expo Go</span></p>
 
         <h2 className="credits r3play-headings text-center fade-in-up-on-scroll">{t("caseCredits")}</h2>
