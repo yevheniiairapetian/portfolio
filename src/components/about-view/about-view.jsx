@@ -63,7 +63,7 @@ export const AboutView = () => {
                 <Image alt={t("profileImageAlt")} onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle src={profileImg} />
                 </Col>
                 <Col xs={12} md={7}>
-                <h1>{t("welcome text")}</h1>
+                <h1 className="r3play-headings">{t("welcome text")}</h1>
             <p onClick={()=>{closeDownloadLinks()}} className="introduction">{t("introduction")}</p>
             <p onClick={()=>{closeDownloadLinks()}} className="prevExperience">{t("experience")}</p>
             <p onClick={()=>{closeDownloadLinks()}} className="myFocus">{t("first focus")}</p>

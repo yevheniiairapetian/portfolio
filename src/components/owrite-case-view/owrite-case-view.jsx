@@ -23,7 +23,7 @@ export const OwriteCaseView = () => {
     <Container>
         <Row>
             <Col>
-            <h1 className="r3play-headings text-center">{t("owriteCaseHeading")}</h1>
+            <h1 className="r3play-headings text-center pt-4 pb-3">{t("owriteCaseHeading")}</h1>
       
          
 

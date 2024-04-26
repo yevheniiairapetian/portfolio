@@ -25,7 +25,7 @@ export const PokemonCaseView = () => {
     <Container>
         <Row>
             <Col>
-            <h1 className="r3play-headings text-center">{t("pokemonCaseHeading")}</h1>
+            <h1 className="r3play-headings text-center pt-4 pb-3">{t("pokemonCaseHeading")}</h1>
       
          
 

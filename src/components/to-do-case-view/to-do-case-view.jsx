@@ -17,12 +17,12 @@ export const ToDoCaseView = () => {
   const { t } = useTranslation();
   
 
-      const takeaways = [
-        'Enhance the Bootstrap skills',
-        'Work on the debugging skills',
-        'Extend the app\'s features later on',
-      ];
-      const listItems = takeaways.map(takeaway => <li data-icon="&#9745; ">{takeaway}</li>);
+      // const takeaways = [
+      //   'Enhance the Bootstrap skills',
+      //   'Work on the debugging skills',
+      //   'Extend the app\'s features later on',
+      // ];
+      // const listItems = takeaways.map(takeaway => <li data-icon="&#9745; ">{takeaway}</li>);
 
       
       
@@ -34,7 +34,7 @@ export const ToDoCaseView = () => {
     <Container>
         <Row>
             <Col>
-            <h1 className="r3play-headings text-center">{t("toDoCaseHeading")}</h1>
+            <h1 className="r3play-headings text-center pt-4 pb-3">{t("toDoCaseHeading")}</h1>
       
          
 

@@ -28,7 +28,7 @@ export const MyFlixCaseView = () => {
                 <Container>
                         <Row>
                                 <Col>
-                                        <h1 className="r3play-headings text-center">{t("myFlixCaseHeading")}</h1>
+                                        <h1 className="r3play-headings text-center pt-4 pb-3">{t("myFlixCaseHeading")}</h1>
 
 
 

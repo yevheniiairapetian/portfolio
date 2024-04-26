@@ -20,7 +20,7 @@ export const MeetCaseView = () => {
                 <Container>
                         <Row>
                                 <Col>
-                                        <h1 className="r3play-headings text-center">{t("meetCaseHeading")}</h1>
+                                        <h1 className="r3play-headings text-center pt-4 pb-3">{t("meetCaseHeading")}</h1>
 
 
 

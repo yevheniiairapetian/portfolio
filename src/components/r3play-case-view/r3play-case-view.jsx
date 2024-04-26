@@ -26,7 +26,7 @@ export const R3playCaseView = () => {
                 <Container>
                         <Row>
                                 <Col>
-                                        <h1 className="r3play-headings text-center">{t("r3playCaseHeading")}</h1>
+                                        <h1 className="r3play-headings text-center pt-4 pb-3">{t("r3playCaseHeading")}</h1>
 
 
 
