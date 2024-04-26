@@ -225,8 +225,44 @@
     "r3playSlide2Description":"The R3play App movie view that displays a list of movies available in the app",
     "r3playSlide3Description":"The R3play App profile view where users can alter their account information",
     
+    "myFlixSlide1Heading":"Login View",
+    "myFlixSlide2Heading":"Movie View",
+    "myFlixSlide3Heading":"Profile View",
+    "myFlixSlide1Description":"The MyFlix App login view where users can log in to the app",
+    "myFlixSlide2Description":"The MyFlix App movie view that displays a list of movies available in the app",
+    "myFlixSlide3Description":"The MyFlix App profile view where users can alter their account information",
     
+
+    "meetSlide1Heading":"General interface",
+    "meetSlide2Heading":"Errors and Warnings",
+    "meetSlide3Heading":"Event details",
+    "meetSlide1Description":"The Meet App events loaded in the app with the form fields allowing to adjust the results",
+    "meetSlide2Description":" The Meet App events screen demonstrated with warnings and errors due to the incorrect data entered",
+    "meetSlide3Description":"The Meet App events screen with an events card expanded",
+
+
+    "owriteSlide1Heading":"Welcome Screen",
+    "owriteSlide2Heading":"Chat Screen",
+    "owriteSlide1Description":"The Owrite App Welcome screen where users can pick a theme and enter the chat room",
+    "owriteSlide2Description":"The Owrite App Chat screen where users can chat, including sending audio and image files",
     
+
+    "pokemonSlide1Heading":"Welcome Message",
+    "pokemonSlide2Heading":"Pokemon Results",
+    "pokemonSlide3Heading":"Pokemon Card",
+    "pokemonSlide1Description":"The Pokemon App main page with a welcome message",
+    "pokemonSlide2Description":"The Pokemon App filtered Pokemon results displayed as a list",
+    "pokemonSlide3Description":"The Pokemon card with data that the user can see upon clicking on a Pokemon name",
+
+
+    "toDoSlide1Heading":"Initial View",
+    "toDoSlide2Heading":"New List",
+    "toDoSlide3Heading":"Notification",
+    "toDoSlide1Description":"The To Do App initial view where users view tips on how to use the app and add a first list",
+    "toDoSlide2Description":"A new list of to-dos have been added",
+    "toDoSlide3Description":"When the user leaves the input fieled blank and tries to add a new task, an notification message appears",
+
+
     "menu":{
         "aboutMenu" : "About",
         "projectsMenu": "Projects", 

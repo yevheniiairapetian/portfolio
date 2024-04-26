@@ -9,9 +9,10 @@ import React from "react";
 import OwritePicture1 from "./img/owrite-case-hero-image-1.png";
 import OwritePicture2 from "./img/owrite-case-hero-image-2.png";
 import sliderCSS from "./css/slider.css";
-
+import { useTranslation } from 'react-i18next';
 
 export const OwriteCaseSlider = () => {
+  const { t } = useTranslation();
   return (
     <Container>
         <Row>
@@ -21,8 +22,8 @@ export const OwriteCaseSlider = () => {
       <Carousel.Item>
         <Image className="r3play-image" src={OwritePicture2} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Welcome Screen</h3>
-          <cite>The Owrite App Welcome screen where users can pick a theme and enter the chat room
+          <h3 className="r3play-carousel-heading">{t("owriteSlide1Heading")}</h3>
+          <cite>{t("owriteSlide1Description")}
                                                         </cite>
                                                         
         </Carousel.Caption>
@@ -31,8 +32,8 @@ export const OwriteCaseSlider = () => {
         <Image className="r3play-image" src={OwritePicture1} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Chat Screen</h3>
-          <cite>The Owrite App Chat screen where users can chat, including sending audio and image files
+          <h3 className="r3play-carousel-heading">{t("owriteSlide2Heading")}</h3>
+          <cite>{t("owriteSlide2Description")}
                                                         
                                                         </cite>
                                                         

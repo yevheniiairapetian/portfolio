@@ -223,7 +223,46 @@
 "r3playSlide1Description": "La vista di accesso all'app R3play in cui gli utenti possono accedere all'app",
 "r3playSlide2Description": "La visualizzazione filmato dell'app R3play che visualizza un elenco di filmati disponibili nell'app",
 "r3playSlide3Description": "La visualizzazione del profilo dell'app R3play in cui gli utenti possono modificare le informazioni del proprio account",  
-    
+   
+
+"myFlixSlide1Heading":"Vista accesso",
+"myFlixSlide2Heading":"Visualizzazione filmato",
+"myFlixSlide3Heading": "Vista profilo",
+"myFlixSlide1Description": "La vista di accesso all'app MyFlix in cui gli utenti possono accedere all'app",
+"myFlixSlide2Description": "La visualizzazione dei filmati dell'app MyFlix che visualizza un elenco di filmati disponibili nell'app",
+"myFlixSlide3Description": "La visualizzazione del profilo dell'app MyFlix in cui gli utenti possono modificare le informazioni del proprio account",
+
+
+"meetSlide1Heading": "Interfaccia generale",
+"meetSlide2Heading": "Errori e avvisi",
+"meetSlide3Heading":"Dettagli evento",
+"meetSlide1Description": "Gli eventi dell'app Meet caricati nell'app con i campi del modulo che consentono di regolare i risultati",
+"meetSlide2Description": "La schermata degli eventi dell'app Meet è stata dimostrata con avvisi ed errori dovuti ai dati errati inseriti",
+"meetSlide3Description": "La schermata eventi dell'app Meet con una scheda eventi espansa",
+
+
+"owriteSlide1Heading": "Schermata di benvenuto",
+"owriteSlide2Heading": "Schermata chat",
+"owriteSlide1Description": "La schermata di benvenuto dell'app Owrite in cui gli utenti possono scegliere un tema ed entrare nella chat room",
+"owriteSlide2Description": "La schermata di chat dell'app Owrite in cui gli utenti possono chattare, incluso l'invio di file audio e immagini",
+
+
+"pokemonSlide1Heading": "Messaggio di benvenuto",
+"pokemonSlide2Heading": "Risultati Pokemon",
+"pokemonSlide3Heading": "Carta Pokemon",
+"pokemonSlide1Description": "La pagina principale dell'app Pokemon con un messaggio di benvenuto",
+"pokemonSlide2Description": "L'App Pokemon filtrata Pokemon risultati visualizzati come un elenco",
+"pokemonSlide3Description": "La carta Pokemon con i dati che l'utente può vedere cliccando su un nome Pokemon",
+
+
+"toDoSlide1Heading": "Vista iniziale",
+"toDoSlide2Heading": "Nuovo elenco",
+"toDoSlide3Heading":"Notifica",
+"toDoSlide1Description": "La vista iniziale dell'app da fare in cui gli utenti visualizzano suggerimenti su come utilizzare l'app e aggiungere un primo elenco",
+"toDoSlide2Description":"È stato aggiunto un nuovo elenco di cose da fare",
+"toDoSlide3Description": "Quando l'utente lascia vuoto l'input fieled e tenta di aggiungere una nuova attività, viene visualizzato un messaggio di notifica",
+
+
 "menu": {
   "aboutMenu":"Informazioni",
   "projectsMenu":"Progetti",

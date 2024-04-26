@@ -10,9 +10,10 @@ import MeetPicture1 from "./img/meet-retrospective-1.png";
 import MeetPicture2 from "./img/meet-retrospective-2.png";
 import MeetPicture3 from "./img/meet-retrospective-3.png";
 import sliderCSS from "./css/slider.css";
-
+import { useTranslation } from 'react-i18next';
 
 export const MeetCaseSlider = () => {
+  const { t } = useTranslation();
   return (
     <Container>
       <Row>
@@ -24,8 +25,8 @@ export const MeetCaseSlider = () => {
               <Image className="r3play-image" src={MeetPicture1} text="First slide" />
 
               <Carousel.Caption className="r3play-carousel-caption">
-                <h3 className="r3play-carousel-heading">General interface</h3>
-                <cite>The Meet App events loaded in the app with the form fields allowing to adjust the results
+                <h3 className="r3play-carousel-heading">{t("meetSlide1Heading")}</h3>
+                <cite>{t("meetSlide1Description")}
 
                 </cite>
                </Carousel.Caption>
@@ -36,9 +37,9 @@ export const MeetCaseSlider = () => {
             <Carousel.Item>
               <Image className="r3play-image" src={MeetPicture2} text="Third slide" />
               <Carousel.Caption className="r3play-carousel-caption">
-                <h3 className="r3play-carousel-heading">Errors and Warnings</h3>
-                <cite>
-                  The Meet App events screen demonstrated with warnings and errors due to the incorrect data entered
+                <h3 className="r3play-carousel-heading">{t("meetSlide1Heading")}</h3>
+                <cite>{t("meetSlide1Description")}
+                 
 
                 </cite>
 
@@ -48,8 +49,8 @@ export const MeetCaseSlider = () => {
                 <Carousel.Item>
                   <Image className="r3play-image" src={MeetPicture3} text="Second slide" />
                   <Carousel.Caption className="r3play-carousel-caption">
-                    <h3 className="r3play-carousel-heading">Event details</h3>
-                    <cite>The Meet App events screen with an events card expanded
+                    <h3 className="r3play-carousel-heading">{t("meetSlide1Heading")}</h3>
+                    <cite>{t("meetSlide1Description")}
                     </cite>
 
                   </Carousel.Caption>

@@ -10,9 +10,10 @@ import MyFlixPicture1 from "./img/myFlix-retrospective-1.png";
 import MyFlixPicture2 from "./img/myFlix-retrospective-2.png";
 import MyFlixPicture3 from "./img/myFlix-retrospective-3.png";
 import sliderCSS from "./css/slider.css";
-
+import { useTranslation } from 'react-i18next';
 
 export const MyFlixCaseSlider = () => {
+  const { t } = useTranslation();
   return (
     <Container>
         <Row>
@@ -22,8 +23,8 @@ export const MyFlixCaseSlider = () => {
       <Carousel.Item>
         <Image className="r3play-image" src={MyFlixPicture1} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Login View</h3>
-          <cite>The MyFlix App login view where users can log in to the app
+          <h3 className="r3play-carousel-heading">{t("myFlixSlide1Heading")}</h3>
+          <cite>{t("myFlixSlide1Description")}
                                                         </cite>
                                                         
         </Carousel.Caption>
@@ -32,8 +33,8 @@ export const MyFlixCaseSlider = () => {
         <Image className="r3play-image" src={MyFlixPicture2} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Movie View</h3>
-          <cite>The MyFlix App movie view that displays a list of movies available in the app
+          <h3 className="r3play-carousel-heading">{t("myFlixSlide2Heading")}</h3>
+          <cite>{t("myFlixSlide2Description")}
                                                         
                                                         </cite>
                                                         
@@ -44,9 +45,9 @@ export const MyFlixCaseSlider = () => {
       <Carousel.Item>
         <Image className="r3play-image" src={MyFlixPicture3} text="Third slide" />
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Profile View</h3>
+          <h3 className="r3play-carousel-heading">{t("myFlixSlide3Heading")}</h3>
           <cite>
-          The MyFlix App profile view where users can alter their account information
+          {t("myFlixSlide3Description")}
           
           </cite>
           

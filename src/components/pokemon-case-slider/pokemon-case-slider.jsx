@@ -10,9 +10,10 @@ import PokemonPicture1 from "./img/pokemon-case-retrospective-image-1.png";
 import PokemonPicture2 from "./img/pokemon-case-retrospective-image-2.png";
 import PokemonPicture3 from "./img/pokemon-case-retrospective-image-3.png";
 import sliderCSS from "./css/slider.css";
-
+import { useTranslation } from 'react-i18next';
 
 export const PokemonCaseSlider = () => {
+  const { t } = useTranslation();
   return (
     <Container>
         <Row>
@@ -22,8 +23,8 @@ export const PokemonCaseSlider = () => {
       <Carousel.Item>
         <Image className="r3play-image" src={PokemonPicture1} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Welcome Message</h3>
-          <cite>The Pokemon App main page with a welcome message
+          <h3 className="r3play-carousel-heading">{t("pokemonSlide1Heading")}</h3>
+          <cite>{t("pokemonSlide1Description")}
                                                         </cite>
                                                         
         </Carousel.Caption>
@@ -32,8 +33,8 @@ export const PokemonCaseSlider = () => {
         <Image className="r3play-image" src={PokemonPicture2} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Pokemon results</h3>
-          <cite>The Pokemon App filtered Pokemon results displayed as a list
+          <h3 className="r3play-carousel-heading">{t("pokemonSlide2Heading")}</h3>
+          <cite>{t("pokemonSlide2Description")}
                                                         
                                                         </cite>
                                                         
@@ -44,9 +45,9 @@ export const PokemonCaseSlider = () => {
       <Carousel.Item>
         <Image className="r3play-image" src={PokemonPicture3} text="Third slide" />
         <Carousel.Caption className="r3play-carousel-caption">
-          <h3 className="r3play-carousel-heading">Pokemon card</h3>
-          <cite>
-          The Pokemon card with data that the user can see upon clicking on a Pokemon name
+          <h3 className="r3play-carousel-heading">{t("pokemonSlide3Heading")}</h3>
+          <cite>{t("pokemonSlide3Description")}
+          
           
           </cite>
           
