@@ -48,6 +48,9 @@
     "contactFormTip":"标有星号的字段为必填项",
     "contactFormPoweredBy":"由 FormBold 提供",
 
+    "caseDatabase":"数据库",
+    "caseApi":"API", 
+    "caseInterface":"应用程序界面",
     "caseTDD":"测试驱动开发",
     "caseServerAndApi":"服务器端和API",
     "caseAgile":"敏捷工作流",
@@ -118,10 +121,71 @@
     "meetMainTakeaway2":"了解更多关于数据可视化的信息",
 
 
+
+    "owriteCaseHeading":"Owrite应用案例研究",
+    "owriteCaseIntroduction":"OWrite是一个React Native实时聊天应用程序，应用程序本身使用React Native，Expo CLI，accessibility guidelines和Android Studio开发，数据库使用Google Firebase和Firestore开发。 它为用户提供实时聊天功能，包括通过AsyncStorage查看消息历史记录，发送消息，照片，录音和地理位置数据。 用户可以设置他们的用户名和选择应用程序的背景颜色。",
+    "Owritecaserequired":"OWrite是我在CareerFoundry全栈沉浸式课程中开发的一个必修项目，旨在展示我使用React Native、Expo CLI、Android Studio和Google Firebase/Firestore开发本机应用程序的掌握情况。",
+    "owriteCaseAim":"该项目旨在开发一个功能齐全的本地应用程序，我可以将其添加到我的专业产品组合中。 我想要解决的问题是通过将Google Firebase/Firestore数据库连接到使用React Native设计的应用程序界面来构建完整的本机应用程序。",
+    "owriteCaseAboutDatabase":"我使用Google Firebase开发了数据库，用于存储测试所需的两个用户。 后来，我使用Google Firestore来包含用户的聊天数据。",
+    "owriteCaseAboutInterface":"对于界面，android Studio和Expo Go Android应用程序被合并用于测试目的。 React Native用于设计两个应用程序屏幕：欢迎屏幕和聊天屏幕。 欢迎屏幕根据React Native建议设计了可访问的元素，允许设置用户名并为聊天屏幕选择背景颜色。 聊天屏幕显示用户的姓名、消息历史记录、文本字段以及包含其他文件选项的菜单。 为了开发所需的功能，我合并了诸如Gifted Chat，Expo Media，Expo Image Picker，Stack Navigation等库。 为了允许脱机使用，使用了AsyncStorage。",
+    "owriteCaseAboutServer":"创建服务器逻辑始于在Google Firebase设置帐户并对其进行配置。 然后我继续将Google Firebase配置设置添加到代码库。",
+    "owriteCaseConclusionData":"OWrite应用程序是我在全栈web开发课程中完成的倒数第二个项目。 完成后，我专注于进一步提高我的开发技能，特别是在我的技能集，Angular和Material UI中分别添加另一个前端框架和设计系统。 下一个项目需要重新创建r3play API的前端，这次使用Angular和Material UI。",
+    "owriteCaseDurationData":"1周",
+    "owriteCaseChallenge1":"我在这个项目中遇到的挑战更多地与课程时间表本身有关，而不是代码库的实际工作。 如前所述，由于我付出了额外的努力来改进R3play API和应用程序，因此它为沉浸式课程的结束留下了更少的时间。 因此，我不得不计划我的时间表，以按时完成项目，并只专注于所需和推荐的功能。",
+    "owriteCaseChallenge2":"我特别喜欢开发这个应用程序，因为我一直想深入本机应用程序开发，而反应本机在我的清单上。 此外，很高兴知道以前获得的技能（时间管理和优先级排序）帮助我非常快地完成项目，并将新的本地开发技能添加到我的工具箱中。",
+    "owriteMainTakeaway1":"实践在辅助项目上创建实时应用程序",
+    "owriteMainTakeaway2":"了解更多关于原生应用开发的信息",
+    
+    
+    "pokedexLink":"Pokedexapi",
+    "pokemonCaseHeading":"口袋妖怪应用案例研究",
+    "pokemonCaseIntroduction":"口袋妖怪应用程序是一个web应用程序，使用HTML，CSS，Javascript和Bootstrap开发。 它为用户提供有关从Pokedex API获取的口袋妖怪的信息。 用户可以访问有关宠物小精灵ID，身高和体重的信息，查看宠物小精灵的正面和背面图像，并按名称搜索宠物小精灵。",
+    "pokemonCaseRequired":"Pokemon应用程序是我在CareerFoundry全栈沉浸式课程中开发的一个必需项目，以展示我对使用JavaScript和Bootstrap进行web开发的掌握。",
+    "pokemonCaseAim":"该项目旨在开发一个功能齐全的应用程序，我可以将其添加到我的专业产品组合中。 我想要解决的问题是通过使用外部API和流行的CSS框架来构建和样式化web应用程序。",
+    "pokemonCaseAboutApi":"我使用Pokedex API作为项目所需依赖项的一部分，为应用程序提供有关Pokemon的各种信息。 为此，使用Javascript promise来处理向/来自Pokedex API的异步请求和响应。",
+    "pokemonCaseAboutClient":"完成应用程序的逻辑部分后，我通过将Bootstrap纳入项目所需的CSS框架，开始了样式化阶段。 任务是使用Bootstrap的网格、类和组件来实现所需的功能和响应能力。 最后，我使用设备/系统仿真器在各种屏幕，设备和操作系统上测试了应用程序。",
+    "pokemonCaseConclusionData":"口袋妖怪应用程序是第一个全栈沉浸式课程项目。 当它完成后，我专注于提高我的开发技能，特别是潜入节点。js，Express和Api。 设计我自己的API是进一步掌握关键的后端web开发技能的有用和重要的一步。",
+    "pokemonCaseDurationData":"4周",
+    "pokemonCaseChallenge1":"需要使用异步Javascript的部分是最耗时的，而样式设计的工作相对容易。 总的来说，我花了1个月的时间完成了这个项目，这大约是平均花费的时间。 首先，我在显示Pokedex文档中描述的特定口袋妖怪信息时遇到了困难。 此外，当数据没有显示在前端时，我必须解决问题。",
+    "pokemonCaseChallenge2":"尽管如此，这是一个有趣且相对容易的项目。 通过学习AJAX，我很喜欢深入了解Javascript的基础知识。 在Bootstrap的帮助下学习造型也是一种激励。 我还很快获得了使用Javascript承诺和Api、阅读文档、使用CSS框架样式和故障排除等方面的有用技能。 谢天谢地，我的导师和导师在项目期间帮助了我，我能够在以后实现应用程序的附加功能时应用所获得的技能。",
+    "pokemonMainTakeaway1":"通过练习和使用外部教育资源来提高调试技能。",
+    "pokemonMainTakeaway2":"即使出现暂时的教育困难，也要保持动力。",
+    "pokemonMainTakeaway3":"改善有关休息时间的数字自我照顾",
+    
+    
+    
+    
+    "toDoCaseHeading":"做App案例研究",
+    "toDoCaseIntroduction":"待办事项应用程序是一个响应式web应用程序，使用HTML，Bootstrap和Javascript开发，并为用户提供管理其待办事项的能力。 用户可以在其他功能中添加和删除他们的待办事项。",
+    "toDoCaseRequired":"待办事项应用程序是我在CareerFoundry的全栈沉浸式课程中开发的一个必需的迷你项目，以展示我对jQuery的掌握。",
+    "toDoCaseAim":"该项目旨在设计一个功能齐全的web应用程序，我可以将其添加到我的专业产品组合中。 我想解决的问题是将纯Javascript转换为jQuery。",
+    "toDoCaseAboutClient":"在收到具有基本应用程序功能的初始纯Javascript代码后，我开始将其转换为jQuery代码。 这种类型的工作使我能够引入额外的功能和风格。",
+    "toDoCaseConclusionData":"待办事项列表应用程序只是我在全栈沉浸课程中做的一个侧面迷你项目，但我喜欢在基本要求之上添加新功能和样式。 它迅速增强了我在jQuery、引导、调试和使用其他库方面的技能。",
+    "toDoCaseDurationData":"所需功能1天，附加功能约3周",
+    "toDoCaseChallenge1":"应用程序基本功能的开发没有造成任何困难，我在1天内完成了任务。 但是，我对它的功能不满意，并决定寻找额外的时间来添加改进。 这些添加导致了大量的调试，因为不同的jQuery库不能很好地协同工作，正如我计划的那样。 谢天谢地，我的导师和导师帮助我解决了这项工作。 在引入额外功能之前，应用程序可以：",
+    "toDoCaseChallenge2":"有了新功能，它可以：",
+    "toDoMainTakeaway1":"提升引导技能",
+    "toDoMainTakeaway2":"学习调试技巧",
+    "toDoMainTakeaway3":"稍后扩展应用程序的功能",
+    "toDoBeforeFeature1":"添加/删除到-dos",
+    "toDoBeforeFeature2":"在桌面上重新排列to-dos",
+    "toDoBeforeFeature3":"跨出到dos",
+    "toDoBeforeFeature4":"显示内置浏览器警报通知",
+    "toDoAfterFeature1":"添加/删除待办事项列表",
+    "toDoAfterFeature2":"在待办事项列表中添加/删除待办事项（包括在键盘上按\"Enter\"）",
+    "toDoAfterFeature3":"清除输入字段",
+    "toDoAfterFeature4":"借助jQuery Mobile和jQuery Touch Punch在移动端重新排列和划掉to-dos",
+    "toDoAfterFeature5":"在Bootstrap和jQuery UI的帮助下显示更漂亮的通知",
+    "toDoAfterFeature6":"查看如何在引导的帮助下在不同平台上使用应用程序的指南",
+
+
     "notFound":"我们找不到您要找的资源。",
     "returnHomeParagraph":"但你可以随时回到 ",
     "returnHomeLink":"主页",
-
+    
+    "externalApiSkill":"外部API",
+    "nativeSkill":"原生应用开发",
+    "troubleshootingSkill":"疑难解答",
     "TDDSkill":"测试驱动开发",
     "kanbanSkill":"看板",
     "agileSkill":"敏捷工作流",
