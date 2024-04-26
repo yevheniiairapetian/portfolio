@@ -47,6 +47,9 @@
     "messageOrCommentPlaceholder":"Il tuo messaggio",
     "contactFormTip":"I campi contrassegnati con l'asterisco sono obbligatori",
     "contactFormPoweredBy":"Alimentato da",
+    "caseDatabase":"Database",
+    "caseApi": "API",
+    "caseInterface":"Interfaccia app",
     "caseTDD":"Sviluppo guidato da test",
     "caseServerAndApi":"Lato server e API",
     "caseAgile":"Flusso di lavoro agile",
@@ -120,13 +123,72 @@
 "meetMainTakeaway2": "Scopri di più sulla visualizzazione dei dati",
 
 
+"owriteCaseHeading": "Caso di studio dell'app Owrite",
+"owriteCaseIntroduction": "OWrite è un'applicazione di chat in tempo reale React Native, sviluppata utilizzando React Native, Expo CLI, linee guida per l'accessibilità e Android Studio per l'app stessa e Google Firebase e Firestore per il database. Fornisce agli utenti funzionalità di chat in tempo reale, tra cui la visualizzazione della cronologia dei messaggi grazie a AsyncStorage, l'invio di messaggi, foto, registrazioni audio e dati di geolocalizzazione. Gli utenti possono impostare il proprio nome utente e scegliere il colore di sfondo dell'app.",
+"owriteCaseRequired": "OWrite era un progetto richiesto che ho sviluppato come parte del mio corso full-stack immersion a CareerFoundry per dimostrare la mia padronanza dello sviluppo di app native utilizzando React Native, Expo CLI, Android Studio e Google Firebase/Firestore.",
+"owriteCaseAim": "Il progetto mirava a sviluppare un'app nativa pienamente funzionante che potessi aggiungere al mio portfolio professionale. Il problema che volevo risolvere era quello di costruire l'applicazione nativa completa collegando il database di Google Firebase/Firestore all'interfaccia dell'app progettata con React Native.",
+"owriteCaseAboutDatabase": "Ho sviluppato il database utilizzando Google Firebase per memorizzare due utenti necessari per il test. Più tardi, ho impiegato Google Firestore per contenere i dati della chat degli utenti.",
+"owriteCaseAboutInterface": "Per l'interfaccia, Android Studio e Expo Go Android App sono stati incorporati per scopi di test. React Native è stato utilizzato per progettare due schermate di app: una schermata di benvenuto e una schermata di chat. La schermata di benvenuto è stata progettata con elementi accessibili secondo le raccomandazioni di React Native, consente di impostare un nome utente e scegliere un colore di sfondo per la schermata della chat. La schermata chat visualizza il nome dell'utente, la cronologia dei messaggi, un campo di testo e un menu con opzioni di file aggiuntive. Per sviluppare le funzionalità richieste, ho incorporato librerie come Gifted Chat, Expo Media, Expo Image Picker, Stack Navigation e altre. Per consentire un utilizzo offline, è stato utilizzato AsyncStorage.",
+"owriteCaseAboutServer": "La creazione della logica del server è iniziata con la creazione di un account su Google Firebase e la configurazione. Ho proceduto quindi ad aggiungere le impostazioni di configurazione di Google Firebase alla base di codice.",
+"owriteCaseConclusionData": "L'app OWrite è stato il penultimo progetto a cui ho lavorato nel corso di sviluppo web Full-Stack. Quando è stato finito, mi sono concentrato sull'ulteriore miglioramento delle mie capacità di sviluppo, in particolare aggiungendo un altro framework front-end e un sistema di progettazione al mio skillset, Angular e Material UI rispettivamente. Il progetto successivo ha richiesto di ricreare il front-end per l'API R3play con Angular e Material UI questa volta.",
+"owriteCaseDurationData": "1 settimana",
+"owriteCaseChallenge1": "Le sfide che ho affrontato durante questo progetto erano più legate alla timeline del corso stesso che al lavoro effettivo sulla base di codice. Come accennato in precedenza, dal momento che ho dedicato uno sforzo extra per migliorare l'API e l'app R3play, ha lasciato meno tempo per la fine del corso di immersione. Di conseguenza, ho dovuto pianificare il mio programma per finire il progetto in tempo e concentrarmi solo sulle funzionalità richieste e consigliate.",
+"owriteCaseChallenge2": "Mi è piaciuto particolarmente sviluppare l'app perché ho sempre voluto immergermi nello sviluppo di app native e React Native era nella mia lista di controllo. Inoltre, è stato piacevole sapere che le competenze acquisite in precedenza (gestione del tempo e definizione delle priorità) mi hanno aiutato a completare il progetto molto rapidamente e ad aggiungere nuove competenze di sviluppo nativo alla mia cassetta degli attrezzi.",
+"owriteMainTakeaway1": "Pratica la creazione di applicazioni in tempo reale su progetti collaterali",
+"owriteMainTakeaway2": "Scopri di più sullo sviluppo di app native",
+
+
+"pokedexLink": "API Pokedex",
+"pokemonCaseHeading": "Caso di studio dell'app Pokemon",
+"pokemonCaseIntroduction": "Pokemon App è un'applicazione web, sviluppata utilizzando HTML, CSS, Javascript e Bootstrap. Esso fornisce agli utenti informazioni su Pokemon recuperato dal Pokedex API. Gli utenti possono accedere alle informazioni su ID Pokemon, altezza e peso, vedere l'immagine anteriore e posteriore di un Pokemon e cercare un Pokemon per nome.",
+"pokemonCaseRequired": "Pokemon App era un progetto richiesto che ho sviluppato come parte del mio corso full-stack immersion a CareerFoundry per dimostrare la mia padronanza dello sviluppo web utilizzando JavaScript e Bootstrap.",
+"pokemonCaseAim": "Il progetto mirava a sviluppare un'app pienamente funzionante che potessi aggiungere al mio portfolio professionale. Il problema che volevo risolvere era quello di costruire e modellare un'applicazione web utilizzando un'API esterna e un popolare framework CSS.",
+"pokemonCaseAboutApi": "Ho usato l'API Pokedex come parte delle dipendenze richieste dal progetto per fornire all'app varie informazioni su Pokemon. A questo scopo, le promesse Javascript sono state utilizzate per gestire richieste asincrone e risposte a/dall'API Pokedex.",
+"pokemonCaseAboutClient": "Dopo aver terminato la parte logica dell'app, ho iniziato la fase di stilizzazione incorporando Bootstrap come framework CSS richiesto dal progetto. Il compito era quello di utilizzare la griglia, le classi e i componenti di Bootstrap per implementare le funzionalità e la reattività richieste. Infine, ho testato l'app su vari schermi, dispositivi e sistemi operativi utilizzando gli emulatori di dispositivo/sistema.",
+"pokemonCaseConclusionData": "L'app Pokemon è stato il primo progetto di corso Full-Stack Immersion. Quando è stato finito, mi sono concentrato sul miglioramento delle mie capacità di sviluppo, in particolare immergendomi in Node.js, espresso e API. Progettare la mia API è stato un passo utile e importante per padroneggiare ulteriormente le cruciali capacità di sviluppo web di back-end.",
+"pokemonCaseDurationData":"4 settimane",
+"pokemonCaseChallenge1": "La parte che richiedeva l'uso di Javascript asincrono era la più dispendiosa in termini di tempo, mentre il lavoro sullo styling era relativamente facile. Nel complesso, mi ci sono voluti 1 mese per completare il progetto che era intorno al tempo medio trascorso. In primo luogo, ho avuto difficoltà a visualizzare le informazioni specifiche Pokemon come descritto nella documentazione Pokedex. Inoltre, ho dovuto risolvere il problema quando i dati non venivano visualizzati sul front-end.",
+"pokemonCaseChallenge2": "Tuttavia, questo è stato un progetto divertente e relativamente facile da lavorare. Mi sono divertito a immergermi nelle basi di Javascript imparando AJAX. È stato anche motivante imparare lo stile con l'aiuto di Bootstrap. Ho anche rapidamente acquisito competenze utili nel lavorare con le promesse e le API Javascript, leggendo la documentazione, disegnando con i framework CSS e risolvendo i problemi. Per fortuna, il mio mentore e tutor mi ha assistito durante il progetto e sono stato in grado di applicare le competenze acquisite in seguito quando implementavo funzionalità aggiuntive all'app.",
+"pokemonMainTakeaway1": "Migliora le abilità di debug praticando e utilizzando risorse educative esterne.",
+"pokemonMainTakeaway2": "Rimani motivato anche quando si verificano difficoltà educative temporanee.",
+"pokemonMainTakeaway3": "Migliora l'auto-cura digitale per quanto riguarda il tempo di riposo",
+
+
+
+
+"toDoCaseHeading":"Per fare caso di studio App",
+"toDoCaseIntroduction": "To-Do-List App è un'applicazione web reattiva, sviluppata utilizzando HTML, Bootstrap e Javascript e fornisce agli utenti la possibilità di gestire le loro cose da fare. Gli utenti possono aggiungere ed eliminare le loro cose da fare tra le altre caratteristiche.",
+"toDoCaseRequired": "To-Do-List App era un mini-progetto laterale richiesto che ho sviluppato come parte del mio corso full-stack immersion a CareerFoundry per dimostrare la mia padronanza di lavorare con jQuery.",
+"toDoCaseAim": "Il progetto mirava a progettare una web app pienamente funzionante che potessi aggiungere al mio portfolio professionale. Il problema che volevo risolvere era quello di trasformare il semplice Javascript in jQuery.",
+"toDoCaseAboutClient": "Dopo aver ricevuto il codice Javascript normale iniziale con funzionalità di base dell'app, ho iniziato a trasformarlo in uno jQuery. Questo tipo di lavoro mi ha permesso di introdurre funzionalità e stili aggiuntivi.",
+"toDoCaseConclusionData": "L'app To-Do-List era solo un mini-progetto laterale che ho fatto nel corso full-stack immersion ma mi sono divertito ad aggiungere nuove funzionalità e styling sopra i requisiti di base. Ha rapidamente migliorato le mie abilità in jQuery, Bootstrap, debug e lavoro con librerie aggiuntive.",
+"toDoCaseDurationData": "1 giorno per le funzionalità richieste e circa 3 settimane per le funzionalità aggiuntive",
+"toDoCaseChallenge1": "Lo sviluppo delle funzionalità di base dell'app non ha creato alcuna difficoltà e ho terminato l'attività entro 1 giorno. Tuttavia, non ero soddisfatto della funzionalità che aveva e ho deciso di trovare più tempo per aggiungere miglioramenti. Queste aggiunte hanno causato un sacco di debug perché diverse librerie jQuery non funzionavano bene insieme e come previsto. Per fortuna, il mio mentore e tutor mi ha aiutato a risolvere il lavoro. Prima di introdurre funzioni extra, l'app potrebbe:",
+"toDoCaseChallenge2": "Con le nuove funzionalità, consente di:",
+"toDoMainTakeaway1": "Migliora le abilità Bootstrap",
+"toDoMainTakeaway2": "Lavora sulle abilità di debug",
+"toDoMainTakeaway3": "Estendere le funzionalità dell'app in seguito",
+"toDoBeforeFeature1": "Aggiungi / elimina cose da fare",
+"toDoBeforeFeature2": "Riorganizzare le cose da fare sul desktop",
+"toDoBeforeFeature3": "Cross-out to-dos",
+"toDoBeforeFeature4": "Mostra le notifiche di avviso del browser integrate",
+"toDoAfterFeature1": "Aggiungi / elimina liste di cose da fare",
+"toDoAfterFeature2": "Aggiungi / elimina le cose da fare da / verso gli elenchi di cose da fare (incluso premere \"Enter\" sulla tastiera)",
+"toDoAfterFeature3": "Cancella il campo di input",
+"toDoAfterFeature4": "Riorganizzare e cross-out to-dos sul cellulare con l'aiuto di jQuery Mobile e jQuery Touch Punch",
+"toDoAfterFeature5": "Mostra notifiche più belle con l'aiuto di Bootstrap e jQuery UI",
+"toDoAfterFeature6": "Visualizza una guida su come utilizzare l'app su diverse piattaforme con l'aiuto di Bootstrap",
+
+
 "notFound": "Non siamo riusciti a trovare la risorsa che stavi cercando.",
 "returnHomeParagraph": "Ma puoi sempre tornare al",
 "returnHomeLink": "pagina iniziale",
 
 
 
-
+"externalApiSkill": "API esterna",
+"nativeSkill":"Sviluppo di app native",
+"troubleshootingSkill":"Risoluzione dei problemi",
 "TDDSkill":"Sviluppo guidato da test",
 "kanbanSkill":"Scheda Kanban",
 "agileSkill": "Flusso di lavoro agile",
