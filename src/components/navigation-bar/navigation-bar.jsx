@@ -9,7 +9,7 @@ import useDarkMode from "./../../hooks/useDarkMode";
 import navigationCSS from './css/navigation.css';
 import { Link } from "react-router-dom";
 import $ from 'jquery';
-import { faGlobe, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faLightbulb, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const NavigationBar = () => {
@@ -174,9 +174,9 @@ export const NavigationBar = () => {
 
 						<button className="toggle_btn pl-3" onClick={() => setDarkMode(!isDarkMode)}>
           {isDarkMode ? (
-            <FontAwesomeIcon className="sun" title="Switch to light mode"  icon={faSun} spin style={{color: "#FFD43B", "--fa-animation-iteration-count": "1"}} />
+            <FontAwesomeIcon className="sun" title={t("themeSwitcherLightHint")}  icon={faLightbulb} beatFade style={{color: "#FFD43B", "--fa-animation-iteration-count": "1"}} />
           ) : (
-            <FontAwesomeIcon className="moon" title="Switch to dark mode" icon={faMoon} fade style={{color: "#000000", "--fa-animation-iteration-count": "2"}} />
+            <FontAwesomeIcon className="moon" title={t("themeSwitcherDarkHint")} icon={faLightbulb} beatFade style={{color: "#000000", "--fa-animation-iteration-count": "2"}} />
           )}
         </button>
 

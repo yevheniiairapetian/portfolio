@@ -1,6 +1,8 @@
 {
   "app_title": "Yevhenii Airapetian - Портфолио",
   "languages": "Јазици",
+  "themeSwitcherLightHint":"Кликни тука ве молиме да се префрлите на темата на светлината",
+    "themeSwitcherDarkHint":"Кликнете овде ве молиме да се префрлите на темната тема",
     "welcome text": "Здраво, јас сум Евгениј!",
     "resume": "ЦВ",
     "introduction":"Јас сум веб развивач со страст кон технологијата",
