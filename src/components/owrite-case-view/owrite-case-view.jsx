@@ -89,7 +89,7 @@ export const OwriteCaseView = () => {
         <h2 className="credits r3play-headings text-center fade-in-up-on-scroll">{t("caseCredits")}</h2>
         <p className="fade-in-up-on-scroll">{t("caseLead")}</p>
         <p>{t("caseTutor")} <br/><a className="deployed-link fade-in-up-on-scroll" target="_blank"
-                        href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">{t("caseTutor1")}</a>
+                        href="https://www.linkedin.com/in/tonny-ntambaazi-97275bb2/">{t("caseTutor2")}</a>
         </p>
         <p>{t("caseMentor")} <br/><a className="deployed-link fade-in-up-on-scroll" target="_blank"
                         href="https://www.linkedin.com/in/nizartriki/">{t("caseMentor2")}</a>
