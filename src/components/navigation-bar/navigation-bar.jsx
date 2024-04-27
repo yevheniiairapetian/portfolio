@@ -9,7 +9,7 @@ import useDarkMode from "./../../hooks/useDarkMode";
 import navigationCSS from './css/navigation.css';
 import { Link } from "react-router-dom";
 import $ from 'jquery';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const NavigationBar = () => {
@@ -153,7 +153,7 @@ export const NavigationBar = () => {
 
 
 
-						<div className="switcher">
+						<div className="switcher pl-3">
 							{/* Language switch dropdown here */}
 							
 							<span>
@@ -174,9 +174,9 @@ export const NavigationBar = () => {
 
 						<button className="toggle_btn pl-3" onClick={() => setDarkMode(!isDarkMode)}>
           {isDarkMode ? (
-            <BsSun color="#ff0" size="25" title="Switch to light mode" />
+            <FontAwesomeIcon className="sun" title="Switch to light mode"  icon={faSun} spin style={{color: "#FFD43B", "--fa-animation-iteration-count": "1"}} />
           ) : (
-            <BsMoon size="25" title="Switch to dark mode" />
+            <FontAwesomeIcon className="moon" title="Switch to dark mode" icon={faMoon} fade style={{color: "#000000", "--fa-animation-iteration-count": "2"}} />
           )}
         </button>
 

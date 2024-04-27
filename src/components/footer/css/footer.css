@@ -1,4 +1,23 @@
 .main-footer {
+    /* margin: 1rem auto; */
+    /* max-width: 800px; */
+    /* background-color: #529fcc; */
+    color: #000;
+    --button-text: #000;
+    --button-bg: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .main-footer.dark {
+    background-color: #424242;
+    color: #fff;
+    --button-text: #fff;
+    --button-bg: transparent;
+    transition: background-color 0.3s ease;
+  }
+
+
+.main-footer {
     font-family: "Montserrat", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13,7 +32,7 @@
     margin-top: auto;
     background-color: #529fcc;
     padding-bottom: 16px;
-    color: white;
+    /* color: white; */
     height:150px;
     /* padding-top:26px; */
     margin-top:96px;

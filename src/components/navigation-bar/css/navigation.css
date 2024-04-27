@@ -5,6 +5,7 @@ body {
     color: #000;
     --button-text: #000;
     --button-bg: transparent;
+    transition: background-color 0.3s ease;
   }
   
   body.dark {
@@ -12,7 +13,9 @@ body {
     color: #fff;
     --button-text: #fff;
     --button-bg: transparent;
+    transition: background-color 0.3s ease;
   }
+  
 
   nav.page-header{
     background-color: #529fcc;
@@ -104,6 +107,27 @@ body {
     padding-left:14px;
 }
 
+button.toggle_btn{
+    /* padding-left:0px; */
+    margin-top:3px;
+}
+
+.moon{
+    /* width:17px; */
+    /* height:24px; */
+    font-size:24px;
+    margin-left:10px;
+    
+}
+
+.sun{
+    /* width:27px; */
+    /* height:24px; */
+    font-size:24px;
+     margin-left:10px;
+     
+}
+
 @media screen and (max-width:991px){
     .fa-globe{
         padding-left:0px;
@@ -111,5 +135,20 @@ body {
     button.toggle_btn{
         padding-left:0px;
         padding-top:10px;
+        width:24px;
+    }
+
+    div.switcher{
+        padding-left: 0;
+    }
+
+    .moon{
+        font-size:24px;
+        margin-left:0;
+    }
+    
+    .sun{
+        font-size:24px;
+        margin-left:0;
     }
 }
