@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { Navbar, Container, Row, Col, Nav, Image } from "react-bootstrap";
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import { BsMoon, BsSun } from "react-icons/bs";
 import Cookies from "js-cookie";
 
 import { useState, useEffect } from "react";
-
+import useDarkMode from "./../../hooks/useDarkMode";
 import navigationCSS from './css/navigation.css';
 import { Link } from "react-router-dom";
 import $ from 'jquery';
@@ -13,6 +13,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const NavigationBar = () => {
+	const [isDarkMode, setDarkMode] = useDarkMode();
 	const { t, i18n } = useTranslation();
 
 	function showMenuDownloadLinks() {
@@ -77,7 +78,7 @@ export const NavigationBar = () => {
 
 		<Navbar onClick={() => { closeMenuDownloadLinks() }} className="page-header" expand="lg" id="navigation">
 			<Container className="navigation">
-				<Navbar.Brand className="p-2" as={Link} to="/" expand="lg">
+				<Navbar.Brand className="p-2 brand" as={Link} to="/" expand="lg">
 					{/* <Nav.Link className="" as={Link} to='/'> */}
 					<Image className="img-responsive logo" alt="logo" src={"../../logo.svg"} />
 					{/* </Nav.Link> */}
@@ -171,7 +172,13 @@ export const NavigationBar = () => {
 						</div>
 
 
-
+						<button className="toggle_btn pl-3" onClick={() => setDarkMode(!isDarkMode)}>
+          {isDarkMode ? (
+            <BsSun color="#ff0" size="25" title="Switch to light mode" />
+          ) : (
+            <BsMoon size="25" title="Switch to dark mode" />
+          )}
+        </button>
 
 					</Nav>
 				</Navbar.Collapse>

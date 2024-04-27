@@ -69,11 +69,11 @@ export const R3playCaseView = () => {
                                                         <li data-icon="&#9745; ">{t("r3playMainTakeaway4")}</li></ul>
 
 
-                                                <h2 className="video-image-heading fade-in-up-on-scroll">{t("caseApiPreview")}
+                                                <h2 className="video-image-heading fade-in-up-on-scroll">{t("apiPreview")}
                                                 </h2>
                                                 <iframe title="vimeo-player" src="https://player.vimeo.com/video/937369818?h=28da240343" width="100%" height="460" frameborder="0" allowfullscreen></iframe>
 
-                                                <h2 className="video-image-heading fade-in-up-on-scroll fade-in-up-on-scroll">{t("caseAppPreview")}
+                                                <h2 className="video-image-heading fade-in-up-on-scroll fade-in-up-on-scroll">{t("appPreview")}
                                                 </h2>
 
 

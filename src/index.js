@@ -12,6 +12,7 @@ import { faArrowUpRightFromSquare, faSpinner} from '@fortawesome/free-solid-svg-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Row, Col } from 'react-bootstrap';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
