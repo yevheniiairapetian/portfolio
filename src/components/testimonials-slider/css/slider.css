@@ -35,7 +35,8 @@ img.testim-image{
     transition: font-size 200ms ease-in-out;
 } */
 
-.carousel-caption:hover{
+.carousel-caption:hover,
+    .carousel-caption:active{
     font-size:16px;
     transition: font-size 200ms ease-in-out;
 }
@@ -69,7 +70,8 @@ bottom:-20px !important;
         right:0;
         /* opacity:0; */
     }
-    .carousel-caption:hover{
+    .carousel-caption:hover,
+        .carousel-caption:active{
         font-size:12px;
         /* opacity:0.9; */
         /* -webkit-transition: all 0.2s ease-in-out;
@@ -97,7 +99,8 @@ bottom:-20px !important;
         right:0;
         opacity:0;
     }
-    .carousel-caption:hover{
+    .carousel-caption:hover,
+        .carousel-caption:active{
         font-size:12px;
         opacity:0.9;
         -webkit-transition: all 0.2s ease-in-out;

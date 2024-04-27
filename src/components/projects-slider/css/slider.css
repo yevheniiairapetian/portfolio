@@ -37,7 +37,8 @@ div.projects-carousel-caption{
     transition: font-size 200ms ease-in-out;
 } */
 
-.projects-carousel-caption:hover{
+.projects-carousel-caption:hover,
+    .projects-carousel-caption:active{
     font-size:18px;
     transition: font-size 200ms ease-in-out;
     opacity:0.9;
@@ -109,7 +110,8 @@ bottom:-20px !important;
         left:0;
         right:0;
     }
-    div.projects-carousel-caption:hover{
+    div.projects-carousel-caption:hover,
+        div.projects-carousel-caption:active{
         font-size:14px;
         -webkit-transition:font-size 0.2s ease-in-out;
     -o-transition:font-size 0.2s ease-in-out;
@@ -160,7 +162,8 @@ bottom:-20px !important;
         left:0;
         right:0;
     }
-    div.projects-carousel-caption:hover{
+    div.projects-carousel-caption:hover,
+        div.projects-carousel-caption:active{
         opacity:0.9;
         -webkit-transition: opacity 0.2s ease-in-out;
     -o-transition: opacity 0.2s ease-in-out;
