@@ -1,6 +1,8 @@
 {
     "app_title": "Yevhenii Airapetian - Portfolio",
     "languages": "Languages",
+    "themeSwitcherLightHint":"Click here please to switch to the light theme",
+    "themeSwitcherDarkHint":"Click here please to switch to the dark theme",
     "welcome text": "Hi, I'm Yevhenii!",
     "resume": "Resume",
     "introduction":"I'm a web developer passionate about technology",

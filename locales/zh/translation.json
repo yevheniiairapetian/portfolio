@@ -1,6 +1,8 @@
 {
 "app_title": "Yevhenii Airapetian - 投资组合",
 "languages": "语言",
+"themeSwitcherLightHint":"点击这里请切换到灯光主题",
+    "themeSwitcherDarkHint":"点击这里请切换到黑暗主题",
     "welcome text": "你好，我是叶夫根尼",
     "resume": "简历",
     "introduction":"我是一名对技术充满热情的网络开发人员",

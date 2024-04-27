@@ -1,6 +1,8 @@
 {
     "app_title": "Yevhenii Airapetian - Portafolio",
     "languages": "lenguas",
+    "themeSwitcherLightHint": "Haga clic aquí para cambiar al tema de la luz",
+    "themeSwitcherDarkHint": "Haga clic aquí para cambiar al tema oscuro",
     "welcome text": "Hola, soy Yevhenii",
     "resume": "Currículum",
     "introduction": "Soy un desarrollador web apasionado por la tecnología",
