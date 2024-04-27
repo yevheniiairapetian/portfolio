@@ -110,5 +110,6 @@ body {
     }
     button.toggle_btn{
         padding-left:0px;
+        padding-top:10px;
     }
 }
