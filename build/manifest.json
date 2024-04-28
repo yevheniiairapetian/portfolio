@@ -18,8 +18,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "http://yevheniiairapetian.github.io",
+  "start_url": "https://yevheniiairapetian.com/#/",
   "display": "standalone",
+  "description": "Yevhenii Airapetian's portfolio",
   "theme_color": "#000000",
   "background_color": "#529fcc"
 }
