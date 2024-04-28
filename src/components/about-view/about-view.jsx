@@ -2,10 +2,8 @@ import { Navbar, Button, Container, Row, Col, Nav, Image } from "react-bootstrap
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
 import aboutCSS from './css/about.css';
-import profileImg from "./img/yevhenii_airapetian_profile_picture.jpg";
-// import ukraineImg from "./img/ukraine.svg";
-// import usImg from "./img/united-states.svg";
-// import deImg from "./img/germany.svg";
+import profileImg from "./img/yevhenii_airapetian_profile_picture.webp";
+
 import uaCV from "./img/Yevhenii-Airapetian-UK.pdf";
 import usCV from "./img/Yevhenii-Airapetian-EN.pdf";
 import deCV from "./img/Yevhenii-Airapetian-DE.pdf";
