@@ -56,7 +56,7 @@ a.check-out {
   /* margin-top: 10px; */
   /* margin-right: 8px; */
   /* display: inline-block; */
-  background: hsla(202, 54%, 56%, 1);
+  background: #529fcc;
   background: -webkit-gradient(linear, left top, right top, color-stop(20%, var(--CheckGradColor1)), to(var(--CheckGradColor2)));
   background: -o-linear-gradient(left, var(--CheckGradColor1) 20%, var(--CheckGradColor2) 100%);
   background: linear-gradient(90deg, var(--CheckGradColor1) 20%, var(--CheckGradColor2) 100%);
@@ -71,7 +71,7 @@ a.check-out {
 a.check-out:hover {
     
     /* padding-bottom: 6px; */
-    background: hsla(190, 79%, 27%, 1);
+    background: #0e697b;
     background: -webkit-gradient(linear, left top, right top, color-stop(20%, var(--CheckGradColor2)), to(var(--CheckGradColor1)));
     background: -o-linear-gradient(left, var(--CheckGradColor2) 20%, var(--CheckGradColor1) 100%);
     background: linear-gradient(90deg, var(--CheckGradColor2) 20%, var(--CheckGradColor1) 100%);
@@ -89,7 +89,7 @@ button.resume {
     /* margin-top: 10px; */
     /* margin-left: 8px; */
     /* display: inline-block; */
-    background: hsla(0, 100%, 100%, 1);
+    background: #ffffff;
     background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor1)), to(var(--ResumeGradColor2)));
     background: -o-linear-gradient(left, var(--ResumeGradColor1) 30%, var(--ResumeGradColor2) 100%);
     background: linear-gradient(90deg, var(--ResumeGradColor1) 30%, var(--ResumeGradColor2) 100%);
@@ -105,7 +105,7 @@ button.resume {
 
 button.resume:hover {
     /* padding-bottom: 6px; */
-    background: hsla(0, 0%, 7%, 1);
+    background: #121212;
     background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor2)), to(var(--ResumeGradColor1)));
     background: -o-linear-gradient(left, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
     background: linear-gradient(90deg, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
