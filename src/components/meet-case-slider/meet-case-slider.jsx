@@ -37,8 +37,8 @@ export const MeetCaseSlider = () => {
             <Carousel.Item>
               <Image className="r3play-image" src={MeetPicture2} text="Third slide" />
               <Carousel.Caption className="r3play-carousel-caption">
-                <h3 className="r3play-carousel-heading">{t("meetSlide1Heading")}</h3>
-                <cite>{t("meetSlide1Description")}
+                <h3 className="r3play-carousel-heading">{t("meetSlide2Heading")}</h3>
+                <cite>{t("meetSlide2Description")}
                  
 
                 </cite>
@@ -49,8 +49,8 @@ export const MeetCaseSlider = () => {
                 <Carousel.Item>
                   <Image className="r3play-image" src={MeetPicture3} text="Second slide" />
                   <Carousel.Caption className="r3play-carousel-caption">
-                    <h3 className="r3play-carousel-heading">{t("meetSlide1Heading")}</h3>
-                    <cite>{t("meetSlide1Description")}
+                    <h3 className="r3play-carousel-heading">{t("meetSlide3Heading")}</h3>
+                    <cite>{t("meetSlide3Description")}
                     </cite>
 
                   </Carousel.Caption>
