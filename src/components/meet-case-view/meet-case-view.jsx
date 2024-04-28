@@ -61,13 +61,15 @@ export const MeetCaseView = () => {
                                               
                                                 <ul className="r3play-takeaways">
                                                         <li data-icon="&#9745; ">{t("meetMainTakeaway1")}</li>
-                                                        <li data-icon="&#9745; ">{t("meetMainTakeaway2")}</li></ul>;
+                                                        <li data-icon="&#9745; ">{t("meetMainTakeaway2")}</li></ul>
 
                                                 <h2 className="video-image-heading fade-in-up-on-scroll fade-in-up-on-scroll">{t("appPreview")}
                                                 </h2>
-
-
-                                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/937424436?h=9c75e894f9" width="100%" height="460" frameborder="0" allowfullscreen></iframe>        <h2 className="technologies-heading fade-in-up-on-scroll">{t("caseTechnologies")}</h2>
+<div className="iframe-container">
+                                                
+                                                <iframe className="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/937424436?h=9c75e894f9" width="100%" height="460" frameborder="0" allowfullscreen></iframe>        
+                                                </div>
+                                                <h2 className="technologies-heading fade-in-up-on-scroll">{t("caseTechnologies")}</h2>
 
 
                                                 <p className="skills-paragraphs"><span>Javascript</span>

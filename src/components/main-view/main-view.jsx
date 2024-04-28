@@ -12,6 +12,7 @@ import { ContactView } from '../contact-view/contact-view';
 import { AboutView } from '../about-view/about-view';
 import { TestimonialsView } from '../testimonials-view/testimonials-view';
 import { Row, Col } from 'react-bootstrap';
+import '../../../src/App.css';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { R3playCaseView } from '../r3play-case-view/r3play-case-view';
 import { MyFlixCaseView } from '../myFlix-case-view/myFlix-case-view';

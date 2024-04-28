@@ -93,21 +93,24 @@ export const MyFlixCaseView = () => {
                                                         <li data-icon="&#9745; ">{t("myFlixMainTakeaway2")}</li>
                                                         <li data-icon="&#9745; ">{t("myFlixMainTakeaway3")}</li>
                                                         <li data-icon="&#9745; ">{t("myFlixMainTakeaway4")}</li>
-                                                </ul>;
+                                                </ul>
 
 
                                                 <h2 className="video-image-heading fade-in-up-on-scroll">{t("appPreview")}
                                                 </h2>
-                                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/937405621?h=5a76577b85" width="100%" height="460" frameborder="0" allowfullscreen></iframe>
-
+                                                <div className='iframe-container'>
+                                                <iframe className="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/937405621?h=5a76577b85" width="100%" height="460" frameborder="0" allowfullscreen></iframe>
+                                                </div>
                                                 <h2 className="video-image-heading fade-in-up-on-scroll fade-in-up-on-scroll">{t("apiPreview")}
                                                 </h2>
 
-
-                                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/937369818?h=28da240343" width="100%" height="460" frameborder="0" allowfullscreen></iframe>        <h2 className="technologies-heading fade-in-up-on-scroll">
+<div className='iframe-container'>
+                                                <iframe className="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/937369818?h=28da240343" width="100%" height="460" frameborder="0" allowfullscreen></iframe>        
+                                                </div>
+                                                <h2 className="technologies-heading fade-in-up-on-scroll">
                                                         {t("caseTechnologies")}</h2>
 
-
+                                                        
                                                 <p className="skills-paragraphs"><span>Angular</span>
                                                 </p>
                                                 <p className="skills-paragraphs"><span>

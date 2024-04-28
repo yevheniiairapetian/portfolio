@@ -64,14 +64,15 @@ export const PokemonCaseView = () => {
                                                         <li data-icon="&#9745; ">{t("pokemonMainTakeaway1")}</li>
                                                         <li data-icon="&#9745; ">{t("pokemonMainTakeaway2")}</li>
                                                         <li data-icon="&#9745; ">{t("pokemonMainTakeaway3")}</li>
-                                                        </ul>;
+                                                        </ul>
         <p className="center r3play-slider-hint fade-in-up-on-scroll">{t("caseSliderTip")}</p>
         <PokemonCaseSlider/>
         
         <h2 className="video-image-heading fade-in-up-on-scroll">{t("appPreview")}
         </h2>
-        <iframe title="vimeo-player" src="https://player.vimeo.com/video/937469265?h=b5daa5a7ff" width="100%" height="460" frameborder="0"    allowfullscreen></iframe>
-        
+        <div className="iframe-container">
+        <iframe className="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/937469265?h=b5daa5a7ff" width="100%" height="460" frameborder="0"    allowfullscreen></iframe>
+        </div>
         <h2 className="technologies-heading fade-in-up-on-scroll">{t("caseTechnologies")}</h2>
 
 

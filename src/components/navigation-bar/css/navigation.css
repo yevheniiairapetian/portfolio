@@ -20,6 +20,7 @@ body {
   nav.page-header{
     background-color: #529fcc;
     color: hsl(0, 0%, 100%);
+    
   }
 
   nav.page-header.dark{
@@ -43,6 +44,7 @@ body {
 
 .page-header {
     font-size: 1.2em;
+    
     /* background-color: #529fcc; */
     
 }
@@ -69,6 +71,7 @@ body {
 .dropdown-menu{
     background-color: #f3f0f0 !important;
     padding:0 !important;
+    
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
@@ -89,6 +92,7 @@ body {
     text-decoration: none;
     padding:10px 25px 0 0;
     color:black;
+    
 }
 
 

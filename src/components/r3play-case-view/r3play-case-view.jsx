@@ -71,13 +71,15 @@ export const R3playCaseView = () => {
 
                                                 <h2 className="video-image-heading fade-in-up-on-scroll">{t("apiPreview")}
                                                 </h2>
-                                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/937369818?h=28da240343" width="100%" height="460" frameborder="0" allowfullscreen></iframe>
-
+                                                <div className="iframe-container">
+                                                <iframe className="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/937369818?h=28da240343"  frameborder="0" allowfullscreen></iframe>
+                                                </div>
                                                 <h2 className="video-image-heading fade-in-up-on-scroll fade-in-up-on-scroll">{t("appPreview")}
                                                 </h2>
 
-
-                                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/937371451?h=037f9a15fe" width="100%" height="460" frameborder="0" allowfullscreen></iframe>
+                                                <div className="iframe-container">
+                                                <iframe className="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/937371451?h=037f9a15fe"  frameborder="0" allowfullscreen></iframe>
+                                                </div>
                                                 <h2 className="technologies-heading fade-in-up-on-scroll">{t("caseTechnologies")}</h2>
                                                 <p className="skills-paragraphs"><span>React.js</span>
                                                 </p>

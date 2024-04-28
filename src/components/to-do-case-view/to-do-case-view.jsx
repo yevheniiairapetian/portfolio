@@ -64,7 +64,7 @@ export const ToDoCaseView = () => {
                                                         <li data-icon="&#9745; ">{t("toDoBeforeFeature1")}</li>
                                                         <li data-icon="&#9745; ">{t("toDoBeforeFeature2")}</li>
                                                         <li data-icon="&#9745; ">{t("toDoBeforeFeature3")}</li>
-                                                        <li data-icon="&#9745; ">{t("toDoBeforeFeature4")}</li></ul>;
+                                                        <li data-icon="&#9745; ">{t("toDoBeforeFeature4")}</li></ul>
         <p className="fade-in-up-on-scroll">{t("toDoCaseChallenge2")}</p>
         {/* <ul className="r3play-takeaways">{afterLists}</ul> */}
         <ul className="r3play-takeaways">
@@ -73,7 +73,7 @@ export const ToDoCaseView = () => {
                                                         <li data-icon="&#9745; ">{t("toDoAfterFeature3")}</li>
                                                         <li data-icon="&#9745; ">{t("toDoAfterFeature4")}</li>
                                                         <li data-icon="&#9745; ">{t("toDoAfterFeature5")}</li>
-                                                        <li data-icon="&#9745; ">{t("toDoAfterFeature6")}</li></ul>;
+                                                        <li data-icon="&#9745; ">{t("toDoAfterFeature6")}</li></ul>
         <h3 className="fade-in-up-on-scroll r3play-headings">{t("caseConclusion")}</h3>
         <p className="fade-in-up-on-scroll">{t("toDoCaseConclusionData")}</p>
         <h3 className="fade-in-up-on-scroll r3play-headings">{t("caseMainTakeaways")}</h3>
@@ -83,12 +83,13 @@ export const ToDoCaseView = () => {
                                                         <li data-icon="&#9745; ">{t("toDoMainTakeaway1")}</li>
                                                         <li data-icon="&#9745; ">{t("toDoMainTakeaway2")}</li>
                                                         <li data-icon="&#9745; ">{t("toDoMainTakeaway3")}</li>
-                                                        </ul>;
+                                                        </ul>
         <h2 className="video-image-heading fade-in-up-on-scroll fade-in-up-on-scroll">{t("appPreview")}
         </h2>
         
-        
-        <iframe title="vimeo-player" src="https://player.vimeo.com/video/937564407?h=166fbedee6" width="100%" height="460" frameborder="0"    allowfullscreen></iframe>
+        <div className="iframe-container">
+        <iframe className="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/937564407?h=166fbedee6" width="100%" height="460" frameborder="0"    allowfullscreen></iframe>
+        </div>
         <h2 className="technologies-heading fade-in-up-on-scroll">{t("caseTechnologies")}</h2>
 
               

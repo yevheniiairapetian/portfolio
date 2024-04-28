@@ -39,4 +39,21 @@
   }
 }
 
+a.deployed-link{
+  color:#529fcc;
+}
 
+nav{
+  text-transform: capitalize;
+}
+
+/* nav li a.dropdown-item{
+  text-transform: capitalize;
+} */
+
+.video-image-heading,
+.technologies-heading {
+   
+    background-color: #529fcc;
+    
+}

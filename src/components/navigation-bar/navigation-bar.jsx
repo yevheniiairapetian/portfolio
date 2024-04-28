@@ -3,7 +3,7 @@ import { Navbar, Container, Row, Col, Nav, Image } from "react-bootstrap";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BsMoon, BsSun } from "react-icons/bs";
 import Cookies from "js-cookie";
-
+import '../../../src/App.css';
 import { useState, useEffect } from "react";
 import useDarkMode from "./../../hooks/useDarkMode";
 import navigationCSS from './css/navigation.css';
