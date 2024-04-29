@@ -120,6 +120,9 @@ export const NavigationBar = () => {
 							<NavDropdown.Item target="_self" alt="">
 								<Link onClick={() => setExpanded(false)} to="./../to-do-case" className="nav-cases" target="_self" >{t("menu.toDoMenu")}</Link>
 							</NavDropdown.Item>
+							<NavDropdown.Item target="_self" alt="">
+								<Link onClick={() => setExpanded(false)} to="./../portfolio-case" className="nav-cases" target="_self" >{t("menu.portfolioMenu")}</Link>
+							</NavDropdown.Item>
 
 						</NavDropdown>
 						<Nav.Link onClick={() => setExpanded(false)} className="text-light pe-4" as={Link} to='/testimonials'>

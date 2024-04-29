@@ -16,6 +16,7 @@ import '../../../src/App.css';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { R3playCaseView } from '../r3play-case-view/r3play-case-view';
 import { MyFlixCaseView } from '../myFlix-case-view/myFlix-case-view';
+import { PortfolioCaseView } from '../portfolio-case-view/portfolio-case-view';
 import { MeetCaseView } from '../meet-case-view/meet-case-view';
 import { OwriteCaseView } from '../owrite-case-view/owrite-case-view';
 import { PokemonCaseView } from '../pokemon-case-view/pokemon-case-view';
@@ -192,6 +193,25 @@ export const MainView = () => {
                   <Col>
                     {/* <NavigationBar /> */}
                     <ToDoCaseView className="content"
+                        
+                      />
+                      <Footer /> 
+                  </Col>
+                  <ScrollToTop />
+
+                </>
+              }
+            />
+
+
+<Route
+              path='/portfolio-case'
+              element={
+                <>
+
+                  <Col>
+                    {/* <NavigationBar /> */}
+                    <PortfolioCaseView className="content"
                         
                       />
                       <Footer /> 
