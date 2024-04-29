@@ -123,7 +123,7 @@ export const ContactView = () => {
                   </div>
                 </div>
                 <div className="SortableItem fb-builder-item">
-                  <p className="fade-in-up-on-scroll static italic text-base text-body-color">
+                  <p className="contact-form-tip fade-in-up-on-scroll static italic text-base text-body-color">
                     <span className="form-asterisk">*</span>{t("contactFormTip")} 
                   </p>
                 </div>

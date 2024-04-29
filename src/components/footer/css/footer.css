@@ -204,6 +204,26 @@
 }
 
 .dark .label-required{
+    color: yellow; 
+    padding-right:2px;
+}
+
+.dark .contact-form-tip{
+    color: #529fcc;; 
+    padding-right:2px;
+}
+
+.contact-form-tip span{
+    /* color: #529fcc;;  */
+    padding-right:3px;
+}
+
+.dark .contact-form-tip span{
+    /* color: #529fcc;;  */
+    padding-right:3px;
+}
+
+.dark .form-asterisk{
     color: yellow;
 }
 

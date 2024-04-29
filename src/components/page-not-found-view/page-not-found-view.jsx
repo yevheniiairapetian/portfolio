@@ -9,10 +9,10 @@ import { useTranslation } from 'react-i18next';
 export const PageNotFoundView = () => {
     const { t } = useTranslation();
     return(
-        <Container fluid className="ps-0 pe-0">
+        <Container fluid className="ps-0 pe-0 w-100">
             <Row>
                 <Col xs={10} sm={10} md={10} className="text-center m-auto" >
-        <Image src={image404} className="picture-404 m-auto mt-5 mb-5" alt="An image showing an old TV" />
+        <Image src={image404} className="picture-404 m-auto w-100 mt-5 mb-5" alt="An image showing an old TV" />
         <div className="main-information_container">
             <h1 className="r3play-headings">{t("notFound")}</h1>
             <p className="overview-404">{t("returnHomeParagraph")}<Link className="r3play-headings" to="/">{t("returnHomeLink")}</Link></p>
@@ -20,7 +20,7 @@ export const PageNotFoundView = () => {
         </div>
                 </Col>
             </Row>
-            <Footer className="footer-404" />
+            <Footer className="footer-404 w-100" />
         </Container>
         
     )
