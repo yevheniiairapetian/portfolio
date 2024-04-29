@@ -9,7 +9,7 @@
   }
   
   .main-footer.dark {
-    background-color: #424242;
+    background-color: black;
     color: #fff;
     --button-text: #fff;
     --button-bg: transparent;
@@ -41,6 +41,39 @@
 
 .main-footer p {
     color: #000000;
+}
+
+.main-footer.dark p {
+    color: #fff;
+}
+
+.main-footer.dark .social-container {
+    background-color:#000;
+}
+
+.main-footer.dark .sidebar-toggler{
+    background-color:#000;
+    border:1px solid black;
+
+}
+
+.page-header.dark select{
+    background-color:#000;
+    color:white;
+}
+
+.page-header.dark a.dropdown-item, .page-header.dark a.nav-cases, .page-header.dark #collapsible-nav-dropdown{
+    background-color:#000;
+    color:#fff;
+}
+
+.page-header.dark a.dropdown-item:hover, .page-header.dark a.nav-cases:hover{
+    background-color:#000 !important;
+    color:#fff;
+}
+
+.social-container.dark a:hover{
+    color:white !important;
 }
 
 /* .open-sidebar, .close-sidebar{
@@ -113,6 +146,100 @@
     color: #1c7488;
 }
 
+.dark .r3play-headings{
+    color:#529fcc;
+}
+
+.dark .projects-main-heading{
+    color:#529fcc;
+}
+
+
+.dark .carousel-caption{
+    background-color:#000;
+    color: whitesmoke;
+}
+
+.dark .carousel-heading{
+    background-color:#000;
+    color: #529fcc;
+}
+
+.dark .more{
+    background-color:#000;
+    color: #529fcc !important;
+}
+
+.dark .themeOne{
+    background-color:#424242 !important;
+    color: #529fcc;
+}
+
+.dark .form-heading{
+    color:whitesmoke;
+}
+
+.dark .captions{
+    color: #529fcc;
+}
+
+.dark input.w-full{
+    background-color: grey !important;
+    
+}
+
+.dark input.w-full:focus{
+    background-color: whitesmoke !important;
+    outline: 1px solid #529fcc;
+    
+
+}
+
+.dark input.w-full::placeholder{
+    color:whitesmoke;
+}
+
+.dark input.w-full:focus::placeholder{
+    color: black;;
+}
+
+.dark .label-required{
+    color: yellow;
+}
+
+.dark .carousel-caption cite{
+    background-color:#000;
+    color: whitesmoke;
+}
+
+.dark .video-image-heading, .dark .technologies-heading{
+    background-color:#000;
+    padding: 15px 0;
+}
+
+.dark .skills-paragraphs span{
+    background-color:#000;
+}
+
+.dark .powered{
+    color: whitesmoke;
+}
+
+.impressum-links{
+    color: #529fcc;
+}
+
+
+.dark .fa-envelope:hover,
+.dark .fa-skype:hover,
+.dark .fa-linkedin:hover,
+.dark .fa-twitter:hover,
+.dark .fa-github:hover,
+.dark .fa-medium:hover,
+.dark .fa-dev:hover{
+        color:white;
+    }
+
 .fa-envelope:hover,
 .fa-skype:hover,
 .fa-linkedin:hover,
@@ -156,6 +283,16 @@ margin-left:-4px;
 }
 
 @media screen and (max-width: 992px) {
+    
+.dark .fa-envelope:hover,
+.dark .fa-skype:hover,
+.dark .fa-linkedin:hover,
+.dark .fa-twitter:hover,
+.dark .fa-github:hover,
+.dark .fa-medium:hover,
+.dark .fa-dev:hover{
+        color:white;
+    }
     .social-container{
         position:static;
         -webkit-box-orient:horizontal;

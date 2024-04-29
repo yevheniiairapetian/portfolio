@@ -135,7 +135,7 @@ export const ContactView = () => {
                   </Button>
                 </div>
               </form>
-              <p className="fade-in-up-on-scroll mt-8 flex items-center justify-center">
+              <p className="powered fade-in-up-on-scroll mt-8 flex items-center justify-center">
               {t("contactFormPoweredBy")}
                 <span className="pl-2"
                 ><a href="https://formbold.com" rel="nofollow noreferrer" target="_blank"

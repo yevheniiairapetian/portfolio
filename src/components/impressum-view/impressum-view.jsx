@@ -19,7 +19,7 @@ export const ImpressumView = () =>{
                 <p><strong>Kontakt:</strong></p>
             </h4>
             <p>Telefon: +4915237795765</p>
-            <p>E-Mail: <Link to="mailto:contact@yevheniiairapetian.com">contact@yevheniiairapetian.com</Link></p>
+            <p>E-Mail: <Link className="impressum-links" to="mailto:contact@yevheniiairapetian.com">contact@yevheniiairapetian.com</Link></p>
             <h4 className="fade-in-up-on-scroll"><strong>Haftungsausschluss: </strong></h4>
             <h4 className="fade-in-up-on-scroll">Haftung für Inhalte</h4>
             <p className="fade-in-up-on-scroll">Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und
@@ -49,8 +49,8 @@ export const ImpressumView = () =>{
             Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
             Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von
             Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
-            Impressum vom <Link to="https://www.impressum-generator.de">Impressum Generator</Link> der <Link
-                to="https://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach, Rechtsanwälte für Arbeitsrecht und
+            Impressum vom <Link className="impressum-links" to="https://www.impressum-generator.de">Impressum Generator</Link> der <Link
+               className="impressum-links" to="https://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach, Rechtsanwälte für Arbeitsrecht und
                 Familienrecht</Link>
         
                 </Col>

@@ -86,7 +86,7 @@ export const NavigationBar = () => {
 
 
 				</Navbar.Brand>
-				<Navbar.Toggle onClick={() => setExpanded(!expanded)} />
+				<Navbar.Toggle id="tgl"onClick={() => setExpanded(!expanded)} />
 				<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
 					<Nav>
 

@@ -25,8 +25,12 @@ export default () => {
     const className = "dark";
     if (darkModeEnabled) {
       window.document.body.classList.add(className);
+      window.document.querySelector(".page-header").classList.add(className);
+      window.document.querySelector(".main-footer").classList.add(className);
     } else {
       window.document.body.classList.remove(className);
+      window.document.querySelector(".page-header").classList.remove(className);
+      window.document.querySelector(".main-footer").classList.remove(className);
     }
     try {
       window.localStorage.setItem(key, darkModeEnabled);
