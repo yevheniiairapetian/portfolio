@@ -25,7 +25,7 @@ export const MyFlixCaseView = () => {
 
         const listItems = takeaways.map(takeaway => <li data-icon="&#9745; ">{takeaway}</li>);
         return (
-                <Container>
+                <Container className="wrapper">
                         <Row>
                                 <Col>
                                         <h1 className="r3play-headings text-center pt-4 pb-3">{t("myFlixCaseHeading")}</h1>

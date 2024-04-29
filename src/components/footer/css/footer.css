@@ -8,6 +8,9 @@
     transition: background-color 0.3s ease;
   }
   
+  .content {
+    flex: 1; /* Allows the content to take up available space, pushing the footer to the bottom */
+  }
  
   .main-footer.dark, .footer-404.dark {
     background-color: black;
@@ -30,13 +33,16 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: auto;
+            /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    /* margin-top: auto; */
     background-color: #529fcc;
     padding-bottom: 16px;
     /* color: white; */
     height:150px;
     /* padding-top:26px; */
-    margin-top:96px;
+    /* margin-top:96px; */
     
 }
 
@@ -336,11 +342,15 @@ margin-left:-4px;
         
     }
     .main-footer, .footer-404{
+        /* position: fixed; */
+    width: 100%;
+    bottom: 0;
         height:190px;
-        position:absolute;
+        margin-top:46px;
+        /* position:absolute;
 left:0;
 bottom:0;
-right:0;
+right:0; */
 
         
     }

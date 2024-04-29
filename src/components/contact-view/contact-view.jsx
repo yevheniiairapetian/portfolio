@@ -30,7 +30,7 @@ export const ContactView = () => {
     <Container>
       <Row>
         <Col
-          className="contact-main_container"
+          className="wrapper contact-main_container"
         >
           <div>
             <h1 className="about-heading">{t("contact")}</h1>

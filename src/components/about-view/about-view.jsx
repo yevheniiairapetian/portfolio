@@ -54,7 +54,7 @@ export const AboutView = () => {
       const { t } = useTranslation();
 	return (
 
-		<Container className="aboutContainer pt-5">
+		<Container className="wrapper aboutContainer pt-5">
 			<Row>
 				<Col xs={12} md={5}>
                 <Image alt={t("profileImageAlt")} onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle src={profileImg} />

@@ -58,7 +58,7 @@ export const MainView = () => {
 
                   <Col>
 
-                    <AboutView
+                    <AboutView className="content"
 
                     />
                     <Footer />
@@ -80,7 +80,7 @@ export const MainView = () => {
 
                   <Col>
                     {/* <NavigationBar /> */}
-                    <ProjectsView
+                    <ProjectsView className="content"
                         
                       />
                       <Footer /> 
@@ -98,7 +98,7 @@ export const MainView = () => {
 
                   <Col>
                     {/* <NavigationBar /> */}
-                    <R3playCaseView
+                    <R3playCaseView className="content"
                         
                       />
                       <Footer /> 
@@ -117,7 +117,7 @@ export const MainView = () => {
 
                   <Col>
                     {/* <NavigationBar /> */}
-                    <MyFlixCaseView
+                    <MyFlixCaseView className="content"
                         
                       />
                       <Footer /> 
@@ -136,7 +136,7 @@ export const MainView = () => {
 
                   <Col>
                     {/* <NavigationBar /> */}
-                    <MeetCaseView
+                    <MeetCaseView className="content"
                         
                       />
                       <Footer /> 
@@ -155,7 +155,7 @@ export const MainView = () => {
 
                   <Col>
                     {/* <NavigationBar /> */}
-                    <OwriteCaseView
+                    <OwriteCaseView className="content"
                         
                       />
                       <Footer /> 
@@ -173,7 +173,7 @@ export const MainView = () => {
 
                   <Col>
                     {/* <NavigationBar /> */}
-                    <PokemonCaseView
+                    <PokemonCaseView className="content"
                         
                       />
                       <Footer /> 
@@ -191,7 +191,7 @@ export const MainView = () => {
 
                   <Col>
                     {/* <NavigationBar /> */}
-                    <ToDoCaseView
+                    <ToDoCaseView className="content"
                         
                       />
                       <Footer /> 
@@ -209,7 +209,7 @@ export const MainView = () => {
 
                   <Col>
 
-                    <TestimonialsView
+                    <TestimonialsView className="content"
 
                     />
                     <Footer />
@@ -228,7 +228,7 @@ export const MainView = () => {
 
                   <Col>
 
-                    <ContactView
+                    <ContactView className="content"
 
                     />
                     <Footer />
@@ -247,7 +247,7 @@ export const MainView = () => {
 
                   <Col>
 
-                    <ImpressumView
+                    <ImpressumView className="content"
 
                     />
                     <Footer />

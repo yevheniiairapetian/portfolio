@@ -16,8 +16,9 @@ import { useTranslation } from 'react-i18next';
 export const MeetCaseView = () => {
         const { t } = useTranslation();
        
-        return (
-                <Container>
+        
+  return (
+        <Container className="">
                         <Row>
                                 <Col>
                                         <h1 className="r3play-headings text-center pt-4 pb-3">{t("meetCaseHeading")}</h1>

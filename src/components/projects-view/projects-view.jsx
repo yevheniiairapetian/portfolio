@@ -7,7 +7,7 @@ import projectsViewCSS from "./css/projectsview.css";
 export const ProjectsView = () => {
         const { t } = useTranslation();
  return(
-<Container>
+<Container className="wrapper">
         <Row>
             <Col>
 <div className="app-container" onclick="hideMenu(); closeSidebar(); closeMenuDownloadLinks()">

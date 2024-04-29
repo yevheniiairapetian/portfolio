@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const ImpressumView = () =>{
 
     return(
-        <Container>
+        <Container className="wrapper">
             <Row>
                 <Col sm={10} md={10} className="m-auto">
              

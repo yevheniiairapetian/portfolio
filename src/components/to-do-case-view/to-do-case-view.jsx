@@ -31,7 +31,7 @@ export const ToDoCaseView = () => {
 
 
   return (
-    <Container>
+    <Container className="wrapper">
         <Row>
             <Col>
             <h1 className="r3play-headings text-center pt-4 pb-3">{t("toDoCaseHeading")}</h1>

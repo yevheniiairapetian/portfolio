@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 export const TestimonialsView = () => {
         const { t } = useTranslation();
  return(
-<Container>
+<Container className="wrapper">
         <Row>
             <Col>
 <div className="app-container" onclick="hideMenu(); closeSidebar(); closeMenuDownloadLinks()">

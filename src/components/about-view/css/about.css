@@ -35,6 +35,9 @@
     border-bottom: none !important;
 }
 
+div.wrapper{
+    min-height: 90vh;
+}
 
 .aboutContainer{
     flex-direction:row;
