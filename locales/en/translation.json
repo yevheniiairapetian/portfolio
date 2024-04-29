@@ -90,7 +90,7 @@
 
 
 
-    "portfolioCaseHeading":"Portfolio Case Study",
+    "portfolioCaseHeading":"Portfolio App Case Study",
     "portfolioCaseIntroduction":"Portfolio App is a responsive web application, developed using React and React Bootstrap, that provides users with information about my current projects, testimonials, contact, and social platforms information, and is localized to several foreign languages. Users can access information in separate views,  translate the app to their preferred language, and switch the style to either a light or dark theme. ",
     "portfolioCaseRequired":"Portfolio App was a required project I developed as part of my \"Intro to web-development course\" at CareerFoundry to demonstrate my mastery of HTML, CSS, and website deployment. Additionally, I mastered such widespread web-development practices as app testing, CSS minimization, accessibility, supporting older browsers, and CSS animations.",
     "portfolioCaseAim":"The project aimed to develop and deploy a fully-functioning static website that I could use as my professional portfolio. The problem I wanted to solve was to employ the tools covered in the \"Intro to web-development course\" at CareerFoundry to build and deploy a working frontend that would be used as my professional portfolio.",
@@ -98,9 +98,7 @@
     "portfolioCaseAboutUpgrade1":"After the completion of my Career Foundry \"Full-Stack Web-Development Program\" and while studying at the CareerFoundry's \"Job Preparation course\", I decided to alter the app in various ways. First, the website got new pages with the projects' case data, where I described in detail how I worked on each project while studying at CareerFoundry. Second, I updated the styling to be more visually pleasing, functional, and aesthetic. However, since static websites become more and more outdated nowadays, it was time to migrate my Portfolio to one of the Javascript libraries widely used by the developer community. As, after completing several projects in the bootcamp with React.js, and being most experienced with it, I decided to use it as my project's skeleton.",
     "portfolioCaseAboutUpgrade2":"I initialized the work with a create react app command, then moved and re-wrote all HTML and CSS files to separate function components, and installed the necessary project dependencies. The projects, testimonials, and cases got their separate sliders with examples and video walk-throughs. Later on, I localized the app to several foreign languages, introduced a dark theme, and updated the app to save the user's language and theme preferences. And at last, I turned my Portfolio into a Progressive Web Application. With this feature, users can install the app on desktop and mobile devices, mimicking a native app experience like on Android or Windows platforms.",   
     "caseTotally":"Visit Totally.js Github repository",
-    "r3playCasePostman":"I used Postman to test responses and requests to the API. I also made use of basic HTTP authentication and JWT authentication to provide for the authentication and authorization features.",
     "portfolioCaseAboutClient":"I built the front-end interface to supply users with the possibility to interact with the data related to my professional portfolio. It was originally a static website, developed using plain HTML, CSS, and Totally.js, a Javascript plugin to test accessibility. It had separate HTML pages for the main, projects, contact, and other information.",
-    "caseSliderTip":"Use the slider controls to click through the projects' list. Hover over the slides' headings to read more.",
     "portfolioCaseDurationData":"2 weeks in total for the initial project. 3-6 months in sum for the current result",
     "portfolioCaseConclusionData":"The Portfolio website was the first project in the Career Foundry's web development bootcamp. When it was finished, I started the \"Full-Stack Immersion course\" with the work on the Pokemon App.",
     "portfolioCaseConclusionData2":"It was a great and rewarding experience to design and debug the app in its initial state up to the latest improvements it has. I also added new and built upon the old skills (including when working on my own), such as polishing the copy, debugging the deployment of React apps, using localization libraries, introducing and customizing theming, working with local storage, better styling practices, and others.",
@@ -304,7 +302,7 @@
 
 
     "menu":{
-      "portfolioMenu":"Portfolio",
+      "portfolioMenu":"Portfolio App",
         "aboutMenu" : "About",
         "projectsMenu": "Projects", 
         "casesMenu": "Cases",

@@ -49,6 +49,8 @@
     "messageOrCommentPlaceholder": "Tu mensaje",
     "contactFormTip": "Los campos marcados con un asterisco son obligatorios",
     "contactFormPoweredBy": "Desarrollado por",
+    "caseWorkflow":"Flujo de trabajo",
+    "caseUpgrade":"Actualización",
     "caseDatabase": "Base de datos",
     "caseApi": "API",
     "caseInterface":"Interfaz de la aplicación",
@@ -82,6 +84,37 @@
     "r3playCaseDurationData": "12 semanas en total (backend: 7 semanas, frontend: 5 semanas)",
     "r3playCaseConclusionData": "La aplicación de películas fue solo la segunda aplicación web completa que desarrollé en el curso de desarrollo web Full-Stack. Cuando se terminó, me enfoqué en mejorar mis habilidades de desarrollo, específicamente el enfoque de desarrollo basado en pruebas. Requiere implementar la fase de prueba antes de agregar la lógica funcional real, permitiendo un desarrollo más seguro, libre de errores y más rápido.",
     
+
+
+    "portfolioCaseHeading":"Estudio de caso de la aplicación Portfolio",
+"portfolioCaseIntroduction": "Portfolio App es una aplicación web receptiva, desarrollada con React y React Bootstrap, que brinda a los usuarios información sobre mis proyectos actuales, testimonios, información de contacto y plataformas sociales, y está localizada en varios idiomas extranjeros. Los usuarios pueden acceder a la información en vistas separadas, traducir la aplicación a su idioma preferido y cambiar el estilo a un tema claro u oscuro. ",
+"portfolioCaseRequired": "Portfolio App fue un proyecto obligatorio que desarrollé como parte de mi \"Curso de Introducción al desarrollo web\" en CareerFoundry para demostrar mi dominio de HTML, CSS y la implementación de sitios web. Además, dominé prácticas de desarrollo web tan extendidas como las pruebas de aplicaciones, la minimización de CSS, la accesibilidad, el soporte de navegadores antiguos y las animaciones CSS.",
+"portfolioCaseAim": "El proyecto tenía como objetivo desarrollar e implementar un sitio web estático en pleno funcionamiento que pudiera usar como mi portafolio profesional. El problema que quería resolver era emplear las herramientas cubiertas en el \"Curso de Introducción al desarrollo web\" en CareerFoundry para construir e implementar una interfaz de trabajo que se usaría como mi portafolio profesional.",
+"portfolioCaseAboutWorkflow": "En las primeras etapas del proceso de desarrollo, estructuré el contenido con HTML y luego diseñé las páginas con CSS simple. El Totalmente.el complemento js ayudó a estructurar y diseñar el sitio web de acuerdo con las pautas recomendadas de accesibilidad web. Estas pautas existen para ayudar a las personas con limitaciones físicas u otras a tener una mejor experiencia de usuario en Internet. Se han utilizado etiquetas especiales \"aria\" para estos fines, así como descripciones informativas y datos de texto alternativos. En las etapas finales del proyecto, probé el sitio web para verificar que funcionara correctamente en varios sistemas operativos y navegadores, incluido el uso de javascript alternativo para la compatibilidad con navegadores Internet Explorer más antiguos.",
+"portfolioCaseAboutUpgrade1": "Después de completar mi Carrera de Fundición \"Programa de Desarrollo Web Completo\" y mientras estudiaba en el \"Curso de Preparación Laboral\" de CareerFoundry, decidí modificar la aplicación de varias maneras. Primero, el sitio web obtuvo nuevas páginas con los datos de los casos de los proyectos, donde describí en detalle cómo trabajé en cada proyecto mientras estudiaba en CareerFoundry. En segundo lugar, actualicé el estilo para que fuera más agradable visualmente, funcional y estético. Sin embargo, dado que los sitios web estáticos se vuelven cada vez más obsoletos en la actualidad, era hora de migrar mi Portafolio a una de las bibliotecas de Javascript ampliamente utilizadas por la comunidad de desarrolladores. Como, después de completar varios proyectos en el bootcamp con React.js, y siendo más experimentado con él, decidí usarlo como esqueleto de mi proyecto.",
+"portfolioCaseAboutUpgrade2": "Inicialicé el trabajo con un comando create react app, luego moví y reescribí todos los archivos HTML y CSS en componentes de funciones separados, e instalé las dependencias necesarias del proyecto. Los proyectos, testimonios y casos obtuvieron sus controles deslizantes separados con ejemplos y recorridos en video. Más tarde, localicé la aplicación a varios idiomas extranjeros, introduje un tema oscuro y actualicé la aplicación para guardar las preferencias de idioma y tema del usuario. Y por fin, convertí mi Portafolio en una Aplicación Web Progresiva. Con esta función, los usuarios pueden instalar la aplicación en dispositivos de escritorio y móviles, imitando una experiencia de aplicación nativa como en las plataformas Android o Windows.",
+"caseTotally": "Visita totalmente.repositorio Github js",
+"portfolioCaseAboutClient": "Construí la interfaz front-end para brindar a los usuarios la posibilidad de interactuar con los datos relacionados con mi cartera profesional. Originalmente era un sitio web estático, desarrollado utilizando HTML simple, CSS y Totalmente.js, un complemento de Javascript para probar la accesibilidad. Tenía páginas HTML separadas para la información principal, proyectos, contactos y otra información.",
+"portfolioCaseDurationData":" 2 semanas en total para el proyecto inicial. 3-6 meses en suma para el resultado actual",
+"portfolioCaseConclusionData":"El sitio web de Portfolio fue el primer proyecto en el campamento de desarrollo web de Career Foundry. Cuando terminó, comencé el \"Curso de Inmersión de Pila Completa\" con el trabajo en la aplicación Pokémon.",
+"portfolioCaseConclusionData2": "Fue una experiencia genial y gratificante diseñar y depurar la aplicación en su estado inicial hasta las últimas mejoras que tiene. También agregué nuevas habilidades y las desarrollé sobre las antiguas (incluso cuando trabajaba por mi cuenta), como pulir la copia, depurar la implementación de aplicaciones React, usar bibliotecas de localización, introducir y personalizar temas, trabajar con almacenamiento local, mejores prácticas de estilo y otros.",
+"portfolioCaseChallenge":" El desarrollo del proyecto inicial fue relativamente fácil y sin errores ya que ya tenía experiencia en las tecnologías que se requerían para ello. De hecho, logré completarlo 1 semana antes de la fecha límite requerida y mostré mis presentaciones como ejemplo para otros estudiantes.",
+"portfolioCaseChallenge2": "Sin embargo, a medida que pasé a tecnologías más complejas y más allá de los requisitos del proyecto por mi cuenta, me encontré con varios problemas. Un problema fue que no pude introducir completamente el tema oscuro en la aplicación. Cuando activé el tema oscuro, solo una parte de la aplicación cambió de estilo. Otro relacionado con las dificultades de implementación y la configuración de React requerida para ello. Afortunadamente, el conocimiento adquirido durante el campamento de entrenamiento me ayudó a resolver estos obstáculos y pude:",
+"portfolioCaseChallengeDetail1": "Utilizar mis habilidades de investigación y resolución de problemas para solucionar los problemas relacionados con el tema oscuro",
+"portfolioCaseChallengeDetail2": "Investigue y solucione los problemas relacionados con la implementación",
+"portfolioMainTakeaway1": "La persistencia es una habilidad importante en el desarrollo web, así como la elección de comprometerse y establecer prioridades",
+"portfolioMainTakeaway2":"A veces, un error puede ser causado inesperadamente y una solución necesita una mejor atención al detalle",
+"portfolioMainTakeaway3": "Siempre hay margen de mejora en tus proyectos, por lo que es crucial entender el momento en el que seguir adelante y / o priorizar",
+"portfolioMainTakeaway4": "El código (rápidamente) se vuelve obsoleto o necesita una actualización, por lo que es una buena idea revisar sus proyectos más antiguos de vez en cuando ",
+
+"portfolioSlide1Heading": "Acerca de la vista (tema ligero)",
+"portfolioSlide2Heading": "Acerca de la vista (Tema oscuro)",
+"portfolioSlide3Heading": "Vista de Caso de Proyecto localizado",
+"portfolioSlide1Description": "La vista Acerca de la aplicación Portfolio donde los usuarios pueden leer más sobre el autor, acceder a la base de código y reanudar (se muestra en tema claro)",
+"portfolioSlide2Description": "La vista Acerca de la aplicación Portfolio donde los usuarios pueden leer más sobre el autor, acceder a la base de código y reanudar (que se muestra en el tema oscuro)",
+"portfolioSlide3Description": "Una de las vistas de casos de los proyectos que está localizada (al idioma alemán en este ejemplo)",
+
+
     
     "myFlixCaseHeading":"Estudio de caso de la aplicación MyFlix",
     "myFlixCaseIntroduction":"MyFlix-Angular-App es una aplicación web, desarrollada utilizando la pila MEAN, que proporciona a los usuarios información sobre películas. Los usuarios pueden acceder a información sobre películas, directores y géneros. Los usuarios pueden crear una cuenta, actualizar su información y crear una lista de películas favoritas.",
@@ -183,7 +216,9 @@
     "returnHomeParagraph": "Pero siempre puedes volver a la ",
     "returnHomeLink": "página de inicio",
 
-
+    "copySkill": "Pulir la copia",
+    "terminalSkill": "Trabajar en la terminal",
+    "accessibilitySkill": "Accesibilidad",
     "externalApiSkill":"API externa",
     "nativeSkill": "Desarrollo de aplicaciones nativas",
     "troubleshootingSkill":"Solución de problemas",
@@ -258,6 +293,7 @@
 
     "menu": {
         "aboutMenu": "Sobre mí",
+        "portfolioMenu": "Portfolio App",
         "projectsMenu": "Proyectos",
         "casesMenu": "Casos",
         "testimonialsMenu": "Testimonios",

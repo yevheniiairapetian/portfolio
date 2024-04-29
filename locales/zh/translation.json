@@ -50,6 +50,8 @@
     "contactFormTip":"标有星号的字段为必填项",
     "contactFormPoweredBy":"由 FormBold 提供",
 
+    "caseWorkflow":"工作流程",
+"caseUpgrade":"升级",
     "caseDatabase":"数据库",
     "caseApi":"API", 
     "caseInterface":"应用程序界面",
@@ -84,6 +86,37 @@
     "r3playCaseConclusionData":"电影应用程序只是我在全栈网络开发课程中开发的第二个完整网络应用程序。完成后,我专注于提高我的开发技能,特别是测试驱动的开发方法。它需要在添加实际功能逻辑之前实现测试阶段,从而实现更安全、无错误和更快的开发.",
     
    
+
+    "portfolioCaseHeading":"Portfolio App案例研究",
+"portfolioCaseIntroduction":"Portfolio App是一个响应式web应用程序，使用React和React Bootstrap开发，为用户提供有关我当前项目的信息，推荐，联系人和社交平台信息，并本地化为几门外语。 用户可以在单独的视图中访问信息，将应用程序翻译成他们的首选语言，并将样式切换到浅色或深色主题。",
+"portfolioCaseRequired":"投资组是我在CareerFoundry\"Web开发介绍课程\"中开发的一个必修项目，以展示我对HTML、CSS和网站部署的掌握。 此外，我还掌握了应用程序测试、CSS最小化、可访问性、支持旧浏览器和CSS动画等广泛的web开发实践。",
+"portfolioCaseAim":"该项目旨在开发和部署一个功能齐全的静态网站，我可以将其用作我的专业投资组合。 我想要解决的问题是使用CareerFoundry的\"Web开发课程介绍\"中涵盖的工具来构建和部署一个工作前端，该前端将用作我的专业组合。",
+"portfolioCaseAboutWorkflow":"在开发过程的早期阶段，我使用HTML结构化内容，然后使用普通CSS样式化页面。 完全正确。js插件帮助根据推荐的web可访问性指南构建和样式网站。 这些指南的存在是为了帮助有身体或其他限制的人在互联网上获得更好的用户体验。 特殊的\"咏叹调\"标签已用于这些目的，以及信息描述和替代文本数据。 在项目的最后阶段，我测试了网站在各种操作系统和浏览器上的正确工作，包括使用回退javascript来支持较旧的Internet Explorer浏览器。",
+"portfolioCaseAboutUpgrade1":"在完成我的职业Foundry\"全栈Web开发计划\"之后，在CareerFoundry的\"工作准备课程\"学习期间，我决定以各种方式更改应用程序。 首先，该网站获得了包含项目案例数据的新页面，我详细描述了我在CareerFoundry学习期间如何处理每个项目。 其次，我更新了造型，使其更具视觉愉悦性，功能性和美观性。 但是，由于静态网站现在变得越来越过时，现在是时候将我的投资组合迁移到开发人员社区广泛使用的Javascript库之一了。 正如，在使用React完成bootcamp中的几个项目之后。js，并且是最有经验的，我决定用它作为我的项目的骨架。",
+"portfolioCaseAboutUpgrade2":"我用create react app命令初始化了工作，然后将所有HTML和CSS文件移动并重新编写为单独的功能组件，并安装了必要的项目依赖项。 项目，推荐和案例得到了他们单独的滑块与示例和视频演练。 后来，我将应用程序本地化为几种外语，引入了黑暗主题，并更新了应用程序以保存用户的语言和主题首选项。 最后，我把我的投资组合变成了一个渐进的Web应用程序。 借助此功能，用户可以在桌面和移动设备上安装应用程序，模仿android或Windows平台上的本机应用程序体验。",
+"caseTotally":"完全访问。js Github仓库",
+"portfolioCaseAboutClient":"我构建了前端界面，为用户提供与我的专业投资组合相关的数据进行交互的可能性。 它最初是一个静态网站,使用纯HTML,CSS和完全开发.js，一个测试可访问性的Javascript插件。 它有单独的html页面，用于主要，项目，联系人和其他信息。",
+"portfolioCaseDurationData":"初始项目共2周。 3-6个月的总和为当前结果",
+"portfolioCaseConclusionData":"投资组合网站是Career Foundry网站开发训练营的第一个项目。 当它完成后，我开始了\"全栈沉浸课程\"与口袋妖怪应用程序的工作。",
+"portfolioCaseConclusionData2":"这是一个伟大的和有益的经验，设计和调试应用程序在其初始状态，直到它有最新的改进。 我还添加了新的和建立在旧技能的基础上（包括在自己工作时），例如抛光副本，调试React应用程序的部署，使用本地化库，引入和自定义主题，使用本地存储，更",
+"portfolioCaseChallenge":"初始项目的开发相对容易且没有错误，因为我已经拥有所需技术的经验。 事实上，我设法在规定的截止日期前1周完成了它，并将我的提交作为其他学生的一个例子展示出来。",
+"portfolioCaseChallenge2":"然而，当我转向更复杂的技术，并且自己超出了项目的要求时，我遇到了几个问题。 一个问题是我无法完全将黑暗主题引入应用程序。 当我打开黑暗主题时，只有应用程序的一部分改变了它的风格。 另一个与部署和响应设置所需的困难有关。 谢天谢地，在训练营中获得的知识帮助我解决了这些障碍，我能够：",
+"portfolioCaseChallengeDetail1":"使用我的研究和故障排除技巧来修复与黑暗主题相关的问题",
+"portfolioCaseChallengeDetail2":"研究和排除部署相关问题",
+"portfolioMainTakeaway1":"坚持是web开发的一项重要技能，也是妥协和设定优先级的选择",
+"portfolioMainTakeaway2":"有时可能会意外导致错误，解决方案需要更好地关注细节",
+"portfolioMainTakeaway3":"您的项目总有改进的空间，因此了解何时进一步推进和/或优先考虑至关重要",
+"portfolioMainTakeaway4":"代码（很快）就会过时或需要更新，所以不时查看旧项目是个好主意",
+
+"portfolioSlide1Heading":"关于视图(光主题)",
+"portfolioSlide2Heading":"关于视图（黑暗主题）",
+"portfolioSlide3Heading":"本地化项目案例视图",
+"portfolioSlide1Description":"关于查看的投资组合应用程序，用户可以在其中阅读有关作者的更多信息，访问代码库和简历（以浅色主题显示）",
+"portfolioSlide2Description":"关于查看的投资组合应用程序，用户可以在其中阅读有关作者的更多信息，访问代码库和简历（以黑暗主题显示）",
+"portfolioSlide3Description":"其中一个项目的案例视图是本地化的（在本例中为德语）",
+
+
+
     "myFlixCaseHeading":"MyFlix应用案例研究",
     "myFlixCaseIntroduction":"MyFlix-Angular-App是一个web应用程序，使用MEAN堆栈开发，为用户提供有关电影的信息。 用户可以访问有关电影，导演和流派的信息。 用户可以创建一个帐户，更新他们的信息，并创建喜爱的电影列表。",
     "myFlixCaseRequired":"MyFlix-Angular-App是我在CareerFoundry全栈沉浸式课程中开发的一个必修项目，以展示我对使用JavaScript进行全栈web开发的掌握。 此外，我还练习了敏捷项目管理、反馈提供和文档生成技巧。",
@@ -185,6 +218,9 @@
     "returnHomeParagraph":"但你可以随时回到 ",
     "returnHomeLink":"主页",
 
+    "copySkill":"抛光副本",
+"terminalSkill":"在终端工作",
+"accessibilitySkill":"无障碍",
     "externalApiSkill":"外部API",
     "nativeSkill":"原生应用开发",
     "troubleshootingSkill":"疑难解答",
@@ -262,12 +298,13 @@
 
     "menu":{
       "aboutMenu" : "关于我",
+       "portfolioMenu": "Portfolio 网络应用程序",
       "projectsMenu": "网络应用程序", 
       "casesMenu": "项目说明",
       "testimonialsMenu": "积极反馈",
       "contactMenu": "联系方式",
       "resumeMenu": "简历",
-      "r3playMenu": "r3play 网络应用程序",
+      "r3playMenu": "R3play 网络应用程序",
       "myFlixMenu": "MyFlix 网络应用程序",
       "meetMenu": "Meet 网络应用程序",
       "owriteMenu": "Owrite 网络应用程序",
