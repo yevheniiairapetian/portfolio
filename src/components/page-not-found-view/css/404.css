@@ -54,3 +54,26 @@
     margin-right: 40px;
     animation: 3s picture-404 infinite;
 }
+
+@media screen and (min-width:950px){
+    .container-404{
+display: flex;
+flex-direction:row;
+
+
+    }
+    .picture-404 {
+        /* z-index: -1;
+        border-radius: 10%; */
+        width: 47%;
+        /* max-width: 400px; */
+        height: auto;
+        
+       
+        /* animation: 3s picture-404 infinite; */ 
+    }
+    .main-information_container{
+        width: 52%;
+        padding-left: 50px;
+    }
+}

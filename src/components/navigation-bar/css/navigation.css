@@ -27,8 +27,10 @@ body {
     background-color: black;
     color: #fff;
   }
-  
 
+  html, body, #root {
+    height: 100%;
+  }
 
   .toggle_btn {
     background-color: var(--button-bg);
