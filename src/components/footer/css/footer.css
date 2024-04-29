@@ -287,6 +287,10 @@
 margin-left:-4px;
 }
 
+.overview-404 a{
+    text-transform: capitalize;
+}
+
 @media screen and (max-width: 992px) {
     
 .dark .fa-envelope:hover,
@@ -321,6 +325,8 @@ margin-left:-4px;
         
         
     }
+
+
 
     .dark .main-footer p, .dark .footer-404 p{
         color: whitesmoke;
