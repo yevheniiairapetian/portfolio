@@ -40,6 +40,11 @@
     margin-left: 20px;
 }
 
+.dark .footer-404{
+    background-color:#000;
+    color: whitesmoke;
+}
+
 .picture-404 {
     z-index: -1;
     border-radius: 10%;

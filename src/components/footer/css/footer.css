@@ -1,4 +1,4 @@
-.main-footer {
+.main-footer, .footer-404 {
     /* margin: 1rem auto; */
     /* max-width: 800px; */
     /* background-color: #529fcc; */
@@ -8,7 +8,7 @@
     transition: background-color 0.3s ease;
   }
   
-  .main-footer.dark {
+  .main-footer.dark, .footer-404.dark {
     background-color: black;
     color: #fff;
     --button-text: #fff;
@@ -17,7 +17,7 @@
   }
 
 
-.main-footer {
+.main-footer, .footer-404 {
     font-family: "Montserrat", sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -39,19 +39,19 @@
     
 }
 
-.main-footer p {
+.main-footer p, .footer-404 p {
     color: #000000;
 }
 
-.main-footer.dark p {
+.main-footer.dark p, .footer-404.dark p {
     color: #fff;
 }
 
-.main-footer.dark .social-container {
+.main-footer.dark .social-container, .footer-404.dark .social-container {
     background-color:#000;
 }
 
-.main-footer.dark .sidebar-toggler{
+.main-footer.dark .sidebar-toggler, .footer-404.dark .sidebar-toggler{
     background-color:#000;
     border:1px solid black;
 
@@ -212,6 +212,11 @@
     color: whitesmoke;
 }
 
+/* .dark .footer-404{
+    background-color:#000;
+    color: whitesmoke;
+} */
+
 .dark .video-image-heading, .dark .technologies-heading{
     background-color:#000;
     padding: 15px 0;
@@ -305,10 +310,22 @@ margin-left:-4px;
         height:50px;
         
     }
-    .main-footer{
+    .main-footer, .footer-404{
         height:190px;
+
         
     }
+    .dark .main-footer .social-container, .dark .footer-404 .social-container{
+        background-color: black;
+        
+        
+        
+    }
+
+    .dark .main-footer p, .dark .footer-404 p{
+        color: whitesmoke;
+    }
+
     .sidebar-close{
         display:none;
     }

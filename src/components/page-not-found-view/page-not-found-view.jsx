@@ -20,7 +20,7 @@ export const PageNotFoundView = () => {
         </div>
                 </Col>
             </Row>
-            <Footer/>
+            <Footer className="footer-404" />
         </Container>
         
     )

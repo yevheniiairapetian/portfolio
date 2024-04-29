@@ -82,7 +82,7 @@ export const Footer = () =>{
           }
     return (
     <>
-<footer className="main-footer pt-5 pb-4 w-100">
+<footer className="main-footer footer-404 pt-5 pb-4 w-100">
     
     <div className="social-container" 
     onMouseEnter={()=>{showSidebar()}}
