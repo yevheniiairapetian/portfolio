@@ -287,6 +287,7 @@
     
     "menu": {
         "aboutMenu": "Über",
+        "portfolioMenu": "Portfolio App",
         "projectsMenu": "Projekte",
         "casesMenu": "Fälle",
         "testimonialsMenu": "Testimonials",

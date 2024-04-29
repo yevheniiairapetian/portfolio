@@ -298,12 +298,13 @@
 
     "menu":{
       "aboutMenu" : "关于我",
+       "portfolioMenu": "Portfolio 网络应用程序",
       "projectsMenu": "网络应用程序", 
       "casesMenu": "项目说明",
       "testimonialsMenu": "积极反馈",
       "contactMenu": "联系方式",
       "resumeMenu": "简历",
-      "r3playMenu": "r3play 网络应用程序",
+      "r3playMenu": "R3play 网络应用程序",
       "myFlixMenu": "MyFlix 网络应用程序",
       "meetMenu": "Meet 网络应用程序",
       "owriteMenu": "Owrite 网络应用程序",

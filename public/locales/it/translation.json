@@ -302,6 +302,7 @@
 "menu": {
   "aboutMenu":"Informazioni",
   "projectsMenu":"Progetti",
+  "portfolioMenu": "Portfolio App",
   "casesMenu":"Casi",
   "testimonialsMenu":"Testimonianze",
   "contactMenu":"Contatto",
