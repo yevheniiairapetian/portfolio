@@ -29,6 +29,10 @@
     display:none;
 }
 
+.dark .r3play-carousel-heading{
+    color: #529fcc;
+} 
+
 .flags{
     display:inline;
     text-decoration: none !important;

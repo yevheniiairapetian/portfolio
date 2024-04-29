@@ -7,7 +7,17 @@ body {
     --button-bg: transparent;
     transition: background-color 0.3s ease;
   }
-  
+
+  .dark span.navbar-toggler-icon{
+    background:url('./../img/navbar-toggler-icon.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 100% !important;
+}
+
+.dark .logo{
+    content: url("./../../../../public/dark-logo.svg"); 
+}
   body.dark {
     background-color: #424242;
     color: #fff;

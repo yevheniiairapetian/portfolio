@@ -14,6 +14,7 @@ import projectsPicture4 from "./img/meet-app-hero-image.png";
 import projectsPicture5 from "./img/owrite-case-hero-image-2.png";
 import projectsPicture6 from "./img/pokemon-hero-image.png";
 import projectsPicture7 from "./img/to-do-hero-image.png";
+import projectsPicture8 from "./img/portfolio-hero-image.png";
 import sliderCSS from "./css/slider.css";
 
 
@@ -182,6 +183,31 @@ export const ProjectsSlider = () => {
               </Carousel.Caption>
               </Link>
             </Carousel.Item>
+
+
+            <Carousel.Item>
+              <Image className="projects-testim-image" src={projectsPicture8} text="Third slide" />
+              <Link title="Click to read more about the Portfolio App" className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case">
+              <Carousel.Caption className="projects-carousel-caption">
+                <h3 className="projects-carousel-heading">Portfolio App</h3>
+                <cite>{t("toDoInfo")}
+                  
+                  <Link title="Click to read more about the Portfolio App" className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case" >{t("projectsSliderMore")}</Link>
+                </cite>
+                <div className="projects-work-links">
+                  <Link title="Click to open the Portfolio App Github repository" to='https://github.com/yevheniiairapetian/portfolio' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                  {/* </div> */}
+                  {/* <div class="work-links"> */}
+                  <Link title="Click to open the Portfolio App" to='https://yevheniiairapetian.com/#/' target="_self" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                  {/* </div> */}
+                  {/* <div class="work-links"> */}
+                  <Link title="Click to read more about the Portfolio App" to='./../portfolio-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
+                  {/* </div> */}
+                </div>
+              </Carousel.Caption>
+              </Link>
+            </Carousel.Item>
+
 
           </Carousel>
         </Col>

@@ -261,6 +261,9 @@
     color: #529fcc;
 }
 
+.page-header a:hover{
+    color: black !important;
+}
 
 .dark .fa-envelope:hover,
 .dark .fa-skype:hover,
@@ -268,9 +271,17 @@
 .dark .fa-twitter:hover,
 .dark .fa-github:hover,
 .dark .fa-medium:hover,
-.dark .fa-dev:hover{
-        color:white;
+.dark .fa-dev:hover,
+.dark .fa-code:hover,
+.dark .fa-up:hover,
+.dark .fa-circle:hover,
+.dark .fa-clipboard-check:hover,
+.dark .projects-carousel-heading,
+.dark .projects-more,
+.dark .page-header a:hover{
+        color:#529fcc !important;
     }
+  
 
 .fa-envelope:hover,
 .fa-skype:hover,

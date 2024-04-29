@@ -167,7 +167,7 @@ export const NavigationBar = () => {
 								{languages.map(({ name, code }) => (
 									<option key={code} value={code}>
 										<span style={{display: "inline-block", fontSize: "24px", color: "#ffffff"}}>🌏︎ </span>
-										{name}
+										<span className="lang-option">{name}</span>
 									</option>
 								))}
 							</select>

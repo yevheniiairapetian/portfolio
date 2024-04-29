@@ -101,9 +101,27 @@
     "r3playCasePostman":"I used Postman to test responses and requests to the API. I also made use of basic HTTP authentication and JWT authentication to provide for the authentication and authorization features.",
     "portfolioCaseAboutClient":"I built the front-end interface to supply users with the possibility to interact with the data related to my professional portfolio. It was originally a static website, developed using plain HTML, CSS, and Totally.js, a Javascript plugin to test accessibility. It had separate HTML pages for the main, projects, contact, and other information.",
     "caseSliderTip":"Use the slider controls to click through the projects' list. Hover over the slides' headings to read more.",
-    "r3playCaseDurationData":"12 weeks in total (backend: 7 weeks, frontend: 5 weeks)",
-    "r3playCaseConclusionData":"The movie app was only the second full web application I developed in the Full-Stack web development course. When it was finished, I focused on enhancing my development skills, specifically the test-driven development approach. It requires implementing the testing phase before adding the actual functional logic, allowing for safer, bug-free, and quicker development.",
+    "portfolioCaseDurationData":"2 weeks in total for the initial project. 3-6 months in sum for the current result",
+    "portfolioCaseConclusionData":"The Portfolio website was the first project in the Career Foundry's web development bootcamp. When it was finished, I started the \"Full-Stack Immersion course\" with the work on the Pokemon App.",
+    "portfolioCaseConclusionData2":"It was a great and rewarding experience to design and debug the app in its initial state up to the latest improvements it has. I also added new and built upon the old skills (including when working on my own), such as polishing the copy, debugging the deployment of React apps, using localization libraries, introducing and customizing theming, working with local storage, better styling practices, and others.",
+    "portfolioCaseChallenge":"The development of the initial project was relatively easy and error-free since I already had experience in the technologies that were required for it. In fact, I managed to complete it 1 week before the required deadline and got my submissions showcased as an example for other students.",
+    "portfolioCaseChallenge2":"However, as I moved to the more complex technologies and beyond the project's requirements on my own, I encountered several issues. One problem was that I couldn't completely introduce the dark theme to the app. When I switched the dark theme on, only a part of the app changed its style. Another one related to the difficulties of deployment and React settings required for it. Thankfully, the knowledge gained during the bootcamp aided me in solving these obstacles and I was able to:",
+    "portfolioCaseChallengeDetail1":"Use my research and troubleshooting skills to fix the dark-theme-related issues",
+    "portfolioCaseChallengeDetail2":"Research and troubleshoot the deployment-related issues",
+    "portfolioMainTakeaway1":"Persistence is an important skill in web development, as well as the choice to compromise and set priorities",
+    "portfolioMainTakeaway2":"Sometimes a bug may be caused unexpectedly and a solution needs a better attention to detail",
+    "portfolioMainTakeaway3":"There's always space for improvement in your projects, so it's crucial to understand the moment when to move on further and/or prioritize",
+    "portfolioMainTakeaway4":"Code (quickly) becomes outdated or needs an update, so checking in to your older projects from time to time is a good idea ",
+
+    "portfolioSlide1Heading":"About View (Light theme)",
+    "portfolioSlide2Heading":"About View (Dark theme)",
+    "portfolioSlide3Heading":"Localized Project Case View",
+    "portfolioSlide1Description":"The Portfolio App About view where users can read more about the author, access the codebase, and resumes (displayed in light theme)",
+    "portfolioSlide2Description":"The Portfolio App About view where users can read more about the author, access the codebase, and resumes (displayed in dark theme)",
+    "portfolioSlide3Description":"One of the projects' cases view that is localized (to the German language in this example)",
     
+
+
     "myFlixCaseHeading":"MyFlix App Case Study",
     "myFlixCaseIntroduction":"MyFlix-Angular-App is a web app, developed using the MEAN stack, that provides users with information about movies. Users can access information about movies, directors, and genres. Users can create an account, update their information, and create a list of favorite movies.",
     "myFlixCaseRequired":"MyFlix-Angular-App was a required project I developed as part of my full-stack immersion course at CareerFoundry to demonstrate my mastery of full-stack web development using JavaScript. Additionally, I practiced Agile project management, feedback providing, and documentation generation skills.",
@@ -206,8 +224,9 @@
     "returnHomeParagraph":"But you can always return to the ",
     "returnHomeLink":"home page",
     
-
-    
+    "copySkill":"Polishing the copy",
+    "terminalSkill":"Work in the terminal",
+    "accessibilitySkill":"Accessibility",
     "externalApiSkill":"External API",
     "nativeSkill":"Native App Development",
     "troubleshootingSkill":"Troubleshooting",
