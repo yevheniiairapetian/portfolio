@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc8679a8.css",
-    "main.js": "/static/js/main.2fea8647.js",
+    "main.css": "/static/css/main.c568970f.css",
+    "main.js": "/static/js/main.6d861205.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/retrospective-1.gif": "/static/media/retrospective-1.0b2a48d77a9e0082eef0.gif",
     "static/media/r3play-hero-image.png": "/static/media/r3play-hero-image.0a34861315051f55a803.png",
@@ -49,12 +49,12 @@
     "static/media/arrow-ios-forward.svg": "/static/media/arrow-ios-forward.d73ef74fecf0b1b13593.svg",
     "static/media/arrow-ios-back.svg": "/static/media/arrow-ios-back.7ade10504a85d9828ae0.svg",
     "static/media/navbar-toggler-icon.svg": "/static/media/navbar-toggler-icon.ce288e82eed2cc1fe718.svg",
-    "main.fc8679a8.css.map": "/static/css/main.fc8679a8.css.map",
-    "main.2fea8647.js.map": "/static/js/main.2fea8647.js.map",
+    "main.c568970f.css.map": "/static/css/main.c568970f.css.map",
+    "main.6d861205.js.map": "/static/js/main.6d861205.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc8679a8.css",
-    "static/js/main.2fea8647.js"
+    "static/css/main.c568970f.css",
+    "static/js/main.6d861205.js"
   ]
 }
