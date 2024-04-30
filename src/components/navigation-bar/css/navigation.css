@@ -20,9 +20,10 @@ body {
 }
 
 .dark .profile-picture{
-    content: url("./../img/profile-picture-dark.png"); 
+    content: url("https://i.ibb.co/bKcnVkT/1234-cr-cr.png"); 
     border-radius: 52% !important;
 }
+
 
   body.dark {
     background-color: #424242;

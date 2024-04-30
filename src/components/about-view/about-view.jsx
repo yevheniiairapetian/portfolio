@@ -2,7 +2,7 @@ import { Navbar, Button, Container, Row, Col, Nav, Image } from "react-bootstrap
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
 import aboutCSS from './css/about.css';
-import profileImg from "./img/yevhenii_airapetian_profile_picture.webp";
+
 import uaCV from "./img/Yevhenii-Airapetian-UK.pdf";
 import usCV from "./img/Yevhenii-Airapetian-EN.pdf";
 import deCV from "./img/Yevhenii-Airapetian-DE.pdf";
@@ -57,7 +57,7 @@ export const AboutView = () => {
 		<Container className="wrapper aboutContainer pt-5">
 			<Row>
 				<Col xs={12} md={5}>
-                <Image alt={t("profileImageAlt")} onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle src={profileImg} />
+                <Image alt={t("profileImageAlt")} onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle src="https://i.ibb.co/0KR5Hb9/yevhenii-airapetian-profile-picture-cr-cr.jpg" />
                 </Col>
                 <Col xs={12} md={7}>
                 <h1 className="r3play-headings">{t("welcome text")}</h1>

@@ -177,7 +177,7 @@ export const NavigationBar = () => {
 
 						<button className="toggle_btn pl-3" onClick={() => setDarkMode(!isDarkMode)}>
           {isDarkMode ? (
-            <FontAwesomeIcon className="sun" title={t("themeSwitcherLightHint")}  icon={faLightbulb} beatFade style={{color: "#FFD43B", "--fa-animation-iteration-count": "1"}} />
+            <FontAwesomeIcon className="sun" title={t("themeSwitcherLightHint")}  icon={faLightbulb} beatFade style={{color: "#FFD43B", "--fa-animation-iteration-count": "2"}} />
           ) : (
             <FontAwesomeIcon className="moon" title={t("themeSwitcherDarkHint")} icon={faLightbulb} beatFade style={{color: "#000000", "--fa-animation-iteration-count": "2"}} />
           )}
