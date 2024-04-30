@@ -1,4 +1,8 @@
 {
+    "darkModalMessage": "Du bist auf der Seite der Dunkelheit",
+"lightModalMessage": "Du bist auf der Seite des Lichts",
+"modalConfirm":"Los geht's!",
+"modalHint":"Bitte klicken, um das Modal zu schließen",
     "app_title": "Yevhenii Airapetian - Portfolio",
     "languages": "Sprachen",
     "themeSwitcherLightHint":"Klicken Sie, um zum Lichtthema zu wechseln",

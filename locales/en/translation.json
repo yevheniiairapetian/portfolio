@@ -1,5 +1,10 @@
 {
-    "app_title": "Yevhenii Airapetian - Portfolio",
+    
+  "darkModalMessage":"You are on the side of darkness",
+  "lightModalMessage":"You are on the side of light",
+  "modalConfirm":"Let's go!",
+"modalHint":"Click to close the modal",
+  "app_title": "Yevhenii Airapetian - Portfolio",
     "languages": "Languages",
     "themeSwitcherLightHint":"Click here please to switch to the light theme",
     "themeSwitcherDarkHint":"Click here please to switch to the dark theme",

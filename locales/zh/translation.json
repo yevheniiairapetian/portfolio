@@ -1,4 +1,8 @@
 {
+    "darkModalMessage":"你站在黑暗的一边",
+"lightModalMessage":"你在光的一边",
+"modalConfirm":"我们走吧！",
+"modalHint":"点击关闭模态",
 "app_title": "Yevhenii Airapetian - 投资组合",
 "languages": "语言",
 "themeSwitcherLightHint":"点击这里请切换到灯光主题",

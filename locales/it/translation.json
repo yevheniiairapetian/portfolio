@@ -1,4 +1,8 @@
 {
+  "darkModalMessage": "Sei dalla parte dell'oscurità",
+"lightModalMessage": "Sei dalla parte della luce",
+"modalConfirm": "Andiamo!",
+"modalHint": "Clicca per chiudere il modale",
     "app_title": "Yevhenii Airapetian - Portafoglio",
     "languages": "Lingue",
     "themeSwitcherLightHint": "Clicca qui per passare al tema della luce",
