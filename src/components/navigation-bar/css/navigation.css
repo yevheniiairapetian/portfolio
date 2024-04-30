@@ -18,6 +18,11 @@ body {
 .dark .logo{
     content: url("./../../../../public/dark-logo.svg"); 
 }
+
+.dark .profile-picture{
+    content: url("./../img/profile-picture-dark.png"); 
+}
+
   body.dark {
     background-color: #424242;
     color: #fff;
