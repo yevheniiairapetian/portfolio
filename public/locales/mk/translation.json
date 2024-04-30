@@ -1,4 +1,8 @@
 {
+  "darkModalMessage":"Вие сте на страната на темнината",
+  "lightModalMessage":"Вие сте на страната на светлината",
+  "modalConfirm":"Го Добив!",
+  "modalHint": "Кликни за затворање на модалот",
   "app_title": "Yevhenii Airapetian - Портфолио",
   "languages": "Јазици",
   "themeSwitcherLightHint":"Кликни тука ве молиме да се префрлите на темата на светлината",

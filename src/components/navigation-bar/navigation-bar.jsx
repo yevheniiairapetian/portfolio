@@ -205,8 +205,8 @@ export const NavigationBar = () => {
 			<Modal.Header closeButton>
 				{/* <Modal.Title className="text-success">Favorites</Modal.Title> */}
 			</Modal.Header>
-			<Modal.Body  className="text-dark bg-white dark-modal-body">You are on the dark side</Modal.Body>
-			<Button className="got-it-button text-dark bg-white dark-modal-button" onClick={handleCloseDarkModal}>Got it!</Button>
+			<Modal.Body  className="text-dark bg-white dark-modal-body">{t("darkModalMessage")}</Modal.Body>
+			<Button title={t("modalHint")} className="got-it-button text-dark bg-white dark-modal-button" onClick={handleCloseDarkModal}>{t("modalConfirm")}</Button>
 		  
 		</Modal>
 
@@ -216,8 +216,8 @@ export const NavigationBar = () => {
 			<Modal.Header closeButton>
 				{/* <Modal.Title className="text-success">Favorites</Modal.Title> */}
 			</Modal.Header>
-			<Modal.Body  className="text-dark bg-white">You are on the light side</Modal.Body>
-			<Button className="got-it-button light-modal-button" onClick={handleCloseLightModal}>Got it!</Button>
+			<Modal.Body  className="text-dark bg-white">{t("lightModalMessage")}</Modal.Body>
+			<Button title={t("modalHint")} className="got-it-button light-modal-button" onClick={handleCloseLightModal}>{t("modalConfirm")}</Button>
 		</Modal>
 
 		

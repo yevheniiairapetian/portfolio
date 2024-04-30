@@ -1,4 +1,8 @@
 {
+    "darkModalMessage":" Estás del lado de la oscuridad",
+"lightModalMessage":" Estás del lado de la luz",
+"modalConfirm": "¡Vamos!",
+"modalHint": "Haz clic para cerrar el modal",
     "app_title": "Yevhenii Airapetian - Portafolio",
     "languages": "lenguas",
     "themeSwitcherLightHint": "Haga clic aquí para cambiar al tema de la luz",
