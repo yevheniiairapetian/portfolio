@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.014226f7.css",
+    "main.css": "/static/css/main.abd8ed1b.css",
     "main.js": "/static/js/main.8f1df8cd.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/profile-picture-dark.png": "/static/media/profile-picture-dark.cb0a340b34623832900f.png",
     "static/media/retrospective-1.gif": "/static/media/retrospective-1.0b2a48d77a9e0082eef0.gif",
     "static/media/r3play-hero-image.png": "/static/media/r3play-hero-image.0a34861315051f55a803.png",
     "static/media/myFlix-retrospective-2.png": "/static/media/myFlix-retrospective-2.05231990e830a8bfb3a4.png",
     "static/media/myFlix-hero-image.png": "/static/media/myFlix-hero-image.d4f72f8145853eca6c5e.png",
     "static/media/feedback.jpg": "/static/media/feedback.8065896e9da412d52bd1.jpg",
-    "static/media/profile-picture-dark.png": "/static/media/profile-picture-dark.fead2de383ee948586cb.png",
     "static/media/retrospective-2.gif": "/static/media/retrospective-2.d6e74b8d7de844d6b164.gif",
     "static/media/projects.jpg": "/static/media/projects.c6637fca3bba3e243f96.jpg",
     "static/media/r3play-case-example-2.png": "/static/media/r3play-case-example-2.db74a429cb0efbd2740e.png",
@@ -51,12 +51,12 @@
     "static/media/arrow-ios-forward.svg": "/static/media/arrow-ios-forward.d73ef74fecf0b1b13593.svg",
     "static/media/arrow-ios-back.svg": "/static/media/arrow-ios-back.7ade10504a85d9828ae0.svg",
     "static/media/navbar-toggler-icon.svg": "/static/media/navbar-toggler-icon.ce288e82eed2cc1fe718.svg",
-    "main.014226f7.css.map": "/static/css/main.014226f7.css.map",
+    "main.abd8ed1b.css.map": "/static/css/main.abd8ed1b.css.map",
     "main.8f1df8cd.js.map": "/static/js/main.8f1df8cd.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.014226f7.css",
+    "static/css/main.abd8ed1b.css",
     "static/js/main.8f1df8cd.js"
   ]
 }
