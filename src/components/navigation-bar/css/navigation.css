@@ -21,6 +21,7 @@ body {
 
 .dark .profile-picture{
     content: url("./../img/profile-picture-dark.png"); 
+    border-radius: 52% !important;
 }
 
   body.dark {
