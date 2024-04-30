@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Navbar, Container, Row, Col, Nav, Image } from "react-bootstrap";
+import { Navbar, Container, Row, Col, Nav, Image, Modal, Button } from "react-bootstrap";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BsMoon, BsSun } from "react-icons/bs";
 import Cookies from "js-cookie";
@@ -11,8 +11,16 @@ import { Link } from "react-router-dom";
 import $ from 'jquery';
 import { faGlobe, faLightbulb, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import Modal from "../modal/dark-modal";
 
 export const NavigationBar = () => {
+	const [showDarkModal, setShowDarkModal] = useState(false);
+	const [showLightModal, setShowLightModal] = useState(false);
+	const handleShowLightModal = () => setShowLightModal(true);
+  const handleShowDarkModal = () => setShowDarkModal(true);
+	const handleCloseLightModal = () => setShowLightModal(false);
+  const handleCloseDarkModal = () => setShowDarkModal(false);
+
 	const [isDarkMode, setDarkMode] = useDarkMode();
 	const { t, i18n } = useTranslation();
 	const [expanded, setExpanded] = useState(false);
@@ -75,7 +83,7 @@ export const NavigationBar = () => {
 	}, [currentLangObj, t]);
 
 	return (
-
+<>
 		<Navbar expanded={expanded} onClick={() => { closeMenuDownloadLinks() }} className="page-header" expand="lg" id="navigation">
 			<Container className="navigation">
 				<Navbar.Brand className="p-2 brand" as={Link} to="/" expand="lg">
@@ -175,17 +183,44 @@ export const NavigationBar = () => {
 						</div>
 
 
-						<button className="toggle_btn pl-3" onClick={() => setDarkMode(!isDarkMode)}>
+						
           {isDarkMode ? (
+			<button className="toggle_btn pl-3" onClick={() => {setDarkMode(!isDarkMode);handleShowLightModal()}}>
+		
             <FontAwesomeIcon className="sun" title={t("themeSwitcherLightHint")}  icon={faLightbulb} beatFade style={{color: "#FFD43B", "--fa-animation-iteration-count": "2"}} />
-          ) : (
+			</button>):(
+				<button className="toggle_btn pl-3" onClick={() => {setDarkMode(!isDarkMode);handleShowDarkModal()}}>
             <FontAwesomeIcon className="moon" title={t("themeSwitcherDarkHint")} icon={faLightbulb} beatFade style={{color: "#000000", "--fa-animation-iteration-count": "2"}} />
-          )}
-        </button>
+			</button>
+		  )}
+        
 
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>
+		<Modal 
+          
+		className="favorite-modal" show={showDarkModal} onHide={handleCloseDarkModal}>
+			<Modal.Header closeButton>
+				{/* <Modal.Title className="text-success">Favorites</Modal.Title> */}
+			</Modal.Header>
+			<Modal.Body  className="text-dark bg-white dark-modal-body">You are on the dark side</Modal.Body>
+			<Button className="got-it-button text-dark bg-white dark-modal-button" onClick={handleCloseDarkModal}>Got it!</Button>
+		  
+		</Modal>
+
+		<Modal 
+	  
+		className="favorite-modal" show={showLightModal} onHide={handleCloseLightModal}>
+			<Modal.Header closeButton>
+				{/* <Modal.Title className="text-success">Favorites</Modal.Title> */}
+			</Modal.Header>
+			<Modal.Body  className="text-dark bg-white">You are on the light side</Modal.Body>
+			<Button className="got-it-button light-modal-button" onClick={handleCloseLightModal}>Got it!</Button>
+		</Modal>
+
+		
+		</>
 	);
 };
