@@ -1,4 +1,6 @@
 {
+    "whatsNewInfo":"Qué hay nuevo: la aplicación se movió a React.js, ahora está localizado y tiene un alternador de temas.Leer más ",
+    "whatsNewLink":"aquí",
     "darkModalMessage":" Estás del lado de la oscuridad",
 "lightModalMessage":" Estás del lado de la luz",
 "modalConfirm": "¡Vamos!",

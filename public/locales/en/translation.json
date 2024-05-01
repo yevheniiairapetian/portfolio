@@ -1,5 +1,6 @@
 {
-    
+    "whatsNewInfo":"What's new: the app moved to React.js, is now localized, and has a theme toggler. Read more ",
+    "whatsNewLink":"here",
   "darkModalMessage":"You are on the side of darkness",
   "lightModalMessage":"You are on the side of light",
   "modalConfirm":"Let's go!",

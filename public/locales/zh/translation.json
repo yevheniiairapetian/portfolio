@@ -1,4 +1,7 @@
 {
+
+    "whatsNewInfo":"更新内容:该应用程序移动到React。js，现在是本地化的，并有一个主题toggler。",
+    "whatsNewLink":"在这里阅读更多",
     "darkModalMessage":"你站在黑暗的一边",
 "lightModalMessage":"你在光的一边",
 "modalConfirm":"我们走吧！",

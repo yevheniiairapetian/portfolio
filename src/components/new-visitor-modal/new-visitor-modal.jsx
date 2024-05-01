@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const NewVisitorModal = () => {
+    const { t } = useTranslation();
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
@@ -19,7 +21,7 @@ export const NewVisitorModal = () => {
        
       
      
-      <p className="whats-new-info text-center">What's new: the app moved to React.js, is now localized, and has a theme toggler. Read more <a className="whats-new-link" href="https://yevheniiairapetian.com/#/portfolio-case">here</a></p>
+      <p className="whats-new-info text-center">{t("whatsNewInfo")}<a className="whats-new-link" href="https://yevheniiairapetian.com/#/portfolio-case">{t("whatsNewLink")}here</a></p>
       
       <button className="light-modal-button got-it-button new-visitor-button pl-1 pb-1 pt-1 pr-1" onClick={() => setVisible(false)}>x</button>
     </div>
