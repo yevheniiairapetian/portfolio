@@ -9,12 +9,18 @@ import useDarkMode from "./../../hooks/useDarkMode";
 import navigationCSS from './css/navigation.css';
 import { Link } from "react-router-dom";
 import $ from 'jquery';
-import { faGlobe, faCircleInfo, faLightbulb, faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faBell, faCircleInfo, faLightbulb, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { NewVisitorModal } from "../new-visitor-modal/new-visitor-modal";
 // import Modal from "../modal/dark-modal";
 
 export const NavigationBar = () => {
+	const [visible, setVisible] = useState(false);
+  const currentTableData = [
+    { id: 1, title: 'What\'s new: the app moved to React, is localized, and has a theme toggler. Read more: ' },
+    // { id: 2, title: 'BBB' },
+    // { id: 3, title: 'CCC' }
+  ];
 	// const [showNewVisitorModal, setShowNewVisitorModal] = useState(true);
 	const [showDarkModal, setShowDarkModal] = useState(false);
 	const [showLightModal, setShowLightModal] = useState(false);
@@ -42,6 +48,7 @@ export const NavigationBar = () => {
 		// }
 
 	}
+
 
 	function closeMenuDownloadLinks() {
 		let linkDE = $('.download-menu-de');
@@ -180,7 +187,7 @@ export const NavigationBar = () => {
 						</NavDropdown>
 
 
-
+						
 						<div className="switcher pl-3">
 							{/* Language switch dropdown here */}
 							
@@ -210,8 +217,21 @@ export const NavigationBar = () => {
             <FontAwesomeIcon className="moon" title={t("themeSwitcherDarkHint")} icon={faLightbulb} beatFade style={{color: "#000000", "--fa-animation-iteration-count": "2"}} />
 			</button>
 		  )}
-        
-
+        <Nav.Link  className="text-light pe-4">
+						<div>
+      {currentTableData.map(item => (
+        <div  key={item.id}>
+          <button className="notification-button pl-4" onClick={() => setVisible(!visible)}>
+            {visible ? <FontAwesomeIcon className="bell-calm" icon={faBell} size="lg" style={{color: "#529fcc",}} /> : <FontAwesomeIcon className="bell-active" icon={faBell} shake size="lg" style={{color: "#ffffff","--fa-animation-iteration-count": "2"}} />}
+          </button>
+          {visible && <div className="notification">{t("whatsNewInfo")}
+		  <Link className="notification-more" onClick={() => setExpanded(false)} to={"./../portfolio-case"}>{t("whatsNewLink")}</Link>
+			</div>}
+        </div>
+      ))}
+    </div>
+						</Nav.Link>
+		
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
@@ -240,6 +260,7 @@ export const NavigationBar = () => {
 			
 			<Button title={t("modalHint")} className="got-it-button light-modal-button" onClick={handleCloseLightModal}>{t("modalConfirm")}</Button>
 		</Modal>
+
 
 		{/* <div className="popup favorite-modal pt-3 w-100">
        

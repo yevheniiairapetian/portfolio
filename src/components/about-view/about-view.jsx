@@ -10,51 +10,26 @@ import { useTranslation } from 'react-i18next';
 
 export const AboutView = () => {
 	function showDownloadLinks(){
-        // let linkDE = $('.download-de');
-        // let linkEN = $('.download-en');
-        // let linkUK = $('.download-uk');
+        
         let resumes = $('.resumes');
-        // if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
-          
-          // linkDE.fadeToggle();
-          // linkEN.fadeToggle();
-          // linkUK.fadeToggle();
+        
           resumes.fadeToggle();
-      
-      
-        // }else{
-          // linkDE.fadeToggle();
-          // linkEN.fadeToggle();
-          // linkUK.fadeToggle();
-        // }
         
       }
 
       function closeDownloadLinks(){
         let resumes = $('.resumes');
-        // let linkDE = $('.download-de');
-        // let linkEN = $('.download-en');
-        // let linkUK = $('.download-uk');
-        // if (linkDE.style.display == "none" && linkEN.style.display == "none" && linkUK.style.display == "none") {
-          
-          // linkDE.fadeOut();
-          // linkEN.fadeOut();
-          // linkUK.fadeOut();
+        let content = $('.close-notification');
+        content.on("click", function(){$(".notification").fadeOut()});
+        
+          // notification.fadeOut();
           resumes.fadeOut();
-          
-      
-      
-        // }else{
-          // linkDE.fadeToggle();
-          // linkEN.fadeToggle();
-          // linkUK.fadeToggle();
-        // }
         
       }
       const { t } = useTranslation();
 	return (
 
-		<Container className="wrapper aboutContainer pt-5">
+		<Container className="wrapper close-notification aboutContainer pt-5">
 			<Row>
 				<Col xs={12} md={5}>
                 <Image alt={t("profileImageAlt")} onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle src="https://i.ibb.co/0KR5Hb9/yevhenii-airapetian-profile-picture-cr-cr.jpg" />

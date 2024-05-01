@@ -238,6 +238,55 @@ button.toggle_btn{
      
 }
 
+.notification{
+  display:block;
+  text-align: center;
+  width: 300px;
+  height:200px;
+  padding: 20px;
+  position: absolute;
+  top: 7rem;
+  right:0;
+  z-index:40;
+  background-color: #3b3937;
+  color: whitesmoke;
+}
+
+a.notification-more{
+  color: whitesmoke !important;
+}
+
+.bell-calm{
+  color: #000 !important;
+}
+
+.dark .bell-calm{
+  color: #fff !important;
+}
+
+.dark .bell-active{
+  color: #529fcc !important;
+}
+
+.bell-active{
+  color: #ffd43b !important;
+}
+
+
+.dark .notification{
+  display:block;
+  text-align: center;
+  width: 300px;
+  height:200px;
+  padding: 20px;
+  position: absolute;
+  top: 7rem;
+  right:0;
+  z-index:40;
+  background-color: #000;
+  color: whitesmoke;
+}
+
 @media screen and (max-width:600px){
 
   div.modal-body.dark-modal-body{
@@ -300,6 +349,39 @@ height: 140px !important;
 }
 
 @media screen and (max-width:991px){
+.notification-button{
+  padding-left:0 !important;
+}
+
+div.notification{
+  display:block;
+  text-align: center;
+  width: 80%;
+  height:130px;
+  padding: 30px 20px 20px 20px;
+  margin: 0 auto;
+  position: sticky;
+  bottom:-10px;
+  z-index:40;
+  color: #000;
+    background-color: #529fcc;
+    border-top:1px solid #000;
+
+}
+
+  .dark div.notification{
+    display:block;
+    text-align: center;
+    width: 300px;
+    height:200px;
+    padding: 20px;
+    margin: 0 auto;
+    position: sticky;
+    bottom:-10px;
+    z-index:40;
+    color: whitesmoke;
+    background-color: #000;
+  }
     .fa-globe{
         padding-left:0px;
     }

@@ -27,7 +27,7 @@ export const ContactView = () => {
 
 
   return (
-    <Container>
+    <Container className="close-notification">
       <Row>
         <Col
           className="wrapper contact-main_container"
