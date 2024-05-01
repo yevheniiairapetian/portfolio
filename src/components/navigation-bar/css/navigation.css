@@ -61,6 +61,14 @@ div.popup{
   z-index: 30;
 }
 
+.dark .whats-new-info{
+  background-color: #000;
+}
+
+.dark .whats-new-link{
+  color: #529fcc;
+}
+
 div.popup a{
   color: black;
 }
@@ -236,19 +244,35 @@ button.toggle_btn{
     height:140px;
     width:100% !important;
   }
+
+  .popup button.light-modal-button.got-it-button.new-visitor-button{
+    top:0 !important;
+  }
   
   .dark .modal-content{
     background-color: #000 !important;
     width:100% !important;
   }
   
+div.popup{
+  background-color: #529fcc !important;
+}
+
+  .dark div.modal-body{
+    width:70% !important;
+  }
+
   .modal-body{
     height:140px;
     width:70%;
     background-color: #529fcc !important;
   }
 
- 
+  .dark div.popup p, div.popup p{
+    width: 90%;
+    margin: 0 auto;
+    padding-top:10px !important;
+  }
 
   div.popup, div.popup p{
   
@@ -262,6 +286,12 @@ button.toggle_btn{
 div.popup{
 height: 140px !important;
 }
+
+
+.popup button.light-modal-button.got-it-button.new-visitor-button{
+  color: #000 !important;
+}
+
 
 .dark .popup button.light-modal-button.got-it-button.new-visitor-button{
   background-color: transparent !important;

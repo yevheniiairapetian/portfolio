@@ -1,8 +1,8 @@
 {
     "whatsNewInfo":"Was gibt's Neues: Die App wurde nach React verschoben.js ist jetzt lokalisiert und hat einen Theme-Umschalter. Lesen Sie ",
     "whatsNewLink":" hier mehr",
-    "darkModalMessage": "Du bist auf der Seite der Dunkelheit",
-"lightModalMessage": "Du bist auf der Seite des Lichts",
+    "darkModalMessage": "Willkommen auf der dunklen Seite",
+"lightModalMessage":"Willkommen auf der Seite des Lichts",
 "modalConfirm":"Los geht's!",
 "modalHint":"Bitte klicken, um das Modal zu schließen",
     "app_title": "Yevhenii Airapetian - Portfolio",

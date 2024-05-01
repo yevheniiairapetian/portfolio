@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import Modal from "../modal/dark-modal";
 
 export const NavigationBar = () => {
+	const [visible, setVisible] = useState(true);
 	const [showDarkModal, setShowDarkModal] = useState(false);
 	const [showLightModal, setShowLightModal] = useState(false);
 	const handleShowLightModal = () => setShowLightModal(true);
@@ -67,7 +68,7 @@ export const NavigationBar = () => {
 		{ name: "中文", code: "zh" },
 	];
 	const currentLocale = Cookies.get("i18next") || "en";
-
+	
 	const [language, setLanguage] = useState(currentLocale);
 
 	const handleChangeLocale = (e) => {
@@ -79,9 +80,21 @@ export const NavigationBar = () => {
 	const currentLangObj = languages.find((lang) => lang.code === currentLocale);
 
 	useEffect(() => {
+		
 		//   document.body.dir = currentLangObj.dir || "ltr";
 		document.title = t("app_title");
 	}, [currentLangObj, t]);
+
+	useEffect(() => {
+		// Check if the user has seen the modal before
+		const popStatus = localStorage.getItem('pop_status');
+		if (!popStatus) {
+		  setVisible(true); // Show the modal
+		  localStorage.setItem('pop_status', 'seen'); // Mark as seen
+		}
+	  }, []);
+	
+	  if (!visible) return null; // Don't render if not visible
 
 	return (
 <>
@@ -225,7 +238,14 @@ export const NavigationBar = () => {
 			<Button title={t("modalHint")} className="got-it-button light-modal-button" onClick={handleCloseLightModal}>{t("modalConfirm")}</Button>
 		</Modal>
 
-		
+		<div className="popup favorite-modal pt-3 w-100">
+       
+      
+     
+      <p className="whats-new-info text-center">{t("whatsNewInfo")}<a className="whats-new-link" href="https://yevheniiairapetian.com/#/portfolio-case">{t("whatsNewLink")}</a></p>
+      
+      <button className="light-modal-button got-it-button new-visitor-button pl-1 pb-1 pt-1 pr-1" onClick={() => setVisible(false)}>x</button>
+    </div>
 		</>
 	);
 };
