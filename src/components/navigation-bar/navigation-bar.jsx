@@ -20,7 +20,7 @@ export const NavigationBar = () => {
 	const [showLightModal, setShowLightModal] = useState(false);
 	const handleShowLightModal = () => setShowLightModal(true);
   const handleShowDarkModal = () => setShowDarkModal(true);
-  const handleCloseNewVisitorModal = () => setShowNewVisitorModal(false);
+//   const handleCloseNewVisitorModal = () => setShowNewVisitorModal(false);
 	const handleCloseLightModal = () => setShowLightModal(false);
   const handleCloseDarkModal = () => setShowDarkModal(false);
 
@@ -245,7 +245,7 @@ export const NavigationBar = () => {
      
       <p className="whats-new-info text-center">{t("whatsNewInfo")}<a className="whats-new-link" href="https://yevheniiairapetian.com/#/portfolio-case">{t("whatsNewLink")}</a></p>
       
-      <button className="light-modal-button got-it-button new-visitor-button pl-1 pb-1 pt-1 pr-1" onClick={() => handleCloseNewVisitorModal(false)}>x</button>
+      <button className="light-modal-button got-it-button new-visitor-button pl-1 pb-1 pt-1 pr-1" onClick={() => setShowNewVisitorModal(false)}>x</button>
     </div>
 		</>
 	);
