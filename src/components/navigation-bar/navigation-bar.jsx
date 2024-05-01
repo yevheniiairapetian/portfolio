@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import $ from 'jquery';
 import { faGlobe, faCircleInfo, faLightbulb, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { NewVisitorModal } from "../new-visitor-modal/new-visitor-modal";
+// import { NewVisitorModal } from "../new-visitor-modal/new-visitor-modal";
 // import Modal from "../modal/dark-modal";
 
 export const NavigationBar = () => {
@@ -225,7 +225,7 @@ export const NavigationBar = () => {
 			<Button title={t("modalHint")} className="got-it-button light-modal-button" onClick={handleCloseLightModal}>{t("modalConfirm")}</Button>
 		</Modal>
 
-		<NewVisitorModal />
+		
 		</>
 	);
 };
