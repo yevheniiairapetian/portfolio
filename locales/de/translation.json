@@ -1,4 +1,6 @@
 {
+    "whatsNewInfo":"Was gibt's Neues: Die App wurde nach React verschoben.js ist jetzt lokalisiert und hat einen Theme-Umschalter. Lesen Sie ",
+    "whatsNewLink":" hier mehr",
     "darkModalMessage": "Du bist auf der Seite der Dunkelheit",
 "lightModalMessage": "Du bist auf der Seite des Lichts",
 "modalConfirm":"Los geht's!",

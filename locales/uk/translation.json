@@ -1,5 +1,6 @@
 {
-        
+    "whatsNewInfo":"Що нового: додаток перенесено на React.js, тепер він локалізований і має перемикач теми. Детальніше читайте ",
+    "whatsNewLink":"тут",   
   "darkModalMessage":"Ви на боці темряви",
   "lightModalMessage":"Ви на боці світла",
   "modalConfirm":"Погнали!",

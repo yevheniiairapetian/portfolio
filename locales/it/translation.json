@@ -1,4 +1,6 @@
 {
+  "whatsNewInfo":"Novità: l'app è stata spostata su React.js, è ora localizzato, e ha un tema toggler. Leggi di più ",
+  "whatsNewLink":"qui",
   "darkModalMessage": "Sei dalla parte dell'oscurità",
 "lightModalMessage": "Sei dalla parte della luce",
 "modalConfirm": "Andiamo!",
