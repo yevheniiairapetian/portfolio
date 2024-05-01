@@ -298,6 +298,11 @@ a.notification-more{
     top:0 !important;
   }
   
+  div.modal-content, div.modal-body{
+    background-color: #fff !important;
+    width:100% !important;
+  }
+
   .dark .modal-content{
     background-color: #000 !important;
     width:100% !important;

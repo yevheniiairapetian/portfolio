@@ -221,12 +221,18 @@ export const NavigationBar = () => {
 						<div>
       {currentTableData.map(item => (
         <div  key={item.id}>
+			
           <button className="notification-button pl-4" onClick={() => setVisible(!visible)}>
             {visible ? <FontAwesomeIcon className="bell-calm" icon={faBell} size="lg" style={{color: "#529fcc",}} /> : <FontAwesomeIcon className="bell-active" icon={faBell} shake size="lg" style={{color: "#ffffff","--fa-animation-iteration-count": "2"}} />}
           </button>
-          {visible && <div className="notification">{t("whatsNewInfo")}
-		  <Link className="notification-more" onClick={() => setExpanded(false)} to={"./../portfolio-case"}>{t("whatsNewLink")}</Link>
-			</div>}
+		  
+          {visible && <div className="notification"><div><span onClick={() => setVisible(!visible)} className="notification-more text-primary">x</span></div>{t("whatsNewInfo")}
+		  
+		  <Link className="notification-more" to={"./../portfolio-case"} onClick={() => setVisible(!visible)} >{t("whatsNewLink")}</Link>
+		  
+			</div>
+			
+			}
         </div>
       ))}
     </div>
