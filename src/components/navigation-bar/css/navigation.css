@@ -25,12 +25,14 @@ body {
 }
 
 
+
+
 .favorite-modal .modal-header{
     display:none;
   }
 
 
-  .dark .dark-modal-body{
+  .dark .dark-modal-body, .dark .popup{
     background-color: black !important;
     color:whitesmoke !important;
   }
@@ -44,7 +46,30 @@ body {
     background-color: #529fcc !important;
     color: white !important;
   }
-  .favorite-modal .modal-dialog{
+
+  .new-visitor-button{
+    width: 80px;
+    border-radius: 40px;
+  }
+div.popup{
+  height: 140px !important;
+  width:100%;
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index: 30;
+}
+
+div.popup a{
+  color: black;
+}
+  .popup, .popup p{
+    background-color:#529fcc;
+    color: white;
+    padding:32px 0px 42px 0px
+  }
+  .favorite-modal .modal-dialog, .popup{
     display: block !important;
     background:transparent !important;
     position: fixed !important;
@@ -54,7 +79,12 @@ body {
     width: 96% !important;
     height: 100px !important;
   }
-
+.new-visitor-button{
+  background-color: transparent !important;
+  top: 15px !important;
+  right: 0 !important;
+}
+  
 
   .delete-modal .modal-dialog{
     display: block !important;
@@ -198,6 +228,45 @@ button.toggle_btn{
     font-size:24px;
      margin-left:10px;
      
+}
+
+@media screen and (max-width:600px){
+
+  div.modal-body.dark-modal-body{
+    height:140px;
+    width:100% !important;
+  }
+  
+  .dark .modal-content{
+    background-color: #000 !important;
+    width:100% !important;
+  }
+  
+  .modal-body{
+    height:140px;
+    width:70%;
+    background-color: #529fcc !important;
+  }
+
+ 
+
+  div.popup, div.popup p{
+  
+  padding:26px 0px 20px 0px
+}
+
+.popup a{
+  color:#529fcc;
+}
+
+div.popup{
+height: 140px !important;
+}
+
+.dark .popup button.light-modal-button.got-it-button.new-visitor-button{
+  background-color: transparent !important;
+  color:#529fcc !important;
+}
 }
 
 @media screen and (max-width:991px){

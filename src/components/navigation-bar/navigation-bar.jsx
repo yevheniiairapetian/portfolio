@@ -9,8 +9,9 @@ import useDarkMode from "./../../hooks/useDarkMode";
 import navigationCSS from './css/navigation.css';
 import { Link } from "react-router-dom";
 import $ from 'jquery';
-import { faGlobe, faLightbulb, faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faCircleInfo, faLightbulb, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { NewVisitorModal } from "../new-visitor-modal/new-visitor-modal";
 // import Modal from "../modal/dark-modal";
 
 export const NavigationBar = () => {
@@ -205,7 +206,8 @@ export const NavigationBar = () => {
 			<Modal.Header closeButton>
 				{/* <Modal.Title className="text-success">Favorites</Modal.Title> */}
 			</Modal.Header>
-			<Modal.Body  className="text-dark bg-white dark-modal-body">{t("darkModalMessage")}</Modal.Body>
+			<Modal.Body  className="text-dark bg-white dark-modal-body"><FontAwesomeIcon className="pr-2" icon={faCircleInfo} fade style={{color: "#529fcc",}} size="lg" />{t("darkModalMessage")}</Modal.Body>
+			
 			<Button title={t("modalHint")} className="got-it-button text-dark bg-white dark-modal-button" onClick={handleCloseDarkModal}>{t("modalConfirm")}</Button>
 		  
 		</Modal>
@@ -216,11 +218,14 @@ export const NavigationBar = () => {
 			<Modal.Header closeButton>
 				{/* <Modal.Title className="text-success">Favorites</Modal.Title> */}
 			</Modal.Header>
-			<Modal.Body  className="text-dark bg-white">{t("lightModalMessage")}</Modal.Body>
+			<Modal.Body  className="text-dark bg-white"><FontAwesomeIcon className="pr-2" icon={faCircleInfo} fade style={{color: "#529fcc",}} size="lg" />{t("lightModalMessage")}
+			
+			</Modal.Body>
+			
 			<Button title={t("modalHint")} className="got-it-button light-modal-button" onClick={handleCloseLightModal}>{t("modalConfirm")}</Button>
 		</Modal>
 
-		
+		<NewVisitorModal />
 		</>
 	);
 };
