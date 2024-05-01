@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import Modal from "../modal/dark-modal";
 
 export const NavigationBar = () => {
-	const [showNewVisitorModal, setShowNewVisitorModal] = useState(true);
+	// const [showNewVisitorModal, setShowNewVisitorModal] = useState(true);
 	const [showDarkModal, setShowDarkModal] = useState(false);
 	const [showLightModal, setShowLightModal] = useState(false);
 	const handleShowLightModal = () => setShowLightModal(true);
@@ -86,16 +86,18 @@ export const NavigationBar = () => {
 		document.title = t("app_title");
 	}, [currentLangObj, t]);
 
-	useEffect(() => {
-		// Check if the user has seen the modal before
-		const popStatus = localStorage.getItem('pop_status');
-		if (!popStatus) {
-			setShowNewVisitorModal(true); // Show the modal
-		  localStorage.setItem('pop_status', 'seen'); // Mark as seen
-		}
-	  }, []);
+	// useEffect(() => {
+	// 	// Check if the user has seen the modal before
+	// 	const popStatus = localStorage.getItem('pop_status');
+	// 	const className = "not-visible";
+	// 	if (!popStatus) {
+	// 		setShowNewVisitorModal(true); // Show the modal
+	// 	  localStorage.setItem('pop_status', 'seen'); // Mark as seen
+	// 	  window.document.querySelector(".modal").classList.add(className);
+	// 	}
+	//   }, []);
 	
-	  if (!showNewVisitorModal) return null; // Don't render if not visible
+	  
 
 	return (
 <>
@@ -239,14 +241,14 @@ export const NavigationBar = () => {
 			<Button title={t("modalHint")} className="got-it-button light-modal-button" onClick={handleCloseLightModal}>{t("modalConfirm")}</Button>
 		</Modal>
 
-		<div className="popup favorite-modal pt-3 w-100">
+		{/* <div className="popup favorite-modal pt-3 w-100">
        
       
      
       <p className="whats-new-info text-center">{t("whatsNewInfo")}<a className="whats-new-link" href="https://yevheniiairapetian.com/#/portfolio-case">{t("whatsNewLink")}</a></p>
       
       <button className="light-modal-button got-it-button new-visitor-button pl-1 pb-1 pt-1 pr-1" onClick={() => setShowNewVisitorModal(false)}>x</button>
-    </div>
+    </div> */}
 		</>
 	);
 };
