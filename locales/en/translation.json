@@ -1,8 +1,8 @@
 {
     "whatsNewInfo":"What's new: the app moved to React.js, is now localized, and has a theme toggler. Read more ",
     "whatsNewLink":"here",
-  "darkModalMessage":"You are on the side of darkness",
-  "lightModalMessage":"You are on the side of light",
+  "darkModalMessage":"Welcome to the dark side",
+  "lightModalMessage":"Welcome to the side of light",
   "modalConfirm":"Let's go!",
 "modalHint":"Click to close the modal",
   "app_title": "Yevhenii Airapetian - Portfolio",

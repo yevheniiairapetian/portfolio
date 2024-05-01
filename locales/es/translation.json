@@ -1,8 +1,8 @@
 {
     "whatsNewInfo":"Qué hay nuevo: la aplicación se movió a React.js, ahora está localizado y tiene un alternador de temas.Leer más ",
     "whatsNewLink":"aquí",
-    "darkModalMessage":" Estás del lado de la oscuridad",
-"lightModalMessage":" Estás del lado de la luz",
+    "darkModalMessage": "Bienvenido al lado oscuro",
+    "lightModalMessage": "Bienvenido al lado de la luz",
 "modalConfirm": "¡Vamos!",
 "modalHint": "Haz clic para cerrar el modal",
     "app_title": "Yevhenii Airapetian - Portafolio",

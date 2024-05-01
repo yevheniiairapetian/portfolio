@@ -1,8 +1,8 @@
 {
   "whatsNewInfo":"Novità: l'app è stata spostata su React.js, è ora localizzato, e ha un tema toggler. Leggi di più ",
   "whatsNewLink":"qui",
-  "darkModalMessage": "Sei dalla parte dell'oscurità",
-"lightModalMessage": "Sei dalla parte della luce",
+  "darkModalMessage": "Benvenuti nel lato oscuro",
+"lightModalMessage": "Benvenuti dal lato della luce",
 "modalConfirm": "Andiamo!",
 "modalHint": "Clicca per chiudere il modale",
     "app_title": "Yevhenii Airapetian - Portafoglio",
