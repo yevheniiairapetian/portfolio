@@ -92,7 +92,7 @@ export const PortfolioCaseView = () => {
                                                 </ul>
 
 
-                                                <h2 className="video-image-heading fade-in-up-on-scroll">{t("appPreview")}
+                                                <h2 id="video" className="video-image-heading fade-in-up-on-scroll">{t("appPreview")}
                                                 </h2>
                                                 <div className='iframe-container'>
                                                         

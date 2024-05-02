@@ -4,6 +4,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BsMoon, BsSun } from "react-icons/bs";
 import Cookies from "js-cookie";
 import '../../../src/App.css';
+import { ScrollToAnchor } from "../scroll-to-anchor/scroll-to-anchor";
 import { useState, useEffect } from "react";
 import useDarkMode from "./../../hooks/useDarkMode";
 import navigationCSS from './css/navigation.css';
@@ -110,6 +111,7 @@ export const NavigationBar = () => {
 <>
 		<Navbar expanded={expanded} onClick={() => { closeMenuDownloadLinks() }} className="page-header" expand="lg" id="navigation">
 			<Container className="navigation">
+				<ScrollToAnchor/>
 				<Navbar.Brand className="p-2 brand" as={Link} to="/" expand="lg">
 					{/* <Nav.Link className="" as={Link} to='/'> */}
 					<Image onClick={() => setExpanded(false)} className="img-responsive logo" alt="logo" src={"../../logo.svg"} />
@@ -228,7 +230,7 @@ export const NavigationBar = () => {
 		  
           {visible && <div className="notification"><div><div className="close-notification-container"><span onClick={() => setVisible(!visible)} className="notification-more text-primary"></span></div></div><div className="new-info">{t("whatsNewInfo")}</div>
 		  
-		  <Link className="notification-more-link" to={"./../portfolio-case"} onClick={() => setVisible(!visible)} >{t("whatsNewLink")}</Link>
+		  <Link className="notification-more-link" to={"./../portfolio-case#video"} onClick={() => setVisible(!visible)} >{t("whatsNewLink")}</Link>
 		  
 			</div>
 			
