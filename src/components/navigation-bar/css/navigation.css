@@ -240,20 +240,33 @@ button.toggle_btn{
 
 .notification{
   display:block;
+  border-radius:20px;
   text-align: center;
   width: 300px;
   height:200px;
   padding: 20px;
-  position: absolute;
-  top: 7rem;
+  position: fixed;
+  top: 70vh;
   right:0;
   z-index:40;
-  background-color: #3b3937;
-  color: whitesmoke;
+  background-color: #529fcc;
+  color: white;
+}
+
+.dark a.notification-more {
+  color: #529fcc !important;
+}
+
+span.notification-more{
+ color: #000 !important; 
+}
+
+.dark span.notification-more{
+ color: #529fcc !important; 
 }
 
 a.notification-more{
-  color: whitesmoke !important;
+  color: #000 !important;
 }
 
 .bell-calm{
@@ -279,8 +292,8 @@ a.notification-more{
   width: 300px;
   height:200px;
   padding: 20px;
-  position: absolute;
-  top: 7rem;
+  position: fixed;
+  top: 70vh;
   right:0;
   z-index:40;
   background-color: #000;
@@ -351,15 +364,24 @@ height: 140px !important;
   background-color: transparent !important;
   color:#529fcc !important;
 }
+
+ 
 }
 
 @media screen and (max-width:991px){
+  a.notification-more{
+  color: #fff !important;
+}
+  span.notification-more{
+  color: #fff !important;
+}
 .notification-button{
   padding-left:0 !important;
 }
 
 div.notification{
   display:block;
+  border-radius:0px;
   text-align: center;
   width: 80%;
   height:fit-content;
@@ -375,9 +397,10 @@ div.notification{
 }
 
   .dark div.notification{
+    border-radius:0px;
     display:block;
     text-align: center;
-    width: 300px;
+    width: 80%;
     height:fit-content;
     padding: 20px;
     margin: 0 auto;
@@ -386,6 +409,8 @@ div.notification{
     z-index:40;
     color: whitesmoke;
     background-color: #000;
+    border-top:1px solid whitesmoke;
+
   }
     .fa-globe{
         padding-left:0px;
@@ -394,6 +419,7 @@ div.notification{
         padding-left:0px;
         padding-top:10px;
         width:24px;
+        height:44px !important;
     }
 
     div.switcher{
