@@ -309,7 +309,7 @@
 
 
     "menu":{
-        "aboutMenu" : "За мене",
+        "aboutMenu" : "За",
         "projectsMenu": "Проекти", 
         "casesMenu": "Случаи",
         "portfolioMenu": "Portfolio App",
