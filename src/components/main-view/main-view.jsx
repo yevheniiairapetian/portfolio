@@ -24,6 +24,7 @@ import { ToDoCaseView } from '../to-do-case-view/to-do-case-view';
 import React from "react";
 import ScrollToTop from "./../scroll/scroll-to-top";
 // import { useEffect } from 'react';
+import { ScrollToTopButton } from '../scroll-to-top-button/scroll-to-top-button';
 
 // import { UncontrolledExample } from '../Carousel/carousel';
 export const MainView = () => {
@@ -65,7 +66,7 @@ export const MainView = () => {
                     <Footer />
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
                 </>
               }
 
@@ -87,7 +88,7 @@ export const MainView = () => {
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
                 </>
               }
             />
@@ -105,7 +106,7 @@ export const MainView = () => {
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
                 </>
               }
             />
@@ -124,7 +125,7 @@ export const MainView = () => {
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
                 </>
               }
             />
@@ -143,7 +144,7 @@ export const MainView = () => {
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
                 </>
               }
             />
@@ -162,7 +163,7 @@ export const MainView = () => {
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
                 </>
               }
             />
@@ -180,7 +181,7 @@ export const MainView = () => {
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
                 </>
               }
             />
@@ -198,7 +199,7 @@ export const MainView = () => {
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
                 </>
               }
             />
@@ -217,7 +218,7 @@ export const MainView = () => {
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
                 </>
               }
             />
@@ -236,6 +237,7 @@ export const MainView = () => {
                   </Col>
 
                   <ScrollToTop />
+                  <ScrollToTopButton/>
                 </>
               }
             />
@@ -255,6 +257,7 @@ export const MainView = () => {
                   </Col>
 
                   <ScrollToTop />
+                  <ScrollToTopButton/>
                 </>
               }
             />
@@ -273,7 +276,7 @@ export const MainView = () => {
                     <Footer />
                   </Col>
                   <ScrollToTop />
-
+<ScrollToTopButton/>
 
 
 
@@ -289,7 +292,7 @@ export const MainView = () => {
               <>
               <PageNotFoundView />
               <ScrollToTop />
-
+<ScrollToTopButton/>
             
               </>
             }
