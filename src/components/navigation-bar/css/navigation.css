@@ -316,10 +316,10 @@ div.popup{
     width:70% !important;
   }
 
-  .modal-body{
+  div.modal-body{
     height:140px;
-    width:70%;
-    background-color: #529fcc !important;
+    width:70% !important;
+    background-color: #fff !important;
   }
 
   .dark div.popup p, div.popup p{
