@@ -25,6 +25,36 @@
     initial-value: #a3a3a3;
     inherits: false;
 }
+
+/* scrollbar width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* scrollbar Track */
+
+::-webkit-scrollbar-track {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 1)), to(rgba(82, 159, 204, 1)));
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(82, 159, 204, 1) 100%);
+    border-radius: 10px;
+}
+
+/* scrollbar Handle */
+
+::-webkit-scrollbar-thumb {
+    opacity: 0;
+    -webkit-box-shadow: 0px 0px 0px 100000vh white;
+            box-shadow: 0px 0px 0px 100000vh white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(82, 159, 204, 1);
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
 .resumes{
     display:none;
 }
