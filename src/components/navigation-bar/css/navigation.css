@@ -238,18 +238,23 @@ button.toggle_btn{
      
 }
 
+div.new-info{
+  padding:10px 10px;
+}
+
 .notification{
   display:block;
   border-radius:20px;
   text-align: center;
   width: 300px;
-  height:200px;
-  padding: 20px;
+  height:216px;
+  padding: 0 0 0 0;
   position: fixed;
-  top: 70vh;
+  top: 67vh;
   right:0;
   z-index:40;
   background-color: #529fcc;
+  border-top:1px solid #529fcc;
   color: white;
 }
 
@@ -259,10 +264,30 @@ button.toggle_btn{
 
 span.notification-more{
  color: #000 !important; 
+ position: absolute;
+ right:10px;
+ top:8px;
+
+}
+
+.close-notification-container{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height:40px;
+  padding:20px;
+  background-color: #fff;
+}
+
+.dark .close-notification-container{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height:40px;
+  padding:20px;
+  background-color: #529fcc;
 }
 
 .dark span.notification-more{
- color: #529fcc !important; 
+ color: whitesmoke !important; 
 }
 
 a.notification-more{
@@ -290,10 +315,10 @@ a.notification-more{
   display:block;
   text-align: center;
   width: 300px;
-  height:200px;
-  padding: 20px;
+  height:216px;
+  padding: 0 0 0 0;
   position: fixed;
-  top: 70vh;
+  top: 67vh;
   right:0;
   z-index:40;
   background-color: #000;
@@ -369,11 +394,20 @@ height: 140px !important;
 }
 
 @media screen and (max-width:991px){
+  .dark .close-notification-container, .close-notification-container{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    height:10px;
+    padding:0px;
+    background-color: transparent;
+  }
   a.notification-more{
   color: #fff !important;
 }
   span.notification-more{
   color: #fff !important;
+  left:4%;
+
 }
 .notification-button{
   padding-left:0 !important;
