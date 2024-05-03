@@ -23,6 +23,7 @@ import { PokemonCaseView } from '../pokemon-case-view/pokemon-case-view';
 import { ToDoCaseView } from '../to-do-case-view/to-do-case-view';
 import React from "react";
 import ScrollToTop from "./../scroll/scroll-to-top";
+
 // import { useEffect } from 'react';
 import { ScrollToTopButton } from '../scroll-to-top-button/scroll-to-top-button';
 
@@ -30,6 +31,13 @@ import { ScrollToTopButton } from '../scroll-to-top-button/scroll-to-top-button'
 export const MainView = () => {
 
 
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
 
   useEffect(() => {
     // 👇️ Scroll to top on page load
@@ -39,10 +47,12 @@ export const MainView = () => {
 
   return (
     <>
-      
-        {/* <ScrollButton />
-        <ScrollToTop />  */}
-        
+      {loading ? (
+        <div className="loader-container">
+            <div className="spinner"></div>
+        </div>
+      ) : (
+        <>
         <NavigationBar
 
 
@@ -59,11 +69,11 @@ export const MainView = () => {
                 <>
 
                   <Col>
-
                     <AboutView className="content"
 
                     />
                     <Footer />
+           
                   </Col>
                   <ScrollToTop />
 <ScrollToTopButton/>
@@ -85,6 +95,7 @@ export const MainView = () => {
                     <ProjectsView className="content"
                         
                       />
+            
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
@@ -103,6 +114,7 @@ export const MainView = () => {
                     <R3playCaseView className="content"
                         
                       />
+            
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
@@ -122,6 +134,7 @@ export const MainView = () => {
                     <MyFlixCaseView className="content"
                         
                       />
+           
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
@@ -141,6 +154,7 @@ export const MainView = () => {
                     <MeetCaseView className="content"
                         
                       />
+           
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
@@ -160,6 +174,7 @@ export const MainView = () => {
                     <OwriteCaseView className="content"
                         
                       />
+           
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
@@ -178,6 +193,7 @@ export const MainView = () => {
                     <PokemonCaseView className="content"
                         
                       />
+            
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
@@ -192,10 +208,12 @@ export const MainView = () => {
                 <>
 
                   <Col>
+                 
                     {/* <NavigationBar /> */}
                     <ToDoCaseView className="content"
                         
                       />
+           
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
@@ -211,10 +229,12 @@ export const MainView = () => {
                 <>
 
                   <Col>
+                
                     {/* <NavigationBar /> */}
                     <PortfolioCaseView className="content"
                         
                       />
+           
                       <Footer /> 
                   </Col>
                   <ScrollToTop />
@@ -229,10 +249,10 @@ export const MainView = () => {
                 <>
 
                   <Col>
-
                     <TestimonialsView className="content"
 
                     />
+           
                     <Footer />
                   </Col>
 
@@ -249,10 +269,10 @@ export const MainView = () => {
                 <>
 
                   <Col>
-
                     <ContactView className="content"
 
                     />
+           
                     <Footer />
                   </Col>
 
@@ -269,10 +289,10 @@ export const MainView = () => {
                 <>
 
                   <Col>
-
                     <ImpressumView className="content"
 
                     />
+            
                     <Footer />
                   </Col>
                   <ScrollToTop />
@@ -291,6 +311,7 @@ export const MainView = () => {
               element={
               <>
               <PageNotFoundView />
+          
               <ScrollToTop />
 <ScrollToTopButton/>
             
@@ -302,14 +323,13 @@ export const MainView = () => {
             
           </Routes>
          
-
-      
-
+        
+          
+          </>
+      )}
     </>
-
-  )
-
-}
+  );
+};
 
 
 
