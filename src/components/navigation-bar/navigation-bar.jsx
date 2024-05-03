@@ -76,6 +76,7 @@ export const NavigationBar = () => {
 		{ name: "Русский", code: "ru" },
 		{ name: "Македонски јазик", code: "mk" },
 		{ name: "Polski", code: "pl" },
+		{ name: "العربية", code: "ar", dir: "rtl" },
 		{ name: "日本語", code: "ja" },
 		{ name: "中文", code: "zh" },
 	];
@@ -94,6 +95,7 @@ export const NavigationBar = () => {
 	useEffect(() => {
 		
 		//   document.body.dir = currentLangObj.dir || "ltr";
+		document.body.dir = currentLangObj.dir || 'ltr';
 		document.title = t("app_title");
 	}, [currentLangObj, t]);
 
