@@ -203,8 +203,10 @@ export const NavigationBar = () => {
 								
 								{languages.map(({ name, code }) => (
 									<option key={code} value={code}>
+										
 										<span style={{display: "inline-block", fontSize: "24px", color: "#ffffff"}}>🌏︎ </span>
 										<span className="lang-option">{name}</span>
+										
 									</option>
 								))}
 							</select>
@@ -214,11 +216,11 @@ export const NavigationBar = () => {
 
 						
           {isDarkMode ? (
-			<button className="toggle_btn pl-3" onClick={() => {setDarkMode(!isDarkMode);handleShowLightModal()}}>
+			<button className="toggle_btn pl-3" onClick={() => {setDarkMode(!isDarkMode);handleShowLightModal();setExpanded(false)}}>
 		
             <FontAwesomeIcon className="sun" title={t("themeSwitcherLightHint")}  icon={faLightbulb} beatFade style={{color: "#FFD43B", "--fa-animation-iteration-count": "2"}} />
 			</button>):(
-				<button className="toggle_btn pl-3" onClick={() => {setDarkMode(!isDarkMode);handleShowDarkModal()}}>
+				<button className="toggle_btn pl-3" onClick={() => {setDarkMode(!isDarkMode);handleShowDarkModal();setExpanded(false)}}>
             <FontAwesomeIcon className="moon" title={t("themeSwitcherDarkHint")} icon={faLightbulb} beatFade style={{color: "#000000", "--fa-animation-iteration-count": "2"}} />
 			</button>
 		  )}
