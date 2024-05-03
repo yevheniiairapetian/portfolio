@@ -75,6 +75,7 @@ export const NavigationBar = () => {
 		{ name: "Українська", code: "uk" },
 		{ name: "Русский", code: "ru" },
 		{ name: "Македонски јазик", code: "mk" },
+		{ name: "Polski", code: "pl" },
 		{ name: "日本語", code: "ja" },
 		{ name: "中文", code: "zh" },
 	];
