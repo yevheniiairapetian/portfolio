@@ -11,6 +11,10 @@
   .content {
     flex: 1; /* Allows the content to take up available space, pushing the footer to the bottom */
   }
+
+  .dark .copyright{
+color: #529fcc;
+  }
  
   .main-footer.dark, .footer-404.dark {
     background-color: black;

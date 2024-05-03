@@ -31,7 +31,7 @@ export const ProjectsSlider = () => {
               <Link className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">R3play App</h3>
-                  <cite>{t("r3playInfo")}<Link title="Click to read more about the R3play Project" className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">More</Link>
+                  <cite>{t("r3playInfo")}<Link title="Click to read more about the R3play Project" className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
                     <Link title="Click to open the R3play App Github repository" to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
