@@ -240,6 +240,7 @@ button.toggle_btn{
 
 div.new-info{
   padding:10px 10px;
+  
 }
 
 .notification{
@@ -247,10 +248,10 @@ div.new-info{
   border-radius:20px;
   text-align: center;
   width: 300px;
-  height:216px;
-  padding: 0 0 0 0;
+  height:fit-content;
+  padding: 0 0 10px 0;
   position: fixed;
-  top: 67vh;
+  top: 64vh;
   right:0;
   z-index:40;
   background-color: #529fcc;
@@ -323,10 +324,10 @@ a.notification-more-link{
   display:block;
   text-align: center;
   width: 300px;
-  height:216px;
-  padding: 0 0 0 0;
+  height:fit-content;
+  padding: 0 0 10px 0;
   position: fixed;
-  top: 67vh;
+  top: 64vh;
   right:0;
   z-index:40;
   background-color: #000;
