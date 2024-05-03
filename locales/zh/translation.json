@@ -153,7 +153,6 @@
     "meetCaseAboutTDD":"我通过首先编写用户故事来开发应用程序。 在测试驱动开发方法的帮助下，我结合了单元，集成，用户接受和端到端测试方法，以便在实现代码之前编写所需的测试。",
     "meetCaseAboutServerAndApi":"我使用AWS serverless Lambda函数作为项目的要求开发了服务器端。 使用无服务器可以减少管理服务器的额外工作，并使可伸缩性更容易。 对于应用程序的事件数据，使用了CareerFoundry的Google日历。 Google OAuth2身份验证屏幕设置为对用户进行身份验证并授权应用程序。 在开发的最后阶段，我利用React的service worker将应用程序转换为渐进式Web应用程序。 Recharts库允许以两种类型的图表（散点图和饼图）的形式可视化事件数据。",
     "meetCaseAim":"该项目旨在开发一个功能齐全的全栈应用程序，我可以将其添加到我的专业产品组合中。 我想要解决的问题是通过使用AWS serverless Lambda函数React的测试驱动开发方法来构建完整的全栈web应用程序。js，以及渐进式Web应用程序的要求。",
-    "meetCaseConclusion":"myFlix应用程序是我在全栈web开发课程中开发的最后一个完整的web应用程序。 当它完成后，我继续加强我的投资组合。",
     "meetCaseAboutClient":"对于视觉部分，前端使用常规CSS和JSX进行响应样式化。",
     "meetCaseConclusionData":"Meet应用程序是全堆栈web开发课程中的最后一个项目之一。 当它完成后，我专注于提高我的反应开发技能，特别是通过深入研究一个新的主题-本机应用程序开发与反应本机和安卓工作室。",
     "meetCaseDurationData":"差不多1个月(28天)",
