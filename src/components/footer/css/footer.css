@@ -12,6 +12,22 @@
     flex: 1; /* Allows the content to take up available space, pushing the footer to the bottom */
   }
 
+  .footer-links-container{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .dark .footer-links{
+    color:#529fcc !important;
+    
+}
+
+.footer-links{
+    display:inline;
+    margin:0 14px;
+    
+}
+
   .dark .copyright{
 color: #529fcc;
   }

@@ -96,17 +96,21 @@ export const Footer = () =>{
                 </label>
             </Button>
         </div>
-        <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-github" icon={faGithub} /></Link>
+        
         <Link to='https://www.linkedin.com/in/yevheniiairapetian/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-dev" icon={faDev}/></Link>
         <Link to='https://twitter.com/airapetian_dev' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-twitter" icon={faTwitter} /></Link>
+        <Link to='https://github.com/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-github" icon={faGithub} /></Link>
         <Link to='https://dev.to/yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-linkedin" icon={faLinkedin} /></Link>
         <Link to='https://medium.com/@yevheniiairapetian' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-medium" icon={faMedium} /></Link>
 
     </div>
     <p className="fade-in-up-on-scroll copyright text-center">{t("footer.copy")}</p>
-    <Nav.Link className="text-light" as={Link} to='/impressum'>
-    {t("footer.impressumFooter")}
-								</Nav.Link>
+    <div className="footer-links-container">
+   
+    <Nav.Link className="text-light footer-links" as={Link} to={"https://www.freeprivacypolicy.com/live/13aaa5dd-c830-46ce-8e8a-010efe1a66f1"} target="_blank" >{t("menu.cookies")}</Nav.Link>
+    <Nav.Link className="text-light footer-links" as={Link} to='/impressum'>{t("footer.impressumFooter")}</Nav.Link>
+    <Nav.Link className="text-light footer-links" as={Link} to={"https://www.freeprivacypolicy.com/live/13aaa5dd-c830-46ce-8e8a-010efe1a66f1"} target="_blank" >{t("menu.privacy")}</Nav.Link>
+    </div>
     {/* <Link to={ImpressumView} className="impressum fade-in-up-on-scroll" >Impressum</Link> */}
 
 

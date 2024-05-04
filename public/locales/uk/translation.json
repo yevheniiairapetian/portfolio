@@ -322,8 +322,8 @@
         "pokemonMenu": "Pokemon App",
         "toDoMenu": "To Do App",
         "policiesMenu":"Політика",
-"cookies":"Політика використання файлів cookie",
-"privacy": "Політика конфіденційності"
+"cookies":"Cookies",
+"privacy": "Конфіденційність"
     },
     "footer": {
         "copy": "© Євгеній Айрапетян, 2024 Всі права захищені.",
