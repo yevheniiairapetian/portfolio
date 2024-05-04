@@ -249,7 +249,7 @@ export const NavigationBar = () => {
             {visible ? <FontAwesomeIcon className="bell-calm" icon={faBell} size="lg" style={{color: "#529fcc",}} /> : <FontAwesomeIcon className="bell-active" icon={faBell} shake size="lg" style={{color: "#ffffff","--fa-animation-iteration-count": "2"}} />}
           </button>
 		  
-          {visible && <div className="notification"><div><div className="close-notification-container"><span onClick={() => setVisible(!visible)} className="notification-more text-primary"></span></div></div><div className="new-info">{t("whatsNewInfo")}</div>
+          {visible && <div className="notification"><div><div className="close-notification-container"><span title={t("notificationCloseTitle")} onClick={() => setVisible(!visible)} className="notification-more text-primary"></span></div></div><div className="new-info">{t("whatsNewInfo")}</div>
 		  
 		  <Link className="notification-more-link" to={"./../portfolio-case#video"} onClick={() => setVisible(!visible)} >{t("whatsNewLink")}</Link>
 		  
