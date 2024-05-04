@@ -315,7 +315,10 @@
       "meetMenu": "Meet 网络应用程序",
       "owriteMenu": "Owrite 网络应用程序",
       "pokemonMenu": "Pokemon 网络应用程序",
-      "toDoMenu": "To Do 网络应用程序"
+      "toDoMenu": "To Do 网络应用程序",
+      "policiesMenu":"使用政策",
+      "cookies":"Cookie政策",
+      "privacy": "私隐政策"
     },
     "footer":{
        "copy":"© Yevhenii Airapetian, 2024。保留所有权利。",

@@ -332,7 +332,10 @@
 "meetMenu": "التطبيق Meet",
 "owriteMenu": "التطبيق Owrite",
 "pokemonMenu":"التطبيق Pokemon",
-"toDoMenu": "التطبيق To Do"
+"toDoMenu": "التطبيق To Do",
+"policiesMenu":"السياسات",
+"cookies": "الكوكيز",
+        "privacy": "الخصوصية"
 },
 "footer": {
 "copy": "تنويه Yevhenii Airapetian, 2024. جميع الحقوق محفوظة.",

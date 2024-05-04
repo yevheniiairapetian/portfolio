@@ -308,7 +308,10 @@
 "meetMenu": "Aplikacja Meet",
 "owriteMenu": "Aplikacja Owrite",
 "pokemonMenu": "Aplikacja Pokemon",
-"toDoMenu": "Aplikacja To Do"
+"toDoMenu": "Aplikacja To Do",
+"policiesMenu":"Zasady",
+"cookies": "Cookies",
+"privacy": "Prywatność"
 },
 "footer": {
 "copy": "© Yevhenii Airapetian, 2024. Wszelkie prawa zastrzeżone.",

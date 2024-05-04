@@ -309,7 +309,10 @@
         "meetMenu": "Meet App",
         "owriteMenu": "Owrite App",
         "pokemonMenu": "Pokemon App",
-        "toDoMenu": "To Do App"
+        "toDoMenu": "To Do App",
+        "policiesMenu":"Política",
+        "cookies": "Cookies",
+        "privacy": "Privacidad"
     },
     "footer": {
         "copy": "© Yevhenii Airapetian, 2024 Todos los derechos reservados.",

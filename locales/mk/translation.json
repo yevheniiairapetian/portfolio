@@ -321,7 +321,10 @@
         "meetMenu": "Meet App",
         "owriteMenu": "Owrite App",
         "pokemonMenu": "Pokemon App",
-        "toDoMenu": "To Do App"
+        "toDoMenu": "To Do App",
+        "policiesMenu":"Политика",
+        "cookies": "Политика За Колачиња",
+        "privacy": "Политика За Приватност"
       },
       "footer":{
          "copy":"© Yevhenii Airapetian, 2024 Сите права се задржани.",

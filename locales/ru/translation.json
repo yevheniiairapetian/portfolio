@@ -309,7 +309,10 @@
 "meetMenu": "Meet App",
 "owriteMenu": "Owrite App",
 "pokemonMenu": "Pokemon App",
-"toDoMenu": "To Do App"
+"toDoMenu": "To Do App",
+"policiesMenu":"Политика",
+"cookies": "Политика использования файлов cookie",
+"privacy": "Политика конфиденциальности"
 },
 "footer": {
 "copy": " © Евгений Айрапетян, 2024. Все права защищены.",
