@@ -1,4 +1,5 @@
 {
+  "notificationCloseTitle":"Close",
     "whatsNewInfo":"What's new: the app moved to React.js, is now localized, and has a theme toggler. Read more ",
     "whatsNewLink":"here",
   "darkModalMessage":"Welcome to the dark side",

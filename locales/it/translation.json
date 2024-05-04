@@ -1,4 +1,5 @@
 {
+  "notificationCloseTitle":"Chiudi la finestra",
   "whatsNewInfo":"Novità: l'app è stata spostata su React.js, è ora localizzato, e ha un tema toggler. Leggi di più ",
   "whatsNewLink":"qui",
   "darkModalMessage": "Benvenuti nel lato oscuro",

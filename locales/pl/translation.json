@@ -1,4 +1,5 @@
 {
+  "notificationCloseTitle":"Zamknij",
   "whatsNewInfo": "Co nowego: aplikacja została przeniesiona do React.js, jest teraz zlokalizowany i ma toggler tematu. Czytaj więcej ",
   "whatsNewLink": "tutaj",
   "darkModalMessage": "Witamy na ciemnej stronie",

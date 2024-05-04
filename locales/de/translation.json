@@ -1,4 +1,5 @@
 {
+    "notificationCloseTitle":"Schließen",
     "whatsNewInfo":"Was gibt's Neues: Die App wurde nach React.js verschoben, ist jetzt lokalisiert und hat einen Theme-Umschalter. Lesen Sie ",
     "whatsNewLink":" hier mehr",
     "darkModalMessage": "Willkommen auf der dunklen Seite",
