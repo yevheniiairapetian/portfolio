@@ -19,6 +19,13 @@ body {
     content: url("./../../../../public/dark-logo.svg"); 
 }
 
+
+.dark .logo-pulse{
+  content: url("./../../main-view/img/logo512-dark.png"); 
+}
+
+
+
 .dark .profile-picture{
     content: url("https://i.ibb.co/bKcnVkT/1234-cr-cr.png"); 
     border-radius: 52% !important;

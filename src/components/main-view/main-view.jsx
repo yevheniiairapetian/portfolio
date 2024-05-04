@@ -23,8 +23,8 @@ import { PokemonCaseView } from '../pokemon-case-view/pokemon-case-view';
 import { ToDoCaseView } from '../to-do-case-view/to-do-case-view';
 import React from "react";
 import ScrollToTop from "./../scroll/scroll-to-top";
-import logo from './img/logo512.png';
-
+import logoDark from './img/logo512-dark.png';
+import logoWhite from './img/logo512-white.png';
 // import { useEffect } from 'react';
 import { ScrollToTopButton } from '../scroll-to-top-button/scroll-to-top-button';
 
@@ -52,7 +52,7 @@ export const MainView = () => {
        
         <div className="loader-container">
             {/* <div className="spinner"></div> */}
-            <Image className="logo-pulse" src={logo}/>
+            <Image className="logo-pulse" src={logoWhite}/>
         </div>
         
         
