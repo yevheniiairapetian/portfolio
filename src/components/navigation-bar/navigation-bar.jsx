@@ -193,6 +193,20 @@ export const NavigationBar = () => {
 
 						</NavDropdown>
 
+						<NavDropdown className="cases-nav-container" title={t("menu.policiesMenu")} id="collapsible-nav-dropdown">
+							{/* <NavDropdown.Item href="#action/3.1">Resume</NavDropdown.Item> */}
+
+
+
+							<NavDropdown.Item href="https://www.freeprivacypolicy.com/live/13aaa5dd-c830-46ce-8e8a-010efe1a66f1" target="_blank" alt="">
+								<Link to={"https://www.freeprivacypolicy.com/live/13aaa5dd-c830-46ce-8e8a-010efe1a66f1"} className="nav-cases" target="_blank" >{t("menu.cookies")}</Link>
+							</NavDropdown.Item>
+							<NavDropdown.Item href="https://www.freeprivacypolicy.com/live/72425419-22ef-4dd3-893a-0e012dba1688" target="_blank" alt="">
+								<Link to={"https://www.freeprivacypolicy.com/live/72425419-22ef-4dd3-893a-0e012dba1688"} className="nav-cases" target="_blank" >{t("menu.privacy")}</Link>
+							</NavDropdown.Item>
+							
+
+						</NavDropdown>
 
 						
 						<div className="switcher pl-3">
@@ -246,8 +260,11 @@ export const NavigationBar = () => {
       ))}
     </div>
 						</Nav.Link>
+
+						
 		
 					</Nav>
+
 				</Navbar.Collapse>
 			</Container>
 		</Navbar>
@@ -277,14 +294,12 @@ export const NavigationBar = () => {
 		</Modal>
 
 
-		{/* <div className="popup favorite-modal pt-3 w-100">
-       
-      
-     
-      <p className="whats-new-info text-center">{t("whatsNewInfo")}<a className="whats-new-link" href="https://yevheniiairapetian.com/#/portfolio-case">{t("whatsNewLink")}</a></p>
-      
-      <button className="light-modal-button got-it-button new-visitor-button pl-1 pb-1 pt-1 pr-1" onClick={() => setShowNewVisitorModal(false)}>x</button>
-    </div> */}
+
+
+		
+
+
+
 		</>
 	);
 };

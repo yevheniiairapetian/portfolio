@@ -236,7 +236,10 @@
     "meetMenu": "Meetアプリ",
     "owriteMenu": "Owriteアプリ",
     "pokemonMenu": "Pokemonアプリ",
-    "toDoMenu": "To Doアプリ"
+    "toDoMenu": "To Doアプリ",
+    "policiesMenu":"利用方針",
+    "cookies": "クッキーポリシー",
+    "privacy": "個人情報保護方針"
   },
   "footer": {
     "copy": "© Yevhenii Airapetian, 2024. すべての権利を保有します。",

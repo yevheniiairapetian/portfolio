@@ -125,6 +125,7 @@ div.popup a{
   nav.page-header{
     background-color: #529fcc;
     color: hsl(0, 0%, 100%);
+    width:100%;
     
   }
 
@@ -487,4 +488,10 @@ div.notification{
         font-size:24px;
         margin-left:0;
     }
+}
+
+@media screen and (min-width:992px) and (max-width:1043px){
+  .nav-link:last-child{
+    padding-right:0 !important;
+  }
 }
