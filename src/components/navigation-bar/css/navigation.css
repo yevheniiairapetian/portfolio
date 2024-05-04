@@ -20,6 +20,7 @@ body {
 }
 
 
+
 .dark .logo-pulse{
   content: url("./../../main-view/img/logo512-dark.png"); 
 }
@@ -501,4 +502,93 @@ div.notification{
   .nav-link:last-child{
     padding-right:0 !important;
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-pulse{
+    animation: none !important;
+    border-radius: 50%;
+    width: 20em;
+  }
+    .fa-envelope:hover,
+.fa-skype:hover,
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-github:hover,
+.fa-medium:hover,
+.fa-dev:hover{
+  transition: none !important;
+  translate: 0px 0px !important;
+  color: white !important;
+}
+
+.dark .fa-envelope:hover,
+.dark .fa-skype:hover,
+.dark .fa-linkedin:hover,
+.dark .fa-twitter:hover,
+.dark .fa-github:hover,
+.dark .fa-medium:hover,
+.dark .fa-dev:hover{
+  transition: none !important;
+  translate: 0px 0px !important;
+}
+
+.social-container {
+  /* left:0; */
+  left:-37px;
+}
+
+.social-container:hover {
+  /* left:0; */
+  opacity:1;
+  transition: none !important;
+}
+
+.nav-cases:hover{
+  transition: none !important;
+  padding-left:0;
+}
+
+.projects-carousel-caption:hover,
+    .projects-carousel-caption:active{
+    transition: none !important;
+
+}
+.icon-style, .dark .icon-style{
+  animation: none !important;
+}
+
+.r3play-carousel-caption:hover{
+
+  transition: none !important;
+
+}
+
+p.skills-paragraphs span:hover {
+  color: #fff !important;
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+
+.carousel-caption:hover,
+        .carousel-caption:active{
+    transition: none !important;
+    }
+
+
+    .logo:hover {
+     
+          transform: none !important;
+      
+      transition: none !important;
+  }
+
+
+  .picture-404 {
+    animation: none !important;
+}
+
+
+
 }

@@ -45,8 +45,10 @@
 }
 
   .dark .copyright{
-color: #529fcc;
+color: whitesmoke;
   }
+
+  
  
   .main-footer.dark, .footer-404.dark {
     background-color: black;
