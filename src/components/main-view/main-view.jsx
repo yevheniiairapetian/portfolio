@@ -11,7 +11,7 @@ import { Footer } from '../footer/footer';
 import { ContactView } from '../contact-view/contact-view';
 import { AboutView } from '../about-view/about-view';
 import { TestimonialsView } from '../testimonials-view/testimonials-view';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
 import '../../../src/App.css';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { R3playCaseView } from '../r3play-case-view/r3play-case-view';
@@ -23,6 +23,7 @@ import { PokemonCaseView } from '../pokemon-case-view/pokemon-case-view';
 import { ToDoCaseView } from '../to-do-case-view/to-do-case-view';
 import React from "react";
 import ScrollToTop from "./../scroll/scroll-to-top";
+import logo from './img/logo512.png';
 
 // import { useEffect } from 'react';
 import { ScrollToTopButton } from '../scroll-to-top-button/scroll-to-top-button';
@@ -36,7 +37,7 @@ export const MainView = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 1600);
   }, []);
 
   useEffect(() => {
@@ -48,9 +49,13 @@ export const MainView = () => {
   return (
     <>
       {loading ? (
+       
         <div className="loader-container">
-            <div className="spinner"></div>
+            {/* <div className="spinner"></div> */}
+            <Image className="logo-pulse" src={logo}/>
         </div>
+        
+        
       ) : (
         <>
         <NavigationBar
@@ -77,6 +82,7 @@ export const MainView = () => {
                   </Col>
                   <ScrollToTop />
 <ScrollToTopButton/>
+
                 </>
               }
 
