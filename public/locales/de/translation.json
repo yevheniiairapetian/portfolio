@@ -291,6 +291,16 @@
 "toDoSlide2Description":"Eine neue Liste von Aufgaben wurde hinzugefügt",
 "toDoSlide3Description":"Wenn der Benutzer das Eingabefeld leer lässt und versucht, eine neue Aufgabe hinzuzufügen, wird eine Benachrichtigung angezeigt.",
     
+
+
+"cookieInfo1":"Diese App verwendet Cookies und sammelt Besucherdaten. Lesen Sie mehr über ",
+"cookieInfo2" : " und ",
+"cookieInfo3": "", 
+"cookieLink1": "die Cookie-",
+"cookieLink2": "Datenschutzrichtlinien",
+"cookieConfirm":"Ich bin einverstanden",
+
+
     
     "menu": {
         "aboutMenu": "Über",

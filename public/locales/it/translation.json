@@ -304,6 +304,14 @@
 "toDoSlide3Description": "Quando l'utente lascia vuoto l'input fieled e tenta di aggiungere una nuova attività, viene visualizzato un messaggio di notifica",
 
 
+"cookieInfo1":"Questa applicazione utilizza i cookie e raccoglie i dati dei visitatori. Leggi di più sulle ",
+"cookieInfo2" : " e ",
+"cookieInfo3": "", 
+"cookieLink1": "politiche sui cookie",
+"cookieLink2": "sulla privacy",
+"cookieConfirm":"Io sono d'accordo",
+
+
 "menu": {
   "aboutMenu":"Su",
   "projectsMenu":"Progetti",

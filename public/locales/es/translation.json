@@ -288,6 +288,13 @@
     "pokemonSlide2Description": "La Aplicación Pokémon filtró los resultados de Pokémon mostrados como una lista",
     "pokemonSlide3Description":" La tarjeta Pokémon con datos que el usuario puede ver al hacer clic en el nombre de un Pokémon",
     
+
+    "cookieInfo1": "Esta aplicación utiliza cookies y recopila datos sobre los visitantes. Obtenga más información sobre el uso ",
+"cookieInfo2":"y",
+"cookieInfo3": "",
+"cookieLink1": "de Cookies",
+"cookieLink2":"la privacidad",
+"cookieConfirm":"Yo estoy de acuerdo",
     
     "toDoSlide1Heading": "Vista inicial",
     "toDoSlide2Heading": "Nueva lista",
