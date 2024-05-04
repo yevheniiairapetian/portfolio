@@ -331,8 +331,8 @@
         "pokemonMenu": "Pokemon App",
         "toDoMenu": "To Do App",
         "policiesMenu":"Политика",
-        "cookies": "Политика За Колачиња",
-        "privacy": "Политика За Приватност"
+        "cookies": "Cookies",
+        "privacy": "Приватност"
       },
       "footer":{
          "copy":"© Yevhenii Airapetian, 2024 Сите права се задржани.",
