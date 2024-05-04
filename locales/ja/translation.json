@@ -223,6 +223,16 @@
   "toDoSlide1Description": "ユーザーがアプリを使用し、最初のリストを追加する方法についてのヒントを表示するアプリの初期ビューを行うには",
   "toDoSlide2Description": "to-doの新しいリストが追加されました",
   "toDoSlide3Description": "ユーザーが入力を空白のままにして新しいタスクを追加しようとすると、通知メッセージが表示されます",
+  
+  
+  "cookieInfo1":"このアプリはクッキーを使用し、訪問者のデータを収集します。 それについての詳細を読む ",
+  "cookieInfo2" : " と ",
+  "cookieInfo3": "", 
+  "cookieLink1": "ここに",
+  "cookieLink2": "ここに",
+  "cookieConfirm":"賛成です。",
+  
+  
   "menu": {
     "portfolioMenu": "Portfolioアプリ",
     "aboutMenu": "情報",

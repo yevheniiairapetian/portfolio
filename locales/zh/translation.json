@@ -302,6 +302,16 @@
 "toDoSlide3Description":"当用户将输入框留空并尝试添加新任务时，会出现通知消息",
 
 
+"cookieInfo1":"这个应用程序使用cookie并收集访问者的数据。 阅读更多关于这个 ",
+"cookieInfo2" : " 还有 ",
+"cookieInfo3": "", 
+"cookieLink1": "这儿",
+"cookieLink2": "这儿",
+"cookieConfirm":"同意。",
+
+
+
+
     "menu":{
       "aboutMenu" : "关于我",
        "portfolioMenu": "Portfolio 网络应用程序",

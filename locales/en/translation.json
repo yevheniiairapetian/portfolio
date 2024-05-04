@@ -306,6 +306,13 @@
     "toDoSlide3Description":"When the user leaves the input fieled blank and tries to add a new task, an notification message appears",
 
 
+    "cookieInfo1":"This app uses cookies and collects visitors' data. Read more about the ",
+    "cookieInfo2" : "and",
+    "cookieInfo3": " policies", 
+    "cookieLink1": "Cookie",
+    "cookieLink2": "Privacy",
+    "cookieConfirm":"I agree",
+
     "menu":{
       "portfolioMenu":"Portfolio App",
         "aboutMenu" : "About",

@@ -295,6 +295,15 @@
 "toDoSlide3Description": "Gdy użytkownik pozostawi puste dane wejściowe i spróbuje dodać nowe zadanie, pojawi się komunikat z powiadomieniem",
 
 
+
+"cookieInfo1":"Ta aplikacja wykorzystuje pliki cookie i zbiera dane odwiedzających. Czytaj więcej o ",
+"cookieInfo2" : " i ",
+"cookieInfo3": "", 
+"cookieLink1": "Cookie",
+"cookieLink2": "Polityka Prywatności",
+"cookieConfirm":"Zgadzam się",
+
+
 "menu": {
 "portfolioMenu": "Aplikacja Portfolio",
 "aboutMenu": "Informacje",

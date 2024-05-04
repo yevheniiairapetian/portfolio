@@ -299,6 +299,13 @@
 "toDoSlide2Description": "Додано новий список завдань",
 "toDoSlide3Description": "Коли користувач залишає поле введення порожнім і намагається додати нове завдання, з'являється сповіщення",
     
+
+"cookieInfo1": "Цей додаток використовує файли cookie та збирає дані про відвідувачів. Дізнайтеся більше про використання ",
+"cookieInfo2":"та",
+"cookieInfo3": "",
+"cookieLink1": "Cookie",
+"cookieLink2":"Конфіденційності",
+"cookieConfirm":"Я згоден",
     
     "menu": {
         "portfolioMenu": "Portfolio App",

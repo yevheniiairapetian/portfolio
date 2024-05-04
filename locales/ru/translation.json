@@ -296,6 +296,15 @@
 "toDoSlide3Description":"Когда пользователь оставляет поле ввода пустым и пытается добавить новую задачу, появляется уведомление",
 
 
+"cookieInfo1": "Это приложение использует файлы cookie и собирает данные о посетителях. Узнайте больше об использовании ",
+"cookieInfo2" : "и",
+"cookieInfo3": "",
+"cookieLink1": "Cookie",
+"cookieLink2": "Конфиденциальности",
+"cookieConfirm": "Я согласен",
+
+
+
 "menu": {
 "portfolioMenu": "Portfolio App",
 "aboutMenu":"Информация",
