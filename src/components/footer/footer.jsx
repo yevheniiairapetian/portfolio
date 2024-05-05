@@ -88,7 +88,7 @@ export const Footer = () =>{
     onMouseEnter={()=>{showSidebar()}}
     >
         <div className="sidebar-close">
-            <Button className="sidebar-toggler" onClick={()=>toggleSidebar()}>
+            <Button className="sidebar-toggler sidebar-pulse" onClick={()=>toggleSidebar()}>
                 <label for="sidebar">
                     
                     <i className="fa-solid fa-xl fa-caret-right close-sidebar"></i>

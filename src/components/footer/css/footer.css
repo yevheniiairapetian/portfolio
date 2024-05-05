@@ -99,7 +99,25 @@ color: whitesmoke;
 .main-footer.dark .sidebar-toggler, .footer-404.dark .sidebar-toggler{
     background-color:#000;
     border:1px solid black;
+    animation: pulse 1s infinite;
+    /* border-radius: 50%; */
+    /* width: 20em; */
 
+}
+
+.sidebar-pulse, .dark .sidebar-pulse{
+    animation: pulse 1s 3 !important;
+    
+}
+
+@keyframes pulse{
+    from{
+      box-shadow: 0 0 0 0 rgba(198, 182, 179, 0.85);
+    }
+
+    to{
+      box-shadow: 0 0 0 30px rgba(201, 48, 48, 0);
+    }
 }
 
 .page-header.dark select{
