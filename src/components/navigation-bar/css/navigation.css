@@ -596,5 +596,14 @@ p.skills-paragraphs span:hover {
 }
 
 
+.main-footer .sidebar-toggler, .main-footer.dark .sidebar-toggler, .footer-404 .sidebar-toggler, .footer-404.dark .sidebar-toggler{
+  animation: none !important;
+}
+
+.sidebar-pulse, .dark .sidebar-pulse{
+  animation: none !important;
+  
+}
+
 
 }
