@@ -605,5 +605,9 @@ p.skills-paragraphs span:hover {
   
 }
 
+.profile-picture{
+  animation: none !important;
+}
+
 
 }
