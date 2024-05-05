@@ -498,10 +498,14 @@ div.notification{
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1043px){
+@media screen and (min-width:992px) and (max-width:1073px){
   .nav-link:last-child{
     padding-right:0 !important;
   }
+}
+
+nav.page-header{
+  width:100%;
 }
 
 @media (prefers-reduced-motion: reduce) {
