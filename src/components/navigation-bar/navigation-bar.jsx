@@ -81,6 +81,7 @@ export const NavigationBar = () => {
 		{ name: "中文", code: "zh" },
 	];
 	const currentLocale = Cookies.get("i18next") || "en";
+	const currentLangObj = languages.find((lang) => lang.code === currentLocale);
 	
 	const [language, setLanguage] = useState(currentLocale);
 
@@ -90,31 +91,19 @@ export const NavigationBar = () => {
 		i18n.changeLanguage(lang);
 	};
 
-	const currentLangObj = languages.find((lang) => lang.code === currentLocale);
+	
 
 	useEffect(() => {
 		
-		//   document.body.dir = currentLangObj.dir || "ltr";
-		document.body.dir = currentLangObj.dir || 'ltr';
+		
+		document.body.dir = currentLangObj.dir || "ltr";
 		document.title = t("app_title");
 	}, [currentLangObj, t]);
 
-	// useEffect(() => {
-	// 	// Check if the user has seen the modal before
-	// 	const popStatus = localStorage.getItem('pop_status');
-	// 	const className = "not-visible";
-	// 	if (!popStatus) {
-	// 		setShowNewVisitorModal(true); // Show the modal
-	// 	  localStorage.setItem('pop_status', 'seen'); // Mark as seen
-	// 	  window.document.querySelector(".modal").classList.add(className);
-	// 	}
-	//   }, []);
-	
-	  
 
 	return (
 <>
-		<Navbar expanded={expanded} onClick={() => { closeMenuDownloadLinks() }} className="page-header" expand="lg" id="navigation">
+		<Navbar expanded={expanded} onClick={() => { closeMenuDownloadLinks() }} className="page-header" expand="xl" id="navigation">
 			<Container className="navigation">
 				<ScrollToAnchor/>
 				<Navbar.Brand className="p-2 brand" as={Link} to="/" expand="lg">
