@@ -29,9 +29,9 @@ export const AboutView = () => {
       const { t } = useTranslation();
 	return (
 
-		<Container className="wrapper close-notification aboutContainer pt-5">
-			<Row>
-				<Col xs={12} md={5}>
+		<Container fluid className="aboutAnimation wrapper close-notification aboutContainer pt-5">
+			<Row >
+				<Col  xs={12} md={5}>
                 <Image alt={t("profileImageAlt")} onClick={()=>{closeDownloadLinks()}} className="img-responsive profile-picture pt-3 pb-3 pe-2" fluid roundedCircle src="https://i.ibb.co/0KR5Hb9/yevhenii-airapetian-profile-picture-cr-cr.jpg" />
                 </Col>
                 <Col xs={12} md={7}>

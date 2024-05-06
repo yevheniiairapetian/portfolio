@@ -533,6 +533,18 @@ nav.page-header{
 }
 
 @media (prefers-reduced-motion: reduce) {
+
+
+  .dark .aboutAnimation{ 
+    
+    animation: none !important;
+    background: #424242 !important;
+}
+.aboutAnimation {
+  animation: none !important;
+  background: white !important;
+}
+
   .logo-pulse{
     animation: none !important;
     border-radius: 50%;
