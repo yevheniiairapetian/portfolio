@@ -43,6 +43,29 @@ export const NavigationBar = () => {
 		// onClick={() => {setVisible(!visible)}}
 	};
 
+
+
+	const ClickBell = () => {
+		const [play] = useSound(Click);
+		return <div>
+		{currentTableData.map(item => (
+			<div key={item.id}>
+
+				<button className="notification-button pl-4" onClick={() => {play();setVisible(!visible)}}>
+					{visible ? <FontAwesomeIcon className="bell-calm" icon={faBell} size="lg" style={{ color: "#529fcc", }} /> : <FontAwesomeIcon className="bell-active" icon={faBell} shake size="lg" style={{ color: "#ffffff", "--fa-animation-iteration-count": "2" }} />}
+				</button>
+
+				{visible && <div className="notification"><div><div title={t("notificationCloseTitle")} className="close-notification-container"><ClickButton  ><span  className="text-primary"></span></ClickButton></div></div><div className="new-info">{t("whatsNewInfo")}</div>
+
+					<Link className="notification-more-link" to={"./../portfolio-case#video"} onClick={() => { setVisible(!visible) }} >{t("whatsNewLink")}</Link>
+
+				</div>
+
+				}
+			</div>
+		))}
+	</div>
+	};
 	const [visible, setVisible] = useState(false);
 	const currentTableData = [
 		{ id: 1, title: 'What\'s new: the app moved to React, is localized, and has a theme toggler. Read more: ' },
@@ -257,24 +280,7 @@ export const NavigationBar = () => {
 
 							)}
 							<Nav.Link className="text-light pe-4">
-								<div>
-									{currentTableData.map(item => (
-										<div key={item.id}>
-
-											<button className="notification-button pl-4" onClick={() => setVisible(!visible)}>
-												{visible ? <FontAwesomeIcon className="bell-calm" icon={faBell} size="lg" style={{ color: "#529fcc", }} /> : <FontAwesomeIcon className="bell-active" icon={faBell} shake size="lg" style={{ color: "#ffffff", "--fa-animation-iteration-count": "2" }} />}
-											</button>
-
-											{visible && <div className="notification"><div><div title={t("notificationCloseTitle")} className="close-notification-container"><ClickButton  ><span  className="text-primary"></span></ClickButton></div></div><div className="new-info">{t("whatsNewInfo")}</div>
-
-												<Link className="notification-more-link" to={"./../portfolio-case#video"} onClick={() => { setVisible(!visible) }} >{t("whatsNewLink")}</Link>
-
-											</div>
-
-											}
-										</div>
-									))}
-								</div>
+								<ClickBell/>
 							</Nav.Link>
 
 
