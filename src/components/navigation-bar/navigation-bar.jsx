@@ -43,6 +43,21 @@ export const NavigationBar = () => {
 		// onClick={() => {setVisible(!visible)}}
 	};
 
+	const ClickLanguage = () => {
+		const [play] = useSound(Click);
+		return <select onChange={handleChangeLocale} onClick={() => { play()}} value={language}>
+
+		{languages.map(({ name, code }) => (
+			<option key={code} value={code}>
+
+				<span style={{ display: "inline-block", fontSize: "24px", color: "#ffffff" }}>🌏︎ </span>
+				<span className="lang-option">{name}</span>
+
+			</option>
+		))}
+	</select>
+	};
+
 
 
 	const ClickBell = () => {
@@ -258,18 +273,8 @@ export const NavigationBar = () => {
 								<span>
 									{/* {t("")}<FontAwesomeIcon className="fa-globe" icon={faGlobe} style={{color: "#fff", fontSize:"19px"}} /> */}
 								</span>{" "}
-								<select onChange={handleChangeLocale} value={language}>
-
-									{languages.map(({ name, code }) => (
-										<option key={code} value={code}>
-
-											<span style={{ display: "inline-block", fontSize: "24px", color: "#ffffff" }}>🌏︎ </span>
-											<span className="lang-option">{name}</span>
-
-										</option>
-									))}
-								</select>
-
+								
+<ClickLanguage />
 							</div>
 
 
