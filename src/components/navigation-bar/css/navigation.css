@@ -272,22 +272,34 @@ div.new-info{
 .dark a.notification-more-link {
   color: #529fcc !important;
 }
-
-span.notification-more{
+button.info-sound-click-button::after{
+  content: "—";
+}
+button.info-sound-click-button{
  color: #000 !important; 
  position: absolute;
+ background-color: transparent;
+ border:none;
+ outline:none;
  right:10px;
  top:8px;
 
 }
 
-span.notification-more::after{
+button.info-sound-click-button:hover{
+ 
+  background-color: transparent;
+
+ 
+ }
+
+/* button.info-sound-click-button::after{
   content: "—";
 }
 
 .notification-more::after{
   content: "—";
-}
+} */
 
 .close-notification-container{
   border-top-left-radius: 20px;
@@ -413,7 +425,9 @@ height: 140px !important;
 }
 
 @media screen and (max-width:1199.5px){
-
+button.info-sound-click-button::after{
+  content: "x";
+}
   span.notification-more::after{
     content: "x";
   }
