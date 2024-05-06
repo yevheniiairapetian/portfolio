@@ -451,6 +451,13 @@ button.info-sound-click-button{
   font-size: 18px;
 
 }
+
+.dark button.info-sound-click-button{
+  color: #529fcc !important;
+  left:4%;
+  font-size: 18px;
+
+}
 .notification-button{
   padding-left:0 !important;
 }
