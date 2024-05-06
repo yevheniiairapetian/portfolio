@@ -445,9 +445,10 @@ button.info-sound-click-button::after{
   a.notification-more-link{
   color: #fff !important;
 }
-  span.notification-more{
+button.info-sound-click-button{
   color: #fff !important;
   left:4%;
+  font-size: 18px;
 
 }
 .notification-button{
