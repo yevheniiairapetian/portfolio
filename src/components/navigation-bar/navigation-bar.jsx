@@ -72,7 +72,8 @@ export const NavigationBar = () => {
 
 				{visible && <div className="notification"><div><div title={t("notificationCloseTitle")} className="close-notification-container"><ClickButton  ><span  className="text-primary"></span></ClickButton></div></div><div className="new-info">{t("whatsNewInfo")}</div>
 
-					<Link className="notification-more-link" to={"./../portfolio-case#video"} onClick={() => { setVisible(!visible) }} >{t("whatsNewLink")}</Link>
+					<Link className="notification-more-link" onClick={() => { setVisible(!visible) }} to={"./../portfolio-case"}  >
+						{t("whatsNewLink")}</Link>
 
 				</div>
 
