@@ -96,7 +96,7 @@ export const PortfolioCaseView = () => {
                                                 </h2>
                                                 <div className='iframe-container'>
                                                         
-                                                <iframe className="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/942064364?h=4b2f479ae9" width="100%" height="460" frameborder="0" allowfullscreen></iframe>
+                                                <iframe className="responsive-iframe" title="vimeo-player" src="https://player.vimeo.com/video/945011683?h=59dfa6f938" width="100%" height="460" frameborder="0" allowfullscreen></iframe>
                                                 </div>
                                                 
 
