@@ -109,7 +109,7 @@ export const Footer = () =>{
    
     <Nav.Link className="text-light footer-links" as={Link} to={"https://www.freeprivacypolicy.com/live/13aaa5dd-c830-46ce-8e8a-010efe1a66f1"} target="_blank" >{t("menu.cookies")}</Nav.Link>
     <Nav.Link className="text-light footer-links" as={Link} to='/impressum'>{t("footer.impressumFooter")}</Nav.Link>
-    <Nav.Link className="text-light footer-links" as={Link} to={"https://www.freeprivacypolicy.com/live/13aaa5dd-c830-46ce-8e8a-010efe1a66f1"} target="_blank" >{t("menu.privacy")}</Nav.Link>
+    <Nav.Link className="text-light footer-links" as={Link} to={"https://www.freeprivacypolicy.com/live/72425419-22ef-4dd3-893a-0e012dba1688"} target="_blank" >{t("menu.privacy")}</Nav.Link>
     </div>
     {/* <Link to={ImpressumView} className="impressum fade-in-up-on-scroll" >Impressum</Link> */}
 
