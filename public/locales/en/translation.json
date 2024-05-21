@@ -29,6 +29,7 @@
     "owriteInfo":"A React Native application that allows users to chat. Users can set a username, choose the chat background color, and send text messages, pictures, and audio recordings.",
     "pokemonInfo":"A responsive Pokemon App fetching Pokemon with Ajax from an external Pokedex API and displaying their info such as Pokemon height, weight, ID, and front and back images",
     "toDoInfo":"A jQuery and Bootstrap to-do app that allows users to manage to-dos. Users can add, delete, and rearrange to-dos, create and delete to-do lists, and see a guide on how to use the app.",
+    "portfolioInfo":"A responsive web-application developed with React, React Bootstrap and accessibility considerations, allowing users to view information about my projects, contact info etc, change the theme, and choose the interface language",
     "projectsSliderMore":"More",
     "testimonials":"Word of Mouth",
     "wordOfMouth":"I would not be where I am today without all the wonderful people I've had the privilege to work with.",

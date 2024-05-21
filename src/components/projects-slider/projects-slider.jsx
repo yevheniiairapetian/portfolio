@@ -190,7 +190,7 @@ export const ProjectsSlider = () => {
               <Link title="Click to read more about the Portfolio App" className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case">
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">Portfolio App</h3>
-                <cite>{t("toDoInfo")}
+                <cite>{t("portfolioInfo")}
                   
                   <Link title="Click to read more about the Portfolio App" className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case" >{t("projectsSliderMore")}</Link>
                 </cite>

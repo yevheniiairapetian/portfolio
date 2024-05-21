@@ -29,6 +29,7 @@
     "owriteInfo": "Una aplicación React Native que permite a los usuarios chatear. Los usuarios pueden establecer un nombre de usuario, elegir el color de fondo del chat y enviar mensajes de texto, imágenes y grabaciones de audio.",
     "pokemonInfo": "Una app Pokemon responsive que recupera Pokemon con Ajax desde una API Pokedex externa y muestra su información como tamaño, peso, ID, imágenes frontales y traseras",
     "toDoInfo": "Una aplicación de tareas pendientes jQuery y Bootstrap que permite a los usuarios gestionar las tareas pendientes. Los usuarios pueden añadir, eliminar y reordenar tareas, crear y eliminar listas de tareas pendientes y ver instrucciones de uso de la app.",
+    "portfolioInfo":" Una aplicación web receptiva desarrollada con React, React Bootstrap y consideraciones de accesibilidad, que permite a los usuarios ver información sobre mis proyectos, información de contacto, etc., cambiar el tema y elegir el idioma de la interfaz",
     "projectsSliderMore": "más",
     "testimonials": "La gente dice",
     "wordOfMouth": "No estaría donde estoy hoy sin toda la gente maravillosa con la que he tenido el privilegio de trabajar",
