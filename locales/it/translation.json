@@ -29,6 +29,7 @@
     "owriteInfo":"Un'applicazione nativa React che consente agli utenti di chattare. Gli utenti possono impostare un nome utente, scegliere il colore di sfondo della chat e inviare messaggi di testo, immagini e registrazioni audio.",
     "pokemonInfo":"Un'app Pokemon reattiva che recupera Pokemon con Ajax da un'API Pokedex esterna e visualizza le loro informazioni come altezza, peso, ID e immagini anteriori e posteriori dei Pokemon",
     "toDoInfo":"Un jQuery e Bootstrap to-do app che consente agli utenti di gestire to-dos. Gli utenti possono aggiungere, eliminare e riorganizzare le cose da fare, creare ed eliminare elenchi di cose da fare e consultare una guida su come utilizzare l'app.",
+    "portfolioInfo": "Un'applicazione web reattiva sviluppata con React, React Bootstrap e considerazioni sull'accessibilità, che consente agli utenti di visualizzare informazioni sui miei progetti, informazioni di contatto, ecc., cambiare il tema e scegliere la lingua dell'interfaccia",
     "projectsSliderMore":"Altro",
     "testimonials":"Passaparola",
     "wordOfMouth":"Non sarei dove sono oggi senza tutte le persone meravigliose con cui ho avuto il privilegio di lavorare.",

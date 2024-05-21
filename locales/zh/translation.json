@@ -29,6 +29,8 @@
     "owriteInfo":"使用 Angular、Typescript 和 Material UI 为 R3play Web API 开发的前端部分，允许用户注册、查看电影信息和添加收藏",
     "pokemonInfo":"一款响应式口袋妖怪应用程序，通过 Ajax 从外部 Pokedex API 获取口袋妖怪，并显示其信息（如口袋妖怪的身高、体重、ID 以及正面和背面图像）。",
     "toDoInfo":"一款 jQuery 和 Bootstrap 待办事项应用程序，允许用户管理待办事项。用户可以添加、删除和重新排列待办事项，创建和删除待办事项列表，还可以查看应用程序的使用指南。",
+    "portfolioInfo":"一个响应的web应用程序开发与反应，反应引导和可访问性考虑，允许用户查看有关我的项目信息，联系信息等，更改主题，并选择界面语言",
+
     "projectsSliderMore":"更多信息",
     "testimonials":"人们说",
     "wordOfMouth":"如果不是有幸与这么多优秀的人共事，我不会有今天的成就。",
