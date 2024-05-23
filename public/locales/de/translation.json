@@ -29,7 +29,32 @@
     "owriteInfo": "Eine React Native-Anwendung, mit der Benutzer chatten können. Benutzer können einen Benutzernamen festlegen, die Chat-Hintergrundfarbe auswählen und Textnachrichten, Bilder und Audioaufnahmen senden.",
     "pokemonInfo": "Eine reaktionsfähige Pokemon-App, die Pokemon mit Ajax von einer externen Pokedex-API abruft und deren Informationen wie Größe, Gewicht, ID sowie Vorder- und Rückseitenbilder anzeigt",
     "toDoInfo": "Eine jQuery und Bootstrap To-Do-App, die es Benutzern ermöglicht, To-Dos zu verwalten. Benutzer können Aufgaben hinzufügen, löschen und neu anordnen, Aufgabenlisten erstellen und löschen und eine Anleitung zur Verwendung der App anzeigen.",
-    "portfolioInfo":"Eine reaktionsschnelle Webanwendung, die unter Berücksichtigung von React, React Bootstrap und Barrierefreiheit entwickelt wurde und es Benutzern ermöglicht, Informationen zu meinen Projekten, Kontaktinformationen usw. anzuzeigen, das Thema zu ändern und die Sprache der Benutzeroberfläche auszuwählen",
+    "portfolioInfo":"Eine reaktionsschnelle Webanwendung, die unter Berücksichtigung von React, React Bootstrap und Barrierefreiheit entwickelt wurde und es Benutzern ermöglicht, Informationen zu meinen Projekten usw. anzuzeigen.",
+    
+    
+    
+    "r3playInfoTitle":"Klicken Sie hier, um mehr über die R3play-API zu erfahren.",
+"r3playInfoTitleAPIDeployed":"Klicke, um die R3play-API zu öffnen",
+"r3playInfoTitleGithub":"Klicke, um das R3play API Github Repository zu öffnen",
+"myFlixInfoTitle":"Klicken Sie hier, um mehr über die MyFlix-App zu erfahren",
+"myFlixInfoTitleGithub":"Klicke, um das Github-Repository der MyFlix-App zu öffnen",
+"myFlixInfoTitleKanban":"Klicke, um das Kanban-Board des myFlix-App-Projekts zu öffnen",
+"meetInfoTitle":"Klicken Sie hier, um mehr über die Meet-App zu erfahren.",
+"meetInfoTitleDeployed":"Klicke, um die Meet-App zu öffnen",
+"meetInfoTitleGithub":"Klicke, um das Github-Repository der Meet-App zu öffnen",
+"owriteInfoTitle":"Klicken Sie hier, um mehr über die Owrite-App zu erfahren.",
+"owriteInfoTitleGithub":"Klicke, um das Github-Repository der Owrite-App zu öffnen",
+"pokemonInfoTitle":"Klicke hier, um mehr über die Pokemon-App zu erfahren",
+"pokemonInfoTitleDeployed":"Klicke, um die Pokemon-App zu öffnen",
+"pokemonInfoTitleGithub":"Klicke, um das Pokemon App Github Repository zu öffnen",
+"toDoInfoTitle":"Klicken Sie hier, um mehr über die To-Do-List-App zu erfahren.",
+"toDoInfoTitleDeployed":"Klicke, um die To-Do-List-App zu öffnen",
+"toDoInfoTitleGithub":"Klicke, um das Github-Repository der To-Do-List-App zu öffnen.",
+"portfolioInfoTitle":"Klicken Sie hier, um mehr über die Portfolio-App zu erfahren.",
+"portfolioInfoTitleDeployed":"Klicke, um die Portfolio-App zu öffnen",
+"portfolioInfoTitleGithub":"Klicke, um das Github-Repository der Portfolio-App zu öffnen",
+    
+    
     "projectsSliderMore": "mehr",
     "testimonials": "Die Leute sagen",
     "wordOfMouth": "Ich wäre heute nicht da, wo ich bin, wenn ich nicht das Privileg hätte, mit so vielen wunderbaren Menschen zusammenzuarbeiten.",

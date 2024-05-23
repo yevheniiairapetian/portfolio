@@ -31,17 +31,18 @@ export const ProjectsSlider = () => {
               <Link className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">R3play App</h3>
-                  <cite>{t("r3playInfo")}<Link title="Click to read more about the R3play Project" className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">{t("projectsSliderMore")}</Link>
+                  <cite>{t("r3playInfo")}<Link title={t("r3playInfoTitle")}
+                  className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title="Click to open the R3play App Github repository" to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
-                    {/* </div> */}
-                    {/* <div class="work-links"> */}
-                    <Link title="Click to open the R3play App" to='http://r3play.netlify.app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
-                    {/* </div> */}
-                    {/* <div class="work-links"> */}
-                    <Link title="Click to read more about the R3play Project" to='./../r3play-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
-                    {/* </div> */}
+                    <Link title={t("r3playInfoTitleGithub")}
+                    to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+               
+                    <Link title={t("r3playInfoTitleAPIDeployed")}
+                    to='http://r3play.netlify.app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+               
+                    <Link title={t("r3playInfoTitle")}
+                    to='./../r3play-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                   </div>
 
 
@@ -54,17 +55,19 @@ export const ProjectsSlider = () => {
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">R3play Web API</h3>
                   <cite>{t("r3playAPIInfo")}
-                    <Link title="Click to read more about the R3play Project" className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">{t("projectsSliderMore")}</Link>
+                    <Link title={t("r3playInfoTitle")}
+                    className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title="Click to open the R3play API Github repository" to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
-                    {/* </div> */}
-                    {/* <div class="work-links"> */}
-                    <Link title="Click to open the R3play API" to='https://r3play-934f9ea5664d.herokuapp.com/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
-                    {/* </div> */}
-                    {/* <div class="work-links"> */}
-                    <Link title="Click to read more about the R3play API" to='./../r3play-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
-                    {/* </div> */}
+                    <Link title={t("r3playInfoTitleGithub")}
+                    to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                    
+                    <Link title={t("r3playInfoTitleAPIDeployed")}
+                    to='https://r3play-934f9ea5664d.herokuapp.com/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                   
+                    <Link title={t("r3playInfoTitle")}
+                     
+                    to='./../r3play-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                   </div>
 
 
@@ -79,18 +82,20 @@ export const ProjectsSlider = () => {
                   <h3 className="projects-carousel-heading">MyFlix Angular App</h3>
                   <cite>{t("myFlixInfo")}
                     
-                    <Link title="Click to read more about the MyFlix App" className="pl-2 text-white projects-more" target="_self" to="./../myFlix-case" >{t("projectsSliderMore")}</Link>
+                    <Link title={t("myFlixInfoTitle")}
+                    className="pl-2 text-white projects-more" target="_self" to="./../myFlix-case" >{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title="Click to open the MyFlix App Github repository" to='https://github.com/yevheniiairapetian/myFlix-Angular-client' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
-                    {/* </div> */}
-                    {/* <div class="work-links"> */}
-                    <Link title="Click to open the Myflix App" to='https://yevheniiairapetian.github.io/myFlix-Angular-client/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
-                    {/* </div> */}
-                    {/* <div class="work-links"> */}
-                    <Link title="Click to open the myFlix App project Kanban board" to='https://trello.com/b/495tvGf9/kanban-template' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-clipboard-check" icon={faClipboardCheck} /></Link>
-                    <Link title="Click to read more about the MyFlix App" to='./../myFlix-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
-                    {/* </div> */}
+                    <Link title={t("myFlixInfoTitleGithub")}
+                    to='https://github.com/yevheniiairapetian/myFlix-Angular-client' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                   
+                    <Link title={t("myFlixInfoTitleDeployed")}
+                    to='https://yevheniiairapetian.github.io/myFlix-Angular-client/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                    
+                    <Link title={t("myFlixInfoTitleKanban")}
+                    to='https://trello.com/b/495tvGf9/kanban-template' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-clipboard-check" icon={faClipboardCheck} /></Link>
+                    <Link title={t("myFlixInfoTitle")}
+                    to='./../myFlix-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
 
                   </div>
 
@@ -105,17 +110,18 @@ export const ProjectsSlider = () => {
               <Link className="pl-2 text-white projects-more" target="_self" to="./../meet-case">
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">Meet App</h3>
-                  <cite>{t("meetInfo")}<Link title="Click to read more about the Meet App" className="pl-2 text-white projects-more" target="_self" to="./../meet-case" >{t("projectsSliderMore")}</Link>
+                  <cite>{t("meetInfo")}<Link title={t("meetInfoTitle")}
+                  className="pl-2 text-white projects-more" target="_self" to="./../meet-case" >{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title="Click to open the Meet App Github repository" to='https://github.com/yevheniiairapetian/meet' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
-                    {/* </div> */}
-                    {/* <div class="work-links"> */}
-                    <Link title="Click to open the Meet App" to='https://yevheniiairapetian.github.io/meet/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
-                    {/* </div> */}
-                    {/* <div class="work-links"> */}
-                    <Link title="Click to read more about the Meet App" to='./../meet-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
-                    {/* </div> */}
+                    <Link title={t("meetInfoTitleGithub")}
+                    to='https://github.com/yevheniiairapetian/meet' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                    
+                    <Link title={t("meetInfoTitleDeployed")}
+                    to='https://yevheniiairapetian.github.io/meet/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                    
+                    <Link title={t("meetInfoTitle")}
+                    to='./../meet-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                   </div>
                 </Carousel.Caption>
               </Link>
@@ -126,12 +132,15 @@ export const ProjectsSlider = () => {
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">OWrite Native App</h3>
                   <cite>{t("owriteInfo")}
-                    <Link title="Click to read more about the Owrite App" className="pl-2 text-white projects-more" target="_blank" to="./../owrite-case" >{t("projectsSliderMore")}</Link>
+                    <Link title={t("owriteInfoTitle")}
+                    className="pl-2 text-white projects-more" target="_blank" to="./../owrite-case" >{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title="Click to open the Owrite App Github repository" to='https://github.com/yevheniiairapetian/owrite' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                    <Link title={t("owriteInfoTitleGithub")}
+                    to='https://github.com/yevheniiairapetian/owrite' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
 
-                    <Link title="Click to read more about the Owrite App" to='./../owrite-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
+                    <Link title={t("owriteInfoTitle")}
+                    to='./../owrite-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
 
                   </div>
                 </Carousel.Caption>
@@ -144,17 +153,18 @@ export const ProjectsSlider = () => {
                 <h3 className="projects-carousel-heading">Pokemon App</h3>
                 <cite>{t("pokemonInfo")}
                   
-                  <Link title="Click to read more about the Pokemon App" className="pl-2 text-white projects-more" target="_blank" to="./../pokemon-case" >{t("projectsSliderMore")}</Link>
+                  <Link title={t("pokemonInfoTitle")}
+                  className="pl-2 text-white projects-more" target="_blank" to="./../pokemon-case" >{t("projectsSliderMore")}</Link>
                 </cite>
                 <div className="projects-work-links">
-                  <Link title="Click to open the the Pokemon App Github repository" to='https://github.com/yevheniiairapetian/pokemon-app' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
-                  {/* </div> */}
-                  {/* <div class="work-links"> */}
-                  <Link title="Click to open the Pokemon App" to='https://yevheniiairapetian.github.io/pokemon-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
-                  {/* </div> */}
-                  {/* <div class="work-links"> */}
-                  <Link title="Click to read more about the Pokemon App" to='./../pokemon-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
-                  {/* </div> */}
+                  <Link title={t("pokemonInfoTitleGithub")}
+                  to='https://github.com/yevheniiairapetian/pokemon-app' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                 
+                  <Link title={t("pokemonInfoTitleDeployed")}
+                  to='https://yevheniiairapetian.github.io/pokemon-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                  
+                  <Link title={t("pokemonInfoTitle")}
+                  to='./../pokemon-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                 </div>
               </Carousel.Caption>
               </Link>
@@ -163,22 +173,25 @@ export const ProjectsSlider = () => {
 
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture7} text="Third slide" />
-              <Link title="Click to read more about the To Do App" className="pl-2 text-white projects-more" target="_self" to="./../to-do-case">
+              <Link title={t("toDoInfoTitle")}
+              // "Click to read more about the To Do App" 
+              className="pl-2 text-white projects-more" target="_self" to="./../to-do-case">
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">To-Do App</h3>
                 <cite>{t("toDoInfo")}
                   
-                  <Link title="Click to read more about the To Do App" className="pl-2 text-white projects-more" target="_self" to="./../to-do-case" >{t("projectsSliderMore")}</Link>
+                  <Link title={t("toDoInfoTitle")}
+                  className="pl-2 text-white projects-more" target="_self" to="./../to-do-case" >{t("projectsSliderMore")}</Link>
                 </cite>
                 <div className="projects-work-links">
-                  <Link title="Click to open the To Do App Github repository" to='https://github.com/yevheniiairapetian/to-do-list-app' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
-                  {/* </div> */}
-                  {/* <div class="work-links"> */}
-                  <Link title="Click to open the To Do App" to='https://yevheniiairapetian.github.io/to-do-list-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
-                  {/* </div> */}
-                  {/* <div class="work-links"> */}
-                  <Link title="Click to read more about the To Do App" to='./../to-do-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
-                  {/* </div> */}
+                  <Link title={t("toDoInfoTitleGithub")}
+                  to='https://github.com/yevheniiairapetian/to-do-list-app' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                  
+                  <Link title={t("toDoInfoTitleDeployed")}
+                  to='https://yevheniiairapetian.github.io/to-do-list-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                 
+                  <Link title={t("toDoInfoTitle")}
+                  to='./../to-do-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                 </div>
               </Carousel.Caption>
               </Link>
@@ -187,22 +200,24 @@ export const ProjectsSlider = () => {
 
             <Carousel.Item>
               <Image className="projects-testim-image" src={projectsPicture8} text="Third slide" />
-              <Link title="Click to read more about the Portfolio App" className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case">
+              <Link title={t("portfolioInfoTitle")}
+               className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case">
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">Portfolio App</h3>
                 <cite>{t("portfolioInfo")}
                   
-                  <Link title="Click to read more about the Portfolio App" className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case" >{t("projectsSliderMore")}</Link>
+                  <Link title={t("portfolioInfoTitle")}
+                  className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case" >{t("projectsSliderMore")}</Link>
                 </cite>
                 <div className="projects-work-links">
-                  <Link title="Click to open the Portfolio App Github repository" to='https://github.com/yevheniiairapetian/portfolio' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
-                  {/* </div> */}
-                  {/* <div class="work-links"> */}
-                  <Link title="Click to open the Portfolio App" to='https://yevheniiairapetian.com/#/' target="_self" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
-                  {/* </div> */}
-                  {/* <div class="work-links"> */}
-                  <Link title="Click to read more about the Portfolio App" to='./../portfolio-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
-                  {/* </div> */}
+                  <Link title={t("portfolioInfoTitleGithub")}
+                  to='https://github.com/yevheniiairapetian/portfolio' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                  
+                  <Link title={t("portfolioInfoTitleDeployed")}
+                  to='https://yevheniiairapetian.com/#/' target="_self" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+               
+                  <Link title={t("portfolioInfoTitle")}
+                  to='./../portfolio-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                 </div>
               </Carousel.Caption>
               </Link>

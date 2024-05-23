@@ -29,7 +29,31 @@
   "owriteInfo": "React Native aplikacja, która pozwala użytkownikom rozmawiać. Użytkownicy mogą ustawić nazwę Użytkownika, wybrać kolor tła czatu i wysyłać wiadomości tekstowe, zdjęcia i nagrania audio.",
   "pokemonInfo": "Responsywna aplikacja Pokemon pobierająca Pokemona z Ajaxem z zewnętrznego interfejsu API Pokedex i wyświetlająca ich informacje, takie jak wzrost Pokemona, waga, identyfikator oraz obrazy z przodu iz tyłu",
   "toDoInfo": "Aplikacja do zadań jQuery i Bootstrap, która pozwala użytkownikom zarządzać zadaniami. Użytkownicy mogą dodawać, usuwać i zmieniać kolejność zadań, tworzyć i usuwać listy rzeczy do zrobienia oraz zapoznać się z przewodnikiem dotyczącym korzystania z aplikacji.",
-  "portfolioInfo":"Responsywna aplikacja internetowa opracowana z uwzględnieniem react, React Bootstrap i ułatwień dostępu, umożliwiająca użytkownikom przeglądanie informacji o moich projektach, informacji kontaktowych itp., zmianę motywu i wybór języka interfejsu",
+  "portfolioInfo":"Responsywna aplikacja internetowa opracowana z uwzględnieniem React, React Bootstrap i ułatwień dostępu, umożliwiająca użytkownikom przeglądanie informacji o moich projektach itp.",
+
+
+
+  "r3playInfoTitle": "Kliknij, aby przeczytać więcej o interfejsie API R3play",
+  "r3playInfoTitleAPIDeployed": "Kliknij, aby otworzyć interfejs API R3play",
+  "r3playInfoTitleGithub": "Kliknij, aby otworzyć repozytorium Github API R3play",
+  "myFlixInfoTitle": "Kliknij, aby przeczytać więcej o aplikacji MyFlix",
+  "myFlixInfoTitleGithub": "Kliknij, aby otworzyć repozytorium Github aplikacji MyFlix",
+  "myFlixInfoTitleKanban": "Kliknij, aby otworzyć tablicę Kanban projektu aplikacji myFlix",
+  "meetInfoTitle": "Kliknij, aby przeczytać więcej o MeetApp",
+  "meetInfoTitleDeployed": "Kliknij, aby otworzyć aplikację MeetApp",
+  "meetInfoTitleGithub": "Kliknij, aby otworzyć repozytorium MeetApp Github",
+  "owriteInfoTitle": "Kliknij, aby przeczytać więcej o aplikacji Owrite",
+  "owriteInfoTitleGithub": "Kliknij, aby otworzyć repozytorium Github aplikacji Owrite",
+  "pokemonInfoTitle": "Kliknij, aby przeczytać więcej o aplikacji Pokemon",
+  "pokemoninfotitleDeployed": "Kliknij, aby otworzyć aplikację Pokemon",
+  "pokemonInfoTitleGithub": "Kliknij, aby otworzyć repozytorium Github aplikacji Pokemon",
+  "toDoInfoTitle": "Kliknij, aby przeczytać więcej o aplikacji ToDoList",
+  "toDoinfotitleDeployed": "Kliknij, aby otworzyć aplikację ToDoList",
+  "toDoInfoTitleGithub": "Kliknij, aby otworzyć repozytorium Github aplikacji ToDoList",
+  "portfolioInfoTitle": "Kliknij, aby przeczytać więcej o aplikacji Portfolio",
+  "portfolioInfoTitleDeployed": "Kliknij, aby otworzyć aplikację Portfolio",
+  "portfolioInfoTitleGithub": "Kliknij, aby otworzyć repozytorium GitHub aplikacji Portfolio",
+
 
   "projectsSliderMore": "więcej",
   "testimonials": "Recenzje",
