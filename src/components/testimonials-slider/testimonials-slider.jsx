@@ -21,7 +21,7 @@ export const TestimonialsSlider = () => {
         <Image className="testim-image" src={testimonialsPicture2} roundedCircle circular text="Second slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">{t("testimonial1")}</h3>
-          <cite>{t("testimonial1Text")}<Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
+          <cite>{t("testimonial1Text")}<Link title={t("testimonialSliderMore")} className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>
@@ -29,8 +29,8 @@ export const TestimonialsSlider = () => {
         <Image className="testim-image" src={testimonialsPicture1} roundedCircle text="First slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">{t("testimonial2")}</h3>
-          <cite>{t("testimonial2Text")}
-                                                        <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
+          <cite >{t("testimonial2Text")} 
+                                                        <Link title={t("testimonialSliderMore")} className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>
@@ -38,9 +38,9 @@ export const TestimonialsSlider = () => {
         <Image className="testim-image" src={testimonialsPicture3} roundedCircle text="Third slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">{t("testimonial3")}</h3>
-          <cite>{t("testimonial3Text")}
+          <cite >{t("testimonial3Text")} 
           
-          <Link className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
+          <Link title={t("testimonialSliderMore")} className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
           </cite>
         </Carousel.Caption>
       </Carousel.Item>
