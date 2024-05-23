@@ -29,7 +29,31 @@
   "owriteInfo": "ユーザーがチャットできるようにするReact Nativeアプリケーションです。 ユーザーは、ユーザー名を設定し、チャットの背景色を選択し、テキストメッセージ、写真、および音声録音を送信できます。",
   "pokemonInfo": "外部Pokedex APIからAjaxでポケモンを取得し、ポケモンの身長、体重、ID、表と裏の画像などの情報を表示するレスポンシブポケモンアプリ",
   "toDoInfo": "ユーザーがto-dosを管理できるようにするjQueryとブートストラップto-doアプリ。 ユーザーは、to-doの追加、削除、再配置、to-doリストの作成と削除、およびアプリの使用方法に関するガイドを参照できます。",
-  "portfolioInfo":"React、React Bootstrap、アクセシビリティの考慮事項で開発された応答性の高いwebアプリケーションで、ユーザーは私のプロジェクト、連絡先情報などの情報を表示し、テーマを変更し、インターフェイス言語を選択することができます",
+  "portfolioInfo":"React、React Bootstrap、アクセシビリティの考慮事項を使用して開発されたレスポンシブwebアプリケーションで、ユーザーは私のプロジェクトなどに関する情報を表示",
+
+
+
+  "r3playInfoTitle":"R3Play APIの詳細を読むにはクリックしてください",
+  "r3playInfoTitleAPIDeployed":"クリックしてR3Play APIを開きます",
+  "r3playInfoTitleGithub":"クリックしてR3Play API Githubリポジトリを開きます",
+  "myFlixInfoTitle":"MyFlixアプリの詳細を読むにはクリックしてください",
+  "myFlixInfoTitleGithub":"クリックしてMyFlixアプリGithubリポジトリを開きます",
+  "myFlixInfoTitleKanban":"クリックしてmyFlixアプリプロジェクトかんばんボードを開きます",
+  "meetInfoTitle":"Meetアプリの詳細を読むにはクリックしてください",
+  "meetInfoTitleDeployed":"クリックしてMeetアプリを開きます",
+  "meetInfoTitleGithub":"クリックしてMeetアプリGithubリポジトリを開きます",
+  "owriteInfoTitle":"Owriteアプリの詳細を読むにはクリックしてください",
+  "owriteInfoTitleGithub":"クリックしてOwriteアプリのGithubリポジトリを開きます",
+  "pokemonInfoTitle":"ポケモンアプリについての詳細を読むためにクリックしてください",
+  "pokemonInfoTitleDeployed":"クリックしてポケモンアプリを開きます",
+  "pokemonInfoTitleGithub":"クリックしてポケモンアプリのGithubリポジトリを開きます",
+  "toDoInfoTitle":"ToDoListアプリの詳細を読むにはクリックしてください",
+  "toDoInfoTitleDeployed":"クリックしてToDoListアプリを開きます",
+  "toDoInfoTitleGithub":"クリックしてToDoListアプリのGithubリポジトリを開きます",
+  "portfolioInfoTitle":"ポートフォリオアプリの詳細を読むにはクリックしてください",
+  "portfolioInfoTitleDeployed":"クリックしてポートフォリオアプリを開きます",
+  "portfolioInfoTitleGithub":"クリックしてポートフォリオアプリGithubリポジトリを開きます",
+
 
   "projectsSliderMore": "もっと",
   "testimonials": "口コミ",
