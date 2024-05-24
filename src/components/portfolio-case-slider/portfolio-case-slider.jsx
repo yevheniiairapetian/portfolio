@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import {Container, Row, Col, Nav, Image} from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { faCircleInfo, faArrowUpRightFromSquare, faCode} from '@fortawesome/free-solid-svg-icons';
+import { faPlus} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {CarouselCaption} from "react-bootstrap/Carousel";
 import {PortfolioCaseView} from "../portfolio-case-view/portfolio-case-view";
@@ -21,6 +21,7 @@ export const PortfolioCaseSlider = () => {
             <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
+      
         <Image className="r3play-image" src={PortfolioPicture1} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("portfolioSlide1Heading")}</h3>

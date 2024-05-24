@@ -2,6 +2,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.slide-plus{
+    display:none;
+}
+
 img.projects-testim-image{
     margin: 0 auto;
     width: 100%;
@@ -92,6 +96,23 @@ bottom:-20px !important;
 }
 
 @media screen and (max-width: 980px){
+    .slide-plus{
+        display:block;
+        position: absolute;
+        right:18%;
+        top: 18px;
+        border-radius:16px;
+        background-color: #000;
+        padding:10px;
+        opacity:0.5;
+        
+    }
+
+    .slide-plus:hover{
+      
+        opacity:0.9;
+        
+    }
     img.projects-testim-image{
         margin: 0 auto;
         /* width: 100%; */
@@ -139,6 +160,24 @@ bottom:-20px !important;
 } 
 
 @media screen and (max-width: 600px){
+    .slide-plus{
+        display:block;
+        position: absolute;
+        right:18%;
+        top: 18px;
+        border-radius:16px;
+        background-color: #000;
+        padding:10px;
+        opacity:0.5;
+        
+    }
+
+    .slide-plus:hover{
+      
+        opacity:0.9;
+        
+    }
+    
     img.projects-testim-image{
         margin: 0 auto;
         /* width: 100%; */
