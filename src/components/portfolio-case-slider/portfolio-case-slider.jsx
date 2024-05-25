@@ -22,7 +22,8 @@ export const PortfolioCaseSlider = () => {
       
       <Carousel.Item>
       
-        <Image className="r3play-image" src={PortfolioLight} text="Second slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={PortfolioLight} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("portfolioSlide1Heading")}</h3>
           <cite>{t("portfolioSlide1Description")}
@@ -31,7 +32,8 @@ export const PortfolioCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={PortfolioDark} text="First slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={PortfolioDark} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("portfolioSlide2Heading")}</h3>
@@ -44,7 +46,8 @@ export const PortfolioCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={PortfolioLocalized} text="Third slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={PortfolioLocalized} text="Third slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("portfolioSlide3Heading")}</h3>
           <cite>

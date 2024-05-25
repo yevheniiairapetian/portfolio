@@ -21,7 +21,8 @@ export const PokemonCaseSlider = () => {
             <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
-        <Image className="r3play-image" src={PokemonPicture1} text="Second slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={PokemonPicture1} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("pokemonSlide1Heading")}</h3>
           <cite>{t("pokemonSlide1Description")}
@@ -30,7 +31,8 @@ export const PokemonCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={PokemonPicture2} text="First slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={PokemonPicture2} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("pokemonSlide2Heading")}</h3>
@@ -43,7 +45,8 @@ export const PokemonCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={PokemonPicture3} text="Third slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={PokemonPicture3} text="Third slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("pokemonSlide3Heading")}</h3>
           <cite>{t("pokemonSlide3Description")}

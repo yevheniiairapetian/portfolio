@@ -21,7 +21,8 @@ export const ToDoCaseSlider = () => {
             <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
-        <Image className="r3play-image" src={ToDoPicture1} text="Second slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={ToDoPicture1} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("toDoSlide1Heading")}</h3>
           <cite>{t("toDoSlide1Description")}
@@ -30,7 +31,8 @@ export const ToDoCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={ToDoPicture2} text="First slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={ToDoPicture2} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("toDoSlide2Heading")}</h3>
@@ -43,7 +45,8 @@ export const ToDoCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={ToDoPicture3} text="Third slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={ToDoPicture3} text="Third slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("toDoSlide3Heading")}</h3>
           <cite>{t("toDoSlide3Description")}

@@ -20,7 +20,8 @@ export const OwriteCaseSlider = () => {
             <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
-        <Image className="r3play-image" src={OwritePicture2} text="Second slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={OwritePicture2} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("owriteSlide1Heading")}</h3>
           <cite>{t("owriteSlide1Description")}
@@ -29,7 +30,8 @@ export const OwriteCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={OwritePicture1} text="First slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={OwritePicture1} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("owriteSlide2Heading")}</h3>

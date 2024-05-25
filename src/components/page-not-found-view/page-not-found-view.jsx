@@ -13,7 +13,9 @@ export const PageNotFoundView = () => {
         <Container fluid className="ps-0 pe-0 w-100 wrapper">
            
                 <Col xs={10} sm={10} md={10} className=" container-404 text-center m-auto" >
-        <Image src={image404} className="picture-404 m-auto w-100 mt-5 mb-5" alt="An image showing an old TV" />
+        <Image src={image404} className="picture-404 m-auto w-100 mt-5 mb-5" 
+        alt={t("notFoundImageAlt")} 
+        />
         <div className="main-information_container m-auto">
             <h1 className="r3play-headings">{t("notFound")}</h1>
             <p className="overview-404">{t("returnHomeParagraph")}<Link className="r3play-headings" to="/">{t("returnHomeLink")}</Link></p>

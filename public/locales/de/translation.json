@@ -353,6 +353,16 @@
         "impressumFooter": "Impressum",
         "toggleTitle":"Klicken, um die Seitenleiste umzuschalten"
     },
+
+    "notFoundImageAlt":"Ein Bild, das einen alten Fernseher zeigt",
+"caseHeroAlt":"Ein Bild, das einen Screenshot aus dem Projektfall zeigt",
+"caseSliderAlt":"Ein Bild, das einen Screenshot aus einer der Anwendungsansichten zeigt",
+"logoAlt":"Ein Bild, das das Logo der Anwendung zeigt",
+"contactImageAlt": "Ein Bild, das Schreibutensilien und eine schreibende Person zeigt",
+"testimonialsSliderImageAlt":"Ein Bild, das einen Rezensenten zeigt",
+"testimonialsImageAlt":"Ein Bild, das ein Team bei der Arbeit zeigt",
+"projectsSliderImageAlt":"Ein Bild, das einen Screenshot zeigt, der von einer bereitgestellten App erstellt wurde",
+"projectsImageAlt":"Ein Bild, das einen Arbeitsplatz mit einem Laptop und Zubehör zeigt",
     "aboutCvDeAlt": "Ein Symbol mit der deutschen Flagge",
     "aboutCvEnAlt": "Eine Ikone, die die amerikanische Flagge zeigt",
     "aboutCvUkAlt": "Ein Symbol mit der ukrainischen Flagge",

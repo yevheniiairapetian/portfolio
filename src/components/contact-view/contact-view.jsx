@@ -37,7 +37,8 @@ export const ContactView = () => {
             <p className="contact-info">{t("suggestion")}</p>
             <p className="contact-info">{t("eMailMe")}</p>
             <Image className="contact-image" src={contactImg}
-              alt="An image showing writing utensils and a person writing" />
+              alt={t("contactImageAlt")}
+               />
           </div>
           <div>
             <br />

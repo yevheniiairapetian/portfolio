@@ -14,15 +14,12 @@ import { faGlobe, faBell, faCircleInfo, faLightbulb, faMoon } from '@fortawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useSound from 'use-sound';
 import Click from './src/click.wav';
-// import { NewVisitorModal } from "../new-visitor-modal/new-visitor-modal";
-// import Modal from "../modal/dark-modal";
-// import Click from './src/click.wav';
+
 
 export const NavigationBar = () => {
 	const ClickButton = () => {
 		const [play] = useSound(Click);
 		return <Button className="info-sound-click-button" onClick={() => { play(); setVisible(!visible) }}></Button>;
-		// onClick={() => {setVisible(!visible)}}
 	};
 
 	const ClickThemeDark = () => {
@@ -178,8 +175,9 @@ export const NavigationBar = () => {
 					<ScrollToAnchor />
 					<Navbar.Brand className="p-2 brand" as={Link} to="/" expand="lg">
 						{/* <Nav.Link className="" as={Link} to='/'> */}
-						<Image onClick={() => setExpanded(false)} className="img-responsive logo" alt="logo" src={"../../logo.svg"} />
-						{/* </Nav.Link> */}
+						<Image onClick={() => setExpanded(false)} className="img-responsive logo" 
+						alt={t("logoAlt")}
+						src={"../../logo.svg"} />
 
 
 

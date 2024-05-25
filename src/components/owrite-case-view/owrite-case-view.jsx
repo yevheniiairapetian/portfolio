@@ -15,10 +15,7 @@ import { useTranslation } from 'react-i18next';
 
 export const OwriteCaseView = () => {
   const { t } = useTranslation();
-  // const takeaways = [
-    
-  // ];
-  // const listItems = takeaways.map(takeaway => <li data-icon="&#9745; ">{takeaway}</li>);
+  
   return (
     <Container className="wrapper">
         <Row>
@@ -29,7 +26,7 @@ export const OwriteCaseView = () => {
 
 <div className="projects-information_container--item">
         
-        <Image src={OwritePicture1} className="screenshot m-auto" alt="R3play Case Study hero image"></Image>
+        <Image src={OwritePicture1} className="screenshot m-auto" alt={t("caseHeroAlt")}></Image>
         <h2 className="fade-in-up-on-scroll r3play-headings">{t("caseOverview")}</h2>
         <p className="fade-in-up-on-scroll">{t("owriteCaseIntroduction")}</p>
         <h2 className="fade-in-up-on-scroll r3play-headings">{t("casePurpose")}</h2>

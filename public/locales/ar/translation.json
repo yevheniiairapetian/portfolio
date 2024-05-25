@@ -382,6 +382,17 @@
 "toggleTitle":"انقر لتبديل الشريط الجانبي"
 },
 
+
+
+"notFoundImageAlt":"صورة تظهر تلفزيون قديم",
+"caseHeroAlt":"صورة تظهر لقطة شاشة من حالة المشروع",
+"caseSliderAlt":"صورة تظهر لقطة شاشة من إحدى طرق عرض التطبيق",
+"logoAlt":"صورة تظهر شعار التطبيق",
+"contactImageAlt": "صورة تظهر أدوات الكتابة وشخص يكتب",
+"testimonialsSliderImageAlt":"صورة تظهر مراجع",
+"testimonialsImageAlt":"صورة تظهر فريق العمل",
+"projectsSliderImageAlt":"صورة تظهر لقطة شاشة مصنوعة من تطبيق تم نشره",
+"projectsImageAlt":"صورة تظهر مكان العمل مع جهاز كمبيوتر محمول وملحقاتها",
 "aboutCvDeAlt": "أيقونة تظهر العلم الألماني",
 "aboutCvEnAlt": "أيقونة تظهر العلم الأمريكي",
 "aboutCvUkAlt": "أيقونة تظهر العلم الأوكراني",

@@ -21,7 +21,8 @@ export const MyFlixCaseSlider = () => {
             <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
-        <Image className="r3play-image" src={MyFlixPicture1} text="Second slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={MyFlixPicture1} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("myFlixSlide1Heading")}</h3>
           <cite>{t("myFlixSlide1Description")}
@@ -30,7 +31,8 @@ export const MyFlixCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={MyFlixPicture2} text="First slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={MyFlixPicture2} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("myFlixSlide2Heading")}</h3>
@@ -43,7 +45,8 @@ export const MyFlixCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={MyFlixPicture3} text="Third slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={MyFlixPicture3} text="Third slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("myFlixSlide3Heading")}</h3>
           <cite>

@@ -34,7 +34,10 @@ export const MyFlixCaseView = () => {
 
                                         <div className="projects-information_container--item">
 
-                                                <Image src={MyFlixPicture1} className="screenshot" alt="R3play Case Study hero image"></Image>
+                                                <Image src={MyFlixPicture1} className="screenshot" 
+alt={t("caseHeroAlt")}
+
+></Image>
                                                 <h2 className="fade-in-up-on-scroll r3play-headings">{t("caseOverview")}</h2>
                                                 <p className="fade-in-up-on-scroll">{t("myFlixCaseIntroduction")}</p>
                                                 <h2 className="fade-in-up-on-scroll r3play-headings">{t("casePurpose")}</h2>

@@ -13,7 +13,9 @@ export const TestimonialsView = () => {
 <div className="app-container" onclick="hideMenu(); closeSidebar(); closeMenuDownloadLinks()">
                 <h1 className="projects-main-heading mb-4">{t("testimonials")}</h1>
                 <p className="projects-overview-paragraph">{t("wordOfMouth")}</p>
-                <Image className="projects-image" src={feedbackPicture} alt="An image showing a team working" />
+                <Image className="projects-image" src={feedbackPicture} alt={t("testimonialsImageAlt")}
+                 
+                />
 
 
                 <p className="slider-overview-paragraph center fade-in-up-on-scroll">{t("testimonialsViewTip")}</p>

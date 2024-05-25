@@ -356,6 +356,16 @@
 "toggleTitle": "Kliknij, aby przełączyć pasek boczny"
 },
 
+
+"notFoundImageAlt": "Obraz przedstawiający stary telewizor",
+"caseHeroAlt": "Obraz przedstawiający zrzut ekranu ze sprawy projektu",
+"caseSliderAlt": "Obraz przedstawiający zrzut ekranu z jednego z widoków aplikacji",
+"logoAlt": "Obraz przedstawiający logo aplikacji",
+"contactImageAlt": "Obraz przedstawiający przybory do pisania i osobę piszącą",
+"testimonialsSliderImageAlt": "Obraz przedstawiający recenzenta",
+"testimonialsImageAlt": "Obraz przedstawiający pracę zespołu",
+"projectsSliderImageAlt": "Obraz przedstawiający zrzut ekranu wykonany z wdrożonej aplikacji",
+"projectsImageAlt": "Obraz przedstawiający miejsce pracy z laptopem i akcesoriami",
 "aboutCvDeAlt": "Ikona przedstawiająca niemiecką flagę",
 "aboutCvEnAlt": "Ikona przedstawiająca amerykańską flagę",
 "aboutCvUkAlt": "Ikona przedstawiająca ukraińską flagę",

@@ -363,6 +363,16 @@
   "toggleTitle": "Fai clic per attivare o disattivare la barra laterale"
   },
 
+
+  "notFoundImageAlt": "Un'immagine che mostra una vecchia TV",
+"caseHeroAlt": "Un'immagine che mostra uno screenshot dal caso del progetto",
+"caseSliderAlt": "Un'immagine che mostra uno screenshot da una delle viste dell'applicazione",
+"logoAlt": "Un'immagine che mostra il logo dell'applicazione",
+"contactImageAlt": "Un'immagine che mostra utensili da scrittura e una persona che scrive",
+"testimonialsSliderImageAlt": "Un'immagine che mostra un recensore",
+"testimonialsImageAlt": "Un'immagine che mostra un team di lavoro",
+"projectsSliderImageAlt": "Un'immagine che mostra uno screenshot realizzato da un'app distribuita",
+"projectsImageAlt": "Un'immagine che mostra un posto di lavoro con un computer portatile e accessori",
   "aboutCvDeAlt": "Un'icona che mostra la bandiera tedesca",
 "aboutCvEnAlt": "Un'icona che mostra la bandiera americana",
 "aboutCvUkAlt": "Un'icona che mostra la bandiera ucraina",

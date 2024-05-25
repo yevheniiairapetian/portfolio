@@ -34,7 +34,8 @@ export const ProjectsSlider = () => {
             <Carousel.Item>
             
 
-              <Image className="projects-testim-image" src={projectsPicture2} text="Second slide" />
+              <Image alt={t("projectsSliderImageAlt")}
+              className="projects-testim-image" src={projectsPicture2} text="Second slide" />
               
               <Link className="pl-2 text-white projects-more" target="_self" to="">
               <FontAwesomeIcon title={t("sliderExpandInfoTitle")}
@@ -63,7 +64,8 @@ export const ProjectsSlider = () => {
               </Link>
             </Carousel.Item>
             <Carousel.Item>
-              <Image className="projects-testim-image" src={projectsPicture1} text="First slide" />
+              <Image className="projects-testim-image" alt={t("projectsSliderImageAlt")}
+              src={projectsPicture1} text="First slide" />
               <Link className="pl-2 text-white projects-more" 
               target="_self" to="">
               <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
@@ -94,7 +96,8 @@ export const ProjectsSlider = () => {
               </Link>
             </Carousel.Item>
             <Carousel.Item>
-              <Image className="projects-testim-image" src={projectsPicture3} text="Third slide" />
+              <Image className="projects-testim-image" alt={t("projectsSliderImageAlt")}
+              src={projectsPicture3} text="Third slide" />
               <Link className="pl-2 text-white projects-more" 
               target="_self" to="">
               <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
@@ -129,7 +132,8 @@ export const ProjectsSlider = () => {
 
 
             <Carousel.Item>
-              <Image className="projects-testim-image" src={projectsPicture4} text="Second slide" />
+              <Image className="projects-testim-image" alt={t("projectsSliderImageAlt")}
+              src={projectsPicture4} text="Second slide" />
               <Link className="pl-2 text-white projects-more" 
               target="_self" to="">
               <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
@@ -155,7 +159,8 @@ export const ProjectsSlider = () => {
               </Link>
             </Carousel.Item>
             <Carousel.Item>
-              <Image className="projects-testim-image" src={projectsPicture5} text="First slide" />
+              <Image className="projects-testim-image" alt={t("projectsSliderImageAlt")}
+              src={projectsPicture5} text="First slide" />
               <Link className="pl-2 text-white projects-more" 
               target="_self" to="">
               <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
@@ -180,7 +185,8 @@ export const ProjectsSlider = () => {
               </Link>
             </Carousel.Item>
             <Carousel.Item>
-              <Image className="projects-testim-image" src={projectsPicture6} text="Third slide" />
+              <Image className="projects-testim-image" alt={t("projectsSliderImageAlt")}
+              src={projectsPicture6} text="Third slide" />
               <Link className="pl-2 text-white projects-more" target="_self" to="">
               <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
               className="slide-plus" style={{color: "#529fcc",}}
@@ -209,7 +215,8 @@ export const ProjectsSlider = () => {
 
 
             <Carousel.Item>
-              <Image className="projects-testim-image" src={projectsPicture7} text="Third slide" />
+              <Image className="projects-testim-image" alt={t("projectsSliderImageAlt")}
+               src={projectsPicture7} text="Third slide" />
               <Link title={t("toDoInfoTitle")}
               // "Click to read more about the To Do App" 
               className="pl-2 text-white projects-more" target="_self" to="">
@@ -240,7 +247,8 @@ export const ProjectsSlider = () => {
 
 
             <Carousel.Item>
-              <Image className="projects-testim-image" src={projectsPicture8} text="Third slide" />
+              <Image className="projects-testim-image" alt={t("projectsSliderImageAlt")}
+              src={projectsPicture8} text="Third slide" />
               <Link title={t("portfolioInfoTitle")}
                className="pl-2 text-white projects-more" target="_self" to="">
                 <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}

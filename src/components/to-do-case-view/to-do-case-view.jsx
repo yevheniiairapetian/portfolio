@@ -15,21 +15,8 @@ import { useTranslation } from 'react-i18next';
 
 export const ToDoCaseView = () => {
   const { t } = useTranslation();
+
   
-
-      // const takeaways = [
-      //   'Enhance the Bootstrap skills',
-      //   'Work on the debugging skills',
-      //   'Extend the app\'s features later on',
-      // ];
-      // const listItems = takeaways.map(takeaway => <li data-icon="&#9745; ">{takeaway}</li>);
-
-      
-      
-      
-
-
-
   return (
     <Container className="wrapper">
         <Row>
@@ -40,7 +27,9 @@ export const ToDoCaseView = () => {
 
 <div className="projects-information_container--item">
         
-        <Image src={ToDoPicture1} className="screenshot" alt="R3play Case Study hero image"></Image>
+        <Image src={ToDoPicture1} className="screenshot" 
+alt={t("caseHeroAlt")}
+        ></Image>
         <h2 className="fade-in-up-on-scroll r3play-headings">{t("caseOverview")}</h2>
         <p className="fade-in-up-on-scroll">{t("toDoCaseIntroduction")}</p>
         <h2 className="fade-in-up-on-scroll r3play-headings">{t("casePurpose")}</h2>

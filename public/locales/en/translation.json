@@ -365,6 +365,15 @@
         "toggleTitle":"Click to toggle the sidebar"
     },
 
+    "notFoundImageAlt":"An image showing an old TV",
+    "caseHeroAlt":"An image showing a screenshot from the project's case",
+    "caseSliderAlt":"An image showing a screenshot from one of the application views",
+    "logoAlt":"An image showing the application's logo",
+    "contactImageAlt":"An image showing writing utensils and a person writing",
+    "testimonialsSliderImageAlt":"An image showing a reviewer",
+    "testimonialsImageAlt":"An image showing a team working",
+    "projectsSliderImageAlt":"An image showing a screenshot made from a deployed app",
+    "projectsImageAlt":"An image showing a workplace with a laptop and accessories",
     "aboutCvDeAlt":"An icon showing the German flag",
     "aboutCvEnAlt":"An icon showing the American flag",
     "aboutCvUkAlt":"An icon showing the Ukrainian flag",

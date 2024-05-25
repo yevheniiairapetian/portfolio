@@ -17,10 +17,7 @@ import { useTranslation } from 'react-i18next';
 
 export const PokemonCaseView = () => {
   const { t } = useTranslation();
-  // const takeaways = [
-
-  // ];
-  // const listItems = takeaways.map(takeaway => <li data-icon="&#9745; ">{takeaway}</li>);
+  
   return (
     <Container className="wrapper">
         <Row>
@@ -31,7 +28,7 @@ export const PokemonCaseView = () => {
 
 <div className="projects-information_container--item">
         
-        <Image src={PokemonPicture1} className="screenshot" alt="R3play Case Study hero image"></Image>
+        <Image src={PokemonPicture1} className="screenshot" alt={t("caseHeroAlt")}></Image>
         <h2 className="fade-in-up-on-scroll r3play-headings">{t("caseOverview")}</h2>
         <p className="fade-in-up-on-scroll">{t("pokemonCaseIntroduction")} <br/></p>
         <a className="" href="https://pokeapi.co/"

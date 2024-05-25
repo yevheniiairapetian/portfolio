@@ -28,7 +28,8 @@ export const R3playCaseSlider = () => {
             <Carousel className="w-100 m-auto">
       
       <Carousel.Item>
-        <Image className="r3play-image" src={R3playPicture1} text="Second slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={R3playPicture1} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("r3playSlide1Heading")}</h3>
           <cite>{t("r3playSlide1Description")}
@@ -37,7 +38,8 @@ export const R3playCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={R3playPicture2} text="First slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={R3playPicture2} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("r3playSlide2Heading")}</h3>
@@ -50,7 +52,8 @@ export const R3playCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={R3playPicture3} text="Third slide" />
+        <Image alt={t("caseSliderAlt")}
+        className="r3play-image" src={R3playPicture3} text="Third slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("r3playSlide3Heading")}</h3>
           <cite>{t("r3playSlide3Description")}

@@ -283,6 +283,16 @@
     "impressumFooter": "インプリント",
     "toggleTitle":"クリックしてサイドバーを切り替えます"
   },
+
+  "notFoundImageAlt":"古いテレビを示す画像",
+"caseHeroAlt":"プロジェクトのケースからのスクリーンショットを示す画像",
+"caseSliderAlt":"アプリケーションビューのいずれかからのスクリーンショットを示す画像",
+"logoAlt":"アプリケーションのロゴを示す画像",
+"contactImageAlt":"筆記用具と書く人を示す画像",
+"testimonialsSliderImageAlt":"レビュアーを示す画像",
+"testimonialsImageAlt":"チームが働いていることを示す画像",
+"projectsSliderImageAlt":"デプロイされたアプリから作成されたスクリーンショットを示す画像",
+"projectsImageAlt":"ラップトップとアクセサリーを持つ職場を示す画像",
   "aboutCvDeAlt": "ドイツの国旗を示すアイコン",
   "aboutCvEnAlt":"アメリカの旗を示すアイコン",
   "aboutCvUkAlt":"ウクライナの旗を示すアイコン",
