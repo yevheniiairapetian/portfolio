@@ -361,7 +361,8 @@
       },
      "footer":{
         "copy":"© Yevhenii Airapetian, 2024. All rights reserved.",
-        "impressumFooter":"Imprint"
+        "impressumFooter":"Imprint",
+        "toggleTitle":"Click to toggle the sidebar"
     },
 
     "aboutCvDeAlt":"An icon showing the German flag",

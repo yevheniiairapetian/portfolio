@@ -280,7 +280,8 @@
   },
   "footer": {
     "copy": "© Yevhenii Airapetian, 2024. すべての権利を保有します。",
-    "impressumFooter": "インプリント"
+    "impressumFooter": "インプリント",
+    "toggleTitle":"クリックしてサイドバーを切り替えます"
   },
   "aboutCvDeAlt": "ドイツの国旗を示すアイコン",
   "aboutCvEnAlt":"アメリカの旗を示すアイコン",

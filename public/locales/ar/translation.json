@@ -378,7 +378,8 @@
 },
 "footer": {
 "copy": "تنويه Yevhenii Airapetian, 2024. جميع الحقوق محفوظة.",
-"impressumFooter":"بصمة"
+"impressumFooter":"بصمة",
+"toggleTitle":"انقر لتبديل الشريط الجانبي"
 },
 
 "aboutCvDeAlt": "أيقونة تظهر العلم الألماني",

@@ -359,7 +359,8 @@
   },
   "footer":{
   "copy": "© Yevhenii Airapetian, 2024. Tutti i diritti riservati.",
-  "impressumFooter":"Impronta"
+  "impressumFooter":"Impronta",
+  "toggleTitle": "Fai clic per attivare o disattivare la barra laterale"
   },
 
   "aboutCvDeAlt": "Un'icona che mostra la bandiera tedesca",

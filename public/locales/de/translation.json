@@ -350,7 +350,8 @@
     },
     "footer": {
         "copy": "© Yevhenii Airapetian, 2024. Alle Rechte vorbehalten.",
-        "impressumFooter": "Impressum"
+        "impressumFooter": "Impressum",
+        "toggleTitle":"Klicken, um die Seitenleiste umzuschalten"
     },
     "aboutCvDeAlt": "Ein Symbol mit der deutschen Flagge",
     "aboutCvEnAlt": "Eine Ikone, die die amerikanische Flagge zeigt",

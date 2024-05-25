@@ -363,7 +363,9 @@
       },
       "footer":{
          "copy":"© Yevhenii Airapetian, 2024 Сите права се задржани.",
-         "impressumFooter":"Отпечаток"
+         "impressumFooter":"Отпечаток",
+         "toggleTitle":"Кликнете за да ја вклучите страничната лента"
+
      },
      "aboutCvDeAlt": "Икона што го покажува германското знаме",
 "aboutCvEnAlt": "Икона што го покажува американското знаме",
