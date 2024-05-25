@@ -352,7 +352,8 @@
 },
 "footer": {
 "copy": "© Yevhenii Airapetian, 2024. Wszelkie prawa zastrzeżone.",
-"impressumFooter": "Odcisk"
+"impressumFooter": "Odcisk",
+"toggleTitle": "Kliknij, aby przełączyć pasek boczny"
 },
 
 "aboutCvDeAlt": "Ikona przedstawiająca niemiecką flagę",

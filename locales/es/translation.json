@@ -351,7 +351,8 @@
     },
     "footer": {
         "copy": "© Yevhenii Airapetian, 2024 Todos los derechos reservados.",
-        "impressumFooter": "Impresión"
+        "impressumFooter": "Impresión",
+        "toggleTitle": "Haz clic para alternar la barra lateral"
     },
     "aboutCvDeAlt": "Un icono que muestra la bandera alemana",
 "aboutCvEnAlt": "Un icono que muestra la bandera estadounidense",

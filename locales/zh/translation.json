@@ -357,7 +357,8 @@
     },
     "footer":{
        "copy":"© Yevhenii Airapetian, 2024。保留所有权利。",
-       "impressumFooter":"印记"
+       "impressumFooter":"印记",
+       "toggleTitle":"点击切换侧边栏"
    },
    "aboutCvDeAlt":"显示德国国旗的图标",
 "aboutCvEnAlt":"显示美国国旗的图标",
