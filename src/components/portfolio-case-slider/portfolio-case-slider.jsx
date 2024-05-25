@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {CarouselCaption} from "react-bootstrap/Carousel";
 import {PortfolioCaseView} from "../portfolio-case-view/portfolio-case-view";
 import React from "react";
-import PortfolioPicture1 from "./img/portfolio-case-hero-image.png";
-import PortfolioPicture2 from "./img/portfolio-case-example-2.png";
-import PortfolioPicture3 from "./img/portfolio-case-example-3.png";
+import PortfolioLight from "./img/portfolio-light.png";
+import PortfolioDark from "./img/portfolio-dark.png";
+import PortfolioLocalized from "./img/portfolio-localized.png";
 import sliderCSS from "./css/slider.css";
 import { useTranslation } from 'react-i18next';
 
@@ -22,7 +22,7 @@ export const PortfolioCaseSlider = () => {
       
       <Carousel.Item>
       
-        <Image className="r3play-image" src={PortfolioPicture1} text="Second slide" />
+        <Image className="r3play-image" src={PortfolioLight} text="Second slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("portfolioSlide1Heading")}</h3>
           <cite>{t("portfolioSlide1Description")}
@@ -31,7 +31,7 @@ export const PortfolioCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={PortfolioPicture2} text="First slide" />
+        <Image className="r3play-image" src={PortfolioDark} text="First slide" />
         
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("portfolioSlide2Heading")}</h3>
@@ -44,7 +44,7 @@ export const PortfolioCaseSlider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image className="r3play-image" src={PortfolioPicture3} text="Third slide" />
+        <Image className="r3play-image" src={PortfolioLocalized} text="Third slide" />
         <Carousel.Caption className="r3play-carousel-caption">
           <h3 className="r3play-carousel-heading">{t("portfolioSlide3Heading")}</h3>
           <cite>
