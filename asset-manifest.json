@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a21b525c.css",
-    "main.js": "/static/js/main.5e7eb20d.js",
+    "main.js": "/static/js/main.9905ebeb.js",
     "static/js/885.71b0fd74.chunk.js": "/static/js/885.71b0fd74.chunk.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/retrospective-1.gif": "/static/media/retrospective-1.0b2a48d77a9e0082eef0.gif",
@@ -12,20 +12,21 @@
     "static/media/retrospective-2.gif": "/static/media/retrospective-2.d6e74b8d7de844d6b164.gif",
     "static/media/projects.jpg": "/static/media/projects.c6637fca3bba3e243f96.jpg",
     "static/media/r3play-case-example-2.png": "/static/media/r3play-case-example-2.db74a429cb0efbd2740e.png",
+    "static/media/portfolio-case-hero-image.png": "/static/media/portfolio-case-hero-image.eb774308d6d9eb14e424.png",
+    "static/media/portfolio-light.png": "/static/media/portfolio-light.eb774308d6d9eb14e424.png",
     "static/media/contact.jpg": "/static/media/contact.2b8fed5181e0272dffc2.jpg",
     "static/media/meet-retrospective-1.png": "/static/media/meet-retrospective-1.e07d52ac7786a8b7a2c4.png",
     "static/media/meet-retrospective-3.png": "/static/media/meet-retrospective-3.cc6206ede1581095ac50.png",
     "static/media/meet-retrospective-2.png": "/static/media/meet-retrospective-2.4fa83ab4d1230eb603f3.png",
-    "static/media/portfolio-hero-image.png": "/static/media/portfolio-hero-image.7fddf6c3c1594d4a7587.png",
-    "static/media/portfolio-case-hero-image.png": "/static/media/portfolio-case-hero-image.8402f6c25ad8c8547c21.png",
-    "static/media/portfolio-case-example-2.png": "/static/media/portfolio-case-example-2.b87465a62d9b56af0926.png",
+    "static/media/portfolio-dark.png": "/static/media/portfolio-dark.87ee51334aab704439f0.png",
+    "static/media/portfolio-hero-image.png": "/static/media/portfolio-hero-image.87ee51334aab704439f0.png",
     "static/media/meet-app-hero-image.png": "/static/media/meet-app-hero-image.daa44627a891b548dd27.png",
     "static/media/404.gif": "/static/media/404.dcf2305a6ee26e021cec.gif",
     "static/media/owrite-case-hero-image-1.png": "/static/media/owrite-case-hero-image-1.357479db3da1c8d88913.png",
     "static/media/r3play-api-hero-image.png": "/static/media/r3play-api-hero-image.cbdc1b63947c0587fb2b.png",
     "static/media/owrite-case-hero-image-2.png": "/static/media/owrite-case-hero-image-2.51224e6bf4e435f3081a.png",
+    "static/media/portfolio-localized.png": "/static/media/portfolio-localized.6b2901be3cf1212bb322.png",
     "static/media/testimonial-3.jpeg": "/static/media/testimonial-3.9ca9e2e8a5b00296629d.jpeg",
-    "static/media/portfolio-case-example-3.png": "/static/media/portfolio-case-example-3.d0f1a3cd8e2f73d04f36.png",
     "static/media/Yevhenii-Airapetian-EN.pdf": "/static/media/Yevhenii-Airapetian-EN.eea390d552fbaa23d0f5.pdf",
     "static/media/testimonial-2.jpeg": "/static/media/testimonial-2.dbf26a70396cbc5fa64f.jpeg",
     "static/media/Yevhenii-Airapetian-UK.pdf": "/static/media/Yevhenii-Airapetian-UK.77bfe2daf349cb27acec.pdf",
@@ -54,12 +55,12 @@
     "static/media/arrow-ios-back.svg": "/static/media/arrow-ios-back.7ade10504a85d9828ae0.svg",
     "static/media/navbar-toggler-icon.svg": "/static/media/navbar-toggler-icon.ce288e82eed2cc1fe718.svg",
     "main.a21b525c.css.map": "/static/css/main.a21b525c.css.map",
-    "main.5e7eb20d.js.map": "/static/js/main.5e7eb20d.js.map",
+    "main.9905ebeb.js.map": "/static/js/main.9905ebeb.js.map",
     "885.71b0fd74.chunk.js.map": "/static/js/885.71b0fd74.chunk.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a21b525c.css",
-    "static/js/main.5e7eb20d.js"
+    "static/js/main.9905ebeb.js"
   ]
 }
