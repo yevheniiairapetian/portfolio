@@ -360,6 +360,17 @@
        "impressumFooter":"印记",
        "toggleTitle":"点击切换侧边栏"
    },
+
+
+   "notFoundImageAlt":"显示旧电视的图像",
+"caseHeroAlt":"显示项目案例截图的图像",
+"caseSliderAlt":"显示来自其中一个应用程序视图的屏幕截图的图像",
+"logoAlt":"显示应用程序徽标的图像",
+"contactImageAlt":"显示书写用具和一个人书写的图像",
+"testimonialsSliderImageAlt":"显示审阅者的图像",
+"testimonialsImageAlt":"显示团队工作的图像",
+"projectsSliderImageAlt":"显示从已部署应用程序制作的屏幕截图的图像",
+"projectsImageAlt":"一个图像显示一个工作场所与一台笔记本电脑和配件",
    "aboutCvDeAlt":"显示德国国旗的图标",
 "aboutCvEnAlt":"显示美国国旗的图标",
 "aboutCvUkAlt":"显示乌克兰国旗的图标",

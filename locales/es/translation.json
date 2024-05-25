@@ -354,6 +354,16 @@
         "impressumFooter": "Impresión",
         "toggleTitle": "Haz clic para alternar la barra lateral"
     },
+
+    "notFoundImageAlt":" Una imagen que muestra un televisor viejo",
+"caseHeroAlt": "Una imagen que muestra una captura de pantalla del caso del proyecto",
+"caseSliderAlt":" Una imagen que muestra una captura de pantalla de una de las vistas de la aplicación",
+"logoAlt": "Una imagen que muestra el logotipo de la aplicación",
+"contactImageAlt": "Una imagen que muestra utensilios de escritura y una persona escribiendo",
+"testimonialsSliderImageAlt": "Una imagen que muestra a un crítico",
+"testimonialsImageAlt": "Una imagen que muestra a un equipo trabajando",
+"projectsSliderImageAlt":" Una imagen que muestra una captura de pantalla realizada desde una aplicación implementada",
+"projectsImageAlt": "Una imagen que muestra un lugar de trabajo con una computadora portátil y accesorios",
     "aboutCvDeAlt": "Un icono que muestra la bandera alemana",
 "aboutCvEnAlt": "Un icono que muestra la bandera estadounidense",
 "aboutCvUkAlt": "Un icono que muestra la bandera ucraniana",
