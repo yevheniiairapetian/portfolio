@@ -9,6 +9,7 @@ p.skills-paragraphs {
     margin-right:6px;
 }
 
+
 p.skills-paragraphs span {
     border-radius: 8px;
     color: white;
@@ -41,6 +42,7 @@ p.skills-paragraphs span:hover {
     /* Make slightly larger than the li font-size
     but smaller than the li gap */
     font-size: 1.25em;
+    color:#0cc4e9;
   }
 
  .myFlix-external-links .myFlix-fa-code, .myFlix-external-links .myFlix-fa-up, .myFlix-external-links .myFlix-fa-info{
