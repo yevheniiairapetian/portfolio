@@ -21,7 +21,7 @@
     "code":"代码",
     "projects":"网络应用程序",
     "projectsInfo": "在这里，您可以找到我已完成和参与的当前网站开发项目。它们都有代码库和项目案例的超链接，大多数都有已部署版本的链接，有些还有其他链接",
-    "projectsViewTip":"使用滑块控件点击项目列表。将鼠标悬停在特定幻灯片上可访问项目链接",
+    "projectsViewTip":"使用滑块控件单击项目列表。 将鼠标悬停在特定幻灯片上以访问项目的链接。 点击\"展开图标\"查看更多信息（在手机上）",
     "r3playInfo":"R3play 的 Web API 界面允许用户注册和注销，查看电影、电视剧和动漫信息，以及管理收藏列表。",
     "r3playAPIInfo":"使用 Node.js、Express 和 MongoDB 开发的 Web API，允许用户注册、注销注册、查看电影、电视剧和动漫信息以及管理收藏夹。",
     "myFlixInfo":"R3play Web API 的前端部分，采用 Angular、Typescript 和 Material UI 设计，允许用户注册、查看电影信息和添加收藏。",
@@ -57,8 +57,7 @@
     "projectsSliderMore":"更多信息",
     "testimonials":"人们说",
     "wordOfMouth":"如果不是有幸与这么多优秀的人共事，我不会有今天的成就。",
-    "testimonialsViewTip":"使用滑块控制点击推荐列表。将鼠标悬停在推荐标题上，阅读更多内容。",
-    "testimonial1":"Maya Septriana, 职业顾问, CareerFoundry",
+    "testimonialsViewTip":"使用滑块控件单击评论列表。 将鼠标悬停在评论的标题上以阅读更多。 点击特定的证明查看更多信息(在手机上)",    "testimonial1":"Maya Septriana, 职业顾问, CareerFoundry",
     "testimonial2":"Nizar Triki, 软件工程经理 chez Expensya",
     "testimonial3":"Dejan Gogov, Web 开发人员, Wild Code School",
     "testimonial1Text":"Yevhenii是一个非常容易合作的人。他总是追求卓越。每次我给他反馈时，他都愿意倾听并调整提交的内容...",
@@ -113,8 +112,7 @@
     "caseViewEndpoints":"查看端点",
     "r3playCasePostman":"我使用 Postman 来测试对 API 的响应和请求。我还利用基本的 HTTP 身份验证和 JWT 身份验证来提供身份验证和授权功能.",
     "r3playCaseAboutClient":"完成 API 项目后,我开始构建用户与 API 和数据库的逻辑和数据交互时需要的前端界面。它是一个单页、响应式 Web 应用程序,由 React 和 React-Redux 开发。它显示多个界面视图,包括（但不限于）主视图（显示所有电影、电视剧和动漫的列表）、单个电影、电视剧和动漫视图（显示有关单个电影、电视剧的数据）和动漫,并允许用户将它们添加到或从其收藏夹列表中删除）、登录视图, 注册视图和配置文件视图（用户可以在其中更新其用户数据和收藏夹列表）.",
-    "caseSliderTip":"使用滑块控件滑动项目。悬停在幻灯片的标题上以获取更多信息。",
-    "r3playCaseDurationData":"总共 12 周（后端:7 周,前端:5 周）",
+    "caseSliderTip":"使用滑块控件单击项目列表。 将鼠标悬停在幻灯片的标题上以阅读更多内容。 点击特定幻灯片以查看其他信息（在移动设备上）",    "r3playCaseDurationData":"总共 12 周（后端:7 周,前端:5 周）",
     "r3playCaseConclusionData":"电影应用程序只是我在全栈网络开发课程中开发的第二个完整网络应用程序。完成后,我专注于提高我的开发技能,特别是测试驱动的开发方法。它需要在添加实际功能逻辑之前实现测试阶段,从而实现更安全、无错误和更快的开发.",
     
    

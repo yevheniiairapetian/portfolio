@@ -21,7 +21,7 @@
     "code": "Código",
     "projects": "Proyectos",
     "projectsInfo": "Aquí encontrarás los proyectos actuales de desarrollo web que he completado y en los que he trabajado. Todos ellos tienen hipervínculos a la base de código y los casos del proyecto, la mayoría tienen un enlace a la versión desplegada, y algunos también tienen enlaces adicionales.",
-    "projectsViewTip": "Utilice los controles deslizantes para desplazarse por la lista de proyectos. Mueva el ratón sobre una diapositiva concreta para mostrar los enlaces del proyecto.",
+    "projectsViewTip":"Use los controles deslizantes para hacer clic en la lista de proyectos. Desplácese sobre una diapositiva específica para acceder a los enlaces del proyecto. Toque en el \"icono de expansión\" para ver más información (en dispositivos móviles)",
     "r3playInfo": "La interfaz de la API web de R3play que permite a los usuarios registrarse y darse de baja, ver información sobre películas, series de televisión y anime, y gestionar su lista de favoritos.",
     "r3playAPIInfo": "API web desarrollada con Node.js, Express y MongoDB que permite a los usuarios registrarse, darse de baja, ver información sobre películas, programas de televisión y animes, y gestionar favoritos.",
     "myFlixInfo": "Una parte front-end para la API web de R3play diseñada con Angular, Typescript y Material UI que permite a los usuarios registrarse, ver información sobre películas y añadir favoritos.",
@@ -59,8 +59,7 @@
     "projectsSliderMore": "más",
     "testimonials": "La gente dice",
     "wordOfMouth": "No estaría donde estoy hoy sin toda la gente maravillosa con la que he tenido el privilegio de trabajar",
-    "testimonialsViewTip": "Utiliza los controles deslizantes para desplazarte por la lista de testimonios. Pasa el ratón por encima de los títulos de los testimonios para leer más.",
-    "testimonial1": "Maya Septriana, Consultora de Carrera, CareerFoundry",
+    "testimonialsViewTip": "Usa los controles deslizantes para hacer clic en la lista de testimonios. Desplácese sobre los encabezados de los testimonios para leer más. Toque un testimonio específico para ver información adicional (en el móvil)",    "testimonial1": "Maya Septriana, Consultora de Carrera, CareerFoundry",
     "testimonial2": "Nizar Triki, Gerente de Ingeniería de Software chez Expensya",
     "testimonial3": "Dejan Gogov, Desarrollador Web, Wild Code School",
     "testimonial1Text": "Yevhenii es alguien con quien es muy fácil colaborar. Siempre se esfuerza por alcanzar la excelencia. Cada vez que le doy mi opinión, está dispuesto a escuchar y ajustar la presentación...",
@@ -114,8 +113,7 @@
     "caseViewEndpoints": "Ver puntos finales",
     "r3playCasePostman": "Utilicé Postman para probar respuestas y solicitudes a la API. También hice uso de la autenticación HTTP básica y la autenticación JWT para proporcionar las características de autenticación y autorización.",
     "r3playCaseAboutClient": "Después de completar el proyecto de API, procedí a construir la interfaz front-end que los usuarios necesitarían al interactuar con la lógica y los datos de la API y la base de datos. Es una aplicación web de una sola página, sensible, desarrollada con React y React-Redux. Muestra varias vistas de la interfaz, incluyendo (pero no limitado a) una vista principal (muestra una lista de todas las películas, series de televisión y anime), una sola película, series de televisión y vistas de anime (muestra datos sobre una sola película, serie de televisión y anime, y permite a los usuarios agregarlos o eliminarlos de su lista de favoritos), una vista de inicio de sesión, una vista de registro y una vista de perfil (donde los usuarios pueden actualizar sus datos de usuario y la lista de favoritos).",
-    "caseSliderTip": "Utilice los controles para deslizar la lista de proyectos. Pase el cursor sobre los títulos de las diapositivas para leer más.",
-    "r3playCaseDurationData": "12 semanas en total (backend: 7 semanas, frontend: 5 semanas)",
+    "caseSliderTip": "Usa los controles deslizantes para hacer clic en la lista de proyectos. Desplácese sobre los encabezados de las diapositivas para leer más. Toque una diapositiva específica para ver información adicional (en dispositivos móviles)",    "r3playCaseDurationData": "12 semanas en total (backend: 7 semanas, frontend: 5 semanas)",
     "r3playCaseConclusionData": "La aplicación de películas fue solo la segunda aplicación web completa que desarrollé en el curso de desarrollo web Full-Stack. Cuando se terminó, me enfoqué en mejorar mis habilidades de desarrollo, específicamente el enfoque de desarrollo basado en pruebas. Requiere implementar la fase de prueba antes de agregar la lógica funcional real, permitiendo un desarrollo más seguro, libre de errores y más rápido.",
     
 
