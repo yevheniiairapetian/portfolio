@@ -61,12 +61,7 @@ alt={t("caseHeroAlt")}
 
                                                 <p className="center r3play-slider-hint fade-in-up-on-scroll">{t("caseSliderTip")}</p>
                                                 <MyFlixCaseSlider />
-                                                {/* <Image className="screenshot img-third-width fade-in-up-on-scroll" src={R3playPicture1}
-                alt="R3play app case interface screenshot 1"></Image>
-        <Image className="screenshot img-third-width fade-in-up-on-scroll" src={R3playPicture2}
-                alt="R3play app case interface screenshot 2"></Image>
-        <Image className="screenshot img-third-width fade-in-up-on-scroll" src={R3playPicture3}
-                alt="R3play app case interface screenshot 3"></Image> */}
+                                               
                                                 <h2 className="fade-in-up-on-scroll r3play-headings">{t("caseDuration")}</h2>
                                                 <p className="fade-in-up-on-scroll">{t("myFlixCaseDurationData")}</p>
                                                 <h2 className="fade-in-up-on-scroll r3play-headings">{t("caseRetrospective")}</h2>

@@ -22,7 +22,7 @@ export const TestimonialsSlider = () => {
         src={testimonialsPicture2} roundedCircle circular text="Second slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">{t("testimonial1")}</h3>
-          <cite>{t("testimonial1Text")}<Link title={t("testimonialSliderMore")} className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
+          <cite className="testimonials-cite">{t("testimonial1Text")}<Link title={t("testimonialSliderMore")} className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
                                                         </cite>
         </Carousel.Caption>
       </Carousel.Item>
@@ -31,7 +31,7 @@ export const TestimonialsSlider = () => {
         src={testimonialsPicture1} roundedCircle text="First slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">{t("testimonial2")}</h3>
-          <cite >{t("testimonial2Text")} 
+          <cite  className="testimonials-cite">{t("testimonial2Text")} 
                                                         <Link title={t("testimonialSliderMore")} className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
                                                         </cite>
         </Carousel.Caption>
@@ -41,7 +41,7 @@ export const TestimonialsSlider = () => {
         src={testimonialsPicture3} roundedCircle text="Third slide" />
         <Carousel.Caption className="carousel-caption">
           <h3 className="carousel-heading">{t("testimonial3")}</h3>
-          <cite >{t("testimonial3Text")} 
+          <cite  className="testimonials-cite">{t("testimonial3Text")} 
           
           <Link title={t("testimonialSliderMore")} className="pl-2 text-white more" target="_blank" to="https://www.linkedin.com/in/yevheniiairapetian/" >{t("testimonialsMore")}</Link>
           </cite>
