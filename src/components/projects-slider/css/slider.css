@@ -232,8 +232,10 @@ bottom:-20px !important;
     
     }
 
-    .projects-more{
+    
+    a.projects-more{
         font-size:14px;
+        color: #000 !important;
     }
 } 
 
