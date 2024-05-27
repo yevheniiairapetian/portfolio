@@ -21,7 +21,7 @@
     "code":"代码",
     "projects":"网络应用程序",
     "projectsInfo": "在这里，您可以找到我已完成和参与的当前网站开发项目。它们都有代码库和项目案例的超链接，大多数都有已部署版本的链接，有些还有其他链接",
-    "projectsViewTip":"使用滑块控件单击项目列表。 将鼠标悬停在特定幻灯片上以访问项目的链接。 点击\"展开图标\"查看更多信息（在手机上）",
+    "projectsViewTip":"使用滑块控件单击项目列表。 将鼠标悬停在特定幻灯片上以访问项目的链接。 点击特定的幻灯片以查看更多信息(在手机上)",    
     "r3playInfo":"R3play 的 Web API 界面允许用户注册和注销，查看电影、电视剧和动漫信息，以及管理收藏列表。",
     "r3playAPIInfo":"使用 Node.js、Express 和 MongoDB 开发的 Web API，允许用户注册、注销注册、查看电影、电视剧和动漫信息以及管理收藏夹。",
     "myFlixInfo":"R3play Web API 的前端部分，采用 Angular、Typescript 和 Material UI 设计，允许用户注册、查看电影信息和添加收藏。",

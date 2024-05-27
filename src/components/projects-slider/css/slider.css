@@ -268,5 +268,8 @@ bottom:-20px !important;
         font-size:16px;
         
     }
-    
+    a.projects-more{
+        font-size:14px;
+        color: #000 !important;
+    }
 } 

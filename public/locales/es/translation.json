@@ -21,7 +21,7 @@
     "code": "Código",
     "projects": "Proyectos",
     "projectsInfo": "Aquí encontrarás los proyectos actuales de desarrollo web que he completado y en los que he trabajado. Todos ellos tienen hipervínculos a la base de código y los casos del proyecto, la mayoría tienen un enlace a la versión desplegada, y algunos también tienen enlaces adicionales.",
-    "projectsViewTip":"Use los controles deslizantes para hacer clic en la lista de proyectos. Desplácese sobre una diapositiva específica para acceder a los enlaces del proyecto. Toque en el \"icono de expansión\" para ver más información (en dispositivos móviles)",
+    "projectsViewTip": "Usa los controles deslizantes para hacer clic en la lista de proyectos. Desplácese sobre una diapositiva específica para acceder a los enlaces del proyecto. Toque una diapositiva específica para ver más información (en dispositivos móviles)",    
     "r3playInfo": "La interfaz de la API web de R3play que permite a los usuarios registrarse y darse de baja, ver información sobre películas, series de televisión y anime, y gestionar su lista de favoritos.",
     "r3playAPIInfo": "API web desarrollada con Node.js, Express y MongoDB que permite a los usuarios registrarse, darse de baja, ver información sobre películas, programas de televisión y animes, y gestionar favoritos.",
     "myFlixInfo": "Una parte front-end para la API web de R3play diseñada con Angular, Typescript y Material UI que permite a los usuarios registrarse, ver información sobre películas y añadir favoritos.",

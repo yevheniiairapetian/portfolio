@@ -38,11 +38,7 @@ export const ProjectsSlider = () => {
               className="projects-testim-image" src={projectsPicture2} text="Second slide" />
               
               <Link className="pl-2 text-white projects-more" target="_self" to="">
-              <FontAwesomeIcon title={t("sliderExpandInfoTitle")}
-              onClick={()=>{showCaption()}} className="slide-plus" 
-              style={{color: "#529fcc",}}
-              icon={faUpRightAndDownLeftFromCenter} 
-              size="lg" />
+              
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">R3play App</h3>
                   <cite className="projects-slider-cite">{t("r3playInfo")}<Link title={t("r3playInfoTitle")}
@@ -68,10 +64,7 @@ export const ProjectsSlider = () => {
               src={projectsPicture1} text="First slide" />
               <Link className="pl-2 text-white projects-more" 
               target="_self" to="">
-              <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
-              className="slide-plus" style={{color: "#529fcc",}} 
-              icon={faUpRightAndDownLeftFromCenter} 
-              size="lg" />
+              
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">R3play Web API</h3>
                   <cite className="projects-slider-cite">{t("r3playAPIInfo")}
@@ -100,10 +93,7 @@ export const ProjectsSlider = () => {
               src={projectsPicture3} text="Third slide" />
               <Link className="pl-2 text-white projects-more" 
               target="_self" to="">
-              <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
-              className="slide-plus" style={{color: "#529fcc",}}
-              icon={faUpRightAndDownLeftFromCenter} 
-              size="lg" />
+              
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">MyFlix Angular App</h3>
                   <cite className="projects-slider-cite">{t("myFlixInfo")}
@@ -136,10 +126,7 @@ export const ProjectsSlider = () => {
               src={projectsPicture4} text="Second slide" />
               <Link className="pl-2 text-white projects-more" 
               target="_self" to="">
-              <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
-              className="slide-plus" style={{color: "#529fcc",}} 
-              icon={faUpRightAndDownLeftFromCenter} 
-              size="lg" />
+              
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">Meet App</h3>
                   <cite className="projects-slider-cite">{t("meetInfo")}<Link title={t("meetInfoTitle")}
@@ -163,10 +150,7 @@ export const ProjectsSlider = () => {
               src={projectsPicture5} text="First slide" />
               <Link className="pl-2 text-white projects-more" 
               target="_self" to="">
-              <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
-               className="slide-plus" style={{color: "#529fcc",}}
-              icon={faUpRightAndDownLeftFromCenter} 
-              size="lg" />
+              
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">OWrite Native App</h3>
                   <cite className="projects-slider-cite">{t("owriteInfo")}
@@ -188,10 +172,7 @@ export const ProjectsSlider = () => {
               <Image className="projects-testim-image" alt={t("projectsSliderImageAlt")}
               src={projectsPicture6} text="Third slide" />
               <Link className="pl-2 text-white projects-more" target="_self" to="">
-              <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
-              className="slide-plus" style={{color: "#529fcc",}}
-              icon={faUpRightAndDownLeftFromCenter} 
-              size="lg" />
+              
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">Pokemon App</h3>
                 <cite className="projects-slider-cite">{t("pokemonInfo")}
@@ -218,12 +199,8 @@ export const ProjectsSlider = () => {
               <Image className="projects-testim-image" alt={t("projectsSliderImageAlt")}
                src={projectsPicture7} text="Third slide" />
               <Link title={t("toDoInfoTitle")}
-              // "Click to read more about the To Do App" 
               className="pl-2 text-white projects-more" target="_self" to="">
-                <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
-                className="slide-plus" style={{color: "#529fcc",}}
-              icon={faUpRightAndDownLeftFromCenter} 
-              size="lg" />
+                
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">To-Do App</h3>
                 <cite className="projects-slider-cite">{t("toDoInfo")}
@@ -251,10 +228,7 @@ export const ProjectsSlider = () => {
               src={projectsPicture8} text="Third slide" />
               <Link title={t("portfolioInfoTitle")}
                className="pl-2 text-white projects-more" target="_self" to="">
-                <FontAwesomeIcon onClick={()=>{showCaption()}} title={t("sliderExpandInfoTitle")}
-                 className="slide-plus" style={{color: "#529fcc",}}
-              icon={faUpRightAndDownLeftFromCenter} 
-              size="lg" />
+                
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">Portfolio App</h3>
                 <cite className="projects-slider-cite">{t("portfolioInfo")}

@@ -21,7 +21,7 @@
     "code":"Codice",
     "projects":"Progetti",
     "projectsInfo":"Qui troverai i progetti di sviluppo web attuali che ho completato e su cui ho lavorato. Tutti hanno collegamenti ipertestuali alla base di codice e ai casi di progetto, la maggior parte ha un collegamento alla versione distribuita e alcuni hanno anche collegamenti aggiuntivi.",
-    "projectsViewTip":"Utilizzare i controlli di scorrimento per fare clic sull'elenco progetti. Passa il mouse su una diapositiva specifica per accedere ai collegamenti del progetto. Toccare \"espandi icona\" per visualizzare ulteriori informazioni (sul cellulare)",
+    "projectsViewTip": "Usa i controlli del cursore per fare clic sull'elenco dei progetti. Passa il mouse su una diapositiva specifica per accedere ai collegamenti del progetto. Toccare una diapositiva specifica per visualizzare ulteriori informazioni (sul dispositivo mobile)",    
     "r3playInfo":"Il front-end dell'API Web R3play che consente agli utenti di registrarsi e annullare la registrazione, visualizzare informazioni su film, serie TV e anime e gestire l'elenco dei preferiti.",
     "r3playAPIInfo":"Un'API Web sviluppata con Node.js, Express e MongoDB, che consentono agli utenti di registrarsi, annullare la registrazione, visualizzare informazioni su film, serie TV e anime e gestire i preferiti.",
     "myFlixInfo":"Una parte front-end per l'API Web R3play progettata con Angular, Typescript e Material UI che consente agli utenti di registrarsi, visualizzare informazioni sui film e aggiungere preferiti.",
