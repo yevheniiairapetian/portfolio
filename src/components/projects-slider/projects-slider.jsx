@@ -45,7 +45,7 @@ export const ProjectsSlider = () => {
               size="lg" />
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">R3play App</h3>
-                  <cite>{t("r3playInfo")}<Link title={t("r3playInfoTitle")}
+                  <cite className="projects-slider-cite">{t("r3playInfo")}<Link title={t("r3playInfoTitle")}
                   className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
@@ -74,7 +74,7 @@ export const ProjectsSlider = () => {
               size="lg" />
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">R3play Web API</h3>
-                  <cite>{t("r3playAPIInfo")}
+                  <cite className="projects-slider-cite">{t("r3playAPIInfo")}
                     <Link title={t("r3playInfoTitle")}
                     className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">{t("projectsSliderMore")}</Link>
                   </cite>
@@ -106,7 +106,7 @@ export const ProjectsSlider = () => {
               size="lg" />
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">MyFlix Angular App</h3>
-                  <cite>{t("myFlixInfo")}
+                  <cite className="projects-slider-cite">{t("myFlixInfo")}
                     
                     <Link title={t("myFlixInfoTitle")}
                     className="pl-2 text-white projects-more" target="_self" to="./../myFlix-case" >{t("projectsSliderMore")}</Link>
@@ -142,7 +142,7 @@ export const ProjectsSlider = () => {
               size="lg" />
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">Meet App</h3>
-                  <cite>{t("meetInfo")}<Link title={t("meetInfoTitle")}
+                  <cite className="projects-slider-cite">{t("meetInfo")}<Link title={t("meetInfoTitle")}
                   className="pl-2 text-white projects-more" target="_self" to="./../meet-case" >{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
@@ -169,7 +169,7 @@ export const ProjectsSlider = () => {
               size="lg" />
                 <Carousel.Caption className="projects-carousel-caption">
                   <h3 className="projects-carousel-heading">OWrite Native App</h3>
-                  <cite>{t("owriteInfo")}
+                  <cite className="projects-slider-cite">{t("owriteInfo")}
                     <Link title={t("owriteInfoTitle")}
                     className="pl-2 text-white projects-more" target="_blank" to="./../owrite-case" >{t("projectsSliderMore")}</Link>
                   </cite>
@@ -194,7 +194,7 @@ export const ProjectsSlider = () => {
               size="lg" />
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">Pokemon App</h3>
-                <cite>{t("pokemonInfo")}
+                <cite className="projects-slider-cite">{t("pokemonInfo")}
                   
                   <Link title={t("pokemonInfoTitle")}
                   className="pl-2 text-white projects-more" target="_blank" to="./../pokemon-case" >{t("projectsSliderMore")}</Link>
@@ -226,7 +226,7 @@ export const ProjectsSlider = () => {
               size="lg" />
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">To-Do App</h3>
-                <cite>{t("toDoInfo")}
+                <cite className="projects-slider-cite">{t("toDoInfo")}
                   
                   <Link title={t("toDoInfoTitle")}
                   className="pl-2 text-white projects-more" target="_self" to="./../to-do-case" >{t("projectsSliderMore")}</Link>
@@ -257,7 +257,7 @@ export const ProjectsSlider = () => {
               size="lg" />
               <Carousel.Caption className="projects-carousel-caption">
                 <h3 className="projects-carousel-heading">Portfolio App</h3>
-                <cite>{t("portfolioInfo")}
+                <cite className="projects-slider-cite">{t("portfolioInfo")}
                   
                   <Link title={t("portfolioInfoTitle")}
                   className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case" >{t("projectsSliderMore")}</Link>
