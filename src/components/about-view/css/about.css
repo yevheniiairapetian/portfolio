@@ -222,7 +222,7 @@ div.wrapper{
   button.resume:hover, button.resume:active,
   a.check-out:focus, button.resume:focus{
       /* padding-bottom: 6px; */
-      outline: none;
+      outline: 1px solid #529eca;
       border-bottom: 2px solid transparent;
       -webkit-box-shadow: none;
               box-shadow: none;
@@ -235,29 +235,29 @@ a.check-out {
   /* margin-right: 8px; */
   /* display: inline-block; */
   background: #529fcc;
-  background: -webkit-gradient(linear, left top, right top, color-stop(20%, var(--CheckGradColor1)), to(var(--CheckGradColor2)));
+  /* background: -webkit-gradient(linear, left top, right top, color-stop(20%, var(--CheckGradColor1)), to(var(--CheckGradColor2)));
   background: -o-linear-gradient(left, var(--CheckGradColor1) 20%, var(--CheckGradColor2) 100%);
   background: linear-gradient(90deg, var(--CheckGradColor1) 20%, var(--CheckGradColor2) 100%);
-  background: -webkit-linear-gradient(90deg, var(--CheckGradColor1) 20%, var(--CheckGradColor2) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#529FCC", endColorstr="#0E687A", GradientType=1 );
+  background: -webkit-linear-gradient(90deg, var(--CheckGradColor1) 20%, var(--CheckGradColor2) 100%); */
+  /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#529FCC", endColorstr="#0E687A", GradientType=1 ); */
   border-radius: 8px;
   color: white;
   text-decoration: none;
-  transition: --CheckGradColor1 0.3s ease-out, --CheckGradColor2 0.3s ease-out;
+  /* transition: --CheckGradColor1 0.3s ease-out, --CheckGradColor2 0.3s ease-out; */
 }
 
 a.check-out:hover {
     
     /* padding-bottom: 6px; */
-    background: #0e697b;
-    background: -webkit-gradient(linear, left top, right top, color-stop(20%, var(--CheckGradColor2)), to(var(--CheckGradColor1)));
+    background: #3893c8;
+    /* background: -webkit-gradient(linear, left top, right top, color-stop(20%, var(--CheckGradColor2)), to(var(--CheckGradColor1)));
     background: -o-linear-gradient(left, var(--CheckGradColor2) 20%, var(--CheckGradColor1) 100%);
     background: linear-gradient(90deg, var(--CheckGradColor2) 20%, var(--CheckGradColor1) 100%);
     background: -webkit-linear-gradient(90deg, var(--CheckGradColor2) 20%, var(--CheckGradColor1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E687A", endColorstr="#529FCC", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E687A", endColorstr="#529FCC", GradientType=1 ); */
     color: white;
-    --CheckGradColor1: #0e687a;
-    --CheckGradColor2: #529fcc;
+    /* --CheckGradColor1: #0e687a;
+    --CheckGradColor2: #529fcc; */
 }
 
 button.resume {
@@ -267,36 +267,44 @@ button.resume {
     /* margin-top: 10px; */
     /* margin-left: 8px; */
     /* display: inline-block; */
-    background: #ffffff;
-    background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor1)), to(var(--ResumeGradColor2)));
+    background: #000;
+    /* background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor1)), to(var(--ResumeGradColor2)));
     background: -o-linear-gradient(left, var(--ResumeGradColor1) 30%, var(--ResumeGradColor2) 100%);
     background: linear-gradient(90deg, var(--ResumeGradColor1) 30%, var(--ResumeGradColor2) 100%);
     background: -webkit-linear-gradient(90deg, var(--ResumeGradColor1) 30%, var(--ResumeGradColor2) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#111111", endColorstr="#a3a3a3", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#111111", endColorstr="#a3a3a3", GradientType=1 ); */
     border-radius: 8px;
     color: white;
     text-decoration: none;
-    transition: --ResumeGradColor1 0.3s ease-out, --ResumeGradColor2 0.3s ease-out;
+    /* transition: --ResumeGradColor1 0.3s ease-out, --ResumeGradColor2 0.3s ease-out; */
 }
 
 
 
 button.resume:hover {
     /* padding-bottom: 6px; */
-    background: #121212;
-    background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor2)), to(var(--ResumeGradColor1)));
+    background: #222221;
+    /* background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--ResumeGradColor2)), to(var(--ResumeGradColor1)));
     background: -o-linear-gradient(left, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
     background: linear-gradient(90deg, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
     background: -webkit-linear-gradient(90deg, var(--ResumeGradColor2) 30%, var(--ResumeGradColor1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#a3a3a3", endColorstr="#111111", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#a3a3a3", endColorstr="#111111", GradientType=1 ); */
     color: white;
-    --ResumeGradColor1: #a3a3a3;
-    --ResumeGradColor2: #111111;
+    /* --ResumeGradColor1: #a3a3a3;
+    --ResumeGradColor2: #111111; */
 }
 
 a.check-out,
 button.resume {
     font-size: 15px;
+    height:36px !important;
+    vertical-align: middle;
+}
+
+a.check-out {
+    font-size: 15px;
+    /* height:30px !important; */
+    vertical-align: middle;
 }
 
 @-webkit-keyframes profile-picture {

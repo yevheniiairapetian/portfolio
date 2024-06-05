@@ -45,11 +45,11 @@ export const ProjectsSlider = () => {
                   className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title={t("r3playInfoTitleGithub")}
-                    to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                    {/* <Link title={t("r3playInfoTitleGithub")}
+                    to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link> */}
                
-                    <Link title={t("r3playInfoTitleAPIDeployed")}
-                    to='http://r3play.netlify.app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                    {/* <Link title={t("r3playInfoTitleAPIDeployed")}
+                    to='http://r3play.netlify.app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link> */}
                
                     <Link title={t("r3playInfoTitle")}
                     to='./../r3play-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
@@ -72,11 +72,11 @@ export const ProjectsSlider = () => {
                     className="pl-2 text-white projects-more" target="_self" to="./../r3play-case">{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title={t("r3playInfoTitleGithub")}
-                    to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                    {/* <Link title={t("r3playInfoTitleGithub")}
+                    to='https://github.com/yevheniiairapetian/r3play' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link> */}
                     
-                    <Link title={t("r3playInfoTitleAPIDeployed")}
-                    to='https://r3play-934f9ea5664d.herokuapp.com/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                    {/* <Link title={t("r3playInfoTitleAPIDeployed")}
+                    to='https://r3play-934f9ea5664d.herokuapp.com/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link> */}
                    
                     <Link title={t("r3playInfoTitle")}
                      
@@ -102,14 +102,14 @@ export const ProjectsSlider = () => {
                     className="pl-2 text-white projects-more" target="_self" to="./../myFlix-case" >{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title={t("myFlixInfoTitleGithub")}
+                    {/* <Link title={t("myFlixInfoTitleGithub")}
                     to='https://github.com/yevheniiairapetian/myFlix-Angular-client' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                    
                     <Link title={t("myFlixInfoTitleDeployed")}
                     to='https://yevheniiairapetian.github.io/myFlix-Angular-client/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
                     
                     <Link title={t("myFlixInfoTitleKanban")}
-                    to='https://trello.com/b/495tvGf9/kanban-template' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-clipboard-check" icon={faClipboardCheck} /></Link>
+                    to='https://trello.com/b/495tvGf9/kanban-template' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-clipboard-check" icon={faClipboardCheck} /></Link> */}
                     <Link title={t("myFlixInfoTitle")}
                     to='./../myFlix-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
 
@@ -133,12 +133,12 @@ export const ProjectsSlider = () => {
                   className="pl-2 text-white projects-more" target="_self" to="./../meet-case" >{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title={t("meetInfoTitleGithub")}
+                    {/* <Link title={t("meetInfoTitleGithub")}
                     to='https://github.com/yevheniiairapetian/meet' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                     
                     <Link title={t("meetInfoTitleDeployed")}
                     to='https://yevheniiairapetian.github.io/meet/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
-                    
+                     */}
                     <Link title={t("meetInfoTitle")}
                     to='./../meet-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
                   </div>
@@ -158,8 +158,8 @@ export const ProjectsSlider = () => {
                     className="pl-2 text-white projects-more" target="_blank" to="./../owrite-case" >{t("projectsSliderMore")}</Link>
                   </cite>
                   <div className="projects-work-links">
-                    <Link title={t("owriteInfoTitleGithub")}
-                    to='https://github.com/yevheniiairapetian/owrite' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
+                    {/* <Link title={t("owriteInfoTitleGithub")}
+                    to='https://github.com/yevheniiairapetian/owrite' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link> */}
 
                     <Link title={t("owriteInfoTitle")}
                     to='./../owrite-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
@@ -181,11 +181,11 @@ export const ProjectsSlider = () => {
                   className="pl-2 text-white projects-more" target="_blank" to="./../pokemon-case" >{t("projectsSliderMore")}</Link>
                 </cite>
                 <div className="projects-work-links">
-                  <Link title={t("pokemonInfoTitleGithub")}
+                  {/* <Link title={t("pokemonInfoTitleGithub")}
                   to='https://github.com/yevheniiairapetian/pokemon-app' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                  
                   <Link title={t("pokemonInfoTitleDeployed")}
-                  to='https://yevheniiairapetian.github.io/pokemon-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                  to='https://yevheniiairapetian.github.io/pokemon-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link> */}
                   
                   <Link title={t("pokemonInfoTitle")}
                   to='./../pokemon-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
@@ -209,11 +209,11 @@ export const ProjectsSlider = () => {
                   className="pl-2 text-white projects-more" target="_self" to="./../to-do-case" >{t("projectsSliderMore")}</Link>
                 </cite>
                 <div className="projects-work-links">
-                  <Link title={t("toDoInfoTitleGithub")}
+                  {/* <Link title={t("toDoInfoTitleGithub")}
                   to='https://github.com/yevheniiairapetian/to-do-list-app' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                   
                   <Link title={t("toDoInfoTitleDeployed")}
-                  to='https://yevheniiairapetian.github.io/to-do-list-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                  to='https://yevheniiairapetian.github.io/to-do-list-app/' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link> */}
                  
                   <Link title={t("toDoInfoTitle")}
                   to='./../to-do-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
@@ -237,11 +237,11 @@ export const ProjectsSlider = () => {
                   className="pl-2 text-white projects-more" target="_self" to="./../portfolio-case" >{t("projectsSliderMore")}</Link>
                 </cite>
                 <div className="projects-work-links">
-                  <Link title={t("portfolioInfoTitleGithub")}
+                  {/* <Link title={t("portfolioInfoTitleGithub")}
                   to='https://github.com/yevheniiairapetian/portfolio' target="_blank" rel="noopener"><FontAwesomeIcon className="fa-code" icon={faCode} /></Link>
                   
                   <Link title={t("portfolioInfoTitleDeployed")}
-                  to='https://yevheniiairapetian.com/#/' target="_self" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link>
+                  to='https://yevheniiairapetian.com/#/' target="_self" rel="noopener"><FontAwesomeIcon className="fa-up" icon={faArrowUpRightFromSquare} /></Link> */}
                
                   <Link title={t("portfolioInfoTitle")}
                   to='./../portfolio-case' target="_self" rel="noopener"><FontAwesomeIcon className="fa-circle" icon={faCircleInfo} /></Link>
