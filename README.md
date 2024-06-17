@@ -21,6 +21,8 @@ This repository contains my portfolio developed using React and React Bootstrap.
   - The app also has a theme switcher. The visitor can switch between a light and dark theme and this setting is also saved.
   - The portfolio was turned into a Progressive web app making it possible to install it on a mobile/desktop device.
   - The app now has better accessibility due to improved styling and more descriptive tags.
+  - The app also displays the latest updates in a custom modal window. The user can click to minimize it.
+  - It shows user-friendly confirmation modal windows upon switching the theme and uses simple sound effects when the users click on specific interfaces.
     
 3. When installed like a Progressive Web App, it allows to:
 - Resemble a native-app experience.
