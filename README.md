@@ -23,12 +23,12 @@ This repository contains my portfolio developed using React and React Bootstrap.
   - The app now has better accessibility due to improved styling and more descriptive tags.
     
 3. When installed like a Progressive Web App, it allows to:
-- Resembling a native-app experience.
+- Resemble a native-app experience.
 - Have an improved user experience
 - Experience cross-platform compatibility
 - Make use of faster loading times
 - Use offline accessibility
-- Have smaller size than a native desktop app
+- Have a smaller size than a native desktop app
 - Access the app quickly via a mobile home screen, a Windows/Mac taskbar, etc
 
 Read more about the Progressive Web Apps [here](https://www.itaims.com/blog/benefits-of-progressive-web-apps-pwa-advantages-and-disadvantages)
