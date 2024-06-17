@@ -23,7 +23,7 @@ This repository contains my portfolio developed using React and React Bootstrap.
   - The app now has better accessibility due to improved styling and more descriptive tags.
   - The app also displays the latest updates in a custom modal window. The user can click to minimize it.
   - It shows user-friendly confirmation modal windows upon switching the theme and uses simple sound effects when the users click on specific interfaces.
-  - If the app hasn't loaded yet, it shows a spinner to make it more user-friendly.
+  - If the app hasn't loaded yet, it shows a loading animation to make it more intuitive and user-friendly.
     
 3. When installed like a Progressive Web App, it allows to:
 - Resemble a native-app experience.
@@ -42,6 +42,7 @@ Read more about the Progressive Web Apps [here](https://www.itaims.com/blog/bene
 - Responsive design
 - jQuery
 - Progressive Web Apps (PWA)
+- Service worker
 - Accessibility
 - React FontAwesome
 - i18n
@@ -56,8 +57,10 @@ Read more about the Progressive Web Apps [here](https://www.itaims.com/blog/bene
 - React Bootstrap for design
 - jQuery for interactivity/accessing the DOM
 - Github pages for deployment
+- Service worker for PWA functionality
 - React FontAwesome for icons
-- i18n for localization
+- i18nnext, react-i18nnext  for localization
+- use-sound for sound effects 
 
 
 ## Live Version
