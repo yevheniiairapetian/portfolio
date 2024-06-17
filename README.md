@@ -12,6 +12,7 @@ This repository contains my portfolio developed using React and React Bootstrap.
 - Contact (contact information)
 - Resumes (ability to download my resumes in several languages)
 - Policies (cookie and privacy policies information)
+  
   2. The app has the following features:
   - It is designed according to responsive recommendations. That means that whatever device a visitor uses to navigate to the app, it is always easy to use
   - The app employs media queries to better accommodate the various needs of the users. This also means that when a user prefers to reduce the motion on their machine, the app turns off animations.
@@ -20,6 +21,7 @@ This repository contains my portfolio developed using React and React Bootstrap.
   - The app also has a theme switcher. The visitor can switch between a light and dark theme and this setting is also saved.
   - The portfolio was turned into a Progressive web app making it possible to install it on a mobile/desktop device.
   - The app now has better accessibility due to improved styling and more descriptive tags.
+    
     3. When installed like a Progressive Web App, it allows to:
 - Resembling a native-app experience.
 - Have an improved user experience
