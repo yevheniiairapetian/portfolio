@@ -59,8 +59,7 @@ export const ContactView = () => {
                 <div className="SortableItem fb-builder-item">
                   <div className="mb-4">
                     <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
-                    ><span className="captions">{t("firstName")}</span><span className="label-required pl-1 text-red-400">*</span></label
-                    ><input
+                    ><span className="captions">{t("firstName")}</span><span className="label-required pl-1 text-red-400">*</span></label><input
                       type="text"
                       className="w-full fade-in-up-on-scroll rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                       name="text_input_D05C7D01-55C5-42E1-8FD8-28833E685F50"
@@ -73,8 +72,7 @@ export const ContactView = () => {
                 <div className="SortableItem fb-builder-item">
                   <div className="mb-4">
                     <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
-                    ><span className="captions">{t("lastName")}</span><span className="label-required pl-1 text-red-400">*</span></label
-                    ><input
+                    ><span className="captions">{t("lastName")}</span><span className="label-required pl-1 text-red-400">*</span></label><input
                       type="text"
                       className="fade-in-up-on-scroll w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                       name="text_input_DB0F7555-7FE7-47FF-A446-C4AFBDDCCA0E"
@@ -86,8 +84,7 @@ export const ContactView = () => {
                 <div className="SortableItem fb-builder-item">
                   <div className="mb-4">
                     <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
-                    ><span className="captions">{t("phoneNumber")}</span></label
-                    ><input
+                    ><span className="captions">{t("phoneNumber")}</span></label><input
                       type="tel"
                       className="fade-in-up-on-scroll w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                       name="phone_input_043B56DD-8A30-43A5-8480-CD53C16BB98E"
@@ -97,10 +94,7 @@ export const ContactView = () => {
                 </div>
                 <div className="SortableItem fb-builder-item">
                   <div className="mb-4">
-                    <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
-                    ><span className="captions">{t("eMail")}</span
-                    ><span className="label-required pl-1 text-red-400">*</span></label
-                    ><input
+                    <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"><span className="captions">{t("eMail")}</span><span className="label-required pl-1 text-red-400">*</span></label><input
                       type="email"
                       className="fade-in-up-on-scroll w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                       name="email_input_D31D4B26-26C7-4B1D-A2AC-FF576851FD2F"
@@ -113,8 +107,7 @@ export const ContactView = () => {
                   <div className="mb-4">
                     <label className="fade-in-up-on-scroll mb-2.5 block text-base text-black"
                     ><span className="captions">{t("messageOrComment")}</span>
-                      <span className="label-required pl-1 text-red-400">*</span></label
-                    ><input
+                      <span className="label-required pl-1 text-red-400">*</span></label><input
                       type="text"
                       className="fade-in-up-on-scroll w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
                       name="text_input_720C400E-AAA2-42F1-AA01-5009CEB08220"
