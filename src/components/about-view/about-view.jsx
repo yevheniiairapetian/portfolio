@@ -53,7 +53,7 @@ export const AboutView = () => {
                 </Button><br/>
                 <div className="resumes">
                   
-                <Link to={"https://www.dropbox.com/scl/fi/fdlz8us0v7vg4hv4nfyvi/Yevhenii-Airapetian-Lebenslauf-DE.docx?rlkey=t1n3cmi6no66ow0ozkpgc9zuh&st=7j5ci3cy&dl=0"} title={t("aboutCvDeTitle")} className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf">
+                <Link to={"https://www.dropbox.com/scl/fi/fdlz8us0v7vg4hv4nfyvi/Yevhenii-Airapetian-Lebenslauf-DE.docx?rlkey=t1n3cmi6no66ow0ozkpgc9zuh&st=7j5ci3cy&dl=0?3324"} title={t("aboutCvDeTitle")} className="download-de" target="_blank" download="Yevhenii-Airapetian-DE.pdf">
                 <img className="flags mt-3 me-3" alt={t("aboutCvDeAlt")} src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="29"/>
                   {/* <Image roundedCircle className="flags mt-3 me-3" src={deImg} alt="An icon showing the German flag"/>*/}</Link> 
             <Link to={"https://www.dropbox.com/scl/fi/y1s7krvn2tcri1495fdyb/Yevhenii-Airapetian-EN.pdf?rlkey=hxo8aghbdcdysd8otdd57c1t1&st=t0wgsfx3&dl=0"} title={t("aboutCvEnTitle")} className="download-en" target="_blank" download="Yevhenii-Airapetian-EN.pdf">
