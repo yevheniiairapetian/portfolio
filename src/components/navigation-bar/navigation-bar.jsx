@@ -232,7 +232,7 @@ export const NavigationBar = () => {
 
 
 
-								<NavDropdown.Item className="text-center" title="Klicken Sie hier, um meinen Lebenslauf auf Deutsch herunterzuladen. Möglicherweise müssen Sie einen Dateibetrachter wie Adobe Acrobat oder ähnliches verwenden" download="Yevhenii-Airapetian-DE" href="https://www.dropbox.com/scl/fi/fdlz8us0v7vg4hv4nfyvi/Yevhenii-Airapetian-Lebenslauf-DE.docx?rlkey=t1n3cmi6no66ow0ozkpgc9zuh&st=7j5ci3cy&dl=0?3324" target="_blank">
+								<NavDropdown.Item className="text-center" title="Klicken Sie hier, um meinen Lebenslauf auf Deutsch herunterzuladen. Möglicherweise müssen Sie einen Dateibetrachter wie Adobe Acrobat oder ähnliches verwenden" download="Yevhenii-Airapetian-DE" href="https://www.dropbox.com/scl/fi/3vfmcit0575xutwa45yn3/Yevhenii-Airapetian-Lebenslauf-DE.pdf?rlkey=2g49pvsn6m1jr95ptodhplaix&st=0is6y6at&dl=0?3325" target="_blank">
 									{/* <Image roundedCircle className="flags mt-3 me-3 nav-lang-cases" src={deImg} alt="An icon showing the German flag" /> */}
 									<img className="flags mt-3 me-3" alt="An icon showing the German flag" src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="28" />
 									<Link onClick={() => setExpanded(false)} to={"https://file.io/Mck4WxEzQGAu"} title="Download the resume version in German" className="download-de" target="_blank" ></Link>
